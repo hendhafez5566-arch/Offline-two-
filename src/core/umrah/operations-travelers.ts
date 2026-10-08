@@ -1,7 +1,7 @@
 import { UmrahBusinessRules } from './business-rules';
 import { UmrahCore_N, UmrahCore_S, UmrahCore_hajjPermitStatusLabel, UmrahCore_iid, UmrahCore_monthsAdd, UmrahCore_now, UmrahCore_segLabel, UmrahCore_today } from './runtime';
 import { UmrahCore_Bridge, UmrahCore_DB } from './data';
-import { UmrahCore_Procurement } from './procurement';
+import { UmrahCore_Procurement } from '../../procurement/commitments';
 import { UmrahCore_BookingRooms } from './booking-rooms';
 import { UmrahCore_travelerIdentityKey } from './operations-identity';
 const UmrahCore_OpsTravelers = {

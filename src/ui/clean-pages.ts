@@ -19,7 +19,7 @@ const cleanDeps = () => composeCleanPageDeps();
 const CleanPages={
  invoiceKind:'customer',
  setInvoiceKind(kind){if(kind==='supplier'&&!AccessControl.canViewCosts())return;this.invoiceKind=kind==='supplier'?'supplier':'customer';(UI.listFilters as any).invoices='all';UI.renderCurrent()},
- actions(primary='',more=[]){const rest=(more||[]).filter(Boolean);return `<div class="clean-row-actions compact-action">${primary||''}${rest.length?`<details class="action-menu"><summary class="btn small ghost">${icon('more','sm')} المزيد</summary>${rest.join('')}</details>`:''}</div>`},
+ actions(primary='',more=[]){return UI.rowActions(primary,more)},
  balanceText(map,positiveClass='money-in'){const parts=Object.entries(map||{}).filter(([,v])=>Math.abs(N(v))>EPS);return parts.length?parts.map(([c,v])=>`<span class="${positiveClass}">${money(Math.abs(N(v)),c)}</span>`).join(' · '):'<span class="muted">0</span>'},
  crm(){
   const all=CleanPageQueries.leads(cleanDeps()),leadById=new Map<any,any>(all.map(x=>[x.id,x])),followups=CleanPageQueries.followups(cleanDeps()),nextByLead=new Map<any,any>();

@@ -13,7 +13,7 @@ const next={meta:{schema:'x'},settings:{a:2},customers:[{id:'C2',name:'B2'},{id:
 const patch=diff(base,next),round=apply(base,patch),same=JSON.stringify(round)===JSON.stringify(next);
 const largeBase={meta:{schema:'x'},invoices:Array.from({length:5000},(_,i)=>({id:`I${i}`,no:`INV${i}`,status:'open',amount:i,partyId:`C${i%200}`}))},largeNext=structuredClone(largeBase);largeNext.invoices[4321]={...largeNext.invoices[4321],status:'paid'};const largePatch=diff(largeBase,largeNext),largeRound=apply(largeBase,largePatch),largeSame=JSON.stringify(largeRound)===JSON.stringify(largeNext);
 const patchBytes=Buffer.byteLength(JSON.stringify(largePatch)),fullBytes=Buffer.byteLength(JSON.stringify(largeNext));
-const historyMigration=read('database/migrations/011_pinned_state_history.sql'),migration=read('database/migrations/010_entity_record_mirror.sql'),entity=read('server/src/entity-mirror.ts'),server=read('server/src/server.ts'),store=read('src/persistence/server-store.ts'),terms=read('src/accounting/terms.ts'),authRecovery=read('server/src/auth-recovery.ts'),inventory=read('src/core/umrah/contracts-inventory.ts');
+const historyMigration=read('database/migrations/011_pinned_state_history.sql'),migration=read('database/migrations/010_entity_record_mirror.sql'),entity=read('server/src/entity-mirror.ts'),server=read('server/src/server.ts'),store=read('src/persistence/server-store.ts'),terms=read('src/accounting/terms.ts'),authRecovery=read('server/src/auth-recovery.ts'),inventory=read('src/procurement/inventory.ts');
 const checks=[
  ['patch round-trip exact',same],
  ['large patch round-trip exact',largeSame],

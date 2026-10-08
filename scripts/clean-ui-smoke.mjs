@@ -4,8 +4,8 @@ import { umrahPagesText, umrahFormsText, uiText, pagesText } from './lib/split-s
 const read=p=>readFileSync(p,'utf8'), umrahOps=read('src/core/umrah/operations.ts')+'\n'+read('src/core/umrah/operations-execution.ts'), ui=uiText(), nav=read('src/ui/navigation.ts'), html=read('index.html'), css=read('src/styles.css'), pages=pagesText(), actions=read('src/ui/actions.ts'), party=read('src/ui/party360.ts'), umrahForms=umrahFormsText(), ts=compiledFilesText(), manifest=read('android/app/src/main/AndroidManifest.xml');
 const checks=[];const check=(name,pass)=>checks.push({name,pass:!!pass});
 check('Quick Navigation removed from topbar and sidebar',!html.includes('navigatorPanel')&&!html.includes('nav-switch-btn')&&!ui.includes('toggleNavigator')&&!ui.includes('انتقال سريع'));
-check('Umrah navigation follows the simplified workflow',nav.includes("'ابدأ هنا'")&&nav.includes("'الإدارة اليومية'")&&nav.includes("'التعاقدات'")&&nav.includes("'التشغيل'")&&nav.includes("'المخرجات'")&&nav.includes("'الإعدادات'"));
-check('Umrah sidebar groups the simplified workflow compactly',ui.includes('<details class="umrah-nav-group"')&&ui.includes('<summary class="umrah-nav-group-title"'));
+check('Umrah navigation follows the simplified workflow',nav.includes("'البرامج والتسعير'")&&nav.includes("'المبيعات والحجوزات'")&&nav.includes("'تشغيل الأفواج'")&&nav.includes("'المستندات والسياسات'")&&nav.includes('procurement: ['));
+check('Main sections use one sidebar and contextual workflow menus',ui.includes('<nav class="main-section-nav"')&&ui.includes('<details class="section-nav-group '));
 check('Android text fields request keyboard suggestions',ui.includes('enhanceKeyboardInputs')&&ui.includes("setAttribute('autocomplete'")&&ui.includes("setAttribute('spellcheck','true')")&&ui.includes("setAttribute('autocorrect','on')")&&ui.includes("setAttribute('autocapitalize'"));
 check('Android keyboard resizes app content',manifest.includes('android:windowSoftInputMode="adjustResize"'));
 check('Global modal footer reset exists',ui.includes('UI.resetModalFooter=function')&&ui.includes('installModalFooterGuard'));
@@ -18,7 +18,7 @@ for(const theme of['executive','sand','graphite'])check(`Legacy theme ${theme} r
 for(const px of[13,14,15,16,17,18])check(`Font ${px}px preview exists`,pages.includes(`>${px}px</option>`)||pages.includes(`<b>${px}px</b>`));
 
 check('Umrah navigation has no disabled legacy group headers',!css.includes('umrah-nav-group-title{color:#91a4bf;font-size:10.5px;font-weight:850;padding:7px 9px 5px;pointer-events:none}'));
-check('Active Umrah route reopens its sidebar group',ui.includes("closest('details.workspace-nav-section,details.umrah-nav-group,details.shortcut-nav-details')"));
+check('Active route highlights its section and workflow group',ui.includes("g.items.some(i=>this.navModuleActive(i[0]))")&&ui.includes("ws?.id===w.id?'active':''"));
 check('Umrah programs expose central safe delete',(read('src/core/umrah/ui.ts')+umrahPagesText()).includes("DeleteCenter.button('umrahProgram',")&&read('src/core/delete-center.ts').includes("if(!['planning','contracting','pricing','cancelled'].includes(p.status))")&&read('src/core/delete-center.ts').includes("if(p.status==='closed')"));
 check('Program delete blocks financial/operational references',read('src/core/delete-center.ts').includes('programFinancialRefs')&&read('src/core/delete-center.ts').includes('programOperationalRefs'));
 check('High-volume Umrah lists separate current and historical records',(read('src/core/umrah/ui.ts')+umrahPagesText()).includes('UmrahCore_historyToolbar')&&(read('src/core/umrah/ui.ts')+umrahPagesText()).includes("programs: 'active'")&&(read('src/core/umrah/ui.ts')+umrahPagesText()).includes("'السجل السابق'"));

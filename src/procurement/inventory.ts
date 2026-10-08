@@ -1,7 +1,7 @@
-import { UmrahCore_N, UmrahCore_S, UmrahCore_dateAdd, UmrahCore_deep, UmrahCore_esc, UmrahCore_roomCap, UmrahCore_roomLabel, UmrahCore_today } from './runtime';
-import { UmrahCore_Bridge, UmrahCore_DB } from './data';
-import { TourismServiceInventory, UmrahCore_ContractCenter, UmrahCore_Ops } from '../late-bindings';
-import { __set_UmrahCore_Inventory } from '../late-bindings';
+import { UmrahCore_N, UmrahCore_S, UmrahCore_dateAdd, UmrahCore_deep, UmrahCore_esc, UmrahCore_roomCap, UmrahCore_roomLabel, UmrahCore_today } from '../core/umrah/runtime';
+import { UmrahCore_Bridge, UmrahCore_DB } from '../core/umrah/data';
+import { TourismServiceInventory, UmrahCore_ContractCenter, UmrahCore_Ops } from '../core/late-bindings';
+import { __set_UmrahCore_Inventory } from '../core/late-bindings';
 const UmrahCore_Inventory = {
     kinds: ['hotel', 'flight', 'transport', 'visa', 'service'],
     serviceCategories: ['camp', 'permit', 'meal', 'visit', 'guide', 'rawda', 'insurance', 'custom'],

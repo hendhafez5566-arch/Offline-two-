@@ -1,6 +1,6 @@
 import { UmrahCore_N, UmrahCore_dateAdd, UmrahCore_esc, UmrahCore_programDisplay, UmrahCore_roomCap, UmrahCore_roomLabel, UmrahCore_vehicleCaps } from './runtime';
-import { UmrahCore_Inventory } from './contracts-inventory';
-import { UmrahCore_ContractCenter } from './contracts';
+import { UmrahCore_Inventory } from '../../procurement/inventory';
+import { UmrahCore_ContractCenter } from '../../procurement/contracts';
 import { UmrahCore_Ops } from './operations';
 import { UmrahCore_UI, UmrahCore_entityOptions } from './ui';
 import { UmrahCore_Forms } from './forms';

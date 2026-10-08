@@ -11,7 +11,10 @@ import { root, allSourceFiles } from './lib/build-model.mjs';
 const baselinePath = path.join(root, 'docs/refactor/type-baseline.json');
 const serverFiles = () => fs.readdirSync(path.join(root, 'server/src')).filter((f) => f.endsWith('.ts')).map((f) => 'server/src/' + f);
 const folderOf = (file) => (file.startsWith('server/') ? 'server/src' : file.split('/').slice(0, 2).join('/').replace(/\.ts$/, '') || 'src');
-const bucket = (file) => { const p = file.split('/'); return p.length <= 2 ? 'src(root)' : p.slice(0, 2).join('/'); };
+// These four unchanged domain files moved from core/umrah to procurement.
+// Retain their historical type budget in src/core; new procurement files get their own budget.
+const movedCoreFiles = new Set(['src/procurement/inventory.ts','src/procurement/contracts.ts','src/procurement/contract-management.ts','src/procurement/commitments.ts']);
+const bucket = (file) => { if(movedCoreFiles.has(file))return 'src/core'; const p = file.split('/'); return p.length <= 2 ? 'src(root)' : p.slice(0, 2).join('/'); };
 
 function astCounts() {
   let any = 0, suppressions = 0; const anyByFolder = {};

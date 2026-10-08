@@ -1,7 +1,7 @@
 import { UmrahCore_N, UmrahCore_esc, UmrahCore_monthsAdd, UmrahCore_roomLabel, UmrahCore_today, UmrahCore_vehicleCaps, UmrahCore_vehicleLabel } from './runtime';
 import { UmrahCore_Bridge, UmrahCore_DB } from './data';
-import { UmrahCore_Inventory } from './contracts-inventory';
-import { UmrahCore_ContractCenter } from './contracts';
+import { UmrahCore_Inventory } from '../../procurement/inventory';
+import { UmrahCore_ContractCenter } from '../../procurement/contracts';
 import { UmrahCore_Ops } from './operations';
 import { UmrahCore_currencyOptions, UmrahCore_entityOptions } from './ui';
 const UmrahCore_FormsContracts = {

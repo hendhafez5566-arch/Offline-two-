@@ -27,29 +27,31 @@ async def main():
       DB.data.users=[u];Auth.user=u;Auth.enter();document.documentElement.classList.add('native-android');
       UmrahCore_DB.load();
     }""")
-    # Sidebar groups must respond to actual pointer/click events.
-    await page.evaluate("UI.openWorkspace('umrah');UI.setSidebarOpen(true)")
+    # Section navigation groups must respond to actual pointer/click events.
+    await page.evaluate("UI.openWorkspace('umrah');UI.setSidebarOpen(false)")
     await page.wait_for_timeout(80)
-    groups=page.locator('#nav details.umrah-nav-group')
+    groups=page.locator('#pages details.section-nav-group')
     n=await groups.count()
-    checks['umrahGroups']=n>=5
+    checks['umrahGroups']=n>=4
     opened=0; navigated=0
     for i in range(n):
       g=groups.nth(i); summary=g.locator('summary')
+      await page.evaluate("document.querySelectorAll('details.section-nav-group').forEach(d=>d.open=false)")
+      await page.wait_for_timeout(300)
       if not await g.evaluate("e=>e.open"):
-        await summary.click(force=True)
+        await summary.click()
       if await g.evaluate("e=>e.open"): opened+=1
       btn=g.locator('button[data-workspace-page]').first
       if await btn.count():
         target=await btn.get_attribute('data-workspace-page')
-        await btn.click(force=True)
+        await btn.click()
         try:
-          await page.wait_for_function("target => UI.current === target", target, timeout=1000)
+          await page.wait_for_function("target => UI.current === target", arg=target, timeout=1000)
         except Exception:
           pass
         current=await page.evaluate("UI.current")
         if current==target:navigated+=1
-        await page.evaluate("UI.setSidebarOpen(true)")
+        await page.evaluate("UI.setSidebarOpen(false)")
     checks['allGroupsOpen']=opened==n
     checks['allGroupsNavigate']=n>0 and navigated==n
 

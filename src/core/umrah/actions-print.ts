@@ -4,7 +4,7 @@ import { Store } from '../../ui/store-view';
 import { Print } from '../../reports/printing';
 import { UmrahCore_N, UmrahCore_S, UmrahCore_bookingLabel, UmrahCore_dateAdd, UmrahCore_daysBetween, UmrahCore_esc, UmrahCore_hajjPermitStatusLabel, UmrahCore_money, UmrahCore_programDisplay, UmrahCore_programLabel, UmrahCore_programTypeLabel, UmrahCore_roomLabel, UmrahCore_segLabel, UmrahCore_tone, UmrahCore_vehicleLabel } from './runtime';
 import { UmrahCore_Bridge, UmrahCore_Cost, UmrahCore_DB } from './data';
-import { UmrahCore_Procurement } from './procurement';
+import { UmrahCore_Procurement } from '../../procurement/commitments';
 import { UmrahCore_Ops } from './operations';
 import { UmrahCore_State, UmrahCore_UI, UmrahCore_travelerCategory, UmrahCore_visaStatusLabel } from './ui';
 import { UmrahCore_Forms } from './forms';

@@ -146,6 +146,7 @@ const UIDelegatedActions:any={
   return false
  },
  handleChange(target:Element|null,e:Event,ui:any){
+  const column=target?.closest?.('[data-ui-table-column]');if(column){ui.toggleTableColumn(column);return true}
   if(!target?.closest)return false;const el=target as HTMLInputElement|HTMLSelectElement;const value=el.value||'';
   if(el.dataset.pwSupplierCurrency){e.preventDefault();UmrahCore_ProgramWizard.supplierChanged(el,el.dataset.pwSupplierCurrency,el.dataset.pwSupplierFx||'');return true}
   if(el.dataset.pwServiceCurrency){e.preventDefault();UmrahCore_ProgramWizard.serviceCurrencyChanged(el.dataset.pwServiceCurrency,el.dataset.pwServiceFx||'',value);return true}

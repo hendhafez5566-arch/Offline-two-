@@ -31,7 +31,7 @@ const UmrahCore_UI = {
     _documentsExpanded: false, _programsExpanded: false,
     expandPrograms() { this._programsExpanded = true; this.render(); return true; },
     expandDocuments() { this._documentsExpanded = true; this.render(); return true; },
-    head(title, sub = '', actions = '') { return `<div class="section-head"><div><h2>${title}</h2></div><div class="quick-actions">${actions}</div></div>`; }
+    head(title, sub = '', actions = '') { return UI.pageHeader(title, sub, actions); }
 };
 __set_UmrahCore_UI(UmrahCore_UI);
 const UmrahCore_State = { hotelProgram: '', flightProgram: '', flightSegment: '', busProgram: '', busSegment: '', hajjProgram: '', controlProgram: '', tripProgram: '', contractKind: 'all', contractView: 'overview', listMode: { programs: 'active', bookings: 'active', travelers: 'active', visas: 'active' } };
@@ -44,7 +44,7 @@ const UmrahCore_isHistoryRow = (kind, x) => {
     return false;
 };
 const UmrahCore_filterHistory = (kind, rows) => { const mode = UmrahCore_State.listMode[kind] || 'active'; return mode === 'all' ? rows : rows.filter(x => mode === 'history' ? UmrahCore_isHistoryRow(kind, x) : !UmrahCore_isHistoryRow(kind, x)); };
-const UmrahCore_historyToolbar = (kind, rows) => { const mode = UmrahCore_State.listMode[kind] || 'active', historical = rows.filter(x => UmrahCore_isHistoryRow(kind, x)).length, current = rows.length - historical, button = (value, label, count, ic, cls) => UI.filterOption(label,count,mode===value,{type:'umrahHistory',kind,value},ic,cls); return `<div class="umrah-history-toolbar compact-filter-toolbar record-scope-toolbar"><div><b>تنظيم السجلات</b><small>الحالي منفصل عن السجل السابق.</small></div><div class="umrah-history-tabs">${button('active', 'الحالي', current,'check','good')}${button('history', 'السجل السابق', historical,'archive','purple')}${button('all', 'الكل', rows.length,'reports','info')}</div></div>`; };
+const UmrahCore_historyToolbar = (kind, rows) => { const mode = UmrahCore_State.listMode[kind] || 'active', historical = rows.filter(x => UmrahCore_isHistoryRow(kind, x)).length, current = rows.length - historical, button = (value, label, count, ic, cls) => UI.filterOption(label,count,mode===value,{type:'umrahHistory',kind,value},ic,cls); return `<div class="record-history-tabs record-scope-toolbar simple-list-filter smart-filter-grid"><div class="umrah-history-tabs">${button('active', 'الحالي', current,'check','good')}${button('history', 'السجل السابق', historical,'archive','purple')}${button('all', 'الكل', rows.length,'reports','info')}</div></div>`; };
 const UmrahCore_travelerCategory = s => ({ adult: 'بالغ', childBed: 'طفل بسرير', childNoBed: 'طفل بدون سرير', infant: 'رضيع' })[s] || s;
 const UmrahCore_visaStatusLabel = s => ({ not_started: 'لم يبدأ', documents_received: 'استلام مستندات', reviewed: 'تمت المراجعة', ready: 'جاهز للتقديم', submitted: 'تم الإرسال', processing: 'تحت الإجراء', more_info: 'طلب استكمال', issued: 'صادرة', rejected: 'مرفوضة' })[s] || s;
 __set_UmrahCore_visaStatusLabel(UmrahCore_visaStatusLabel);

@@ -3,7 +3,7 @@ import { umrahPagesText, umrahFormsText, wizardText } from './lib/split-sources.
 const read=p=>readFile(new URL(`../${p}`,import.meta.url),'utf8');
 const assert=(ok,msg)=>{if(!ok)throw new Error(msg)};
 const files=['runtime.ts','integration.ts','data.ts','contracts-inventory.ts','contracts.ts','contracts-management.ts','booking-rooms.ts','guided.ts','program-wizard.ts','program-wizard-view.ts','operations.ts','operations-execution.ts','workflow.ts','insights.ts','ui.ts','ui-pages.ts','forms.ts','forms-contracts.ts','actions-print.ts'];
-const texts=Object.fromEntries(await Promise.all(files.map(async f=>[f,await read(`src/core/umrah/${f}`)])));
+const texts=Object.fromEntries(await Promise.all(files.map(async f=>[f,await read(f==='contracts.ts'?'src/procurement/contracts.ts':f==='contracts-inventory.ts'?'src/procurement/inventory.ts':f==='contracts-management.ts'?'src/procurement/contract-management.ts':`src/core/umrah/${f}`)])));
 // ui-pages.ts and forms.ts are facades over responsibility modules; assertions run on facade + parts (same total text).
 texts['ui-pages.ts']=umrahPagesText();texts['forms.ts']=umrahFormsText();texts['program-wizard.ts']=wizardText();/* program-wizard.ts is a facade over program-wizard-validation/-finish */
 const source=Object.values(texts).join('\n');

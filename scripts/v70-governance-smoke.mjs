@@ -10,7 +10,7 @@ ck('Activity history uses range view plus one advanced cleanup entry',pages.incl
 ck('Activity cleanup reaches server',actions.includes('clearActivity(range)')&&product.includes("method:'DELETE'")&&server.includes("req.method==='DELETE'")&&server.includes('/api/audit'));
 ck('Local activity storage is capped and retention-aware',browser.includes('auditLog.length>2000')&&umrahData.includes('activityRetentionDays')&&umrahData.includes('slice(0, 1500)'));
 ck('Same device/IP/user session is deduplicated',session.includes('delete from erp_sessions where tenant_key=$1 and user_id=$2 and ip_address=$3 and user_agent=$4'));
-ck('Umrah workspace duplicate home removed',ui.includes("ws.id==='umrah'?'':")&&ui.includes("id==='umrah'?modules[0][0]:'dashboard'"));
+ck('Umrah workspace duplicate home removed',ui.includes('sectionNavigation(){')&&ui.includes('<nav class="main-section-nav"')&&ui.includes("id==='umrah'?modules[0][0]:'dashboard'"));
 ck('Safe Umrah program delete blocks live operation/finance',del.includes('programOperationalRefs')&&del.includes('programFinancialRefs')&&del.includes("['planning','contracting','pricing','cancelled']")&&del.includes("p.status==='closed'"));
 ck('Only three themes remain',pages.includes('value="light"')&&pages.includes('value="dark"')&&pages.includes('value="comfort"')&&!pages.includes('value="executive"')&&!pages.includes('value="sand"')&&!pages.includes('value="graphite"'));
 ck('Typography scale is global',css.includes('--font-scale')&&css.includes('font-size:calc(15px * var(--font-scale))'));

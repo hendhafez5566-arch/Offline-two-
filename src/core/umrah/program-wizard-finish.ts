@@ -1,6 +1,6 @@
 import { UmrahCore_N, UmrahCore_S, UmrahCore_dateAdd, UmrahCore_deep, UmrahCore_money } from './runtime';
 import { UmrahCore_Bridge, UmrahCore_Cost, UmrahCore_DB } from './data';
-import { UmrahCore_ContractCenter } from './contracts';
+import { UmrahCore_ContractCenter } from '../../procurement/contracts';
 import { UmrahCore_Ops, UmrahCore_State, UmrahCore_UI } from '../late-bindings';
 const ProgramWizard_Finish = {
     async next() { if (this.busy)

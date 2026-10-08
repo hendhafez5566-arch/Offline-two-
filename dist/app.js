@@ -651,7 +651,7 @@
   var accountTypeLabel = /* @__PURE__ */ __name((t) => ({ asset: "أصول", liability: "خصوم", equity: "حقوق ملكية", revenue: "إيرادات", expense: "مصروفات", group: "مجموعة" })[t] || t, "accountTypeLabel");
   var natureLabel = /* @__PURE__ */ __name((n) => ({ debit: "مدين", credit: "دائن" })[n] || n, "natureLabel");
   var expenseModeLabel = /* @__PURE__ */ __name((m) => ({ paid: "مدفوع الآن", accrued: "مستحق", prepaid: "مصروف مقدم" })[m] || m, "expenseModeLabel");
-  var APP = { name: "Elhafez", product: "نظام السياحة والحج والعمرة", descriptionAr: "نظام إدارة شركات السياحة والحج والعمرة", manufacturer: "Elhafez Technology", tagline: "حلول البرمجيات والذكاء الاصطناعي", version: "32.5.72", offlineEdition: true, schema: "erp-professional-suite-v32.2-commercial-offline", storage: "erp_professional_suite_v32_2_commercial_offline", session: "erp_suite_v32_2_commercial_offline_user", filesDb: "erp_professional_suite_v32_2_commercial_offline_files", dataDb: "erp_professional_suite_v32_2_commercial_offline_data", tenantStorage: "erp_suite_v32_2_commercial_offline_tenant", legacyStorage: "", legacyFilesDb: "" };
+  var APP = { name: "Elhafez", product: "نظام السياحة والحج والعمرة", descriptionAr: "نظام إدارة شركات السياحة والحج والعمرة", manufacturer: "Elhafez Technology", tagline: "حلول البرمجيات والذكاء الاصطناعي", version: "32.5.73", offlineEdition: true, schema: "erp-professional-suite-v32.2-commercial-offline", storage: "erp_professional_suite_v32_2_commercial_offline", session: "erp_suite_v32_2_commercial_offline_user", filesDb: "erp_professional_suite_v32_2_commercial_offline_files", dataDb: "erp_professional_suite_v32_2_commercial_offline_data", tenantStorage: "erp_suite_v32_2_commercial_offline_tenant", legacyStorage: "", legacyFilesDb: "" };
   var Device = { isMobileHardware() {
     const coarse = matchMedia?.("(any-pointer: coarse)")?.matches || false, touch = N(navigator.maxTouchPoints) > 0, smallPhysical = Math.min(N(screen.width) || 9999, N(screen.height) || 9999) <= 900, ua = /Android|iPhone|iPad|Mobile/i.test(navigator.userAgent);
     return ua || touch && coarse && smallPhysical;
@@ -3730,14 +3730,14 @@
   var Seed = {
     meta: { version: APP.version, schema: APP.schema, createdAt: now(), updatedAt: now(), lastBackupAt: "", migratedFrom: "", serviceTypesInitialized: true, release: "v32.2 • Hajj & Umrah Autofill + Editable Contracts", setupComplete: false, fix20Applied: true, fix20Build: "2026-08-19", v20NineFixes: true, v21SmartContracts: true, v22UmrahRootSections: true },
     company: { name: "اسم الشركة", taxNo: "", commercialNo: "", phone: "", whatsapp: "", email: "", website: "", address: "", logo: "", country: "EG", city: "", companyId: "" },
-    settings: { baseCurrency: "EGP", preventNegativeTreasury: true, passwordMin: 8, printAmountWords: true, printSignatures: true, printFooter: "مع تحيات شركتكم", appearance: "light", accentColor: "#c9972f", animations: true, fontScale: 1, fontFamily: "default", activityRetentionDays: 90, activityViewDays: 30, expenseCategories: ["إيجار ومقر", "تسويق وإعلان", "تشغيل برامج", "اتصالات وإنترنت", "رواتب وأجور", "نقل وانتقالات", "رسوم حكومية", "صيانة", "ضيافة", "مصروفات بنكية", "أخرى"], prefixes: deep(PrefixDefaults), fiscalYearStartMonth: 1, approvalPayments: true, allowSelfApproval: false, printPaper: "A4", printOrientation: "portrait", signatureLabels: ["المحاسب", "المراجع", "الاعتماد"], loginTagline: "السياحة • المحاسبة • العملاء • الحج والعمرة", loginHeadline: "إدارة شركة السياحة بالكامل من منصة واحدة.", loginDescription: "الحجوزات والخدمات والحج والعمرة والعملاء والموردون والحسابات والتقارير تعمل في دورة تشغيلية ومالية موحّدة.", loginButton: "دخول إلى النظام", sidebarSubtitle: "نظام السياحة والحج والعمرة", sidebarEdition: "من تطوير Elhafez Technology", productName: "Elhafez", productEdition: "نظام السياحة والحج والعمرة", sidebarMode: "fixed", whatsappCountryCode: "20", workspaces: [
-      { id: "umrah", name: "الحج والعمرة", description: "تشغيل الحج والعمرة من البرنامج والحجز حتى التعاقدات والجاهزية والإدارة.", icon: "programs", color: "#315f85", active: true, pages: ["umrah-dashboard", "umrah-program-new", "umrah-booking-new", "umrah-booking-resume", "umrah-seasons", "umrah-programs", "umrah-program-workspace", "umrah-costing", "umrah-bookings", "umrah-travelers", "umrah-contracts", "umrah-procurement", "umrah-visas", "umrah-hotels", "umrah-flights", "umrah-transport", "umrah-hajj-services", "umrah-trip-ready", "umrah-control", "umrah-tripops", "umrah-incidents", "umrah-documents", "umrah-settings"] },
-      { id: "sales", name: "المبيعات والعملاء CRM", description: "العملاء المحتملون والعملاء والمندوبون وعروض الأسعار قبل الدورة المالية.", icon: "customers", color: "#08785b", active: true, pages: ["crm", "customers", "agents", "quotations"] },
-      { id: "tourism", name: "الخدمات السياحية", description: "تشغيل خدمات التأشيرات والطيران والفنادق والنقل والرحلات.", icon: "services", color: "#2c78c7", active: true, pages: ["services"] },
-      { id: "procurement", name: "المشتريات والموردون", description: "الموردون وأوامر الشراء والالتزامات التشغيلية قبل فاتورة المورد.", icon: "suppliers", color: "#b75b2a", active: true, pages: ["suppliers", "purchaseorders"] },
-      { id: "finance", name: "المحاسبة والمالية", description: "الفواتير والتحصيل والسداد والخزن والقيود والحسابات والعملات والفترات المالية.", icon: "accounts", color: "#176b57", active: true, pages: ["invoices", "receipts", "payments", "expenses", "settlements", "accruals", "assets", "loans", "budgets", "cheques", "treasury", "journal", "accounts", "trial", "costcenters", "currencies", "taxes", "periods"] },
-      { id: "control", name: "التقارير والرقابة", description: "لوحة الإدارة والتقارير والاعتمادات والرقابة وسجل النشاط.", icon: "reports", color: "#355c8a", active: true, pages: ["workcenter", "owner", "reports", "approvals", "audit", "activity"] },
-      { id: "admin", name: "الإدارة والإعدادات", description: "المستخدمون والفروع والمستندات والجلسات والدعم وإعدادات الشركة.", icon: "settings", color: "#52647a", active: true, pages: ["market-readiness", "quick-guide", "users", "branches", "documents", "sessions", "dataexchange", "support", "settings"] }
+    settings: { baseCurrency: "EGP", preventNegativeTreasury: true, passwordMin: 8, printAmountWords: true, printSignatures: true, printFooter: "مع تحيات شركتكم", appearance: "light", accentColor: "#087f82", animations: true, fontScale: 1, fontFamily: "default", activityRetentionDays: 90, activityViewDays: 30, expenseCategories: ["إيجار ومقر", "تسويق وإعلان", "تشغيل برامج", "اتصالات وإنترنت", "رواتب وأجور", "نقل وانتقالات", "رسوم حكومية", "صيانة", "ضيافة", "مصروفات بنكية", "أخرى"], prefixes: deep(PrefixDefaults), fiscalYearStartMonth: 1, approvalPayments: true, allowSelfApproval: false, printPaper: "A4", printOrientation: "portrait", signatureLabels: ["المحاسب", "المراجع", "الاعتماد"], loginTagline: "السياحة • المحاسبة • العملاء • الحج والعمرة", loginHeadline: "إدارة شركة السياحة بالكامل من منصة واحدة.", loginDescription: "الحجوزات والخدمات والحج والعمرة والعملاء والموردون والحسابات والتقارير تعمل في دورة تشغيلية ومالية موحّدة.", loginButton: "دخول إلى النظام", sidebarSubtitle: "نظام السياحة والحج والعمرة", sidebarEdition: "من تطوير Elhafez Technology", productName: "Elhafez", productEdition: "نظام السياحة والحج والعمرة", sidebarMode: "fixed", whatsappCountryCode: "20", workspaces: [
+      { id: "umrah", name: "الحج والعمرة", description: "تخطيط البرامج وبيع الحجوزات وتجهيز الأفواج ومتابعة الجاهزية.", icon: "programs", color: "#315f85", active: true, pages: ["umrah-dashboard", "umrah-program-new", "umrah-booking-new", "umrah-booking-resume", "umrah-seasons", "umrah-programs", "umrah-program-workspace", "umrah-costing", "umrah-bookings", "umrah-travelers", "umrah-visas", "umrah-hotels", "umrah-flights", "umrah-transport", "umrah-hajj-services", "umrah-trip-ready", "umrah-control", "umrah-tripops", "umrah-incidents", "umrah-documents", "umrah-settings"] },
+      { id: "sales", name: "العملاء وإدارة العلاقات", description: "العملاء المحتملون والعملاء والمندوبون وعروض الأسعار قبل الدورة المالية.", icon: "customers", color: "#08785b", active: true, pages: ["crm", "customers", "agents", "quotations"] },
+      { id: "tourism", name: "السياحة والخدمات", description: "تشغيل خدمات التأشيرات والطيران والفنادق والنقل والرحلات.", icon: "services", color: "#2c78c7", active: true, pages: ["services"] },
+      { id: "procurement", name: "المشتريات والمخزون", description: "التعاقدات والسعات المشتركة والموردون وأوامر الشراء والالتزامات.", icon: "suppliers", color: "#b75b2a", active: true, pages: ["umrah-contracts", "umrah-procurement", "suppliers", "purchaseorders"] },
+      { id: "finance", name: "المالية والمحاسبة", description: "الفواتير والتحصيل والسداد والخزن والقيود والحسابات والعملات والفترات المالية.", icon: "accounts", color: "#176b57", active: true, pages: ["invoices", "receipts", "payments", "expenses", "settlements", "accruals", "assets", "loans", "budgets", "cheques", "treasury", "journal", "accounts", "trial", "costcenters", "currencies", "taxes", "periods"] },
+      { id: "control", name: "الإدارة والرقابة", description: "لوحة الإدارة والتقارير والاعتمادات والرقابة وسجل النشاط.", icon: "reports", color: "#355c8a", active: true, pages: ["workcenter", "owner", "reports", "approvals", "audit", "activity"] },
+      { id: "admin", name: "إدارة النظام", description: "المستخدمون والفروع والمستندات والجلسات والدعم وإعدادات الشركة.", icon: "settings", color: "#52647a", active: true, pages: ["backup-center", "period-archiving", "market-readiness", "quick-guide", "users", "branches", "documents", "sessions", "dataexchange", "support", "settings"] }
     ] },
     license: { mode: "offline", status: "active", edition: "professional", expiresAt: "", clientName: "", maxUsers: 20, companyId: "OFFLINE-LOCAL", activationKey: "", modules: ["accounting", "tourism", "umrah", "crm", "branches", "reports", "whatsapp", "imports"], maxBranches: 5, source: "local-offline" },
     branches: [],
@@ -3780,7 +3780,7 @@
       { id: "5600", name: "فروق جرد نقدية مدينة", type: "expense", nature: "debit", parentId: "5000", posting: true, system: true, active: true }
     ],
     taxCodes: [{ id: "TAX0", name: "بدون ضريبة", rate: 0, type: "both", active: true, inputAccount: "1310", outputAccount: "2300" }, { id: "VAT14", name: "ضريبة قيمة مضافة 14%", rate: 14, type: "both", active: true, inputAccount: "1310", outputAccount: "2300" }],
-    costCenters: [{ id: "CC-UMRAH", no: "CC0001", name: "برامج العمرة", description: "إيرادات وتكاليف برامج العمرة", active: true, system: true }, { id: "CC-TOUR", no: "CC0002", name: "الخدمات السياحية", description: "الطيران والفنادق والنقل والتأشيرات", active: true, system: true }],
+    costCenters: [{ id: "CC-UMRAH", no: "CC0001", name: "برامج العمرة", description: "إيرادات وتكاليف برامج العمرة", active: true, system: true }, { id: "CC-TOUR", no: "CC0002", name: "السياحة والخدمات", description: "الطيران والفنادق والنقل والتأشيرات", active: true, system: true }],
     treasuries: [],
     customers: [],
     suppliers: [],
@@ -5362,7 +5362,15 @@
     /** The persistence owner installs a durably saved state and invalidates derived ledger caches. */
     installRestoredState(state) {
       this.data = state;
+      this.saveRevision = Number(state.meta?.storageRevision) || 0;
+      this.durableRevision = this.saveRevision;
       this.rollbackVersion++;
+    },
+    beginRestore() {
+      this.restoring = true;
+    },
+    finishRestore() {
+      this.restoring = false;
     },
     async init() {
       if (!(ServerStore.available === true || ServerStore.remoteRequired?.())) {
@@ -9032,7 +9040,7 @@
         setTimeout(() => location.reload(), 700);
         return r;
       }
-      DB2.restoring = true;
+      DB2.beginRestore();
       try {
         await DB2.saveQueue;
         await DataStore.withLock(async () => {
@@ -9050,11 +9058,9 @@
           });
           await RestoreJournal.commit(staged, files, previous, oldFiles, DB2.durableRevision);
           DB2.installRestoredState(staged);
-          DB2.saveRevision = staged.meta.storageRevision;
-          DB2.durableRevision = DB2.saveRevision;
         });
       } finally {
-        DB2.restoring = false;
+        DB2.finishRestore();
       }
       toast("تمت استعادة النسخة على الجهاز", "ok");
       setTimeout(() => location.reload(), 500);
@@ -12040,11 +12046,11 @@
   // src/ui/navigation.ts
   var Nav = [
     ["الرئيسية", [["dashboard", "dashboard", "لوحة التحكم", "مركز النظام والأقسام"]]],
-    ["الحج والعمرة", [["umrah-dashboard", "programs", "نظام الحج والعمرة", "من إنشاء البرنامج حتى إقفال الفوج"], ["umrah-contracts", "documents", "التعاقدات والمخزون", "عقود الفنادق والطيران والنقل ومتابعة السعة"], ["umrah-control", "settings", "إدارة الحج والعمرة", "الرقابة والتسعير والجاهزية والتشغيل"]]],
-    ["المبيعات والعملاء CRM", [["crm", "customers", "العملاء المحتملون والمتابعة", "الفرص والمتابعات قبل التحويل لعميل"], ["customers", "customers", "العملاء", "الملف والرصيد والحركة"], ["agents", "agents", "المندوبون", "العملاء والعمولات والذمم"], ["quotations", "invoices", "عروض الأسعار", "من العرض إلى الفاتورة"]]],
-    ["الخدمات السياحية", [["services", "services", "الخدمات السياحية", "تأشيرات وطيران وفنادق ونقل ورحلات"]]],
-    ["المشتريات والموردون", [["suppliers", "suppliers", "الموردون", "الالتزامات والعقود والحركة"], ["purchaseorders", "suppliers", "أوامر الشراء", "الطلب والاعتماد والاستلام قبل فاتورة المورد"]]],
-    ["المحاسبة والمالية", [["invoices", "invoices", "الفواتير", "مبيعات وموردين وتسويات"], ["receipts", "receipts", "سندات القبض", "التحصيل والتخصيص وطرق الدفع"], ["payments", "payments", "سندات الصرف", "السداد والاعتمادات"], ["expenses", "expenses", "المصروفات", "مدفوع ومستحق ومقدم"], ["settlements", "suppliers", "التسويات والإلغاءات", "تسويات الموردين والعملاء ورسوم الإلغاء والشطب"], ["accruals", "clock", "الاستحقاقات والإيراد المؤجل", "إيراد مقدم ومستحق والاعتراف حسب تاريخ الخدمة"], ["assets", "accounts", "الأصول الثابتة", "سجل الأصول والإهلاك والاستبعاد"], ["loans", "payments", "القروض والمخصصات", "التمويل والفوائد والمخصصات"], ["budgets", "reports", "الموازنات", "موازنات الحسابات ومراكز التكلفة ومقارنة الفعلي"], ["cheques", "documents", "الشيكات", "واردة وصادرة والتحصيل والارتداد"], ["treasury", "treasury", "الخزن والبنوك", "السيولة والتحويل والمطابقة"], ["journal", "journal", "القيود اليومية", "القيود اليدوية والمرحلة"], ["accounts", "accounts", "دليل الحسابات", "شجرة الحسابات المحمية"], ["trial", "trial", "ميزان المراجعة", "الحركة والأرصدة"], ["costcenters", "costcenters", "مراكز التكلفة", "تحليل الربحية"], ["currencies", "currencies", "العملات وأسعار الصرف", "الأسعار وإعادة التقييم"], ["taxes", "reports", "الضرائب", "الأكواد وحسابات المدخلات والمخرجات"], ["periods", "clock", "الفترات المالية", "الفتح والإقفال والسنة المالية"]]],
+    ["الحج والعمرة", [["umrah-dashboard", "programs", "نظام الحج والعمرة", "من إنشاء البرنامج حتى إقفال الفوج"], ["umrah-control", "settings", "إدارة الحج والعمرة", "الرقابة والتسعير والجاهزية والتشغيل"]]],
+    ["العملاء وإدارة العلاقات", [["crm", "customers", "العملاء المحتملون والمتابعة", "الفرص والمتابعات قبل التحويل لعميل"], ["customers", "customers", "العملاء", "الملف والرصيد والحركة"], ["agents", "agents", "المندوبون", "العملاء والعمولات والذمم"], ["quotations", "invoices", "عروض الأسعار", "من العرض إلى الفاتورة"]]],
+    ["السياحة والخدمات", [["services", "services", "السياحة والخدمات", "تأشيرات وطيران وفنادق ونقل ورحلات"]]],
+    ["المشتريات والمخزون", [["umrah-contracts", "documents", "التعاقدات والمخزون", "سعات مشتركة للبرامج والخدمات"], ["umrah-procurement", "accounts", "التزامات البرامج", "طلبات التوفير والتزامات الموردين"], ["suppliers", "suppliers", "الموردون", "الالتزامات والعقود والحركة"], ["purchaseorders", "suppliers", "أوامر الشراء", "الطلب والاعتماد والاستلام قبل فاتورة المورد"]]],
+    ["المالية والمحاسبة", [["invoices", "invoices", "الفواتير", "مبيعات وموردين وتسويات"], ["receipts", "receipts", "سندات القبض", "التحصيل والتخصيص وطرق الدفع"], ["payments", "payments", "سندات الصرف", "السداد والاعتمادات"], ["expenses", "expenses", "المصروفات", "مدفوع ومستحق ومقدم"], ["settlements", "suppliers", "التسويات والإلغاءات", "تسويات الموردين والعملاء ورسوم الإلغاء والشطب"], ["accruals", "clock", "الاستحقاقات والإيراد المؤجل", "إيراد مقدم ومستحق والاعتراف حسب تاريخ الخدمة"], ["assets", "accounts", "الأصول الثابتة", "سجل الأصول والإهلاك والاستبعاد"], ["loans", "payments", "القروض والمخصصات", "التمويل والفوائد والمخصصات"], ["budgets", "reports", "الموازنات", "موازنات الحسابات ومراكز التكلفة ومقارنة الفعلي"], ["cheques", "documents", "الشيكات", "واردة وصادرة والتحصيل والارتداد"], ["treasury", "treasury", "الخزن والبنوك", "السيولة والتحويل والمطابقة"], ["journal", "journal", "القيود اليومية", "القيود اليدوية والمرحلة"], ["accounts", "accounts", "دليل الحسابات", "شجرة الحسابات المحمية"], ["trial", "trial", "ميزان المراجعة", "الحركة والأرصدة"], ["costcenters", "costcenters", "مراكز التكلفة", "تحليل الربحية"], ["currencies", "currencies", "العملات وأسعار الصرف", "الأسعار وإعادة التقييم"], ["taxes", "reports", "الضرائب", "الأكواد وحسابات المدخلات والمخرجات"], ["periods", "clock", "الفترات المالية", "الفتح والإقفال والسنة المالية"]]],
     ["التقارير والرقابة", [["workcenter", "activity", "مركز العمل اليومي", "كل ما يحتاج تنفيذًا الآن في مكان واحد"], ["owner", "dashboard", "لوحة الإدارة", "المؤشرات التنفيذية للإدارة العليا"], ["reports", "reports", "التقارير", "مالية وتشغيلية وضريبية"], ["approvals", "shield", "الاعتمادات", "العمليات التي تنتظر قرارًا"], ["audit", "audit", "الرقابة المالية", "فحص سلامة القيود والبيانات"], ["activity", "activity", "سجل النشاط", "من فعل ماذا ومتى"]]],
     ["الإدارة والإعدادات", [["market-readiness", "check", "جاهزية البيع والتشغيل", "فحص ذاتي قبل تسليم النظام للعميل"], ["quick-guide", "info", "دليل البدء السريع", "خطوات إعداد الشركة وبدء أول دورة عمل"], ["users", "users", "المستخدمون والصلاحيات", "الدخول والأدوار وحدود الاعتماد"], ["branches", "customers", "الفروع", "الفروع وصلاحيات الوصول"], ["documents", "documents", "مركز المستندات", "الأرشيف والمرفقات"], ["sessions", "users", "الجلسات والأجهزة", "الأجهزة المتصلة وإنهاء الجلسات"], ["dataexchange", "csv", "استيراد وتصدير", "Excel وCSV ونقل البيانات"], ["support", "info", "الدعم وحالة النظام", "التشخيص والترخيص وحالة الاتصال"], ["settings", "settings", "الإعدادات", "بيانات الشركة والسياسات والطباعة"]]]
   ];
@@ -12052,23 +12058,57 @@
   if (adminNav && !adminNav.some((x) => x[0] === "period-archiving")) adminNav.splice(1, 0, ["backup-center", "backup", "النسخ الاحتياطي والاستعادة", "نسخ كاملة + استعادة + نسخ خادمية"], ["period-archiving", "archive", "الأرشفة الذكية", "إغلاق الفترات والأرشيف وصحة البيانات"]);
   var SuiteWorkspaceNav = {
     umrah: [
-      ["umrah-dashboard", "dashboard", "لوحة الحج والعمرة", "ملخص اليوم والخطوة التالية", "ابدأ هنا"],
-      ["umrah-program-new", "plus", "إنشاء برنامج", "معالج البرنامج من التعاقد حتى فتح البيع", "ابدأ هنا"],
-      ["umrah-booking-new", "bookings", "حجز جديد", "العميل والمسافرون والسعر والتحصيل", "ابدأ هنا"],
-      ["umrah-programs", "programs", "البرامج", "ملف 360 لكل برنامج ومسار الخدمة", "الإدارة اليومية"],
-      ["umrah-bookings", "bookings", "الحجوزات", "الحالات والتحصيل والإلغاء والجاهزية", "الإدارة اليومية"],
-      ["umrah-travelers", "customers", "المسافرون", "الجوازات والجاهزية والخدمات", "الإدارة اليومية"],
-      ["umrah-contracts", "documents", "التعاقدات والمخزون", "فنادق وطيران ونقل وتأشيرات وموردون", "التعاقدات"],
-      ["umrah-trip-ready", "activity", "مركز تشغيل الفوج", "كل تجهيزات الفوج من مكان واحد", "التشغيل"],
-      ["umrah-documents", "documents", "المخرجات والتقارير", "الكشوف والمستندات والتقارير التشغيلية", "المخرجات"],
-      ["umrah-settings", "settings", "إعدادات الحج والعمرة", "سياسات التشغيل والحجز والجاهزية", "الإعدادات"]
+      ["umrah-dashboard", "dashboard", "ملخص القسم", "حالة البيع والتشغيل", "ملخص القسم"],
+      ["umrah-seasons", "clock", "المواسم", "فترات التخطيط والبيع", "البرامج والتسعير"],
+      ["umrah-programs", "programs", "البرامج", "ملف البرنامج ودورة العمل", "البرامج والتسعير"],
+      ["umrah-program-new", "plus", "إنشاء برنامج", "إعداد البرنامج والتسعير", "البرامج والتسعير"],
+      ["umrah-program-workspace", "programs", "ملف البرنامج 360", "تفاصيل البرنامج", "البرامج والتسعير"],
+      ["umrah-costing", "accounts", "التكلفة والتسعير", "تكلفة البرنامج وسعر البيع", "البرامج والتسعير"],
+      ["umrah-bookings", "bookings", "الحجوزات", "المبيعات والتحصيل والجاهزية", "المبيعات والحجوزات"],
+      ["umrah-booking-new", "plus", "حجز جديد", "العميل والمسافرون والبرنامج", "المبيعات والحجوزات"],
+      ["umrah-booking-resume", "bookings", "استكمال الحجز", "إكمال البيانات المطلوبة", "المبيعات والحجوزات"],
+      ["umrah-trip-ready", "check", "جاهزية الأفواج", "خطوة التشغيل التالية", "تشغيل الأفواج"],
+      ["umrah-travelers", "customers", "المسافرون والجوازات", "المستندات والجاهزية", "تشغيل الأفواج"],
+      ["umrah-visas", "documents", "التأشيرات", "الدفعات وحالة التأشيرة", "تشغيل الأفواج"],
+      ["umrah-hotels", "programs", "الغرف والسكن", "تسكين المسافرين", "تشغيل الأفواج"],
+      ["umrah-flights", "services", "الطيران والتذاكر", "إصدار وتوزيع التذاكر", "تشغيل الأفواج"],
+      ["umrah-transport", "services", "النقل", "الحافلات والكشوف", "تشغيل الأفواج"],
+      ["umrah-hajj-services", "programs", "خدمات الحج", "التصاريح والمخيمات", "تشغيل الأفواج"],
+      ["umrah-tripops", "activity", "تنفيذ الرحلات", "المهام أثناء الرحلة", "تشغيل الأفواج"],
+      ["umrah-incidents", "warning", "مشكلات التشغيل", "المتابعة والحل", "تشغيل الأفواج"],
+      ["umrah-control", "shield", "الرقابة التشغيلية", "متابعة الجاهزية", "تشغيل الأفواج"],
+      ["umrah-documents", "documents", "المستندات والتقارير", "المخرجات والكشوف", "المستندات والسياسات"],
+      ["umrah-settings", "settings", "السياسات التشغيلية", "قواعد البرامج والحجز", "المستندات والسياسات"]
+    ],
+    procurement: [
+      ["umrah-contracts", "documents", "التعاقدات والمخزون", "مصدر السعات المشترك للبرامج والخدمات", "التعاقدات والسعات"],
+      ["umrah-procurement", "accounts", "التزامات البرامج", "توفير وتكلفة خدمات البرامج", "الالتزامات"],
+      ["purchaseorders", "suppliers", "أوامر الشراء", "طلب واعتماد واستلام وفوترة", "أوامر الشراء"],
+      ["suppliers", "suppliers", "الموردون", "ملف المورد والحركة", "الموردون"]
+    ],
+    finance: [
+      ["receipts", "receipts", "التحصيلات", "سندات القبض والتخصيص", "التحصيل والخزينة"],
+      ["treasury", "treasury", "الخزينة والبنوك", "الحركة والتحويل والمطابقة", "التحصيل والخزينة"],
+      ["cheques", "documents", "الشيكات", "الاستحقاق والتحصيل", "التحصيل والخزينة"],
+      ["invoices", "invoices", "الفواتير والذمم", "فواتير العملاء والموردين", "الفواتير والمدفوعات"],
+      ["payments", "payments", "المدفوعات", "سداد الموردين", "الفواتير والمدفوعات"],
+      ["expenses", "expenses", "المصروفات", "مدفوع ومستحق ومقدم", "الفواتير والمدفوعات"],
+      ["settlements", "suppliers", "التسويات والإلغاءات", "تسوية الذمم ورسوم الإلغاء", "الفواتير والمدفوعات"],
+      ["journal", "journal", "القيود اليومية", "الترحيل والمراجعة", "المحاسبة العامة"],
+      ["accounts", "accounts", "دليل الحسابات", "شجرة الحسابات", "المحاسبة العامة"],
+      ["trial", "trial", "ميزان المراجعة", "الأرصدة والحركات", "المحاسبة العامة"],
+      ["accruals", "clock", "الاستحقاقات والمؤجلات", "الاعتراف والتسويات", "المحاسبة العامة"],
+      ["assets", "accounts", "الأصول الثابتة", "الإهلاك والاستبعاد", "التخطيط والإقفال"],
+      ["loans", "payments", "القروض والمخصصات", "الجداول والمخصصات", "التخطيط والإقفال"],
+      ["budgets", "reports", "الموازنات", "مقارنة المخطط والفعلي", "التخطيط والإقفال"],
+      ["periods", "clock", "الفترات والإقفال", "فتح وإقفال ومراجعة", "التخطيط والإقفال"],
+      ["currencies", "currencies", "العملات وأسعار الصرف", "الأسعار وإعادة التقييم", "الإعداد المالي"],
+      ["taxes", "reports", "الضرائب", "السياسات والأكواد", "الإعداد المالي"],
+      ["costcenters", "costcenters", "مراكز التكلفة", "تحليل الربحية", "الإعداد المالي"]
     ]
   };
-  var PageTheme = { dashboard: ["#c9972f", "#fff7e6"], crm: ["#7555b7", "#f1ecfb"], quotations: ["#2869a9", "#eaf3fd"], purchaseorders: ["#b75b2a", "#fff0e8"], programs: ["#b98221", "#fff5dd"], bookings: ["#2c78c7", "#eaf3fd"], services: ["#537bc4", "#edf3fd"], customers: ["#08785b", "#e8f7f0"], suppliers: ["#b75b2a", "#fff0e8"], agents: ["#7555b7", "#f1ecfb"], expenses: ["#b42318", "#fdeceb"], receipts: ["#08785b", "#e8f7f0"], payments: ["#b42318", "#fdeceb"], cheques: ["#7b5a2e", "#fff5dd"], invoices: ["#2869a9", "#eaf3fd"], journal: ["#435b78", "#edf1f6"], documents: ["#59677a", "#edf1f6"], accounts: ["#355c8a", "#eaf3fd"], trial: ["#7555b7", "#f1ecfb"], costcenters: ["#2d7f78", "#e8f7f3"], treasury: ["#08785b", "#e8f7f0"], currencies: ["#b98221", "#fff5dd"], taxes: ["#7b5a2e", "#fff5dd"], periods: ["#58657a", "#edf1f6"], reports: ["#2869a9", "#eaf3fd"], approvals: ["#b76b00", "#fff4df"], audit: ["#b42318", "#fdeceb"], activity: ["#52647a", "#edf1f6"], workcenter: ["#176b57", "#e8f7f0"], users: ["#7555b7", "#f1ecfb"], owner: ["#176b57", "#e8f7f0"], branches: ["#2c78c7", "#eaf3fd"], sessions: ["#7555b7", "#f1ecfb"], dataexchange: ["#2d7f78", "#e8f7f3"], support: ["#52647a", "#edf1f6"], "market-readiness": ["#176b57", "#e8f7f0"], "quick-guide": ["#2869a9", "#eaf3fd"], settings: ["#59677a", "#edf1f6"] };
-  Object.assign(PageTheme, { settlements: ["#8a5a16", "#fff5dd"], accruals: ["#315f85", "#eaf3fd"], assets: ["#355c8a", "#edf3fd"], loans: ["#7555b7", "#f1ecfb"], budgets: ["#2d7f78", "#e8f7f3"] });
-  PageTheme["period-archiving"] = ["#315f85", "#eaf3fd"];
-  PageTheme["backup-center"] = ["#315f85", "#eaf3fd"];
-  for (const p of Object.values(SuiteWorkspaceNav).flat().map((x) => x[0])) PageTheme[p] = ["#b98221", "#fff5dd"];
+  var PageTheme = {};
+  for (const p of [...Nav.flatMap((g) => g[1]), ...Object.values(SuiteWorkspaceNav).flat()].map((x) => x[0])) PageTheme[p] = ["#087f82", "#e8f4f4"];
   var PageGroup = {};
   for (const [g, items] of Nav) for (const i of items) PageGroup[i[0]] = g;
   var RecentEntities = {
@@ -14289,6 +14329,11 @@
       return false;
     },
     handleChange(target, e, ui) {
+      const column = target?.closest?.("[data-ui-table-column]");
+      if (column) {
+        ui.toggleTableColumn(column);
+        return true;
+      }
       if (!target?.closest) return false;
       const el = target;
       const value = el.value || "";
@@ -14480,11 +14525,11 @@
   var UIDocument = document;
   var SystemFontCatalog = {
     default: { label: "الافتراضي", stack: 'Tahoma,"Noto Sans Arabic","Segoe UI",Arial,sans-serif', href: "" },
-    cairo: { label: "Cairo", stack: '"Cairo",Tahoma,"Noto Sans Arabic",Arial,sans-serif', href: "https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" },
-    tajawal: { label: "Tajawal", stack: '"Tajawal",Tahoma,"Noto Sans Arabic",Arial,sans-serif', href: "https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" },
-    noto: { label: "Noto Sans Arabic", stack: '"Noto Sans Arabic",Tahoma,Arial,sans-serif', href: "https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap" },
-    plex: { label: "IBM Plex Arabic", stack: '"IBM Plex Sans Arabic","Noto Sans Arabic",Tahoma,Arial,sans-serif', href: "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" },
-    kufi: { label: "Noto Kufi Arabic", stack: '"Noto Kufi Arabic","Noto Sans Arabic",Tahoma,Arial,sans-serif', href: "https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;500;600;700;800&display=swap" }
+    cairo: { label: "Cairo", stack: '"Cairo",Tahoma,"Noto Sans Arabic",Arial,sans-serif', href: "./fonts/cairo.css" },
+    tajawal: { label: "Tajawal", stack: '"Tajawal",Tahoma,"Noto Sans Arabic",Arial,sans-serif', href: "./fonts/tajawal.css" },
+    noto: { label: "Noto Sans Arabic", stack: '"Noto Sans Arabic",Tahoma,Arial,sans-serif', href: "./fonts/noto.css" },
+    plex: { label: "IBM Plex Arabic", stack: '"IBM Plex Sans Arabic","Noto Sans Arabic",Tahoma,Arial,sans-serif', href: "./fonts/plex.css" },
+    kufi: { label: "Noto Kufi Arabic", stack: '"Noto Kufi Arabic","Noto Sans Arabic",Tahoma,Arial,sans-serif', href: "./fonts/kufi.css" }
   };
   var systemFontEntry = /* @__PURE__ */ __name((value) => SystemFontCatalog[value] || SystemFontCatalog.default, "systemFontEntry");
   var ensureSystemFontAsset = /* @__PURE__ */ __name((value) => {
@@ -14647,7 +14692,7 @@
       const ready = !!Store.data(), d = Store.data() || { company: ServerStore.company || {}, settings: {}, branches: [], license: ServerStore.license || {} }, c = d.company || {}, s = d.settings || {}, u = AccessControl.currentUser(), productName = !s.productName || ["ERP Professional Suite", "Elhafez Travel ERP"].includes(s.productName) ? APP.name : s.productName, productEdition = !s.productEdition || ["White Label", "Tourism Suite", "Tourism & Umrah ERP"].includes(s.productEdition) ? APP.product : s.productEdition, sidebarSubtitle = !s.sidebarSubtitle || ["ERP • Accounting • CRM", "Tourism • Accounting • CRM", "Tourism & Umrah ERP"].includes(s.sidebarSubtitle) ? APP.product : s.sidebarSubtitle, sidebarEdition = !s.sidebarEdition || ["PROFESSIONAL EDITION", "ELHAFEZ TRAVEL ERP", "Powered by Elhafez"].includes(s.sidebarEdition) ? "من تطوير Elhafez Technology" : s.sidebarEdition, branchSig = (d.branches || []).map((b) => `${b.id}:${b.name}:${b.active !== false}`).join(","), currentBranch = ready ? BranchScope2.currentId() : "", key = [c.name, c.logo, s.accentColor, s.fontScale, s.fontFamily, s.appearance, s.animations, s.sidebarMode, productName, productEdition, s.loginTagline, s.loginHeadline, s.loginDescription, s.loginButton, sidebarSubtitle, sidebarEdition, u?.id, u?.name, u?.role, u?.branchId, (u?.allowedBranchIds || []).join(","), d.license?.status, d.license?.mode, d.license?.edition, d.license?.expiresAt, currentBranch, branchSig].join("|");
       if (!force && this._brandKey === key) return;
       this._brandKey = key;
-      UIDocument.documentElement.style.setProperty("--brand", s.accentColor || "#c9972f");
+      UIDocument.documentElement.style.setProperty("--brand", s.accentColor || "#087f82");
       UIDocument.documentElement.style.setProperty("--font-scale", String(s.fontScale || 1));
       const font = ensureSystemFontAsset(s.fontFamily || "default");
       UIDocument.documentElement.style.setProperty("--system-font", font.stack);
@@ -14706,9 +14751,13 @@
   // src/ui/ui-workspace-nav.ts
   var UI_WorkspaceNav = {
     workspaces() {
-      const rows = (Store.get("settings").workspaces || []).filter((w) => w.active !== false && w.id !== "vendor-owner").map((w) => ({ ...w, pages: (w.pages || []).filter((p) => p !== "vendorowner") }));
-      if (typeof Auth7 === "undefined" || !AccessControl.currentUser()) return rows;
-      return rows.filter((w) => (w.pages || []).some((p) => AccessControl.can(p)));
+      const configured = Store.get("settings").workspaces || [], known = new Set(Seed.settings.workspaces.flatMap((w) => w.pages));
+      const rows = Seed.settings.workspaces.map((def) => {
+        const saved = configured.find((w) => w.id === def.id);
+        return { ...def, active: saved?.active !== false, pages: [...def.pages, ...(saved?.pages || []).filter((p) => !known.has(p) && p !== "vendorowner")] };
+      }).filter((w) => w.active);
+      if (!AccessControl.currentUser()) return rows;
+      return rows.filter((w) => w.pages.some((p) => AccessControl.can(p)));
     },
     activeWorkspace() {
       return this.workspaces().find((w) => w.id === this.workspaceId) || null;
@@ -14803,6 +14852,10 @@
       if (p === "customer-more") return [p, "customers", "المزيد", "ملف العميل الكامل والإجراءات"];
       return Nav.flatMap((x) => x[1]).find((x) => x[0] === p) || Object.values(SuiteWorkspaceNav).flat().find((x) => x[0] === p) || [p, "file", p, ""];
     },
+    pageHeader(title, description = "", actions = "") {
+      const ws = this.activeWorkspace();
+      return `<header class="page-hero"><div class="page-head"><div class="breadcrumb">${esc(ws?.name || "مساحة عملي")}</div><h2>${esc(title)}</h2>${description ? `<p class="page-description">${esc(description)}</p>` : ""}</div><div class="page-actions">${actions}</div></header>`;
+    },
     shortcutKey() {
       return `elhafez-shortcuts:${AccessControl.currentUser()?.id || "guest"}`;
     },
@@ -14856,38 +14909,21 @@
       b.setAttribute("aria-label", b.title);
     },
     workspaceNavItems(mods) {
-      const button = /* @__PURE__ */ __name((i) => `<button type="button" class="nav-btn ${this.navModuleActive(i[0]) ? "active" : ""}" data-workspace-page="${i[0]}"><span class="nav-ico">${icon(i[1])}</span><span class="nav-copy"><b>${i[2]}</b></span>${this.navBadge(i[0]) ? `<span class="nav-badge">${this.navBadge(i[0])}</span>` : ""}</button>`, "button");
-      if (this.activeWorkspace()?.id === "umrah") {
-        const groups2 = [];
-        for (const item of mods) {
-          const name = item[4] || "أخرى";
-          let g = groups2.find((x) => x.name === name);
-          if (!g) {
-            g = { name, items: [] };
-            groups2.push(g);
-          }
-          g.items.push(item);
-        }
-        return `<div class="umrah-workspace-nav workspace-accordion">${groups2.map((g, index) => {
-          const active2 = g.items.some((i) => this.navModuleActive(i[0]));
-          return `<details class="umrah-nav-group" data-sidebar-accordion="1" ${active2 || this.current === "dashboard" && index === 0 ? "open" : ""} ontoggle="UI.workspaceAccordionToggle(this)"><summary class="umrah-nav-group-title"><span>${esc(g.name)}</span><i class="workspace-nav-chevron" aria-hidden="true"></i></summary><div class="umrah-nav-group-body">${g.items.map(button).join("")}</div></details>`;
-        }).join("")}</div>`;
-      }
-      if (!mods.some((i) => i[4])) return mods.map(button).join("");
       const groups = [];
-      for (const item of mods) {
-        const name = item[4] || "أخرى";
-        let g = groups.find((x) => x.name === name);
-        if (!g) {
-          g = { name, items: [] };
-          groups.push(g);
+      for (const item of mods.filter((m) => m[0] !== "umrah-dashboard")) {
+        const name = item[4] || "العمل اليومي";
+        let group = groups.find((g) => g.name === name);
+        if (!group) {
+          group = { name, items: [] };
+          groups.push(group);
         }
-        g.items.push(item);
+        group.items.push(item);
       }
-      return `<div class="workspace-nav-groups workspace-accordion">${groups.map((g, index) => {
-        const active2 = g.items.some((i) => this.navModuleActive(i[0]));
-        return `<details class="workspace-nav-section" data-sidebar-accordion="1" ${active2 || (!this.current || this.current === "dashboard") && index === 0 ? "open" : ""} ontoggle="UI.workspaceAccordionToggle(this)"><summary><span>${esc(g.name)}</span><i class="workspace-nav-chevron" aria-hidden="true"></i></summary><div class="workspace-nav-section-body">${g.items.map(button).join("")}</div></details>`;
-      }).join("")}</div>`;
+      return `<nav class="section-navigation" aria-label="وظائف القسم"><button type="button" class="section-tab ${this.current === "dashboard" || this.current === "umrah-dashboard" ? "active" : ""}" data-ui-workspace="${esc(this.workspaceId)}">ملخص القسم</button>${groups.map((g) => g.items.length === 1 ? `<button type="button" class="section-tab ${this.navModuleActive(g.items[0][0]) ? "active" : ""}" data-workspace-page="${g.items[0][0]}">${esc(g.items[0][2])}</button>` : `<details class="section-nav-group ${g.items.some((i) => this.navModuleActive(i[0])) ? "active" : ""}"><summary>${esc(g.name)}</summary><div class="section-nav-menu">${g.items.map((i) => `<button type="button" class="nav-btn ${this.navModuleActive(i[0]) ? "active" : ""}" data-workspace-page="${i[0]}">${esc(i[2])}</button>`).join("")}</div></details>`).join("")}</nav>`;
+    },
+    sectionNavigation() {
+      const ws = this.activeWorkspace();
+      return ws ? this.workspaceNavItems(this.workspaceModules(ws)) : "";
     },
     workspaceAccordionToggle(el) {
       if (!el?.open) return;
@@ -14896,28 +14932,12 @@
       for (const other of group.children) if (other !== el && other instanceof HTMLDetailsElement && other.open) other.open = false;
     },
     renderNav() {
-      const mobile = `<div class="mobile-side-tools"><button class="btn small ghost" data-ui-mobile-search="1">${icon("search", "sm")} بحث</button><button class="btn small ghost" data-form-open="changePassword">${icon("lock", "sm")} كلمة المرور</button><button class="btn small danger" data-auth-logout="1">${icon("logout", "sm")} خروج</button></div>`, ws = this.activeWorkspace(), home = `<div class="nav-group"><button data-main-home="1" class="nav-btn ${!ws && this.current === "dashboard" ? "active" : ""}" data-ui-back-home="1"><span class="nav-ico">${icon("dashboard")}</span><span class="nav-copy"><b>الصفحة الرئيسية</b><small>مساحات العمل</small></span></button></div>`;
-      let body = home + this.shortcutNav();
-      if (ws) {
-        const mods = this.workspaceModules(ws);
-        body += `<div class="nav-group"><div class="nav-title">${esc(ws.name)}</div>${ws.id === "umrah" ? "" : `<button data-workspace-home="${esc(ws.id)}" class="nav-btn ${this.current === "dashboard" ? "active" : ""}" data-ui-workspace="${esc(ws.id)}"><span class="nav-ico">${icon(ws.icon || "file")}</span><span class="nav-copy"><b>واجهة القسم</b></span></button>`}${this.workspaceNavItems(mods)}</div>`;
-      }
-      UIDocument.getElementById("nav").innerHTML = body + mobile;
+      const ws = this.activeWorkspace(), home = `<button type="button" class="nav-btn ${!ws ? "active" : ""}" data-main-home="1" data-ui-back-home="1"><span class="nav-ico">${icon("dashboard")}</span><span class="nav-copy"><b>مساحة عملي</b></span></button>`;
+      const sections = this.workspaces().map((w) => `<button type="button" class="nav-btn ${ws?.id === w.id ? "active" : ""}" data-workspace-home="${esc(w.id)}" data-ui-workspace="${esc(w.id)}"><span class="nav-ico">${icon(w.icon || "file")}</span><span class="nav-copy"><b>${esc(w.name)}</b></span></button>`).join("");
+      UIDocument.getElementById("nav").innerHTML = `<nav class="main-section-nav" aria-label="الأقسام الرئيسية">${home}${sections}</nav><div class="mobile-side-tools"><button class="btn small ghost" data-ui-mobile-search="1">بحث</button><button class="btn small danger" data-auth-logout="1">خروج</button></div>`;
     },
     refreshNavActive() {
-      const nav = UIDocument.getElementById("nav");
-      if (!nav) return;
-      const ws = this.activeWorkspace();
-      for (const b of nav.querySelectorAll(".nav-btn.active")) b.classList.remove("active");
-      const main = nav.querySelector('[data-main-home="1"]');
-      if (main && !ws && this.current === "dashboard") main.classList.add("active");
-      if (ws && this.current === "dashboard") nav.querySelector(`[data-workspace-home="${CSS.escape(ws.id)}"]`)?.classList.add("active");
-      if (this.current !== "dashboard") {
-        const b = nav.querySelector(`[data-workspace-page="${CSS.escape(this.current)}"]`);
-        b?.classList.add("active");
-        const group = b?.closest("details.workspace-nav-section,details.umrah-nav-group,details.shortcut-nav-details");
-        if (group) group.open = true;
-      }
+      this.renderNav();
     },
     navBadge(p) {
       if (p === "workcenter" && typeof WorkCenter !== "undefined") return WorkCenter.items().length || "";
@@ -15131,6 +15151,7 @@
     enhanceResponsiveTables(root = UIDocument) {
       const doc = root.ownerDocument || root, actionRe = /إجراء|الإجراءات|actions?/i, primaryRe = /الكود|الرقم|الاسم|الطرف|العميل|المورد|المندوب|الموظف|النوع|الهاتف|التاريخ|الاستحقاق|الإجمالي|المبلغ|المدفوع|المتبقي|الرصيد|الحالة|البرنامج|العملة|القيمة/i, secondaryRe = /مرجع|دفعة مقدمة|مرفقات|تأخير|ملاحظات|وصف|البنك|طريقة الدفع|أنشئ|تحديث/i;
       for (const t of root.querySelectorAll(".table-card table.table:not([data-responsive-ready])")) {
+        this.restoreTableColumns(t);
         t.dataset.responsiveReady = "1";
         t.classList.add("responsive-card-table", "system-compact-table");
         const hs = [...t.querySelectorAll("thead th")].map((x) => x.textContent.trim());
@@ -15160,6 +15181,16 @@
           if (!action) for (const td of secondary) td.classList.remove("compact-secondary");
         }
       }
+    }
+  };
+
+  // src/ui/table-presentation.ts
+  var TablePresentation = {
+    shell({ headers, rows, empty, count, total, key = "", pager = "", search = true, exportable = false, page = "" }) {
+      const action = /* @__PURE__ */ __name((h) => /إجراء|الإجراءات|actions?/i.test(S(h)), "action"), preference = JSON.stringify([page, ...headers.map(S)]);
+      const columns = headers.map((h, i) => `<label><input type="checkbox" checked data-ui-table-column="${i}" ${action(h) ? "disabled" : ""}> ${esc(h)}</label>`).join("");
+      const ths = headers.map((h, i) => `<th class="${action(h) ? "" : "sortable"}" data-export="${action(h) ? "0" : "1"}" ${action(h) ? "" : `data-ui-sort-index="${i}"`}>${h}</th>`).join("");
+      return `<div class="table-card" data-column-key="${esc(preference)}" ${key ? `data-lazy-table="${esc(key)}"` : ""}><div class="table-tools"><span class="table-count" data-total="${total}">${count}</span>${search ? `<div class="table-search">${icon("search", "sm")}<input aria-label="بحث داخل الجدول" placeholder="بحث بالاسم أو الرقم…" data-ui-filter-table="1"></div>` : ""}<details class="table-column-menu"><summary class="btn small ghost">الأعمدة</summary><div>${columns}</div></details>${exportable ? `<button class="btn small ghost" data-ui-export-table="1">${icon("csv", "sm")} CSV</button>` : ""}</div><div class="table-wrap"><table class="table"><thead><tr>${ths}</tr></thead><tbody>${rows.length ? rows.join("") : `<tr><td colspan="${headers.length}" class="empty">${empty}</td></tr>`}</tbody></table></div>${pager}</div>`;
     }
   };
 
@@ -15230,11 +15261,37 @@
         return [];
       }
     },
+    rowActions(primary = "", more = []) {
+      const actions = more.filter(Boolean);
+      return `<div class="clean-row-actions compact-action">${primary}${actions.length ? `<details class="action-menu"><summary class="btn small ghost" aria-label="إجراءات إضافية">${icon("more", "sm")} المزيد</summary>${actions.join("")}</details>` : ""}</div>`;
+    },
     table(headers, rows, empty = "لا توجد بيانات", opts = {}) {
       const list = Array.isArray(rows) ? rows : rows ? [S(rows)] : [], noSort = /* @__PURE__ */ __name((h) => /إجراء|الإجراءات|actions?/i.test(S(h)), "noSort"), ths = headers.map((h, i) => `<th class="${noSort(h) ? "" : "sortable"}" data-export="${noSort(h) ? "0" : "1"}" ${noSort(h) ? "" : `data-ui-sort-index="${i}"`}>${h}</th>`).join(""), pageSize = Math.max(10, N(opts.pageSize) || 25), paged = opts.paginate !== false && list.length > pageSize, key = paged ? `ui-table-${++this._lazySeq}` : "", shown = paged ? list.slice(0, pageSize) : list;
       if (paged) this._lazyTables.set(key, { rows: [...list], filtered: [...list], searchIndex: list.map((r) => this.searchNormalize(this.tableRowText(r))), page: 1, pageSize, headers: [...headers], empty, query: "" });
       const pager = paged ? this.tablePager(key, this._lazyTables.get(key)) : "";
-      return `<div class="table-card" ${key ? `data-lazy-table="${key}"` : ""}><div class="table-tools"><span class="table-count" data-total="${list.length}">${paged ? `1–${shown.length} من ${list.length} سجل` : `${list.length} سجل`}</span>${opts.search === false ? "" : `<div class="table-search">${icon("search", "sm")}<input aria-label="بحث داخل الجدول" placeholder="بحث بالاسم أو الرقم..." data-ui-filter-table="1"></div>`}${opts.export === false || !AccessControl.can(this.current, "export") ? "" : `<button class="btn small ghost" data-ui-export-table="1">${icon("csv", "sm")} CSV</button>`}</div><div class="table-wrap"><table class="table"><thead><tr>${ths}</tr></thead><tbody>${shown.length ? shown.join("") : `<tr><td colspan="${headers.length}" class="empty">${empty}</td></tr>`}</tbody></table></div>${pager}</div>`;
+      return TablePresentation.shell({ headers, rows: shown, empty, count: paged ? `1–${shown.length} من ${list.length} سجل` : `${list.length} سجل`, total: list.length, key, pager, search: opts.search !== false, exportable: opts.export !== false && AccessControl.can(this.current, "export"), page: this.current });
+    },
+    tableColumnStorageKey(card) {
+      return `elhafez-table-columns:${AccessControl.currentUser()?.id || "guest"}:${card.dataset.columnKey || ""}`;
+    },
+    restoreTableColumns(table) {
+      const card = table.closest(".table-card");
+      if (!card?.dataset.columnKey) return;
+      let hidden = [];
+      try {
+        const saved = JSON.parse(localStorage.getItem(this.tableColumnStorageKey(card)) || "[]");
+        if (Array.isArray(saved)) hidden = saved.filter((i) => Number.isInteger(i) && i >= 0);
+      } catch {
+      }
+      for (const row of table.rows) if (!row.querySelector("td.empty")) for (let i = 0; i < row.cells.length; i++) row.cells[i].hidden = hidden.includes(i) && table.tHead?.rows[0]?.cells[i]?.dataset.export !== "0";
+      for (const input of card.querySelectorAll("[data-ui-table-column]")) input.checked = !hidden.includes(Number(input.dataset.uiTableColumn));
+    },
+    toggleTableColumn(input) {
+      const card = input.closest(".table-card");
+      if (!card) return;
+      const hidden = [...card.querySelectorAll("[data-ui-table-column]")].filter((x) => !x.checked && !x.disabled).map((x) => Number(x.dataset.uiTableColumn));
+      localStorage.setItem(this.tableColumnStorageKey(card), JSON.stringify(hidden));
+      this.restoreTableColumns(card.querySelector("table"));
     },
     tablePager(key, rec) {
       if (!rec) return "";
@@ -15381,6 +15438,131 @@
     badge(s) {
       return `<span class="badge ${sc(s)}">${sl(s)}</span>`;
     }
+  };
+
+  // src/ui/data-table.ts
+  var UI_DataTables = {
+    dataTable: /* @__PURE__ */ __name(function(headers, items, rowRenderer, empty = "لا توجد بيانات", opts = {}) {
+      const list = Array.isArray(items) ? items : [], noSort = /* @__PURE__ */ __name((h) => /إجراء|الإجراءات|actions?/i.test(S(h)), "noSort"), ths = headers.map((h, i) => `<th class="${noSort(h) ? "" : "sortable"}" data-export="${noSort(h) ? "0" : "1"}" ${noSort(h) ? "" : `data-ui-sort-index="${i}"`}>${h}</th>`).join(""), pageSize = Math.max(10, N(opts.pageSize) || 25), key = `ui-data-${++this._lazySeq}`, shown = list.slice(0, pageSize), render = /* @__PURE__ */ __name((x) => S(rowRenderer(x)), "render");
+      const rec = { kind: "data", rows: list, filtered: list.slice(), page: 1, pageSize, headers: [...headers], empty, query: "", rowRenderer: render, searchText: typeof opts.searchText === "function" ? opts.searchText : null, sortValues: Array.isArray(opts.sortValues) ? opts.sortValues : [], exportValues: typeof opts.exportValues === "function" ? opts.exportValues : null, searchIndex: null, searchIndexBuilding: false };
+      this._lazyTables.set(key, rec);
+      if (list.length >= 1e3 && rec.searchText) {
+        rec.searchIndexBuilding = true;
+        const idx = new Array(list.length), chunk = 750;
+        let pos = 0;
+        const step = /* @__PURE__ */ __name(() => {
+          const end = Math.min(list.length, pos + chunk);
+          for (; pos < end; pos++) idx[pos] = this.dataTableSearchValue(rec, list[pos]);
+          if (pos < list.length) {
+            setTimeout(step, 0);
+            return;
+          }
+          if (!rec.query) {
+            rec.searchIndex = idx;
+            rec.searchIndexBuilding = false;
+          }
+        }, "step");
+        setTimeout(step, 0);
+      }
+      const htmlRows = shown.map(render), pager = this.tablePager(key, rec), count = list.length ? list.length > pageSize ? `1–${shown.length} من ${list.length} سجل` : `${list.length} سجل` : "0 سجل";
+      return TablePresentation.shell({ headers, rows: htmlRows, empty, count, total: list.length, key, pager, search: opts.search !== false, exportable: opts.export !== false && AccessControl.can(this.current, "export"), page: this.current });
+    }, "dataTable"),
+    dataTableSearchValue: /* @__PURE__ */ __name(function(rec, item) {
+      if (rec.searchText) {
+        try {
+          return this.searchNormalize(rec.searchText(item));
+        } catch {
+          return "";
+        }
+      }
+      return this.searchBlob(item);
+    }, "dataTableSearchValue"),
+    renderTablePage: /* @__PURE__ */ __name(function(key, card) {
+      const rec = this._lazyTables.get(key);
+      if (!rec || rec.kind !== "data") return UI_Tables.renderTablePage.call(this, key, card);
+      if (!card) return false;
+      const total = rec.filtered.length, pages = Math.max(1, Math.ceil(total / rec.pageSize));
+      rec.page = Math.min(Math.max(1, rec.page), pages);
+      const from = (rec.page - 1) * rec.pageSize, to = Math.min(total, from + rec.pageSize), items = rec.filtered.slice(from, to), rows = items.map(rec.rowRenderer), body = card.querySelector("tbody");
+      body.innerHTML = rows.length ? rows.join("") : `<tr><td colspan="${rec.headers.length}" class="empty">${rec.empty}</td></tr>`;
+      const count = card.querySelector(".table-count");
+      if (count) count.textContent = total ? rec.query ? `${from + 1}–${to} من ${total} نتيجة` : `${from + 1}–${to} من ${total} سجل` : rec.query ? "0 نتيجة" : "0 سجل";
+      let pager = card.querySelector(".table-pagination");
+      const html = this.tablePager(key, rec);
+      if (html) {
+        if (pager) pager.outerHTML = html;
+        else card.insertAdjacentHTML("beforeend", html);
+      } else pager?.remove();
+      const table = body.closest("table");
+      table?.removeAttribute("data-responsive-ready");
+      this.enhanceResponsiveTables(card);
+      return true;
+    }, "renderTablePage"),
+    filterTable: /* @__PURE__ */ __name(function(input) {
+      const card = input.closest(".table-card"), q = this.searchNormalize(input.value), key = card?.dataset?.lazyTable, rec = key ? this._lazyTables.get(key) : null;
+      if (!rec || rec.kind !== "data") return UI_Tables.filterTable.call(this, input);
+      rec.query = q;
+      if (!q) rec.filtered = rec.rows.slice();
+      else {
+        if (!rec.searchIndex) {
+          rec.searchIndex = rec.rows.map((x) => this.dataTableSearchValue(rec, x));
+          rec.searchIndexBuilding = false;
+        }
+        rec.filtered = rec.rows.filter((_, i) => rec.searchIndex[i].includes(q));
+      }
+      rec.page = 1;
+      return this.renderTablePage(key, card);
+    }, "filterTable"),
+    sortTable: /* @__PURE__ */ __name(function(th, index) {
+      if (th.dataset.export === "0") return;
+      const card = th.closest(".table-card"), key = card?.dataset?.lazyTable, rec = key ? this._lazyTables.get(key) : null;
+      if (!rec || rec.kind !== "data") return UI_Tables.sortTable.call(this, th, index);
+      const stateKey = `${this.current}:${index}`, dir = this.sortState[stateKey] === "asc" ? "desc" : "asc";
+      this.sortState[stateKey] = dir;
+      for (const x of th.parentElement.children) x.removeAttribute("aria-sort");
+      th.setAttribute("aria-sort", dir === "asc" ? "ascending" : "descending");
+      const getter = rec.sortValues[index], value = /* @__PURE__ */ __name((item) => {
+        if (typeof getter === "function") {
+          try {
+            return getter(item);
+          } catch {
+            return "";
+          }
+        }
+        const cells = this.tableRowCells(rec.rowRenderer(item));
+        return cells[index] || "";
+      }, "value"), cmp = /* @__PURE__ */ __name((a, b) => {
+        const A = value(a), B = value(b), an = typeof A === "number" ? A : parseFloat(S(A).replace(/[^0-9.-]/g, "")), bn = typeof B === "number" ? B : parseFloat(S(B).replace(/[^0-9.-]/g, "")), v = Number.isFinite(an) && Number.isFinite(bn) ? an - bn : S(A).localeCompare(S(B), "ar", { numeric: true, sensitivity: "base" });
+        return dir === "asc" ? v : -v;
+      }, "cmp");
+      rec.filtered.sort(cmp);
+      if (!rec.query) {
+        rec.rows = rec.filtered.slice();
+        rec.searchIndex = null;
+      }
+      rec.page = 1;
+      return this.renderTablePage(key, card);
+    }, "sortTable"),
+    exportTable: /* @__PURE__ */ __name(function(btn) {
+      const card = btn.closest(".table-card"), key = card?.dataset?.lazyTable, rec = key ? this._lazyTables.get(key) : null;
+      if (!rec || rec.kind !== "data") return UI_Tables.exportTable.call(this, btn);
+      const table = card.querySelector("table"), include = [...table.tHead.rows[0].cells].map((c, i) => c.dataset.export !== "0" ? i : -1).filter((i) => i >= 0), quote = /* @__PURE__ */ __name((v) => `"${S(v).replace(/"/g, '""').replace(/\n+/g, " ")}"`, "quote"), head = include.map((i) => quote(table.tHead.rows[0].cells[i]?.innerText || "")).join(","), rows = rec.filtered.map((item) => {
+        let cells;
+        if (rec.exportValues) {
+          try {
+            cells = rec.exportValues(item) || [];
+          } catch {
+            cells = [];
+          }
+        } else cells = this.tableRowCells(rec.rowRenderer(item));
+        return include.map((i) => quote(cells[i] || "")).join(",");
+      }), blob = new Blob(["\uFEFF" + [head, ...rows].join("\n")], { type: "text/csv;charset=utf-8" }), a = document.createElement("a"), url = URL.createObjectURL(blob);
+      a.href = url;
+      a.download = `${document.getElementById("pageTitle").textContent}_${today()}.csv`;
+      a.click();
+      setTimeout(() => URL.revokeObjectURL(url), 1e3);
+      return true;
+    }, "exportTable")
   };
 
   // src/ui/ui-modal-settings.ts
@@ -15543,7 +15725,7 @@
         this.applyBrand();
         UIDocument.body.classList.toggle("portal-home", this.current === "dashboard" && !this.activeWorkspace());
         const pages = UIDocument.getElementById("pages");
-        pages.innerHTML = `<section class="page active">${Pages[this.current] ? Pages[this.current]() : Pages.notFound()}</section>`;
+        pages.innerHTML = `<section class="page active">${this.sectionNavigation()}${Pages[this.current] ? Pages[this.current]() : Pages.notFound()}</section>`;
         this.enhanceResponsiveTables(pages);
         SearchSelect2.enhanceDocument(pages);
         this.enhanceKeyboardInputs(pages);
@@ -15759,6 +15941,7 @@
     ...UI_WorkspaceNav,
     ...UI_MenusSearch,
     ...UI_Tables,
+    ...UI_DataTables,
     ...UI_ModalSettings
   };
   __set_UI(UI5);
@@ -15766,133 +15949,6 @@
   var UiBaseMethods2 = createUiBaseMethods(UI5);
   __set_UiBaseMethods(UiBaseMethods2);
   installUiModalStack(UI5);
-
-  // src/ui/data-table.ts
-  var _dataTableRenderBase = UI5.renderTablePage.bind(UI5);
-  var _dataTableFilterBase = UI5.filterTable.bind(UI5);
-  var _dataTableSortBase = UI5.sortTable.bind(UI5);
-  var _dataTableExportBase = UI5.exportTable.bind(UI5);
-  UI5.dataTable = function(headers, items, rowRenderer, empty = "لا توجد بيانات", opts = {}) {
-    const list = Array.isArray(items) ? items : [], noSort = /* @__PURE__ */ __name((h) => /إجراء|الإجراءات|actions?/i.test(S(h)), "noSort"), ths = headers.map((h, i) => `<th class="${noSort(h) ? "" : "sortable"}" data-export="${noSort(h) ? "0" : "1"}" ${noSort(h) ? "" : `data-ui-sort-index="${i}"`}>${h}</th>`).join(""), pageSize = Math.max(10, N(opts.pageSize) || 25), key = `ui-data-${++this._lazySeq}`, shown = list.slice(0, pageSize), render = /* @__PURE__ */ __name((x) => S(rowRenderer(x)), "render");
-    const rec = { kind: "data", rows: list, filtered: list.slice(), page: 1, pageSize, headers: [...headers], empty, query: "", rowRenderer: render, searchText: typeof opts.searchText === "function" ? opts.searchText : null, sortValues: Array.isArray(opts.sortValues) ? opts.sortValues : [], exportValues: typeof opts.exportValues === "function" ? opts.exportValues : null, searchIndex: null, searchIndexBuilding: false };
-    this._lazyTables.set(key, rec);
-    if (list.length >= 1e3 && rec.searchText) {
-      rec.searchIndexBuilding = true;
-      const idx = new Array(list.length), chunk = 750;
-      let pos = 0;
-      const step = /* @__PURE__ */ __name(() => {
-        const end = Math.min(list.length, pos + chunk);
-        for (; pos < end; pos++) idx[pos] = this.dataTableSearchValue(rec, list[pos]);
-        if (pos < list.length) {
-          setTimeout(step, 0);
-          return;
-        }
-        if (!rec.query) {
-          rec.searchIndex = idx;
-          rec.searchIndexBuilding = false;
-        }
-      }, "step");
-      setTimeout(step, 0);
-    }
-    const htmlRows = shown.map(render), pager = this.tablePager(key, rec), count = list.length ? list.length > pageSize ? `1–${shown.length} من ${list.length} سجل` : `${list.length} سجل` : "0 سجل";
-    return `<div class="table-card" data-lazy-table="${key}"><div class="table-tools"><span class="table-count" data-total="${list.length}">${count}</span>${opts.search === false ? "" : `<div class="table-search">${icon("search", "sm")}<input aria-label="بحث داخل الجدول" placeholder="بحث بالاسم أو الرقم..." data-ui-filter-table="1"></div>`}${opts.export === false || !Auth7.can(this.current, "export") ? "" : `<button class="btn small ghost" data-ui-export-table="1">${icon("csv", "sm")} CSV</button>`}</div><div class="table-wrap"><table class="table"><thead><tr>${ths}</tr></thead><tbody>${htmlRows.length ? htmlRows.join("") : `<tr><td colspan="${headers.length}" class="empty">${empty}</td></tr>`}</tbody></table></div>${pager}</div>`;
-  };
-  UI5.dataTableSearchValue = function(rec, item) {
-    if (rec.searchText) {
-      try {
-        return this.searchNormalize(rec.searchText(item));
-      } catch {
-        return "";
-      }
-    }
-    return this.searchBlob(item);
-  };
-  UI5.renderTablePage = function(key, card) {
-    const rec = this._lazyTables.get(key);
-    if (!rec || rec.kind !== "data") return _dataTableRenderBase(key, card);
-    if (!card) return false;
-    const total = rec.filtered.length, pages = Math.max(1, Math.ceil(total / rec.pageSize));
-    rec.page = Math.min(Math.max(1, rec.page), pages);
-    const from = (rec.page - 1) * rec.pageSize, to = Math.min(total, from + rec.pageSize), items = rec.filtered.slice(from, to), rows = items.map(rec.rowRenderer), body = card.querySelector("tbody");
-    body.innerHTML = rows.length ? rows.join("") : `<tr><td colspan="${rec.headers.length}" class="empty">${rec.empty}</td></tr>`;
-    const count = card.querySelector(".table-count");
-    if (count) count.textContent = total ? rec.query ? `${from + 1}–${to} من ${total} نتيجة` : `${from + 1}–${to} من ${total} سجل` : rec.query ? "0 نتيجة" : "0 سجل";
-    let pager = card.querySelector(".table-pagination");
-    const html = this.tablePager(key, rec);
-    if (html) {
-      if (pager) pager.outerHTML = html;
-      else card.insertAdjacentHTML("beforeend", html);
-    } else pager?.remove();
-    const table = body.closest("table");
-    table?.removeAttribute("data-responsive-ready");
-    this.enhanceResponsiveTables(card);
-    return true;
-  };
-  UI5.filterTable = function(input) {
-    const card = input.closest(".table-card"), q = this.searchNormalize(input.value), key = card?.dataset?.lazyTable, rec = key ? this._lazyTables.get(key) : null;
-    if (!rec || rec.kind !== "data") return _dataTableFilterBase(input);
-    rec.query = q;
-    if (!q) rec.filtered = rec.rows.slice();
-    else {
-      if (!rec.searchIndex) {
-        rec.searchIndex = rec.rows.map((x) => this.dataTableSearchValue(rec, x));
-        rec.searchIndexBuilding = false;
-      }
-      rec.filtered = rec.rows.filter((_, i) => rec.searchIndex[i].includes(q));
-    }
-    rec.page = 1;
-    return this.renderTablePage(key, card);
-  };
-  UI5.sortTable = function(th, index) {
-    if (th.dataset.export === "0") return;
-    const card = th.closest(".table-card"), key = card?.dataset?.lazyTable, rec = key ? this._lazyTables.get(key) : null;
-    if (!rec || rec.kind !== "data") return _dataTableSortBase(th, index);
-    const stateKey = `${this.current}:${index}`, dir = this.sortState[stateKey] === "asc" ? "desc" : "asc";
-    this.sortState[stateKey] = dir;
-    for (const x of th.parentElement.children) x.removeAttribute("aria-sort");
-    th.setAttribute("aria-sort", dir === "asc" ? "ascending" : "descending");
-    const getter = rec.sortValues[index], value = /* @__PURE__ */ __name((item) => {
-      if (typeof getter === "function") {
-        try {
-          return getter(item);
-        } catch {
-          return "";
-        }
-      }
-      const cells = this.tableRowCells(rec.rowRenderer(item));
-      return cells[index] || "";
-    }, "value"), cmp = /* @__PURE__ */ __name((a, b) => {
-      const A = value(a), B = value(b), an = typeof A === "number" ? A : parseFloat(S(A).replace(/[^0-9.-]/g, "")), bn = typeof B === "number" ? B : parseFloat(S(B).replace(/[^0-9.-]/g, "")), v = Number.isFinite(an) && Number.isFinite(bn) ? an - bn : S(A).localeCompare(S(B), "ar", { numeric: true, sensitivity: "base" });
-      return dir === "asc" ? v : -v;
-    }, "cmp");
-    rec.filtered.sort(cmp);
-    if (!rec.query) {
-      rec.rows = rec.filtered.slice();
-      rec.searchIndex = null;
-    }
-    rec.page = 1;
-    return this.renderTablePage(key, card);
-  };
-  UI5.exportTable = function(btn) {
-    const card = btn.closest(".table-card"), key = card?.dataset?.lazyTable, rec = key ? this._lazyTables.get(key) : null;
-    if (!rec || rec.kind !== "data") return _dataTableExportBase(btn);
-    const table = card.querySelector("table"), include = [...table.tHead.rows[0].cells].map((c, i) => c.dataset.export !== "0" ? i : -1).filter((i) => i >= 0), quote = /* @__PURE__ */ __name((v) => `"${S(v).replace(/"/g, '""').replace(/\n+/g, " ")}"`, "quote"), head = include.map((i) => quote(table.tHead.rows[0].cells[i]?.innerText || "")).join(","), rows = rec.filtered.map((item) => {
-      let cells;
-      if (rec.exportValues) {
-        try {
-          cells = rec.exportValues(item) || [];
-        } catch {
-          cells = [];
-        }
-      } else cells = this.tableRowCells(rec.rowRenderer(item));
-      return include.map((i) => quote(cells[i] || "")).join(",");
-    }), blob = new Blob(["\uFEFF" + [head, ...rows].join("\n")], { type: "text/csv;charset=utf-8" }), a = document.createElement("a"), url = URL.createObjectURL(blob);
-    a.href = url;
-    a.download = `${document.getElementById("pageTitle").textContent}_${today()}.csv`;
-    a.click();
-    setTimeout(() => URL.revokeObjectURL(url), 1e3);
-    return true;
-  };
 
   // src/application/form-definition-workflows.ts
   var active = /* @__PURE__ */ __name((x) => x.active !== false, "active");
@@ -16552,7 +16608,7 @@
           return [["leadId", "العميل المحتمل", "select", { value: f?.leadId || c.leadId || "", items: this.items(FormDefinitionQueries.activeLeads(fd)) }], ["date", "التاريخ", "date", { value: f?.date || today() }], ["type", "نوع المتابعة", "select", { value: f?.type || "call", items: [{ value: "call", label: "مكالمة" }, { value: "whatsapp", label: "واتساب" }, { value: "meeting", label: "اجتماع" }, { value: "email", label: "بريد" }] }], ["result", "النتيجة", "textarea", { value: f?.result || "", required: false }, true], ["nextDate", "المتابعة القادمة", "date", { value: f?.nextDate || "", required: false }]];
         })(), submit: /* @__PURE__ */ __name((o) => c.editId ? CRM2.updateFollowup(c.editId, o) : CRM2.addFollowup(o), "submit") },
         supplierCancellation: { page: "settlements", action: "add", title: "تسوية إلغاء مورد", icon: "suppliers", note: "تستخدم عندما يكون لكم رصيد فعلي مقدم/مسترد لدى المورد ثم يحتفظ المورد بجزء منه كرسوم إلغاء. لا تنشئ قبضًا أو صرفًا وهميًا.", fields: [["supplierId", "المورد", "picker", { value: c.supplierId || "", kind: "supplier" }], ["programId", "برنامج الحج/العمرة", "picker", { value: c.programId || "", kind: "program", required: false }], ["amount", "رسوم الإلغاء", "number", { value: c.amount || "", min: 0.01 }], ["currency", "العملة", "select", { value: c.currency || FormDefinitionQueries.baseCurrency(fd), items: cur }], ["expenseAccountId", "حساب رسوم الإلغاء", "select", { value: "5170", items: this.accountItems((a) => a.type === "expense") }], ["date", "التاريخ", "date", { value: today() }], ["reason", "السبب", "textarea", { value: "رسوم إلغاء مورد" }, true]], submit: /* @__PURE__ */ __name((o) => AdvancedAccounting.supplierCancellation(o), "submit") },
-        customerAdvanceApply: { page: "receipts", action: "add", title: "تطبيق مقدم على الفاتورة", icon: "receipts", note: "تسوية موثقة من المقدم الموجود دون قبض نقدية جديدة. يمكن عكسها من التسويات.", fields: [["invoiceId", "الفاتورة", "select", { value: c.invoiceId, items: DB2.data.invoices.filter((x) => live(x) && x.status !== "draft" && x.kind === "customer" && Invoices2.remaining(x) > 0).map((x) => ({ value: x.id, label: x.no })) }], ["amount", "المبلغ", "number", { value: c.amount || "", min: 0.01 }], ["date", "التاريخ", "date", { value: today() }], ["reason", "السبب", "textarea", { value: "تطبيق مقدم على فاتورة" }, true]], submit: /* @__PURE__ */ __name((o) => AdvancedAccounting.applyCustomerAdvance(o), "submit") },
+        customerAdvanceApply: { page: "receipts", action: "add", title: "تطبيق مقدم على الفاتورة", icon: "receipts", note: "تسوية موثقة من المقدم الموجود دون قبض نقدية جديدة. يمكن عكسها من التسويات.", fields: [["invoiceId", "الفاتورة", "select", { value: c.invoiceId, items: Store.data().invoices.filter((x) => live(x) && x.status !== "draft" && x.kind === "customer" && Invoices2.remaining(x) > 0).map((x) => ({ value: x.id, label: x.no })) }], ["amount", "المبلغ", "number", { value: c.amount || "", min: 0.01 }], ["date", "التاريخ", "date", { value: today() }], ["reason", "السبب", "textarea", { value: "تطبيق مقدم على فاتورة" }, true]], submit: /* @__PURE__ */ __name((o) => AdvancedAccounting.applyCustomerAdvance(o), "submit") },
         customerWriteOff: { page: "settlements", action: "add", title: "شطب / تسوية رصيد عميل", icon: "customers", fields: [["customerId", "العميل", "picker", { value: c.customerId || "", kind: "customer" }], ["programId", "البرنامج", "picker", { value: c.programId || "", kind: "program", required: false }], ["amount", "قيمة الشطب", "number", { value: c.amount || "", min: 0.01 }], ["currency", "العملة", "select", { value: c.currency || FormDefinitionQueries.baseCurrency(fd), items: cur }], ["expenseAccountId", "حساب الديون المعدومة", "select", { value: "5700", items: this.accountItems((a) => a.type === "expense") }], ["date", "التاريخ", "date", { value: today() }], ["reason", "السبب", "textarea", { value: "شطب رصيد غير قابل للتحصيل" }, true]], submit: /* @__PURE__ */ __name((o) => AdvancedAccounting.customerWriteOff(o), "submit") },
         customerCancellation: { page: "settlements", action: "add", title: "رسوم إلغاء عميل من رصيد مقدم", icon: "customers", fields: [["customerId", "العميل", "picker", { value: c.customerId || "", kind: "customer" }], ["programId", "البرنامج", "picker", { value: c.programId || "", kind: "program", required: false }], ["amount", "رسوم الإلغاء", "number", { value: c.amount || "", min: 0.01 }], ["currency", "العملة", "select", { value: c.currency || FormDefinitionQueries.baseCurrency(fd), items: cur }], ["revenueAccountId", "حساب إيراد رسوم الإلغاء", "select", { value: "4310", items: this.accountItems((a) => a.type === "revenue") }], ["date", "التاريخ", "date", { value: today() }], ["reason", "السبب", "textarea", { value: "رسوم إلغاء عميل" }, true]], submit: /* @__PURE__ */ __name((o) => AdvancedAccounting.customerCancellationFee(o), "submit") },
         revenueDeferral: { page: "accruals", action: "add", title: "تأجيل إيراد فاتورة", icon: "clock", note: "ينقل صافي إيراد الفاتورة من الإيراد الحالي إلى الإيرادات المؤجلة ثم يثبت الإيراد حسب جدول التنفيذ، دون المساس بالضريبة أو ذمة العميل.", fields: [["invoiceId", "فاتورة المبيعات", "select", { value: c.invoiceId || "", items: FormDefinitionQueries.revenueInvoicesForAdjustment(fd).map((x) => ({ value: x.id, label: `${x.no} — ${Actions.partyName(x.partyType || "customer", x.partyId)} — ${money(Invoices2.subtotal(x), x.currency)}` })) }], ["date", "تاريخ التأجيل", "date", { value: today() }], ["recognitionDate", "أول تاريخ اعتراف", "date", { value: c.recognitionDate || "" }], ["months", "عدد دفعات الاعتراف", "number", { value: 1, min: 1 }]], submit: /* @__PURE__ */ __name((o) => AdvancedAccounting.deferInvoiceRevenue(o), "submit") },
@@ -17396,7 +17452,7 @@
     }
   };
 
-  // src/core/umrah/contracts-inventory.ts
+  // src/procurement/inventory.ts
   var UmrahCore_Inventory2 = {
     kinds: ["hotel", "flight", "transport", "visa", "service"],
     serviceCategories: ["camp", "permit", "meal", "visit", "guide", "rawda", "insurance", "custom"],
@@ -17636,7 +17692,7 @@
   };
   __set_UmrahCore_Inventory(UmrahCore_Inventory2);
 
-  // src/core/umrah/contracts.ts
+  // src/procurement/contracts.ts
   var UmrahCore_ContractCenter2 = {
     rawArr(kind) {
       return kind === "hotel" ? UmrahCore_DB2.data.hotelContracts : kind === "flight" ? UmrahCore_DB2.data.flightBlocks : kind === "visa" ? UmrahCore_DB2.data.visaContracts : kind === "service" ? UmrahCore_DB2.data.serviceContracts : UmrahCore_DB2.data.transportContracts;
@@ -18328,7 +18384,7 @@
   };
   __set_UmrahCore_ContractCenter(UmrahCore_ContractCenter2);
 
-  // src/core/umrah/contracts-management.ts
+  // src/procurement/contract-management.ts
   var UmrahCore_ContractManagement = {
     edit(kind, id) {
       const f = kind === "hotel" ? "hotelContract" : kind === "flight" ? "flightBlock" : kind === "visa" ? "visaContract" : kind === "service" ? "serviceContract" : "transportContract";
@@ -18619,7 +18675,7 @@
   };
   Object.assign(UmrahCore_ContractCenter2, UmrahCore_ContractManagement);
 
-  // src/core/umrah/procurement.ts
+  // src/procurement/commitments.ts
   var UmrahCore_Procurement2 = {
     contractInfo(kind, id) {
       let x, total = 0, currency = "", supplierId = "", description = "", expectedDate = "";
@@ -22259,7 +22315,7 @@
       return true;
     },
     head(title, sub = "", actions = "") {
-      return `<div class="section-head"><div><h2>${title}</h2></div><div class="quick-actions">${actions}</div></div>`;
+      return UI5.pageHeader(title, sub, actions);
     }
   };
   __set_UmrahCore_UI(UmrahCore_UI2);
@@ -22281,7 +22337,7 @@
   }, "UmrahCore_filterHistory");
   var UmrahCore_historyToolbar = /* @__PURE__ */ __name((kind, rows) => {
     const mode = UmrahCore_State2.listMode[kind] || "active", historical = rows.filter((x) => UmrahCore_isHistoryRow(kind, x)).length, current = rows.length - historical, button = /* @__PURE__ */ __name((value, label, count, ic, cls) => UI5.filterOption(label, count, mode === value, { type: "umrahHistory", kind, value }, ic, cls), "button");
-    return `<div class="umrah-history-toolbar compact-filter-toolbar record-scope-toolbar"><div><b>تنظيم السجلات</b><small>الحالي منفصل عن السجل السابق.</small></div><div class="umrah-history-tabs">${button("active", "الحالي", current, "check", "good")}${button("history", "السجل السابق", historical, "archive", "purple")}${button("all", "الكل", rows.length, "reports", "info")}</div></div>`;
+    return `<div class="record-history-tabs record-scope-toolbar simple-list-filter smart-filter-grid"><div class="umrah-history-tabs">${button("active", "الحالي", current, "check", "good")}${button("history", "السجل السابق", historical, "archive", "purple")}${button("all", "الكل", rows.length, "reports", "info")}</div></div>`;
   }, "UmrahCore_historyToolbar");
   var UmrahCore_travelerCategory = /* @__PURE__ */ __name((s) => ({ adult: "بالغ", childBed: "طفل بسرير", childNoBed: "طفل بدون سرير", infant: "رضيع" })[s] || s, "UmrahCore_travelerCategory");
   var UmrahCore_visaStatusLabel2 = /* @__PURE__ */ __name((s) => ({ not_started: "لم يبدأ", documents_received: "استلام مستندات", reviewed: "تمت المراجعة", ready: "جاهز للتقديم", submitted: "تم الإرسال", processing: "تحت الإجراء", more_info: "طلب استكمال", issued: "صادرة", rejected: "مرفوضة" })[s] || s, "UmrahCore_visaStatusLabel");
@@ -22392,9 +22448,9 @@
         return UmrahCore_N(b.total) > UmrahCore_N(f.paid) + 9e-3 && !["cancelled", "expired", "refunded", "noShow"].includes(b.status);
       }, "duePred"), workPred = /* @__PURE__ */ __name((b) => ["confirmed", "partiallyPaid", "fullyPaid", "docsPending", "ready", "checkedIn", "traveling"].includes(b.status), "workPred"), filtered = UI5.applyListFilter("umrah-bookings", modeRows, { hold: /* @__PURE__ */ __name((b) => b.status === "hold", "hold"), work: workPred, due: duePred, attention: /* @__PURE__ */ __name((b) => !["cancelled", "closed", "returned", "expired", "refunded", "noShow"].includes(b.status) && UmrahCore_Ops2.bookingReadiness(b).score < 100, "attention"), history: /* @__PURE__ */ __name((b) => ["cancelled", "closed", "returned", "expired", "refunded", "noShow"].includes(b.status), "history") }), rows = filtered.map((b) => {
         const p = UmrahCore_Ops2.program(b.programId), r = UmrahCore_Ops2.bookingReadiness(b), f = UmrahCore_Bridge2.financeSnapshot(b);
-        return `<tr><td><b>${UmrahCore_esc(b.no)}</b><div class="muted">${b.date}</div></td><td><b>${UmrahCore_esc(b.customerSnapshot?.name || "-")}</b><div class="muted">${UmrahCore_esc(b.customerSnapshot?.phone || "")}</div></td><td>${UmrahCore_esc(p ? UmrahCore_programDisplay(p) : "-")}</td><td>${b.persons}<div class="muted">${UmrahCore_roomLabel(b.primaryRoomType)}</div></td><td>${UmrahCore_money(b.total, b.currency)}${f.paid != null ? `<div class="muted">مدفوع ${UmrahCore_money(f.paid, f.currency || b.currency)}</div>` : '<div class="muted">التحصيل من المالية المركزية</div>'}</td><td><span class="badge ${UmrahCore_tone(b.status)}">${UmrahCore_bookingLabel(b.status)}</span>${b.status === "hold" && b.holdUntil ? `<div class="muted">حتى ${new Date(b.holdUntil).toLocaleString("ar-EG")}</div>` : ""}${b.status === "cancelRequested" ? `<div class="muted">${UmrahCore_esc(b.cancelBlockReason || "بانتظار إتمام التسوية المالية")}</div>` : ""}</td><td>${r.score}%<div class="progress ${r.score < 100 ? "warn" : ""} mt-4"><i style="width:${r.score}%"></i></div></td><td><div class="quick-actions"><button class="btn small soft" data-umrah-booking-action="overview" data-umrah-booking-id="${UmrahCore_esc(b.id)}">فتح الملف</button><button class="btn small ghost" data-umrah-print="bookingConfirmation" data-umrah-print-id="${UmrahCore_esc(b.id)}">تأكيد الحجز PDF</button>${["inquiry", "quotation", "hold", "waitlist"].includes(b.status) ? `<button class="btn small ghost" data-umrah-form-call="booking" data-umrah-form-id="${UmrahCore_esc(b.id)}">تعديل</button><button class="btn small success" data-umrah-booking-action="confirm" data-umrah-booking-id="${UmrahCore_esc(b.id)}">تأكيد</button>${UmrahCore_Bridge2.can("umrah.bookings", "delete") ? DeleteCenter.button("umrahBooking", b.id) : ""}` : ""}${!["cancelled", "closed", "refunded", "expired", "noShow", "cancelRequested", "traveling", "returned"].includes(b.status) && UmrahCore_Bridge2.can("umrah.bookings", "void") ? `<button class="btn small danger" data-umrah-booking-action="cancel" data-umrah-booking-id="${UmrahCore_esc(b.id)}">إلغاء</button>` : ""}${b.status === "cancelRequested" && UmrahCore_Bridge2.can("umrah.bookings", "void") ? `<button class="btn small ghost" data-ui-page="settlements">التسوية المالية</button><button class="btn small warn" data-umrah-booking-action="completeCancel" data-umrah-booking-id="${UmrahCore_esc(b.id)}">إعادة فحص وإتمام الإلغاء</button>` : ""}</div></td></tr>`;
+        return `<tr><td><b>${UmrahCore_esc(b.no)}</b><div class="muted">${b.date}</div></td><td><b>${UmrahCore_esc(b.customerSnapshot?.name || "-")}</b><div class="muted">${UmrahCore_esc(b.customerSnapshot?.phone || "")}</div></td><td>${UmrahCore_esc(p ? UmrahCore_programDisplay(p) : "-")}<div class="muted text-sm">${UmrahCore_esc(p?.departureDate || "")}</div></td><td>${b.persons}<div class="muted">${UmrahCore_roomLabel(b.primaryRoomType)}</div></td><td>${f.paid != null ? UmrahCore_money(Math.max(0, UmrahCore_N(b.total) - UmrahCore_N(f.paid)), f.currency || b.currency) : '<span class="muted">راجع المالية</span>'}</td><td><span class="badge ${UmrahCore_tone(b.status)}">${UmrahCore_bookingLabel(b.status)}</span>${b.status === "hold" && b.holdUntil ? `<div class="muted">حتى ${new Date(b.holdUntil).toLocaleString("ar-EG")}</div>` : ""}${b.status === "cancelRequested" ? `<div class="muted">${UmrahCore_esc(b.cancelBlockReason || "بانتظار إتمام التسوية المالية")}</div>` : ""}</td><td>${r.score}%<div class="progress ${r.score < 100 ? "warn" : ""} mt-4"><i style="width:${r.score}%"></i></div></td><td><div class="quick-actions"><button class="btn small soft" data-umrah-booking-action="overview" data-umrah-booking-id="${UmrahCore_esc(b.id)}">فتح الملف</button><details class="action-menu"><summary class="btn small ghost">المزيد</summary><button class="btn small ghost" data-umrah-print="bookingConfirmation" data-umrah-print-id="${UmrahCore_esc(b.id)}">تأكيد الحجز PDF</button>${["inquiry", "quotation", "hold", "waitlist"].includes(b.status) ? `<button class="btn small ghost" data-umrah-form-call="booking" data-umrah-form-id="${UmrahCore_esc(b.id)}">تعديل</button><button class="btn small success" data-umrah-booking-action="confirm" data-umrah-booking-id="${UmrahCore_esc(b.id)}">تأكيد</button>${UmrahCore_Bridge2.can("umrah.bookings", "delete") ? DeleteCenter.button("umrahBooking", b.id) : ""}` : ""}${!["cancelled", "closed", "refunded", "expired", "noShow", "cancelRequested", "traveling", "returned"].includes(b.status) && UmrahCore_Bridge2.can("umrah.bookings", "void") ? `<button class="btn small danger" data-umrah-booking-action="cancel" data-umrah-booking-id="${UmrahCore_esc(b.id)}">إلغاء</button>` : ""}${b.status === "cancelRequested" && UmrahCore_Bridge2.can("umrah.bookings", "void") ? `<button class="btn small ghost" data-ui-page="settlements">التسوية المالية</button><button class="btn small warn" data-umrah-booking-action="completeCancel" data-umrah-booking-id="${UmrahCore_esc(b.id)}">إعادة فحص وإتمام الإلغاء</button>` : ""}</details></div></td></tr>`;
       });
-      return UmrahCore_UI2.head("مركز الحجوزات", "دورة الحجز من الاستفسار وعرض السعر والحجز المؤقت والانتظار حتى السفر والعودة.", `<button class="btn primary" data-umrah-wizard-start="1">✦ إنشاء حجز حج/عمرة</button><button class="btn ghost" data-umrah-form-call="booking">إدخال متقدم</button>`) + UmrahCore_historyToolbar("bookings", all) + UI5.smartFilterStrip("umrah-bookings", [{ key: "all", label: "كل الحجوزات المعروضة", value: modeRows.length, note: "حسب تبويب السجل", cls: "info", ic: "bookings" }, { key: "hold", label: "حجز مؤقت", value: modeRows.filter((b) => b.status === "hold").length, note: "له مهلة انتهاء", cls: "warn", ic: "clock" }, { key: "work", label: "قيد العمل", value: modeRows.filter(workPred).length, note: "مؤكد حتى السفر", cls: "good", ic: "check" }, { key: "due", label: "عليه متبقي", value: modeRows.filter(duePred).length, note: "يحتاج تحصيل", cls: "bad", ic: "wallet" }, { key: "attention", label: "ناقص الجاهزية", value: modeRows.filter((b) => !["cancelled", "closed", "returned", "expired", "refunded", "noShow"].includes(b.status) && UmrahCore_Ops2.bookingReadiness(b).score < 100).length, note: "جاهزية أقل من 100%", cls: "warn", ic: "warning" }, { key: "history", label: "منتهي / ملغي", value: modeRows.filter((b) => ["cancelled", "closed", "returned", "expired", "refunded", "noShow"].includes(b.status)).length, note: "سجل تاريخي", cls: "purple", ic: "archive" }]) + UmrahCore_UI2.table(["الحجز", "العميل", "البرنامج", "الأفراد", "القيمة", "الحالة", "الجاهزية", "إجراءات"], rows);
+      return UmrahCore_UI2.head("مركز الحجوزات", "دورة الحجز من الاستفسار وعرض السعر والحجز المؤقت والانتظار حتى السفر والعودة.", `<button class="btn primary" data-umrah-wizard-start="1">✦ إنشاء حجز حج/عمرة</button><button class="btn ghost" data-umrah-form-call="booking">إدخال متقدم</button>`) + UmrahCore_historyToolbar("bookings", all) + UI5.smartFilterStrip("umrah-bookings", [{ key: "all", label: "كل الحجوزات المعروضة", value: modeRows.length, note: "حسب تبويب السجل", cls: "info", ic: "bookings" }, { key: "hold", label: "حجز مؤقت", value: modeRows.filter((b) => b.status === "hold").length, note: "له مهلة انتهاء", cls: "warn", ic: "clock" }, { key: "work", label: "قيد العمل", value: modeRows.filter(workPred).length, note: "مؤكد حتى السفر", cls: "good", ic: "check" }, { key: "due", label: "عليه متبقي", value: modeRows.filter(duePred).length, note: "يحتاج تحصيل", cls: "bad", ic: "wallet" }, { key: "attention", label: "ناقص الجاهزية", value: modeRows.filter((b) => !["cancelled", "closed", "returned", "expired", "refunded", "noShow"].includes(b.status) && UmrahCore_Ops2.bookingReadiness(b).score < 100).length, note: "جاهزية أقل من 100%", cls: "warn", ic: "warning" }, { key: "history", label: "منتهي / ملغي", value: modeRows.filter((b) => ["cancelled", "closed", "returned", "expired", "refunded", "noShow"].includes(b.status)).length, note: "سجل تاريخي", cls: "purple", ic: "archive" }]) + UmrahCore_UI2.table(["الحجز", "العميل", "البرنامج", "الأفراد", "المتبقي", "الحالة", "الجاهزية", "إجراءات"], rows);
     },
     travelers() {
       const all = UmrahCore_Ops2.scoped("travelers"), modeRows = UmrahCore_filterHistory("travelers", all), duplicateIds = UmrahCore_duplicateTravelerIds(), passportPred = /* @__PURE__ */ __name((t) => !UmrahCore_S(t.passportNo).trim(), "passportPred"), visaPred = /* @__PURE__ */ __name((t) => t.visaStatus !== "issued", "visaPred"), ticketPred = /* @__PURE__ */ __name((t) => t.ticketStatus !== "issued", "ticketPred"), readyPred = /* @__PURE__ */ __name((t) => UmrahCore_Ops2.travelerReadiness(t).score === 100, "readyPred"), duplicatePred = /* @__PURE__ */ __name((t) => duplicateIds.has(t.id), "duplicatePred"), filtered = UI5.applyListFilter("umrah-travelers", modeRows, { passport: passportPred, visa: visaPred, ticket: ticketPred, ready: readyPred, duplicate: duplicatePred }), rows = filtered.map((t) => {
@@ -23430,7 +23486,7 @@
     },
     items() {
       const out = [], seen = /* @__PURE__ */ new Set(), add = /* @__PURE__ */ __name((x) => {
-        if (!x?.title) return;
+        if (!x?.title || !AccessControl.can(x.page)) return;
         const k = [x.page, x.recordId, x.title, x.text].join("|");
         if (seen.has(k)) return;
         seen.add(k);
@@ -23543,8 +23599,7 @@
       UI5.renderCurrent();
     },
     actions(primary = "", more = []) {
-      const rest = (more || []).filter(Boolean);
-      return `<div class="clean-row-actions compact-action">${primary || ""}${rest.length ? `<details class="action-menu"><summary class="btn small ghost">${icon("more", "sm")} المزيد</summary>${rest.join("")}</details>` : ""}</div>`;
+      return UI5.rowActions(primary, more);
     },
     balanceText(map, positiveClass = "money-in") {
       const parts = Object.entries(map || {}).filter(([, v]) => Math.abs(N(v)) > EPS);
@@ -23684,16 +23739,15 @@
   var opsPageDeps = /* @__PURE__ */ __name(() => composeOperationsPageDeps(), "opsPageDeps");
   var Pages_Operations = {
     dashboard() {
-      const ws = UI5.activeWorkspace();
-      if (ws) {
-        const mods = UI5.workspaceModules(ws);
-        return `<div class="workspace-shell" style="--ws-color:${esc(ws.color || "#52647a")}"><div class="workspace-hero"><div class="workspace-hero-main"><div class="workspace-hero-icon">${icon(ws.icon || "file", "lg")}</div><div><h2>${esc(ws.name)}</h2></div></div><button class="btn ghost workspace-home-btn" data-ui-back-home="1">${icon("chevron", "sm")} الرجوع للصفحة الرئيسية</button></div><div class="workspace-grid">${mods.length ? mods.map((m) => `<button class="workspace-module" data-pages-action="openModule" data-pages-id="${m[0]}"><div class="module-icon">${icon(m[1])}</div><h3>${esc(m[2])}</h3></button>`).join("") : '<div class="empty-state">لا توجد وحدات متاحة لك داخل هذا القسم.</div>'}</div></div>`;
-      }
-      const all = UI5.workspaces().filter((w) => UI5.workspaceModules(w).length);
-      return `<div class="portal-shell"><div class="portal-brand-hero"><img src="./icons/erp-192.png" alt="Elhafez Tourism"><div class="portal-brand-copy"><small>${esc(APP.manufacturer)}</small><b>${esc(APP.name)}</b><span>${esc(APP.product)}</span><em>${esc(APP.descriptionAr)}</em></div><div class="portal-brand-route" aria-hidden="true">✈</div></div><div class="portal-grid">${all.length ? all.map((w) => {
-        const count = UI5.workspaceModules(w).length;
-        return `<button class="portal-card" style="--ws:${esc(w.color || "#52647a")}" data-ui-workspace="${esc(w.id)}"><div class="portal-icon">${icon(w.icon || "file", "lg")}</div><h3>${esc(w.name)}</h3><div class="portal-card-foot"><span>${count} ${count === 1 ? "وحدة" : "وحدات"}</span><b>دخول ←</b></div></button>`;
-      }).join("") : '<div class="empty-state">لا توجد أقسام مفعلة للعرض. يمكن لمدير النظام إضافتها من الإعدادات.</div>'}</div></div>`;
+      const ws = UI5.activeWorkspace(), user = AccessControl.currentUser(), modules = ws ? UI5.workspaceModules(ws) : [], allowed = new Set(ws?.pages || []);
+      const work = WorkCenter2.items().filter((x) => AccessControl.can(x.page) && (!ws || allowed.has(x.page))), shown = work.slice(0, 12);
+      const primary = modules.filter((m) => AccessControl.can(m[0], "add") && /new$/.test(m[0])).slice(0, 2).map((m) => `<button class="btn primary" data-ui-page="${esc(m[0])}">${esc(m[2])}</button>`).join("");
+      const tasks = shown.map((x) => `<tr><td><b>${esc(x.title)}</b><div class="muted text-sm">${esc(x.text)}</div></td><td>${esc(x.group)}</td><td><span class="badge ${x.level === "critical" ? "red" : x.level === "warning" ? "orange" : "gray"}">${x.level === "critical" ? "عاجل" : x.level === "warning" ? "يحتاج متابعة" : "متابعة"}</span></td><td><button class="btn small ghost" data-work-action="open" data-work-page="${esc(x.page)}" data-work-id="${esc(x.recordId || "")}">${esc(x.action || "فتح")}</button></td></tr>`);
+      const shortcuts = UI5.shortcuts().map((p) => {
+        const m = UI5.pageMeta(p);
+        return `<button class="btn ghost" data-ui-page="${esc(p)}">${esc(m[2])}</button>`;
+      }).join("");
+      return UI5.pageHeader(ws?.name || `مساحة عمل ${user?.name || ""}`, ws?.description || "الأعمال التي تحتاج متابعتك حسب صلاحياتك والفرع الحالي.", primary) + `<div class="workspace-summary"><span><b>${work.length}</b> تحتاج متابعة</span><span><b>${work.filter((x) => x.level === "critical").length}</b> عاجلة</span><span><b>${work.filter((x) => x.level === "warning").length}</b> تحتاج مراجعة</span></div><section class="workspace-daily"><div class="card-head"><h3>العمل المطلوب الآن</h3>${AccessControl.can("workcenter") ? '<button class="btn small ghost" data-ui-page="workcenter">كل الأعمال</button>' : ""}</div>${UI5.table(["المطلوب", "المجال", "الأولوية", "الإجراء"], tasks, "لا توجد أعمال عاجلة ضمن صلاحياتك حاليًا.")}</section>${!ws && shortcuts ? `<section class="workspace-shortcuts"><h3>اختصاراتي</h3>${shortcuts}</section>` : ""}${ws ? `<section class="workspace-directory"><h3>وظائف القسم</h3><div class="workspace-function-list">${modules.map((m) => `<button type="button" class="workspace-function" data-ui-page="${esc(m[0])}"><b>${esc(m[2])}</b><small>${esc(m[3] || "")}</small></button>`).join("")}</div></section>` : ""}`;
     },
     crm() {
       return CleanPages2.crm();
@@ -23950,8 +24004,7 @@
       return Party3602.page("customer", UI5.focusId);
     },
     head(title, desc, buttons = "") {
-      const m = UI5.pageMeta(), ws = UI5.activeWorkspace(), group = ws?.name || PageGroup[UI5.current] || "النظام", back = ws && UI5.current !== "dashboard" ? `<button class="btn small ghost workspace-home-btn" data-ui-workspace="${esc(ws.id)}">${icon("chevron", "sm")} أقسام ${esc(ws.name)}</button>` : "";
-      return `<div class="page-hero"><div class="page-title-wrap"><div class="page-icon">${icon(m[1], "lg")}</div><div class="page-head"><div class="breadcrumb">${esc(group)} / ${esc(title)}</div><h2>${esc(title)}</h2></div></div><div class="page-actions">${back}${buttons}</div></div>`;
+      return UI5.pageHeader(title, desc, buttons);
     },
     can(page, action, html) {
       return AccessControl.can(page, action) ? html : "";
@@ -25321,17 +25374,17 @@
         const u = byId(Store.get("users"), id);
         if (!u) throw new Error("المستخدم غير موجود");
         if (u.role === "admin") throw new Error("مدير النظام يمتلك كل الصلاحيات");
-        const actions = ["view", "add", "edit", "void", "delete", "approve", "print", "export"], labels = { view: "عرض", add: "إضافة", edit: "تعديل", void: "إلغاء/عكس", delete: "حذف", approve: "اعتماد", print: "طباعة", export: "تصدير" }, pages = Nav.flatMap((g) => g[1]).map((i) => ({ id: i[0], name: i[2] })).filter((p) => !["dashboard", "settings", "users"].includes(p.id)), base = u.permissions || RolePermissions2[u.role] || {}, modal = ActionsDocument4.getElementById("modal"), form = ActionsDocument4.getElementById("modalForm");
+        const actions = ["view", "add", "edit", "void", "delete", "approve", "print", "export"], labels = { view: "عرض", add: "إضافة", edit: "تعديل", void: "إلغاء/عكس", delete: "حذف", approve: "اعتماد", print: "طباعة", export: "تصدير" }, pages = [...new Map([...Nav.flatMap((g) => g[1]), ...Object.values(SuiteWorkspaceNav).flat()].map((i) => [i[0], { id: i[0], name: i[2] }])).values()].filter((p) => !["dashboard", "settings", "users"].includes(p.id)), base = u.permissions || RolePermissions2[u.role] || {}, modal = ActionsDocument4.getElementById("modal"), form = ActionsDocument4.getElementById("modalForm");
         ActionsDocument4.getElementById("modalTitle").textContent = `صلاحيات ${u.name}`;
-        ActionsDocument4.getElementById("modalSubtitle").textContent = "حدد صلاحية كل إجراء داخل كل قسم.";
+        ActionsDocument4.getElementById("modalSubtitle").textContent = "يمكن إسناد أكثر من مسؤولية للموظف. حدد الإجراءات المسموحة داخل كل قسم.";
         ActionsDocument4.getElementById("modalIcon").innerHTML = icon("shield");
         ActionsDocument4.getElementById("modalSubmitText").textContent = "حفظ الصلاحيات";
-        ActionsDocument4.getElementById("modalBody").innerHTML = `<div class="table-wrap"><table class="table"><thead><tr><th>القسم</th>${actions.map((a) => `<th>${labels[a]}</th>`).join("")}</tr></thead><tbody>${pages.map((p) => `<tr><td><b>${esc(p.name)}</b></td>${actions.map((a) => {
+        ActionsDocument4.getElementById("modalBody").innerHTML = `<div class="table-wrap"><table class="table"><thead><tr><th>القسم</th>${actions.map((a) => `<th>${labels[a]}</th>`).join("")}</tr></thead><tbody>${[...Seed.settings.workspaces.map((w) => ({ name: w.name, pages: pages.filter((p) => w.pages.includes(p.id)) })), { name: "وظائف مشتركة", pages: pages.filter((p) => !Seed.settings.workspaces.some((w) => w.pages.includes(p.id))) }].filter((g) => g.pages.length).map((g) => `<tr><th colspan="9">${esc(g.name)}</th></tr>${g.pages.map((p) => `<tr><td><b>${esc(p.name)}</b></td>${actions.map((a) => {
           const v = base[p.id] === true ? a === "view" : !!base[p.id]?.[a];
-          return `<td><input type="checkbox" name="perm_${esc(p.id)}_${esc(a)}" ${v ? "checked" : ""}></td>`;
-        }).join("")}</tr>`).join("")}</tbody></table></div>`;
+          return `<td><input type="checkbox" aria-label="${esc(p.name)}: ${labels[a]}" name="perm_${esc(p.id)}_${esc(a)}" ${v ? "checked" : ""}></td>`;
+        }).join("")}</tr>`).join("")}`).join("")}</tbody></table></div>`;
         modal.classList.add("show");
-        form.onsubmit = (e) => {
+        form.onsubmit = async (e) => {
           e.preventDefault();
           const fd = new FormData(e.target), perms = {};
           for (const p of pages) {
@@ -25339,12 +25392,20 @@
             for (const a of actions) x[a] = fd.has(`perm_${p.id}_${a}`);
             perms[p.id] = x;
           }
-          u.permissions = perms;
-          u.customPermissions = true;
-          Store.log("permissions", "user", u.id, "تحديث الصلاحيات");
-          UI5.closeModal(true);
-          Store.save();
-          toast("تم حفظ الصلاحيات");
+          try {
+            AccessControl.require("users", "edit");
+            await Store.atomicAsync("editPermissions", () => {
+              const current = byId(Store.get("users"), id);
+              if (!current || current.role === "admin") throw new Error("لا يمكن تعديل صلاحيات هذا المستخدم");
+              current.permissions = perms;
+              current.customPermissions = true;
+              Store.log("permissions", "user", id, "تحديث الصلاحيات");
+            });
+            UI5.closeModal(true);
+            toast("تم حفظ الصلاحيات");
+          } catch (err) {
+            toast(err.message, "error");
+          }
         };
       } catch (e) {
         toast(e.message, "error");
@@ -26823,7 +26884,7 @@
       const h = new Headers(input instanceof Request ? input.headers : void 0);
       if (init?.headers) new Headers(init.headers).forEach((v, k) => h.set(k, v));
       h.set("X-ERP-Mobile", "android");
-      h.set("X-ERP-Mobile-Version", "32.5.72");
+      h.set("X-ERP-Mobile-Version", "32.5.73");
       return h;
     }, "mergeHeaders");
     if (!offlineEdition) BrowserPlatform.replaceFetch((async (input, init = {}) => {
@@ -27312,7 +27373,7 @@
       releaseCheckBusy = true;
       lastReleaseCheck = now2;
       try {
-        const response = await nativeFetch(`${API_BASE}/api/health?_=${now2}`, { cache: "no-store", headers: { "Cache-Control": "no-cache", "X-ERP-Mobile": "android", "X-ERP-Mobile-Version": "32.5.72" } });
+        const response = await nativeFetch(`${API_BASE}/api/health?_=${now2}`, { cache: "no-store", headers: { "Cache-Control": "no-cache", "X-ERP-Mobile": "android", "X-ERP-Mobile-Version": "32.5.73" } });
         if (!response.ok) return false;
         const payload = await response.json();
         const remote = String(payload?.version || "").match(/\d+\.\d+\.\d+/)?.[0] || "";
@@ -28591,10 +28652,6 @@
     UiBaseMethods: /* @__PURE__ */ __name(() => UiBaseMethods2, "UiBaseMethods"),
     ensureSystemFontAsset: /* @__PURE__ */ __name(() => ensureSystemFontAsset, "ensureSystemFontAsset"),
     systemFontEntry: /* @__PURE__ */ __name(() => systemFontEntry, "systemFontEntry"),
-    _dataTableExportBase: /* @__PURE__ */ __name(() => _dataTableExportBase, "_dataTableExportBase"),
-    _dataTableFilterBase: /* @__PURE__ */ __name(() => _dataTableFilterBase, "_dataTableFilterBase"),
-    _dataTableRenderBase: /* @__PURE__ */ __name(() => _dataTableRenderBase, "_dataTableRenderBase"),
-    _dataTableSortBase: /* @__PURE__ */ __name(() => _dataTableSortBase, "_dataTableSortBase"),
     Forms: /* @__PURE__ */ __name(() => Forms2, "Forms"),
     FormsDocument: /* @__PURE__ */ __name(() => FormsDocument, "FormsDocument"),
     FormsDefinitions: /* @__PURE__ */ __name(() => FormsDefinitions, "FormsDefinitions"),

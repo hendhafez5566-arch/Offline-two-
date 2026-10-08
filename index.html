@@ -76,21 +76,18 @@
       <div class="top-title"><h1 id="pageTitle">لوحة التحكم</h1><small id="pageSubtitle">نظرة شاملة على أعمال الشركة</small></div>
       <div class="top-search">
         <span class="ico" id="searchIcon"></span>
-        <input id="globalSearch" autocomplete="off" placeholder="ابحث عن عميل، مورد، مندوب، فاتورة، حجز أو مستند...">
+        <input id="globalSearch" autocomplete="off" placeholder="ابحث في النظام…">
         <span class="search-shortcut">/</span>
         <div id="searchResults" class="search-results hidden"></div>
       </div>
       <div class="top-actions">
         <div class="global-nav-cluster" aria-label="أزرار التنقل">
           <button class="btn small ghost global-nav-btn" id="globalBackBtn" data-global-nav="back" onclick="UI.goBack()" title="الرجوع إلى المكان السابق" aria-label="رجوع">← <span>رجوع</span></button>
-          <button class="btn small ghost global-nav-btn" id="globalUpBtn" data-global-nav="up" onclick="UI.goUp()" title="الانتقال إلى المستوى الأعلى" aria-label="لأعلى">↑ <span>لأعلى</span></button>
-          <button class="btn small home-primary global-home-btn" onclick="UI.backHome()" title="الصفحة الرئيسية">الصفحة الرئيسية</button>
         </div>
         
         <button class="icon-btn" id="shortcutToggleBtn" data-ui-toggle-shortcut="1" title="إضافة الصفحة إلى اختصاراتي" aria-label="اختصاراتي">☆</button>
         <button class="icon-btn" onclick="UI.toggleNotifications(event)" title="التنبيهات"><span id="bellIcon"></span><span id="notificationBadge" class="notification-dot hidden">0</span></button>
         <div id="notificationPanel" class="dropdown-panel hidden"></div>
-        <button class="icon-btn audit-shortcut" onclick="UI.openPage('audit')" title="مركز الرقابة"><span id="auditIcon"></span></button>
         <div class="top-user" onclick="UI.toggleUserMenu(event)"><div class="avatar" id="topUserAvatar">م</div><div class="user-copy"><b id="topUserName">مدير النظام</b><small id="topUserRole">مدير النظام</small></div><span id="chevronIcon"></span></div>
         <div id="userMenu" class="dropdown-panel hidden" style="width:230px"></div>
       </div>

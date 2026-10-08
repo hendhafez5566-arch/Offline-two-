@@ -2,7 +2,7 @@ import { UmrahBusinessRules } from './business-rules';
 import { UmrahLifecycleWorkflows } from '../../application/umrah-lifecycle-workflows';
 import { UmrahCore_N, UmrahCore_S, UmrahCore_fmt, UmrahCore_iid, UmrahCore_now, UmrahCore_roomCap, UmrahCore_roomLabel, UmrahCore_today, UmrahCore_deep } from './runtime';
 import { UmrahCore_Bridge, UmrahCore_DB } from './data';
-import { UmrahCore_Procurement } from './procurement';
+import { UmrahCore_Procurement } from '../../procurement/commitments';
 import { UmrahCore_BookingRooms } from './booking-rooms';
 import { composeLegacyUmrahLifecycleDeps } from '../late-bindings';
 const UmrahCore_OpsBookings = {

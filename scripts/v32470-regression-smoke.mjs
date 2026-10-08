@@ -17,7 +17,7 @@ const checks=[
  ['customer package has no local Owner/Vendor administration',vendor.includes('Customer hardened build')&&vendor.includes("reason:'customer_build'")&&vo.includes('enabled:false')&&!vendor.includes('railwayGraphql')],
  ['Android session is cookie-backed and not JS-token-backed',mobile.includes("credentials:'include'")&&!mobile.includes('erp_native_session_v1')&&!mobile.includes('mobileSessionToken')],
  ['login throttling is PostgreSQL-backed',server.includes('erp_login_attempts')&&!server.includes('loginFailures=new Map')],
- ['Umrah intermediate workspace interface is removed',ui.includes("this.current=id==='umrah'?modules[0][0]:'dashboard'")&&ui.includes("ws.id==='umrah'?'':")],
+ ['Umrah intermediate workspace interface is removed',ui.includes("this.current=id==='umrah'?modules[0][0]:'dashboard'")&&ui.includes('sectionNavigation(){')&&ui.includes('<nav class="main-section-nav"')],
 ];
 const out={ok:checks.every(x=>x[1]),checks:checks.map(([name,pass])=>({name,pass}))};
 console.log(JSON.stringify(out,null,2));

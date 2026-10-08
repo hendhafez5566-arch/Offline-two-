@@ -6,7 +6,7 @@ const checks=[
  ['separate offline schema/storage',/commercial-offline/.test(runtime)&&/commercial_offline_data/.test(runtime)],
  ['server never required',/remoteRequired\(\)\{if\(APP\.offlineEdition===true\)return false/.test(server)],
  ['server probe hard-disabled',/async probe\(force=false\)\{if\(APP\.offlineEdition===true\)/.test(server)],
- ['local datastore remains primary fallback',/return this\.localGet\(\)/.test(store)&&/localPut\(data\)/.test(store)],
+ ['local datastore remains primary fallback',/return this\.localGet\(\)/.test(store)&&/localPut\(data(?::ERPData)?\)/.test(store)],
  ['local save path does not require remote',/const remoteExpected=ServerStore\.remoteRequired/.test(store)],
  ['offline license active professional',/mode:'offline',status:'active',edition:'professional'/.test(seed)],
  ['mobile server health path short-circuited',/if\(offlineEdition\)\{[\s\S]*ERP_MOBILE\.refresh/.test(mobile)],

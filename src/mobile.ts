@@ -41,7 +41,7 @@ import { AccessControl } from './security/access-control';
   const h=new Headers(input instanceof Request?input.headers:undefined);
   if(init?.headers)new Headers(init.headers).forEach((v,k)=>h.set(k,v));
   h.set('X-ERP-Mobile','android');
-  h.set('X-ERP-Mobile-Version','32.5.72');
+  h.set('X-ERP-Mobile-Version','32.5.73');
   return h;
  };
  if(!offlineEdition)BrowserPlatform.replaceFetch((async(input:any,init:any={})=>{
@@ -299,7 +299,7 @@ import { AccessControl } from './security/access-control';
   const now=Date.now();if(releaseCheckBusy||(source==='timer'&&now-lastReleaseCheck<120000)||document.visibilityState==='hidden')return false;
   releaseCheckBusy=true;lastReleaseCheck=now;
   try{
-   const response=await nativeFetch(`${API_BASE}/api/health?_=${now}`,{cache:'no-store',headers:{'Cache-Control':'no-cache','X-ERP-Mobile':'android','X-ERP-Mobile-Version':'32.5.72'}});
+   const response=await nativeFetch(`${API_BASE}/api/health?_=${now}`,{cache:'no-store',headers:{'Cache-Control':'no-cache','X-ERP-Mobile':'android','X-ERP-Mobile-Version':'32.5.73'}});
    if(!response.ok)return false;
    const payload=await response.json();const remote=String(payload?.version||'').match(/\d+\.\d+\.\d+/)?.[0]||'';
    if(!remote||!loadedRelease||remote===loadedRelease){pendingServerRelease='';releaseNotice='';return true}

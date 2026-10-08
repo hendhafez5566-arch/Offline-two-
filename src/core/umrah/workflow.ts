@@ -1,6 +1,6 @@
 import { UmrahCore_N, UmrahCore_S, UmrahCore_dateAdd, UmrahCore_daysBetween, UmrahCore_iid, UmrahCore_monthsAdd, UmrahCore_now, UmrahCore_roomCap } from './runtime';
 import { UmrahCore_Bridge, UmrahCore_Cost, UmrahCore_DB } from './data';
-import { UmrahCore_Procurement } from './procurement';
+import { UmrahCore_Procurement } from '../../procurement/commitments';
 import { UmrahCore_Ops } from './operations';
 // Hajj & Umrah workflow completion layer.
 // Keeps the proven operational core intact while making package requirements configurable

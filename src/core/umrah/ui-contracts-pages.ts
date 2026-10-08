@@ -1,7 +1,7 @@
 import { UmrahCore_N, UmrahCore_esc, UmrahCore_money } from './runtime';
 import { UmrahCore_Bridge } from './data';
-import { UmrahCore_Inventory } from './contracts-inventory';
-import { UmrahCore_ContractCenter } from './contracts';
+import { UmrahCore_Inventory } from '../../procurement/inventory';
+import { UmrahCore_ContractCenter } from '../../procurement/contracts';
 import { UmrahCore_Ops } from './operations';
 import { UmrahCore_State, UmrahCore_UI } from './ui';
 const UmrahCore_PagesContracts = {

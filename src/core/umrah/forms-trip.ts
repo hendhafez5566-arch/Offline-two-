@@ -1,6 +1,6 @@
 import { UmrahCore_N, UmrahCore_S, UmrahCore_esc, UmrahCore_localDateTime, UmrahCore_money, UmrahCore_programDisplay, UmrahCore_roomLabel, UmrahCore_today, UmrahCore_vehicleCaps, UmrahCore_vehicleLabel } from './runtime';
 import { UmrahCore_Bridge, UmrahCore_DB } from './data';
-import { UmrahCore_Procurement } from './procurement';
+import { UmrahCore_Procurement } from '../../procurement/commitments';
 import { UmrahCore_Ops } from './operations';
 import { UmrahCore_UI, UmrahCore_currencyOptions, UmrahCore_entityOptions, UmrahCore_ticketStatusLabel } from './ui';
 const UmrahCore_FormsTrip = {

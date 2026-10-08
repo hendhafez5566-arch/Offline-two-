@@ -1,6 +1,6 @@
 import { UmrahCore_N, UmrahCore_S, UmrahCore_dateAdd, UmrahCore_iid, UmrahCore_now, UmrahCore_segLabel, UmrahCore_today } from './runtime';
 import { UmrahCore_Bridge, UmrahCore_DB } from './data';
-import { UmrahCore_ContractCenter } from './contracts';
+import { UmrahCore_ContractCenter } from '../../procurement/contracts';
 const UmrahCore_OpsSchedule = {
     addSegment(o, automated = false) { if (!automated)
         UmrahCore_Bridge.require('umrah.programs', 'edit'); const p = this.program(o.programId); if (!p)

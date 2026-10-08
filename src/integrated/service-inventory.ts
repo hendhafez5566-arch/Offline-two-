@@ -3,8 +3,8 @@ import { DB } from '../persistence/browser-store';
 import { Currency } from '../accounting/currency-periods';
 import { UmrahCore_dateAdd, UmrahCore_roomCap, UmrahCore_roomLabel, UmrahCore_vehicleCaps } from '../core/umrah/runtime';
 import { UmrahCore_DB } from '../core/umrah/data';
-import { UmrahCore_Inventory } from '../core/umrah/contracts-inventory';
-import { UmrahCore_ContractCenter } from '../core/umrah/contracts';
+import { UmrahCore_Inventory } from '../procurement/inventory';
+import { UmrahCore_ContractCenter } from '../procurement/contracts';
 import { __set_TourismServiceInventory } from '../core/late-bindings';
 // Central bridge: tourism service sales consume contracted stock before external purchasing.
 const TourismServiceInventory = {

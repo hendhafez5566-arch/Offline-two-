@@ -8,7 +8,7 @@ const assert=(ok,msg)=>{if(!ok)throw new Error(msg)};
 const [pkg,index,ui,nav,pages,bridge,suites,umrahData,authz,app]=await Promise.all([
  read('package.json'),read('index.html'),uiText(),read('src/ui/navigation.ts'),pagesText(),read('src/integrated/bridge.ts'),read('src/core/suites.ts'),read('src/core/umrah/data.ts'),read('server/src/authz.ts'),read('dist/app.js')
 ]);
-const umrahSource=(await Promise.all(['runtime.ts','integration.ts','data.ts','contracts.ts','guided.ts','program-wizard.ts','program-wizard-validation.ts','program-wizard-finish.ts','operations.ts','operations-execution.ts','ui.ts','forms.ts','actions-print.ts'].map(x=>read(`src/core/umrah/${x}`)))).join('\n');
+const umrahSource=(await Promise.all(['runtime.ts','integration.ts','data.ts','guided.ts','program-wizard.ts','program-wizard-validation.ts','program-wizard-finish.ts','operations.ts','operations-execution.ts','ui.ts','forms.ts','actions-print.ts'].map(x=>read(`src/core/umrah/${x}`)))).join('\n')+'\n'+await read('src/procurement/contracts.ts');
 
 // HR is intentionally removed in v32.4.60, not merely hidden.
 for(const p of ['src/core/hr','src/integrated/hr','tsconfig.hr-core.json','dist/core/hr.js','dist/core/hr.js.map'])assert(!await exists(p),`Removed HR artifact still exists: ${p}`);

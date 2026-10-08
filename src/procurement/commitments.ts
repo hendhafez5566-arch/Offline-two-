@@ -1,9 +1,9 @@
-import { UmrahCore_N, UmrahCore_S, UmrahCore_iid, UmrahCore_now, UmrahCore_today } from './runtime';
-import { UmrahCore_Bridge, UmrahCore_DB } from './data';
-import { UmrahCore_Inventory } from './contracts-inventory';
+import { UmrahCore_N, UmrahCore_S, UmrahCore_iid, UmrahCore_now, UmrahCore_today } from '../core/umrah/runtime';
+import { UmrahCore_Bridge, UmrahCore_DB } from '../core/umrah/data';
+import { UmrahCore_Inventory } from './inventory';
 import { UmrahCore_ContractCenter } from './contracts';
-import { UmrahCore_Ops } from '../late-bindings';
-import { __set_UmrahCore_Procurement } from '../late-bindings';
+import { UmrahCore_Ops } from '../core/late-bindings';
+import { __set_UmrahCore_Procurement } from '../core/late-bindings';
 // Umrah supplier procurement lifecycle, split from contracts.ts without behavioral changes.
 const UmrahCore_Procurement: any = {
     contractInfo(kind, id) { let x, total = 0, currency = '', supplierId = '', description = '', expectedDate = ''; if (kind === 'hotel') {

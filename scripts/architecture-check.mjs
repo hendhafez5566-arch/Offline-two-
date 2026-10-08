@@ -11,7 +11,7 @@ export function layer(file){
  if(/(^src\/ui\/|(?:pages|forms(?:-contracts)?|view|actions-print)\.ts$|src\/core\/umrah\/ui\.ts$)/.test(file))return 'presentation';
  if(file.startsWith('src/security/'))return 'security';
  if(file.startsWith('src/persistence/'))return 'persistence';
- if(/src\/(?:accounting|finance|crm|commercial|core)\//.test(file))return 'domain-core';
+ if(/src\/(?:accounting|finance|crm|commercial|core|procurement)\//.test(file))return 'domain-core';
  if(file==='src/bootstrap.ts'||file==='src/composition/early-presentation.ts')return 'bootstrap';
  return 'application-platform';
 }

@@ -3,7 +3,7 @@ import { DeleteCenter } from '../delete-center';
 import { UI } from '../../ui/ui';
 import { UmrahCore_esc, UmrahCore_money, UmrahCore_programDisplay, UmrahCore_programLabel, UmrahCore_programTypeLabel, UmrahCore_tone } from './runtime';
 import { UmrahCore_Bridge, UmrahCore_Cost, UmrahCore_DB } from './data';
-import { UmrahCore_Procurement } from './procurement';
+import { UmrahCore_Procurement } from '../../procurement/commitments';
 import { UmrahCore_Ops } from './operations';
 import { UmrahCore_State, UmrahCore_UI, UmrahCore_filterHistory, UmrahCore_historyToolbar, UmrahCore_procurementSourceLabel } from './ui';
 const UmrahCore_PagesPrograms = {

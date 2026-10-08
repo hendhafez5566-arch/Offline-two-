@@ -18,7 +18,7 @@ const checks=[
  ['record scope active palette is distinct', css.includes('.record-scope-toolbar .umrah-history-tabs>.simple-filter-option.filter-active') && css.includes('background:var(--navy)')],
  ['pull refresh requires deliberate pull', mobile.includes('SHOW_THRESHOLD=34') && mobile.includes('ARM_THRESHOLD=92')],
  ['pull refresh resets on aborted gestures', mobile.includes('const resetPull=') && mobile.includes('if(!atTop(scrollOwner)){resetPull();return}') && mobile.includes("touchcancel',()=>resetPull()")],
- ['portable Arabic font catalog', ui.includes('SystemFontCatalog') && ui.includes('fonts.googleapis.com') && ui.includes("cairo:{") && ui.includes("tajawal:{") && ui.includes("kufi:{")],
+ ['portable Arabic font catalog', ui.includes('SystemFontCatalog') && ui.includes("href:'./fonts/cairo.css'")&&!ui.includes('fonts.googleapis.com') && ui.includes("cairo:{") && ui.includes("tajawal:{") && ui.includes("kufi:{")],
  ['legacy font choices migrate to working fonts', store.includes("legacyFonts={system:'cairo',segoe:'tajawal',arial:'noto'}")],
  ['font settings expose working families', pages.includes('data-font-family-preview="cairo"') && pages.includes('data-font-family-preview="tajawal"') && pages.includes('data-font-family-preview="kufi"') && delegated.includes('[data-font-family-preview]') && delegated.includes('ui.previewFontFamily(value,el)')],
  ['font-size controls are styled', css.includes('.font-size-options{display:grid') && css.includes('.font-size-option.active')],

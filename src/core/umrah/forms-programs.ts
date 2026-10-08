@@ -1,7 +1,7 @@
 import { ActionPolicy } from '../action-policy';
 import { UmrahCore_N, UmrahCore_dateAdd, UmrahCore_esc, UmrahCore_monthsAdd, UmrahCore_roomLabel, UmrahCore_segLabel, UmrahCore_today } from './runtime';
 import { UmrahCore_Bridge, UmrahCore_Cost, UmrahCore_DB } from './data';
-import { UmrahCore_Procurement } from './procurement';
+import { UmrahCore_Procurement } from '../../procurement/commitments';
 import { UmrahCore_Ops } from './operations';
 import { UmrahCore_UI, UmrahCore_currencyOptions, UmrahCore_entityOptions, UmrahCore_treasuryOptions } from './ui';
 const UmrahCore_FormsPrograms = {

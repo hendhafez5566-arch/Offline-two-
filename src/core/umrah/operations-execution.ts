@@ -1,7 +1,7 @@
 import { AccessControl } from '../../security/access-control';
 import { UmrahCore_N, UmrahCore_S, UmrahCore_iid, UmrahCore_localDateTime, UmrahCore_money, UmrahCore_now, UmrahCore_today, UmrahCore_vehicleCaps } from './runtime';
 import { UmrahCore_Bridge, UmrahCore_Cost, UmrahCore_DB } from './data';
-import { UmrahCore_Procurement } from './procurement';
+import { UmrahCore_Procurement } from '../../procurement/commitments';
 import { UmrahCore_Ops } from './operations';
 import { UmrahCore_visaStatusLabel } from '../late-bindings';
 // Visa, ticketing, transport execution and incident lifecycle split from operations.ts without behavioral changes.

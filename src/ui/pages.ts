@@ -37,7 +37,7 @@ const Pages = {
     'umrah-settings'(){return CoreSuites.render('umrah','umrah-settings')},
     workcenter(){return WorkCenter.page()},
     'customer-more'(){return Party360.page('customer',UI.focusId)},
-    head(title,desc,buttons=''){const m=UI.pageMeta(),ws=UI.activeWorkspace(),group=ws?.name||PageGroup[UI.current]||'النظام',back=ws&&UI.current!=='dashboard'?`<button class="btn small ghost workspace-home-btn" data-ui-workspace="${esc(ws.id)}">${icon('chevron','sm')} أقسام ${esc(ws.name)}</button>`:'';return `<div class="page-hero"><div class="page-title-wrap"><div class="page-icon">${icon(m[1],'lg')}</div><div class="page-head"><div class="breadcrumb">${esc(group)} / ${esc(title)}</div><h2>${esc(title)}</h2></div></div><div class="page-actions">${back}${buttons}</div></div>`},
+    head(title,desc,buttons=''){return UI.pageHeader(title,desc,buttons)},
     can(page,action,html){return AccessControl.can(page,action)?html:''},
     row(id,html){return `<tr data-record="${id}">${html}</tr>`},
     ...Pages_Operations,

@@ -1,6 +1,6 @@
 import { UmrahCore_N, UmrahCore_S, UmrahCore_dateAdd, UmrahCore_iid, UmrahCore_monthsAdd, UmrahCore_now, UmrahCore_roomCap, UmrahCore_roomLabel, UmrahCore_today, UmrahCore_vehicleCaps } from './runtime';
 import { UmrahCore_Bridge, UmrahCore_DB } from './data';
-import { UmrahCore_ContractCenter } from './contracts';
+import { UmrahCore_ContractCenter } from '../../procurement/contracts';
 import { UmrahCore_Ops } from '../late-bindings';
 const UmrahCore_OpsContracts = {
     addSeason(o) { UmrahCore_Bridge.require('umrah.seasons', 'add'); const name = UmrahCore_S(o.name).trim(), from = o.from || UmrahCore_today(), to = o.to || UmrahCore_today(), salesFrom = o.salesFrom || '', salesTo = o.salesTo || ''; if (!name)

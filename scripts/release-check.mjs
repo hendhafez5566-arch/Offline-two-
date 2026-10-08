@@ -40,7 +40,7 @@ step('BUILD MODEL (es-modules, no legacy)', () => {
   staticCheck('one startup composition root', (bootstrap.match(/\(async\(\)=>\{/g) || []).length === 1);
   staticCheck('startup order DB -> Commercial -> Auth', bootstrap.indexOf('await DB.init()') < bootstrap.indexOf('await Commercial.afterInit()') && bootstrap.indexOf('await Commercial.afterInit()') < bootstrap.lastIndexOf('await Auth.init()'));
   const order = compiledFiles();
-  for (const [a, b] of [['src/platform/platform-contracts.ts', 'src/platform/browser-platform.ts'], ['src/application/contracts.ts', 'src/application/document-actions.ts'], ['src/ui/ui.ts', 'src/ui/data-table.ts'], ['src/ui/forms.ts', 'src/ui/forms-definitions.ts'], ['src/mobile.ts', 'src/pwa.ts'], ['src/pwa.ts', 'src/bootstrap.ts']]) staticCheck(`ordering ${a} -> ${b}`, order.indexOf(a) >= 0 && order.indexOf(a) < order.indexOf(b));
+  for (const [a, b] of [['src/platform/platform-contracts.ts', 'src/platform/browser-platform.ts'], ['src/application/contracts.ts', 'src/application/document-actions.ts'], ['src/ui/data-table.ts', 'src/ui/ui.ts'], ['src/ui/forms.ts', 'src/ui/forms-definitions.ts'], ['src/mobile.ts', 'src/pwa.ts'], ['src/pwa.ts', 'src/bootstrap.ts']]) staticCheck(`ordering ${a} -> ${b}`, order.indexOf(a) >= 0 && order.indexOf(a) < order.indexOf(b));
   const all = order.map(read).join('\n');
   for (const name of ['UI', 'Actions', 'Forms', 'Pages', 'CommercialActions', 'Auth', 'DB', 'Transactions', 'Invoices', 'Accounting', 'ManualJournal', 'CRM', 'Party360', 'UnifiedParty', 'Print', 'Reports', 'Statements', 'OutputCenter', 'PWA']) staticCheck(`public facade exists: ${name}`, new RegExp(`\\b(?:const|let|var)\\s+${name}\\b`).test(all));
   const mobile = read('src/mobile.ts');

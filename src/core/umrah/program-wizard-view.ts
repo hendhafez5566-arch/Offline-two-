@@ -1,6 +1,6 @@
 import { UmrahCore_N, UmrahCore_S, UmrahCore_dateAdd, UmrahCore_daysBetween, UmrahCore_esc, UmrahCore_fmt, UmrahCore_money, UmrahCore_roomLabel, UmrahCore_vehicleCaps, UmrahCore_vehicleLabel } from './runtime';
 import { UmrahCore_Bridge } from './data';
-import { UmrahCore_ContractCenter } from './contracts';
+import { UmrahCore_ContractCenter } from '../../procurement/contracts';
 import { UmrahCore_SmartGuide } from './guided';
 import { UmrahCore_ProgramWizard } from './program-wizard';
 import { UmrahCore_Ops, UmrahCore_UI, UmrahCore_currencyOptions, UmrahCore_entityOptions, UmrahCore_fxLabel, UmrahCore_treasuryOptions } from '../late-bindings';

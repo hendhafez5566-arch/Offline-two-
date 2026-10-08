@@ -3,8 +3,8 @@ import { UmrahLifecycleWorkflows } from '../../application/umrah-lifecycle-workf
 import { DB } from '../../persistence/browser-store';
 import { UmrahCore_N, UmrahCore_S, UmrahCore_dateAdd, UmrahCore_daysBetween, UmrahCore_iid, UmrahCore_now, UmrahCore_roomCap } from './runtime';
 import { UmrahCore_Bridge, UmrahCore_DB } from './data';
-import { UmrahCore_ContractCenter } from './contracts';
-import { UmrahCore_Procurement } from './procurement';
+import { UmrahCore_ContractCenter } from '../../procurement/contracts';
+import { UmrahCore_Procurement } from '../../procurement/commitments';
 import { composeLegacyUmrahLifecycleDeps } from '../late-bindings';
 const UmrahCore_OpsPrograms = {
     createProgram(o) { UmrahCore_Bridge.require('umrah.programs', 'add'); const name = UmrahCore_S(o.name).trim(), departure = o.departureDate, ret = o.returnDate, season = o.seasonId ? this.season(o.seasonId) : null, currency = UmrahCore_S(o.currency || UmrahCore_DB.data.settings.defaultCurrency).toUpperCase(); if (!name)

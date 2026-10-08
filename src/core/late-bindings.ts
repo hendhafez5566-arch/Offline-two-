@@ -74,7 +74,7 @@ export let UmrahCore_Actions: typeof import('./umrah/actions-print').UmrahCore_A
 export function __set_UmrahCore_Actions(value: typeof UmrahCore_Actions): void { UmrahCore_Actions = value; }
 export let UmrahCore_Bridge: typeof import('./umrah/data').UmrahCore_Bridge;
 export function __set_UmrahCore_Bridge(value: typeof UmrahCore_Bridge): void { UmrahCore_Bridge = value; }
-export let UmrahCore_ContractCenter: typeof import('./umrah/contracts').UmrahCore_ContractCenter;
+export let UmrahCore_ContractCenter: typeof import('../procurement/contracts').UmrahCore_ContractCenter;
 export function __set_UmrahCore_ContractCenter(value: typeof UmrahCore_ContractCenter): void { UmrahCore_ContractCenter = value; }
 export let UmrahCore_DB: typeof import('./umrah/data').UmrahCore_DB;
 export function __set_UmrahCore_DB(value: typeof UmrahCore_DB): void { UmrahCore_DB = value; }
@@ -82,13 +82,13 @@ export let UmrahCore_Forms: typeof import('./umrah/forms').UmrahCore_Forms;
 export function __set_UmrahCore_Forms(value: typeof UmrahCore_Forms): void { UmrahCore_Forms = value; }
 export let UmrahCore_Guided: typeof import('./umrah/guided').UmrahCore_Guided;
 export function __set_UmrahCore_Guided(value: typeof UmrahCore_Guided): void { UmrahCore_Guided = value; }
-export let UmrahCore_Inventory: typeof import('./umrah/contracts-inventory').UmrahCore_Inventory;
+export let UmrahCore_Inventory: typeof import('../procurement/inventory').UmrahCore_Inventory;
 export function __set_UmrahCore_Inventory(value: typeof UmrahCore_Inventory): void { UmrahCore_Inventory = value; }
 export let UmrahCore_Ops: typeof import('./umrah/operations').UmrahCore_Ops;
 export function __set_UmrahCore_Ops(value: typeof UmrahCore_Ops): void { UmrahCore_Ops = value; }
 export let UmrahCore_PrintView: typeof import('./umrah/actions-print').UmrahCore_PrintView;
 export function __set_UmrahCore_PrintView(value: typeof UmrahCore_PrintView): void { UmrahCore_PrintView = value; }
-export let UmrahCore_Procurement: typeof import('./umrah/procurement').UmrahCore_Procurement;
+export let UmrahCore_Procurement: typeof import('../procurement/commitments').UmrahCore_Procurement;
 export function __set_UmrahCore_Procurement(value: typeof UmrahCore_Procurement): void { UmrahCore_Procurement = value; }
 export let UmrahCore_ProgramWizard: typeof import('./umrah/program-wizard').UmrahCore_ProgramWizard;
 export function __set_UmrahCore_ProgramWizard(value: typeof UmrahCore_ProgramWizard): void { UmrahCore_ProgramWizard = value; }

@@ -1,6 +1,7 @@
 const ERP_VERSION='__ERP_VERSION__';
 const CACHE_NAME=`erp-shell-${ERP_VERSION}`;
 const PRECACHE=[
+  /* OFFLINE_FONT_ASSETS */
   './index.html',
   `./styles.css?v=${ERP_VERSION}`,
   `./app.js?v=${ERP_VERSION}`,

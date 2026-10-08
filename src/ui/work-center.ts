@@ -3,11 +3,12 @@ import { Store } from './store-view';
 import { BranchScope, Commercial } from '../commercial/product';
 import { Invoices } from '../accounting/invoices';
 import { UI } from './ui';
-import { UmrahCore_Procurement } from '../core/umrah/procurement';
+import { UmrahCore_Procurement } from '../procurement/commitments';
 import { UmrahCore_Ops } from '../core/umrah/operations';
 import { UmrahCore_Insights } from '../core/umrah/insights';
 import { Actions, Pages } from '../core/late-bindings';
 import { __set_WorkCenter } from '../core/late-bindings';
+import { AccessControl } from '../security/access-control';
 /* Actionable daily work center. Deliberately excludes HR; it combines finance, CRM and Hajj/Umrah follow-up. */
 const WorkCenter={
  _expanded:false,
@@ -15,7 +16,7 @@ const WorkCenter={
  severityRank:{critical:0,warning:1,info:2,good:3},
  branchOk(x){const id=BranchScope.currentId();return !x?.branchId||!id||x.branchId===id},
  item(level,title,text,page,id='',group='متابعة',action='فتح'){return{id:iid(),level,title,text,page,recordId:id,group,action}},
- items(){const out=[],seen=new Set(),add=x=>{if(!x?.title)return;const k=[x.page,x.recordId,x.title,x.text].join('|');if(seen.has(k))return;seen.add(k);out.push(x)};
+ items(){const out=[],seen=new Set(),add=x=>{if(!x?.title||!AccessControl.can(x.page))return;const k=[x.page,x.recordId,x.title,x.text].join('|');if(seen.has(k))return;seen.add(k);out.push(x)};
   for(const n of Commercial.notifications())add(this.item(n.level||'info',n.title,n.text||'',n.page||'dashboard','',n.page?.startsWith('umrah-')?'الحج والعمرة':'تنبيهات','راجع'));
   for(const a of Store.get('approvals')||[])if(this.branchOk(a)&&a.status==='pending')add(this.item('warning',`اعتماد ينتظر القرار — ${approvalTypeLabel(a.type)}`,a.reason||a.notes||'عملية تنتظر الاعتماد','approvals',a.id,'الاعتمادات','اتخذ قرارًا'));
   const nowDate=today();

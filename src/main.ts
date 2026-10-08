@@ -79,10 +79,10 @@ import './integrated/bridge';
 import './core/umrah/runtime';
 import './core/umrah/integration';
 import './core/umrah/data';
-import './core/umrah/contracts-inventory';
-import './core/umrah/contracts';
-import './core/umrah/contracts-management';
-import './core/umrah/procurement';
+import './procurement/inventory';
+import './procurement/contracts';
+import './procurement/contract-management';
+import './procurement/commitments';
 import './integrated/service-inventory';
 import './core/umrah/guided';
 import './core/umrah/program-wizard';
@@ -179,17 +179,16 @@ import { PartyTransactions, Print, Reports, Statements } from './reports/printin
 import { Nav, NumericUX, PageGroup, PageTheme, RecentEntities, SearchSelect, SuiteWorkspaceNav, adminNav } from './ui/navigation';
 import { UIDelegatedActions } from './ui/delegated-actions';
 import { SystemFontCatalog, UI, UIDocument, UiBaseMethods, ensureSystemFontAsset, systemFontEntry } from './ui/ui';
-import { _dataTableExportBase, _dataTableFilterBase, _dataTableRenderBase, _dataTableSortBase } from './ui/data-table';
 import { Forms, FormsDocument } from './ui/forms';
 import { FormsDefinitions } from './ui/forms-definitions';
 import { ERPIntegration } from './integrated/bridge';
 import { UmrahCore_META, UmrahCore_N, UmrahCore_S, UmrahCore_Seed, UmrahCore_bookingLabel, UmrahCore_dateAdd, UmrahCore_daysBetween, UmrahCore_deep, UmrahCore_esc, UmrahCore_fmt, UmrahCore_hajjPermitStatusLabel, UmrahCore_iid, UmrahCore_localDateTime, UmrahCore_money, UmrahCore_monthsAdd, UmrahCore_now, UmrahCore_programDisplay, UmrahCore_programLabel, UmrahCore_programTypeLabel, UmrahCore_roomCap, UmrahCore_roomLabel, UmrahCore_segLabel, UmrahCore_today, UmrahCore_tone, UmrahCore_travelerTitle, UmrahCore_travelersTitle, UmrahCore_vehicleCaps, UmrahCore_vehicleLabel } from './core/umrah/runtime';
 import { UmrahCore_ERP } from './core/umrah/integration';
 import { UmrahCore_Bridge, UmrahCore_Cost, UmrahCore_DB, UmrahCore_LocalUI, UmrahCore_RootMap, UmrahCore_scopePage } from './core/umrah/data';
-import { UmrahCore_Inventory } from './core/umrah/contracts-inventory';
-import { UmrahCore_ContractCenter } from './core/umrah/contracts';
-import { UmrahCore_ContractManagement } from './core/umrah/contracts-management';
-import { UmrahCore_Procurement } from './core/umrah/procurement';
+import { UmrahCore_Inventory } from './procurement/inventory';
+import { UmrahCore_ContractCenter } from './procurement/contracts';
+import { UmrahCore_ContractManagement } from './procurement/contract-management';
+import { UmrahCore_Procurement } from './procurement/commitments';
 import { TourismServiceInventory } from './integrated/service-inventory';
 import { UmrahCore_Guided, UmrahCore_QuickCreate, UmrahCore_SmartGuide, UmrahCore_Wizard } from './core/umrah/guided';
 import { UmrahCore_ProgramWizard } from './core/umrah/program-wizard';
@@ -381,10 +380,6 @@ const __erpGlobals: Record<string, () => unknown> = {
     UiBaseMethods: () => UiBaseMethods,
     ensureSystemFontAsset: () => ensureSystemFontAsset,
     systemFontEntry: () => systemFontEntry,
-    _dataTableExportBase: () => _dataTableExportBase,
-    _dataTableFilterBase: () => _dataTableFilterBase,
-    _dataTableRenderBase: () => _dataTableRenderBase,
-    _dataTableSortBase: () => _dataTableSortBase,
     Forms: () => Forms,
     FormsDocument: () => FormsDocument,
     FormsDefinitions: () => FormsDefinitions,

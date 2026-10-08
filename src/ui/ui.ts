@@ -3,6 +3,7 @@ import { UI_Shell } from './ui-shell';
 import { UI_WorkspaceNav } from './ui-workspace-nav';
 import { UI_MenusSearch } from './ui-menus-search';
 import { UI_Tables } from './ui-tables';
+import { UI_DataTables } from './data-table';
 import { UI_ModalSettings } from './ui-modal-settings';
 import { SystemFontCatalog, UIDocument, ensureSystemFontAsset, systemFontEntry } from './ui-fonts';
 import { createUiBaseMethods } from './ui-base-methods';
@@ -15,6 +16,7 @@ const UI: any = {
     ...UI_WorkspaceNav,
     ...UI_MenusSearch,
     ...UI_Tables,
+    ...UI_DataTables,
     ...UI_ModalSettings
 };
 __set_UI(UI);
