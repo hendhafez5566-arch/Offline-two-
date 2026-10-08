@@ -1,0 +1,277 @@
+{
+  "scenarios": 18,
+  "passed": 18,
+  "failed": 0,
+  "diary": [
+    {
+      "name": "دفعة مسودة ثم رد ثم ترحيل customer 10000 0.25",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "amount": 10000,
+        "deposit": 4000,
+        "refund": 1000,
+        "availableBefore": 3000,
+        "advanceAfter": 0,
+        "invoiceRemaining": 7000,
+        "expectedRemaining": 7000,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "دفعة مسودة ثم رد ثم ترحيل customer 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "amount": 10000,
+        "deposit": 4000,
+        "refund": 2000,
+        "availableBefore": 2000,
+        "advanceAfter": 0,
+        "invoiceRemaining": 8000,
+        "expectedRemaining": 8000,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "دفعة مسودة ثم رد ثم ترحيل customer 10000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "amount": 10000,
+        "deposit": 4000,
+        "refund": 4000,
+        "availableBefore": 0,
+        "advanceAfter": 0,
+        "invoiceRemaining": 10000,
+        "expectedRemaining": 10000,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "دفعة مسودة ثم رد ثم ترحيل customer 120000 0.25",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "amount": 120000,
+        "deposit": 48000,
+        "refund": 12000,
+        "availableBefore": 36000,
+        "advanceAfter": 0,
+        "invoiceRemaining": 84000,
+        "expectedRemaining": 84000,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "دفعة مسودة ثم رد ثم ترحيل customer 120000 0.5",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "amount": 120000,
+        "deposit": 48000,
+        "refund": 24000,
+        "availableBefore": 24000,
+        "advanceAfter": 0,
+        "invoiceRemaining": 96000,
+        "expectedRemaining": 96000,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "دفعة مسودة ثم رد ثم ترحيل customer 120000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "amount": 120000,
+        "deposit": 48000,
+        "refund": 48000,
+        "availableBefore": 0,
+        "advanceAfter": 0,
+        "invoiceRemaining": 120000,
+        "expectedRemaining": 120000,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "دفعة مسودة ثم رد ثم ترحيل customer 395000 0.25",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "amount": 395000,
+        "deposit": 158000,
+        "refund": 39500,
+        "availableBefore": 118500,
+        "advanceAfter": 0,
+        "invoiceRemaining": 276500,
+        "expectedRemaining": 276500,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "دفعة مسودة ثم رد ثم ترحيل customer 395000 0.5",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "amount": 395000,
+        "deposit": 158000,
+        "refund": 79000,
+        "availableBefore": 79000,
+        "advanceAfter": 0,
+        "invoiceRemaining": 316000,
+        "expectedRemaining": 316000,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "دفعة مسودة ثم رد ثم ترحيل customer 395000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "amount": 395000,
+        "deposit": 158000,
+        "refund": 158000,
+        "availableBefore": 0,
+        "advanceAfter": 0,
+        "invoiceRemaining": 395000,
+        "expectedRemaining": 395000,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "دفعة مسودة ثم رد ثم ترحيل supplier 10000 0.25",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "amount": 10000,
+        "deposit": 4000,
+        "refund": 1000,
+        "availableBefore": 3000,
+        "advanceAfter": 0,
+        "invoiceRemaining": 7000,
+        "expectedRemaining": 7000,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "دفعة مسودة ثم رد ثم ترحيل supplier 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "amount": 10000,
+        "deposit": 4000,
+        "refund": 2000,
+        "availableBefore": 2000,
+        "advanceAfter": 0,
+        "invoiceRemaining": 8000,
+        "expectedRemaining": 8000,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "دفعة مسودة ثم رد ثم ترحيل supplier 10000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "amount": 10000,
+        "deposit": 4000,
+        "refund": 4000,
+        "availableBefore": 0,
+        "advanceAfter": 0,
+        "invoiceRemaining": 10000,
+        "expectedRemaining": 10000,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "دفعة مسودة ثم رد ثم ترحيل supplier 120000 0.25",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "amount": 120000,
+        "deposit": 48000,
+        "refund": 12000,
+        "availableBefore": 36000,
+        "advanceAfter": 0,
+        "invoiceRemaining": 84000,
+        "expectedRemaining": 84000,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "دفعة مسودة ثم رد ثم ترحيل supplier 120000 0.5",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "amount": 120000,
+        "deposit": 48000,
+        "refund": 24000,
+        "availableBefore": 24000,
+        "advanceAfter": 0,
+        "invoiceRemaining": 96000,
+        "expectedRemaining": 96000,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "دفعة مسودة ثم رد ثم ترحيل supplier 120000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "amount": 120000,
+        "deposit": 48000,
+        "refund": 48000,
+        "availableBefore": 0,
+        "advanceAfter": 0,
+        "invoiceRemaining": 120000,
+        "expectedRemaining": 120000,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "دفعة مسودة ثم رد ثم ترحيل supplier 395000 0.25",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "amount": 395000,
+        "deposit": 158000,
+        "refund": 39500,
+        "availableBefore": 118500,
+        "advanceAfter": 0,
+        "invoiceRemaining": 276500,
+        "expectedRemaining": 276500,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "دفعة مسودة ثم رد ثم ترحيل supplier 395000 0.5",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "amount": 395000,
+        "deposit": 158000,
+        "refund": 79000,
+        "availableBefore": 79000,
+        "advanceAfter": 0,
+        "invoiceRemaining": 316000,
+        "expectedRemaining": 316000,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "دفعة مسودة ثم رد ثم ترحيل supplier 395000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "amount": 395000,
+        "deposit": 158000,
+        "refund": 158000,
+        "availableBefore": 0,
+        "advanceAfter": 0,
+        "invoiceRemaining": 395000,
+        "expectedRemaining": 395000,
+        "invoiceStatus": "open"
+      }
+    }
+  ]
+}

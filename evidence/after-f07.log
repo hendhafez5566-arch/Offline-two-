@@ -1,0 +1,25 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+/workspace/scratch/fd17ea13a424/repair/src/core/umrah/operations-bookings.ts:45
+        this.confirmBooking(b.id); return b; },
+    buildDefaultRoomPlan(p, type, counts) { return UmrahCore_BookingRooms.defaultPlan(this, p, type, counts); },
+                                          ^
+    normalizeRoomPlan(p, plan, type, counts) { return UmrahCore_BookingRooms.normalize(this, p, plan, type, counts); },
+
+SyntaxError [ERR_INVALID_TYPESCRIPT_SYNTAX]: Expected ',', got '{'
+    at parseTypeScript (node:internal/modules/typescript:72:36)
+    at processTypeScriptCode (node:internal/modules/typescript:146:42)
+    at stripTypeScriptModuleTypes (node:internal/modules/typescript:215:22)
+    at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:206:26)
+    at defaultGetFormat (node:internal/modules/esm/get_format:283:36)
+    at defaultLoadSync (node:internal/modules/esm/load:161:16)
+    at #loadAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:802:12)
+    at #loadSync (node:internal/modules/esm/loader:834:53)
+    at ModuleLoader.load (node:internal/modules/esm/loader:783:26)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:494:31) {
+  code: 'ERR_INVALID_TYPESCRIPT_SYNTAX'
+}
+
+Node.js v24.19.0

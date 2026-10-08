@@ -1,0 +1,269 @@
+{
+  "scenarios": 16,
+  "passed": 16,
+  "failed": 0,
+  "diary": [
+    {
+      "name": "مثال مستحق10000 وفاتورتين4000 ثم6000",
+      "status": "PASS",
+      "facts": {
+        "status": "settled",
+        "balance1250": 0,
+        "revenue": 10000,
+        "expectedRevenue": 10000
+      }
+    },
+    {
+      "name": "مثال استحقاقي10000 وفاتورة10000 واحدة",
+      "status": "PASS",
+      "facts": {
+        "first": "settled",
+        "second": "posted",
+        "residual": 10000,
+        "revenue": 20000,
+        "expectedUnbilled": 10000,
+        "expectedRevenue": 20000,
+        "error": "قيمة الفاتورة مستخدمة أو لا يوجد مبلغ متاح للتسوية"
+      }
+    },
+    {
+      "name": "مثال استحقاق1000USD وفاتورة50000EGP",
+      "status": "PASS",
+      "facts": {
+        "status": "settled",
+        "residual": 0,
+        "revenue": 50000
+      }
+    },
+    {
+      "name": "مثال استحقاق50000EGP وفاتورة1000USD",
+      "status": "PASS",
+      "facts": {
+        "status": "settled",
+        "residual": 0,
+        "revenue": 50000,
+        "expectedRevenue": 50000
+      }
+    },
+    {
+      "name": "مثال تأجيل بعد تخفيض10000 إلى8000 customer",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "scheduleTotal": 8000,
+        "currentRevenueOrCost": 0,
+        "deferredBalance": -8000,
+        "expectedSchedule": 8000
+      }
+    },
+    {
+      "name": "مثال تأجيل بعد تخفيض10000 إلى8000 supplier",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "scheduleTotal": 8000,
+        "currentRevenueOrCost": 0,
+        "deferredBalance": 8000,
+        "expectedSchedule": 8000
+      }
+    },
+    {
+      "name": "مثال تأجيل1000USD بسعر50 واعتراف بسعر60 customer",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "invoiceRate": 50,
+        "recognitionRate": 60,
+        "native": 0,
+        "base": 0,
+        "revenueOrCost": -50000,
+        "schedule": "completed"
+      }
+    },
+    {
+      "name": "مثال تأجيل1000USD بسعر50 واعتراف بسعر60 supplier",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "invoiceRate": 50,
+        "recognitionRate": 60,
+        "native": 0,
+        "base": 0,
+        "revenueOrCost": 50000,
+        "schedule": "completed"
+      }
+    },
+    {
+      "name": "مثال رواتب1000USD مستحقة50 وسداد60",
+      "status": "PASS",
+      "facts": {
+        "status": "paid",
+        "native": 0,
+        "base": 0,
+        "bank": 40000,
+        "fxExpense": 10000
+      }
+    },
+    {
+      "name": "مثال تذكرة مكتملة وفاتورة مورد18000 ثم حذف الذهاب",
+      "status": "PASS",
+      "facts": {
+        "segmentExists": true,
+        "issuedTickets": 2,
+        "supplierInvoiceStatus": "open",
+        "supplierInvoiceTotal": 18000,
+        "error": "القطاع مرتبط بتذاكر؛ لا يمكن حذفه"
+      }
+    },
+    {
+      "name": "جدول تأجيل12000 أقساط 2.5 customer",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "months": 2.5,
+        "error": "عدد الأشهر يجب أن يكون عددًا صحيحًا موجبًا"
+      }
+    },
+    {
+      "name": "جدول تأجيل12000 أقساط 3 customer",
+      "status": "PASS",
+      "facts": {
+        "months": 3,
+        "parts": 3
+      }
+    },
+    {
+      "name": "جدول تأجيل12000 أقساط 2.5 supplier",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "months": 2.5,
+        "error": "عدد الأشهر يجب أن يكون عددًا صحيحًا موجبًا"
+      }
+    },
+    {
+      "name": "جدول تأجيل12000 أقساط 3 supplier",
+      "status": "PASS",
+      "facts": {
+        "months": 3,
+        "parts": 3
+      }
+    },
+    {
+      "name": "رصيدUSDالمعروض1.67 لا يمكن صرفه بالكامل cash",
+      "status": "PASS",
+      "facts": {
+        "method": "cash",
+        "raw": 1.67,
+        "displayed": 1.67,
+        "remaining": 0
+      }
+    },
+    {
+      "name": "رصيدUSDالمعروض1.67 لا يمكن صرفه بالكامل cheque",
+      "status": "PASS",
+      "facts": {
+        "method": "cheque",
+        "raw": 1.67,
+        "displayed": 1.67,
+        "remaining": 0
+      }
+    }
+  ],
+  "probes": {
+    "partialAccrual": {
+      "status": "settled",
+      "balance1250": 0,
+      "revenue": 10000,
+      "expectedRevenue": 10000
+    },
+    "doubleAccrual": {
+      "first": "settled",
+      "second": "posted",
+      "residual": 10000,
+      "revenue": 20000,
+      "expectedUnbilled": 10000,
+      "expectedRevenue": 20000,
+      "error": "قيمة الفاتورة مستخدمة أو لا يوجد مبلغ متاح للتسوية"
+    },
+    "accrualCurrencyHigh": {
+      "status": "settled",
+      "residual": 0,
+      "revenue": 50000
+    },
+    "accrualCurrency": {
+      "status": "settled",
+      "residual": 0,
+      "revenue": 50000,
+      "expectedRevenue": 50000
+    },
+    "adjustBeforeDeferral_customer": {
+      "kind": "customer",
+      "scheduleTotal": 8000,
+      "currentRevenueOrCost": 0,
+      "deferredBalance": -8000,
+      "expectedSchedule": 8000
+    },
+    "adjustBeforeDeferral_supplier": {
+      "kind": "supplier",
+      "scheduleTotal": 8000,
+      "currentRevenueOrCost": 0,
+      "deferredBalance": 8000,
+      "expectedSchedule": 8000
+    },
+    "deferredFx_customer": {
+      "kind": "customer",
+      "invoiceRate": 50,
+      "recognitionRate": 60,
+      "native": 0,
+      "base": 0,
+      "revenueOrCost": -50000,
+      "schedule": "completed"
+    },
+    "deferredFx_supplier": {
+      "kind": "supplier",
+      "invoiceRate": 50,
+      "recognitionRate": 60,
+      "native": 0,
+      "base": 0,
+      "revenueOrCost": 50000,
+      "schedule": "completed"
+    },
+    "payrollFx": {
+      "status": "paid",
+      "native": 0,
+      "base": 0,
+      "bank": 40000,
+      "fxExpense": 10000
+    },
+    "deletedFlight": {
+      "segmentExists": true,
+      "issuedTickets": 2,
+      "supplierInvoiceStatus": "open",
+      "supplierInvoiceTotal": 18000,
+      "error": "القطاع مرتبط بتذاكر؛ لا يمكن حذفه"
+    },
+    "fractionalDeferred_customer": {
+      "kind": "customer",
+      "months": 2.5,
+      "error": "عدد الأشهر يجب أن يكون عددًا صحيحًا موجبًا"
+    },
+    "fractionalDeferred_supplier": {
+      "kind": "supplier",
+      "months": 2.5,
+      "error": "عدد الأشهر يجب أن يكون عددًا صحيحًا موجبًا"
+    },
+    "nativePrecision_cash": {
+      "method": "cash",
+      "raw": 1.67,
+      "displayed": 1.67,
+      "remaining": 0
+    },
+    "nativePrecision_cheque": {
+      "method": "cheque",
+      "raw": 1.67,
+      "displayed": 1.67,
+      "remaining": 0
+    }
+  }
+}

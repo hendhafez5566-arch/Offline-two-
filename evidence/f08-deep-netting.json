@@ -1,0 +1,838 @@
+{
+  "scenarios": 96,
+  "passed": 96,
+  "failed": 0,
+  "diary": [
+    {
+      "name": "مقاصة وعكس EGP 10000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 1250,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 10000 0.5 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 2500,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 10000 0.5 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 5000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 10000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 2500,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 10000 1 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 5000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 10000 1 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 10000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 10000 2 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 2500,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 10000 2 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 5000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 10000 2 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 10000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 30000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 3750,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 30000 0.5 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 7500,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 30000 0.5 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 15000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 30000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 7500,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 30000 1 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 15000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 30000 1 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 30000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 30000 2 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 7500,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 30000 2 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 15000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 30000 2 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 30000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 120000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 15000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 120000 0.5 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 30000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 120000 0.5 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 60000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 120000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 30000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 120000 1 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 60000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 120000 1 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 120000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 120000 2 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 30000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 120000 2 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 60000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس EGP 120000 2 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 120000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 10000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 1250,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 10000 0.5 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 2500,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 10000 0.5 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 5000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 10000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 2500,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 10000 1 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 5000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 10000 1 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 10000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 10000 2 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 2500,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 10000 2 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 5000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 10000 2 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 10000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 30000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 3750,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 30000 0.5 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 7500,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 30000 0.5 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 15000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 30000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 7500,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 30000 1 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 15000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 30000 1 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 30000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 30000 2 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 7500,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 30000 2 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 15000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 30000 2 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 30000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 120000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 15000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 120000 0.5 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 30000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 120000 0.5 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 60000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 120000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 30000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 120000 1 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 60000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 120000 1 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 120000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 120000 2 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 30000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 120000 2 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 60000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس USD 120000 2 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 120000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 10000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 1250,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 10000 0.5 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 2500,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 10000 0.5 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 5000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 10000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 2500,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 10000 1 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 5000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 10000 1 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 10000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 10000 2 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 2500,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 10000 2 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 5000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 10000 2 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 10000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 30000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 3750,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 30000 0.5 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 7500,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 30000 0.5 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 15000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 30000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 7500,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 30000 1 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 15000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 30000 1 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 30000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 30000 2 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 7500,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 30000 2 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 15000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 30000 2 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 30000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 120000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 15000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 120000 0.5 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 30000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 120000 0.5 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 60000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 120000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 30000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 120000 1 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 60000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 120000 1 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 120000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 120000 2 0.25",
+      "status": "PASS",
+      "facts": {
+        "amount": 30000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 120000 2 0.5",
+      "status": "PASS",
+      "facts": {
+        "amount": 60000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة وعكس SAR 120000 2 1",
+      "status": "PASS",
+      "facts": {
+        "amount": 120000,
+        "status": "reversed"
+      }
+    },
+    {
+      "name": "مقاصة أرصدة بأسعار تاريخية مختلفة USD 1000",
+      "status": "PASS",
+      "facts": {
+        "nativeAR": 0,
+        "nativeAP": 0,
+        "baseAR": 0,
+        "baseAP": 0,
+        "saleRate": 50,
+        "purchaseRate": 55,
+        "currentRate": 60
+      }
+    },
+    {
+      "name": "مقاصة أرصدة بأسعار تاريخية مختلفة USD 10000",
+      "status": "PASS",
+      "facts": {
+        "nativeAR": 0,
+        "nativeAP": 0,
+        "baseAR": 0,
+        "baseAP": 0,
+        "saleRate": 50,
+        "purchaseRate": 55,
+        "currentRate": 60
+      }
+    },
+    {
+      "name": "مقاصة أرصدة بأسعار تاريخية مختلفة USD 30000",
+      "status": "PASS",
+      "facts": {
+        "nativeAR": 0,
+        "nativeAP": 0,
+        "baseAR": 0,
+        "baseAP": 0,
+        "saleRate": 50,
+        "purchaseRate": 55,
+        "currentRate": 60
+      }
+    },
+    {
+      "name": "مقاصة أرصدة بأسعار تاريخية مختلفة SAR 1000",
+      "status": "PASS",
+      "facts": {
+        "nativeAR": 0,
+        "nativeAP": 0,
+        "baseAR": 0,
+        "baseAP": 0,
+        "saleRate": 13,
+        "purchaseRate": 14,
+        "currentRate": 15
+      }
+    },
+    {
+      "name": "مقاصة أرصدة بأسعار تاريخية مختلفة SAR 10000",
+      "status": "PASS",
+      "facts": {
+        "nativeAR": 0,
+        "nativeAP": 0,
+        "baseAR": 0,
+        "baseAP": 0,
+        "saleRate": 13,
+        "purchaseRate": 14,
+        "currentRate": 15
+      }
+    },
+    {
+      "name": "مقاصة أرصدة بأسعار تاريخية مختلفة SAR 30000",
+      "status": "PASS",
+      "facts": {
+        "nativeAR": 0,
+        "nativeAP": 0,
+        "baseAR": 0,
+        "baseAP": 0,
+        "saleRate": 13,
+        "purchaseRate": 14,
+        "currentRate": 15
+      }
+    },
+    {
+      "name": "مقاصة سبتمبر لا تسدد فاتورة أكتوبر EGP",
+      "status": "PASS",
+      "facts": {
+        "nettingDate": "2026-09-30",
+        "earlyRemaining": 0,
+        "futureRemaining": 10000,
+        "allocated": [
+          {
+            "invoiceId": "2516a3f2-d714-4ccd-a2c8-a24ffa98f8af",
+            "date": "2026-09-01",
+            "amount": 10000
+          },
+          {
+            "invoiceId": "58506e3b-5292-40c5-a608-3586fc7eeb12",
+            "date": "2026-09-01",
+            "amount": 10000
+          }
+        ]
+      }
+    },
+    {
+      "name": "مقاصة سبتمبر لا تسدد فاتورة أكتوبر USD",
+      "status": "PASS",
+      "facts": {
+        "nettingDate": "2026-09-30",
+        "earlyRemaining": 0,
+        "futureRemaining": 10000,
+        "allocated": [
+          {
+            "invoiceId": "c8a67c83-310a-4373-bfb4-eb7758adfb58",
+            "date": "2026-09-01",
+            "amount": 10000
+          },
+          {
+            "invoiceId": "3793d154-0042-40a4-983c-989232b444d9",
+            "date": "2026-09-01",
+            "amount": 10000
+          }
+        ]
+      }
+    },
+    {
+      "name": "مقاصة سبتمبر لا تسدد فاتورة أكتوبر SAR",
+      "status": "PASS",
+      "facts": {
+        "nettingDate": "2026-09-30",
+        "earlyRemaining": 0,
+        "futureRemaining": 10000,
+        "allocated": [
+          {
+            "invoiceId": "b91da534-72c2-43e9-b0ef-ac09dca8a741",
+            "date": "2026-09-01",
+            "amount": 10000
+          },
+          {
+            "invoiceId": "f4903e29-1076-410e-9b76-9e4061ee7899",
+            "date": "2026-09-01",
+            "amount": 10000
+          }
+        ]
+      }
+    },
+    {
+      "name": "رفض مقاصة أكبر من المتاح EGP 10000",
+      "status": "PASS",
+      "facts": {
+        "error": "أقصى مقاصة متاحة 5,000 EGP"
+      }
+    },
+    {
+      "name": "رفض مقاصة أكبر من المتاح EGP 30000",
+      "status": "PASS",
+      "facts": {
+        "error": "أقصى مقاصة متاحة 15,000 EGP"
+      }
+    },
+    {
+      "name": "رفض مقاصة أكبر من المتاح USD 10000",
+      "status": "PASS",
+      "facts": {
+        "error": "أقصى مقاصة متاحة 5,000 USD"
+      }
+    },
+    {
+      "name": "رفض مقاصة أكبر من المتاح USD 30000",
+      "status": "PASS",
+      "facts": {
+        "error": "أقصى مقاصة متاحة 15,000 USD"
+      }
+    },
+    {
+      "name": "رفض مقاصة أكبر من المتاح SAR 10000",
+      "status": "PASS",
+      "facts": {
+        "error": "أقصى مقاصة متاحة 5,000 SAR"
+      }
+    },
+    {
+      "name": "رفض مقاصة أكبر من المتاح SAR 30000",
+      "status": "PASS",
+      "facts": {
+        "error": "أقصى مقاصة متاحة 15,000 SAR"
+      }
+    }
+  ]
+}

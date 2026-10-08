@@ -1,0 +1,23 @@
+{
+  "results": [
+    {
+      "id": "F11-03-before",
+      "status": "PASS",
+      "facts": {
+        "procedureMissing": true,
+        "invoiceRemaining": 120000,
+        "advance": 120000
+      }
+    },
+    {
+      "id": "F12-01-before",
+      "status": "PASS",
+      "facts": {
+        "misleadingLabelReproduced": true
+      }
+    }
+  ],
+  "pageErrors": [
+    "Cannot read properties of undefined (reading 'update')"
+  ]
+}

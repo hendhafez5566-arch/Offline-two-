@@ -1,0 +1,56 @@
+{
+  "version": "32.5.70",
+  "verify": {
+    "exitCode": 0,
+    "node": {
+      "passed": 79,
+      "total": 79
+    },
+    "browser": {
+      "passed": 8,
+      "total": 8
+    },
+    "buildClient": true,
+    "buildServer": true
+  },
+  "audit": {
+    "suites": 27,
+    "failedSuites": 0
+  },
+  "golden": {
+    "passed": 10,
+    "total": 10
+  },
+  "storageRegression": {
+    "passed": 8,
+    "failed": 0,
+    "checks": {
+      "writeFailureRollback": true,
+      "syncFailurePreservesCache": true,
+      "transactionAbort": true,
+      "cacheQuotaWithIdbSuccess": true,
+      "readFailureFallbackAfterReload": true,
+      "localStorageOnlySave": true,
+      "bothStoresFailRollback": true,
+      "localStorageOnlyReload": true
+    }
+  },
+  "persistence": {
+    "passed": true,
+    "reloadInvoice": true,
+    "reloadAttachment": true,
+    "restoreRollback": true
+  },
+  "guards": {
+    "moduleCheck": true,
+    "architecture": true,
+    "typeRatchet": true,
+    "baselinesUnchanged": true
+  },
+  "toolVersions": {
+    "typescript": "5.9.3",
+    "esbuild": "0.28.2"
+  },
+  "existingTestSourceUnchangedFrom": "v32.5.69",
+  "originalV32_5_67Tests": "Archived; earlier v32.5.68 test corrections remain documented; not all historical originals are claimed passing."
+}

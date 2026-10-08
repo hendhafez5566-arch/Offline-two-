@@ -1,0 +1,7 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> erp-professional-suite-commercial@32.5.70 module:check
+> node scripts/module-order-check.mjs
+
+PASS module-check: 168 modules, order == original tsconfig order, 0 orphans, 0 cycles, 0 duplicate evaluations
+{"modules":168,"sourceFiles":169,"lateBindings":96,"compatibilityGlobals":310,"orphanModules":0,"commentOnlyStubs":["src/app.ts"],"circularDependencies":0,"duplicateEvaluations":0}

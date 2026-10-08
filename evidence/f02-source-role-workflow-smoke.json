@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "workflows": [
+    "cashier receipt",
+    "cashier cheque",
+    "sales booking"
+  ],
+  "blocked": [
+    "manual journal",
+    "invoice financial edit",
+    "foreign journal owner",
+    "unlinked invoice"
+  ]
+}

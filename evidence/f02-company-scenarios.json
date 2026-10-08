@@ -1,0 +1,282 @@
+{
+  "scenarios": 26,
+  "passed": 26,
+  "failed": 0,
+  "diary": [
+    {
+      "name": "CRM: اتصال ثم متابعة ثم تحويل إلى عميل ومنع التكرار",
+      "status": "PASS",
+      "facts": {
+        "lead": "won",
+        "customer": "أحمد سالم",
+        "followups": 1
+      }
+    },
+    {
+      "name": "عرض سعر بضريبة ثم قبول وتحويل وسداد وإلغاء بعد العكس",
+      "status": "PASS",
+      "facts": {
+        "total": 11400,
+        "afterPayment": 7400,
+        "reopened": "accepted"
+      }
+    },
+    {
+      "name": "عرض سعر انتهت صلاحيته: منع القبول",
+      "status": "PASS",
+      "facts": {
+        "message": "انتهت صلاحية عرض السعر في 01‏/01‏/2020؛ أنشئ نسخة محدثة أو مدّد الصلاحية قبل القبول"
+      }
+    },
+    {
+      "name": "مشتريات فندق: استلام 4 ثم 6 من 10 وفاتورتان دون تكرار",
+      "status": "PASS",
+      "facts": {
+        "first": 4000,
+        "second": 6000,
+        "status": "converted",
+        "invoiced": 10
+      }
+    },
+    {
+      "name": "إلغاء فاتورة دفعة شراء ثم إعادة إصدارها",
+      "status": "PASS",
+      "facts": {
+        "first": "void",
+        "replacement": "PI260002",
+        "payable": 4000
+      }
+    },
+    {
+      "name": "مصروف إيجار مقدم 10000 على 3 شهور ثم الاعتراف والعكس والإلغاء",
+      "status": "PASS",
+      "facts": {
+        "parts": [
+          3333.33,
+          3333.33,
+          3333.34
+        ],
+        "status": "void"
+      }
+    },
+    {
+      "name": "مصروف مستحق بضريبة ثم سداد فاتورة المورد",
+      "status": "PASS",
+      "facts": {
+        "total": 1140,
+        "paid": true
+      }
+    },
+    {
+      "name": "شيك عميل يرتد قبل التحصيل: إعادة المديونية دون فقد قيمة",
+      "status": "PASS",
+      "facts": {
+        "invoice": "open",
+        "cheque": "bounced",
+        "remaining": 20000
+      }
+    },
+    {
+      "name": "شيك عميل محصل: منع التحصيل مرتين",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared"
+      }
+    },
+    {
+      "name": "طلب اعتماد صرف: منع اعتماد الطالب لنفسه ثم اعتماد المدير",
+      "status": "PASS",
+      "facts": {
+        "status": "approved",
+        "payments": 1
+      }
+    },
+    {
+      "name": "عميل موقوف: محاولة إصدار فاتورة جديدة",
+      "status": "PASS",
+      "facts": {
+        "posted": false,
+        "status": "draft",
+        "message": "الطرف موقوف عن التعامل الجديد"
+      }
+    },
+    {
+      "name": "إلغاء حجز مستقبلي: تصفير الإيراد المؤجل وإلغاء جدول الاستحقاق",
+      "status": "PASS",
+      "facts": {
+        "booking": "cancelled",
+        "invoice": "void",
+        "schedule": "void",
+        "deferredLiability": 0,
+        "revenue": 0
+      }
+    },
+    {
+      "name": "إلغاء فاتورة مورد لتكلفة رحلة مستقبلية: تصفير التكلفة المؤجلة",
+      "status": "PASS",
+      "facts": {
+        "invoice": "void",
+        "schedule": "void",
+        "asset": 0,
+        "cost": 0
+      }
+    },
+    {
+      "name": "فاتورة ملغاة: منع الاعتراف بإيرادها المؤجل بعد الإلغاء",
+      "status": "PASS",
+      "facts": {
+        "invoice": "void",
+        "part": "void",
+        "message": "قسط الإيراد المؤجل غير متاح"
+      }
+    },
+    {
+      "name": "بيع غرف من عقد فندق: حجز المخزون ثم إلغاء الخدمة وتحرير الغرف",
+      "status": "PASS",
+      "facts": {
+        "before": 3,
+        "afterCancel": 3
+      }
+    },
+    {
+      "name": "حد ائتمان العميل: رفض الفاتورة الثانية دون قيد إضافي",
+      "status": "PASS",
+      "facts": {
+        "existing": 8000,
+        "rejected": 3000
+      }
+    },
+    {
+      "name": "مصروف مقدم بعملة ثلاثية الكسور: توزيع كامل دون تغيير القيمة",
+      "status": "PASS",
+      "facts": {
+        "expense": 1000.125,
+        "schedule": 1000.125
+      }
+    },
+    {
+      "name": "مرفق جواز: فشل التخزين المحلي يجب أن يمنع رسالة النجاح والسجل الوهمي",
+      "status": "PASS",
+      "facts": {
+        "error": "تعذر حفظ ملف المرفق",
+        "metadataCount": 0,
+        "blobExists": false
+      }
+    },
+    {
+      "name": "نسخة احتياطية: رفض ملف تالف أو لشركة أخرى",
+      "status": "PASS",
+      "facts": {
+        "valid": true,
+        "tamperBlocked": true,
+        "foreignBlocked": true
+      }
+    },
+    {
+      "name": "استعادة نسخة: فشل حفظ البيانات المحلية يجب ألا يرجع نجاحًا",
+      "status": "PASS",
+      "facts": {
+        "error": "فشلت الاستعادة وتعذر تثبيت التراجع في التخزين؛ البيانات الأصلية باقية في الذاكرة"
+      }
+    },
+    {
+      "name": "صلاحية فرع: منع موظف القاهرة من التحويل إلى فرع الإسكندرية",
+      "status": "PASS",
+      "facts": {
+        "allowed": [
+          "CAI"
+        ],
+        "message": "لا توجد صلاحية على هذا الفرع"
+      }
+    },
+    {
+      "name": "مورد موقوف: محاولة اعتماد خدمة جديدة بتكلفة خارجية عليه",
+      "status": "PASS",
+      "facts": {
+        "error": "الطرف موقوف عن التعامل الجديد",
+        "invoices": 0
+      }
+    },
+    {
+      "name": "حجز برنامج ممتلئ: منع تجاوز السعة وتراجع كل الآثار",
+      "status": "PASS",
+      "facts": {
+        "capacity": 2,
+        "booked": 2
+      }
+    },
+    {
+      "name": "رواتب الشهر: استحقاق 30000 واستقطاعات 3000 وسداد مرة واحدة",
+      "status": "PASS",
+      "facts": {
+        "gross": 30000,
+        "net": 27000,
+        "deductions": 3000
+      }
+    },
+    {
+      "name": "قرض 120000 على سنة: مجموع أصل الأقساط وسداد كامل ومنع التكرار",
+      "status": "PASS",
+      "facts": {
+        "principal": 120000,
+        "interest": 7942.26,
+        "status": "paid"
+      }
+    },
+    {
+      "name": "تسوية البنك: منع مطابقة إيداع مع سحب بنفس القيمة",
+      "status": "PASS",
+      "facts": {
+        "matched": 0,
+        "statementAmount": -5000,
+        "ledgerDeposit": 5000
+      }
+    }
+  ],
+  "evidence": {
+    "inactiveCustomer": {
+      "posted": false,
+      "status": "draft",
+      "message": "الطرف موقوف عن التعامل الجديد"
+    },
+    "cancelDeferredSale": {
+      "booking": "cancelled",
+      "invoice": "void",
+      "schedule": "void",
+      "deferredLiability": 0,
+      "revenue": 0
+    },
+    "cancelDeferredCost": {
+      "invoice": "void",
+      "schedule": "void",
+      "asset": 0,
+      "cost": 0
+    },
+    "recognizeCancelled": {
+      "invoice": "void",
+      "part": "void",
+      "message": "قسط الإيراد المؤجل غير متاح"
+    },
+    "prepaidPrecision": {
+      "expense": 1000.125,
+      "schedule": 1000.125
+    },
+    "attachmentFailure": {
+      "error": "تعذر حفظ ملف المرفق",
+      "metadataCount": 0,
+      "blobExists": false
+    },
+    "restoreFailure": {
+      "error": "فشلت الاستعادة وتعذر تثبيت التراجع في التخزين؛ البيانات الأصلية باقية في الذاكرة"
+    },
+    "inactiveSupplier": {
+      "error": "الطرف موقوف عن التعامل الجديد",
+      "invoices": 0
+    },
+    "bankDirection": {
+      "matched": 0,
+      "statementAmount": -5000,
+      "ledgerDeposit": 5000
+    }
+  }
+}

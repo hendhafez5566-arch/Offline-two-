@@ -1,0 +1,4705 @@
+{
+  "scenarios": 342,
+  "passed": 342,
+  "failed": 0,
+  "diary": [
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 1000 0 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 1000 0 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 1000 0 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.75,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 1000 0.5 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 1000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 1000 0.5 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 1000 1 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.1,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 1000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.25,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 1000 1 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 10000 0 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 10000 0 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 10000 0 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.75,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 10000 0.5 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 10000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 10000 0.5 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 10000 1 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.1,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 10000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.25,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 10000 1 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 90000 0 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 90000 0 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 90000 0 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.75,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 90000 0.5 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 90000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 90000 0.5 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 90000 1 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.1,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 90000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.25,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer EGP 90000 1 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 1000 0 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 1000 0 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 1000 0 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.75,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 1000 0.5 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 1000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 1000 0.5 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 1000 1 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.1,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 1000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.25,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 1000 1 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 10000 0 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 10000 0 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 10000 0 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.75,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 10000 0.5 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 10000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 10000 0.5 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 10000 1 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.1,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 10000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.25,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 10000 1 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 90000 0 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 90000 0 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 90000 0 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.75,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 90000 0.5 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 90000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 90000 0.5 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 90000 1 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.1,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 90000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.25,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer USD 90000 1 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 1000 0 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 1000 0 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 1000 0 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.75,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 1000 0.5 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 1000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 1000 0.5 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 1000 1 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.1,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 1000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.25,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 1000 1 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 10000 0 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 10000 0 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 10000 0 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.75,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 10000 0.5 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 10000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 10000 0.5 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 10000 1 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.1,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 10000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.25,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 10000 1 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 90000 0 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 90000 0 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 90000 0 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.75,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 90000 0.5 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 90000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 90000 0.5 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 90000 1 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.1,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 90000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.25,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة customer SAR 90000 1 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 1000 0 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 1000 0 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 1000 0 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.75,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 1000 0.5 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 1000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 1000 0.5 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 1000 1 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.1,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 1000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.25,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 1000 1 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 10000 0 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 10000 0 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 10000 0 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.75,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 10000 0.5 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 10000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 10000 0.5 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 10000 1 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.1,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 10000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.25,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 10000 1 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 90000 0 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 90000 0 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 90000 0 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.75,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 90000 0.5 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 90000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 90000 0.5 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 90000 1 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.1,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 90000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.25,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier EGP 90000 1 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 1000 0 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 1000 0 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 1000 0 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.75,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 1000 0.5 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 1000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 1000 0.5 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 1000 1 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.1,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 1000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.25,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 1000 1 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 10000 0 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 10000 0 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 10000 0 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.75,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 10000 0.5 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 10000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 10000 0.5 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 10000 1 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.1,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 10000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.25,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 10000 1 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 90000 0 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 90000 0 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 90000 0 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.75,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 90000 0.5 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 90000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 90000 0.5 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 90000 1 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.1,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 90000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.25,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier USD 90000 1 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 1000 0 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 1000 0 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 1000 0 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.75,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 1000 0.5 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 1000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 1000 0.5 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 1000 1 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.1,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 1000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.25,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 1000 1 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 10000 0 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 10000 0 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 10000 0 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.75,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 10000 0.5 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 10000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 10000 0.5 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 10000 1 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.1,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 10000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.25,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 10000 1 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 90000 0 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 90000 0 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 90000 0 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0,
+        "creditFraction": 0.75,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 90000 0.5 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.1,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 90000 0.5 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.25,
+        "hadRefund": false
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 90000 0.5 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 0.5,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 90000 1 0.1",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.1,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 90000 1 0.25",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.25,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "دورة إشعار ورد وعكس سليمة supplier SAR 90000 1 0.75",
+      "status": "PASS",
+      "facts": {
+        "paidFraction": 1,
+        "creditFraction": 0.75,
+        "hadRefund": true
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 1200 0 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 1200,
+        "depreciations": 0,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1200,
+        "expectedBaseGain": -1200,
+        "reportedNativeGain": -1200
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 1200 0 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 1200,
+        "depreciations": 0,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1200,
+        "expectedBaseGain": -600,
+        "reportedNativeGain": -600
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 1200 0 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 1200,
+        "depreciations": 0,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1200,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 1200 0 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 1200,
+        "depreciations": 0,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1200,
+        "expectedBaseGain": 600,
+        "reportedNativeGain": 600
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 1200 1 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 1200,
+        "depreciations": 1,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1100,
+        "expectedBaseGain": -1100,
+        "reportedNativeGain": -1100
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 1200 1 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 1200,
+        "depreciations": 1,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1100,
+        "expectedBaseGain": -550,
+        "reportedNativeGain": -550
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 1200 1 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 1200,
+        "depreciations": 1,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1100,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 1200 1 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 1200,
+        "depreciations": 1,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1100,
+        "expectedBaseGain": 550,
+        "reportedNativeGain": 550
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 1200 3 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 1200,
+        "depreciations": 3,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 900,
+        "expectedBaseGain": -900,
+        "reportedNativeGain": -900
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 1200 3 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 1200,
+        "depreciations": 3,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 900,
+        "expectedBaseGain": -450,
+        "reportedNativeGain": -450
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 1200 3 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 1200,
+        "depreciations": 3,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 900,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 1200 3 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 1200,
+        "depreciations": 3,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 900,
+        "expectedBaseGain": 450,
+        "reportedNativeGain": 450
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 12000 0 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 12000,
+        "depreciations": 0,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 12000,
+        "expectedBaseGain": -12000,
+        "reportedNativeGain": -12000
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 12000 0 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 12000,
+        "depreciations": 0,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 12000,
+        "expectedBaseGain": -6000,
+        "reportedNativeGain": -6000
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 12000 0 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 12000,
+        "depreciations": 0,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 12000,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 12000 0 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 12000,
+        "depreciations": 0,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 12000,
+        "expectedBaseGain": 6000,
+        "reportedNativeGain": 6000
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 12000 1 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 12000,
+        "depreciations": 1,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 11000,
+        "expectedBaseGain": -11000,
+        "reportedNativeGain": -11000
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 12000 1 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 12000,
+        "depreciations": 1,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 11000,
+        "expectedBaseGain": -5500,
+        "reportedNativeGain": -5500
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 12000 1 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 12000,
+        "depreciations": 1,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 11000,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 12000 1 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 12000,
+        "depreciations": 1,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 11000,
+        "expectedBaseGain": 5500,
+        "reportedNativeGain": 5500
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 12000 3 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 12000,
+        "depreciations": 3,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 9000,
+        "expectedBaseGain": -9000,
+        "reportedNativeGain": -9000
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 12000 3 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 12000,
+        "depreciations": 3,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 9000,
+        "expectedBaseGain": -4500,
+        "reportedNativeGain": -4500
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 12000 3 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 12000,
+        "depreciations": 3,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 9000,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 12000 3 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 12000,
+        "depreciations": 3,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 9000,
+        "expectedBaseGain": 4500,
+        "reportedNativeGain": 4500
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 120000 0 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 120000,
+        "depreciations": 0,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 120000,
+        "expectedBaseGain": -120000,
+        "reportedNativeGain": -120000
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 120000 0 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 120000,
+        "depreciations": 0,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 120000,
+        "expectedBaseGain": -60000,
+        "reportedNativeGain": -60000
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 120000 0 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 120000,
+        "depreciations": 0,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 120000,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 120000 0 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 120000,
+        "depreciations": 0,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 120000,
+        "expectedBaseGain": 60000,
+        "reportedNativeGain": 60000
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 120000 1 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 120000,
+        "depreciations": 1,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 110000,
+        "expectedBaseGain": -110000,
+        "reportedNativeGain": -110000
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 120000 1 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 120000,
+        "depreciations": 1,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 110000,
+        "expectedBaseGain": -55000,
+        "reportedNativeGain": -55000
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 120000 1 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 120000,
+        "depreciations": 1,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 110000,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 120000 1 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 120000,
+        "depreciations": 1,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 110000,
+        "expectedBaseGain": 55000,
+        "reportedNativeGain": 55000
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 120000 3 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 120000,
+        "depreciations": 3,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 90000,
+        "expectedBaseGain": -90000,
+        "reportedNativeGain": -90000
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 120000 3 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 120000,
+        "depreciations": 3,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 90000,
+        "expectedBaseGain": -45000,
+        "reportedNativeGain": -45000
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 120000 3 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 120000,
+        "depreciations": 3,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 90000,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل EGP 120000 3 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 120000,
+        "depreciations": 3,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 90000,
+        "expectedBaseGain": 45000,
+        "reportedNativeGain": 45000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 0 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 0,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 60000,
+        "expectedBaseGain": -60000,
+        "reportedNativeGain": -60000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 0 0 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 0,
+        "saleRatio": 0,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 60000,
+        "expectedBaseGain": -60000,
+        "reportedNativeGain": -60000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 0 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 0,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 60000,
+        "expectedBaseGain": -30000,
+        "reportedNativeGain": -30000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 0 0.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 0,
+        "saleRatio": 0.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 60000,
+        "expectedBaseGain": -24000,
+        "reportedNativeGain": -24000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 0 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 0,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 60000,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 0 1 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 0,
+        "saleRatio": 1,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 60000,
+        "expectedBaseGain": 12000,
+        "reportedNativeGain": 12000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 0 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 0,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 60000,
+        "expectedBaseGain": 30000,
+        "reportedNativeGain": 30000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 0 1.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 0,
+        "saleRatio": 1.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 60000,
+        "expectedBaseGain": 48000,
+        "reportedNativeGain": 48000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 1 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 1,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 55000,
+        "expectedBaseGain": -55000,
+        "reportedNativeGain": -55000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 1 0 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 1,
+        "saleRatio": 0,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 55000,
+        "expectedBaseGain": -55000,
+        "reportedNativeGain": -55000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 1 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 1,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 55000,
+        "expectedBaseGain": -27500,
+        "reportedNativeGain": -27500
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 1 0.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 1,
+        "saleRatio": 0.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 55000,
+        "expectedBaseGain": -22000,
+        "reportedNativeGain": -22000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 1 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 1,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 55000,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 1 1 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 1,
+        "saleRatio": 1,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 55000,
+        "expectedBaseGain": 11000,
+        "reportedNativeGain": 11000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 1 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 1,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 55000,
+        "expectedBaseGain": 27500,
+        "reportedNativeGain": 27500
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 1 1.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 1,
+        "saleRatio": 1.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 55000,
+        "expectedBaseGain": 44000,
+        "reportedNativeGain": 44000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 3 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 3,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 45000,
+        "expectedBaseGain": -45000,
+        "reportedNativeGain": -45000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 3 0 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 3,
+        "saleRatio": 0,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 43000,
+        "expectedBaseGain": -43000,
+        "reportedNativeGain": -43000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 3 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 3,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 45000,
+        "expectedBaseGain": -22500,
+        "reportedNativeGain": -22500
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 3 0.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 3,
+        "saleRatio": 0.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 43000,
+        "expectedBaseGain": -16000,
+        "reportedNativeGain": -16000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 3 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 3,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 45000,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 3 1 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 3,
+        "saleRatio": 1,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 43000,
+        "expectedBaseGain": 11000,
+        "reportedNativeGain": 11000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 3 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 3,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 45000,
+        "expectedBaseGain": 22500,
+        "reportedNativeGain": 22500
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 1200 3 1.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1200,
+        "depreciations": 3,
+        "saleRatio": 1.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 43000,
+        "expectedBaseGain": 38000,
+        "reportedNativeGain": 38000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 0 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 0,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 600000,
+        "expectedBaseGain": -600000,
+        "reportedNativeGain": -600000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 0 0 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 0,
+        "saleRatio": 0,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 600000,
+        "expectedBaseGain": -600000,
+        "reportedNativeGain": -600000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 0 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 0,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 600000,
+        "expectedBaseGain": -300000,
+        "reportedNativeGain": -300000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 0 0.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 0,
+        "saleRatio": 0.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 600000,
+        "expectedBaseGain": -240000,
+        "reportedNativeGain": -240000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 0 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 0,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 600000,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 0 1 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 0,
+        "saleRatio": 1,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 600000,
+        "expectedBaseGain": 120000,
+        "reportedNativeGain": 120000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 0 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 0,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 600000,
+        "expectedBaseGain": 300000,
+        "reportedNativeGain": 300000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 0 1.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 0,
+        "saleRatio": 1.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 600000,
+        "expectedBaseGain": 480000,
+        "reportedNativeGain": 480000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 1 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 1,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 550000,
+        "expectedBaseGain": -550000,
+        "reportedNativeGain": -550000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 1 0 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 1,
+        "saleRatio": 0,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 550000,
+        "expectedBaseGain": -550000,
+        "reportedNativeGain": -550000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 1 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 1,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 550000,
+        "expectedBaseGain": -275000,
+        "reportedNativeGain": -275000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 1 0.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 1,
+        "saleRatio": 0.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 550000,
+        "expectedBaseGain": -220000,
+        "reportedNativeGain": -220000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 1 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 1,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 550000,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 1 1 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 1,
+        "saleRatio": 1,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 550000,
+        "expectedBaseGain": 110000,
+        "reportedNativeGain": 110000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 1 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 1,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 550000,
+        "expectedBaseGain": 275000,
+        "reportedNativeGain": 275000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 1 1.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 1,
+        "saleRatio": 1.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 550000,
+        "expectedBaseGain": 440000,
+        "reportedNativeGain": 440000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 3 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 3,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 450000,
+        "expectedBaseGain": -450000,
+        "reportedNativeGain": -450000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 3 0 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 3,
+        "saleRatio": 0,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 430000,
+        "expectedBaseGain": -430000,
+        "reportedNativeGain": -430000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 3 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 3,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 450000,
+        "expectedBaseGain": -225000,
+        "reportedNativeGain": -225000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 3 0.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 3,
+        "saleRatio": 0.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 430000,
+        "expectedBaseGain": -160000,
+        "reportedNativeGain": -160000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 3 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 3,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 450000,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 3 1 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 3,
+        "saleRatio": 1,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 430000,
+        "expectedBaseGain": 110000,
+        "reportedNativeGain": 110000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 3 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 3,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 450000,
+        "expectedBaseGain": 225000,
+        "reportedNativeGain": 225000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 12000 3 1.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 12000,
+        "depreciations": 3,
+        "saleRatio": 1.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 430000,
+        "expectedBaseGain": 380000,
+        "reportedNativeGain": 380000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 0 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 0,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 6000000,
+        "expectedBaseGain": -6000000,
+        "reportedNativeGain": -6000000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 0 0 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 0,
+        "saleRatio": 0,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 6000000,
+        "expectedBaseGain": -6000000,
+        "reportedNativeGain": -6000000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 0 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 0,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 6000000,
+        "expectedBaseGain": -3000000,
+        "reportedNativeGain": -3000000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 0 0.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 0,
+        "saleRatio": 0.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 6000000,
+        "expectedBaseGain": -2400000,
+        "reportedNativeGain": -2400000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 0 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 0,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 6000000,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 0 1 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 0,
+        "saleRatio": 1,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 6000000,
+        "expectedBaseGain": 1200000,
+        "reportedNativeGain": 1200000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 0 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 0,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 6000000,
+        "expectedBaseGain": 3000000,
+        "reportedNativeGain": 3000000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 0 1.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 0,
+        "saleRatio": 1.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 6000000,
+        "expectedBaseGain": 4800000,
+        "reportedNativeGain": 4800000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 1 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 1,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 5500000,
+        "expectedBaseGain": -5500000,
+        "reportedNativeGain": -5500000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 1 0 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 1,
+        "saleRatio": 0,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 5500000,
+        "expectedBaseGain": -5500000,
+        "reportedNativeGain": -5500000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 1 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 1,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 5500000,
+        "expectedBaseGain": -2750000,
+        "reportedNativeGain": -2750000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 1 0.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 1,
+        "saleRatio": 0.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 5500000,
+        "expectedBaseGain": -2200000,
+        "reportedNativeGain": -2200000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 1 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 1,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 5500000,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 1 1 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 1,
+        "saleRatio": 1,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 5500000,
+        "expectedBaseGain": 1100000,
+        "reportedNativeGain": 1100000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 1 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 1,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 5500000,
+        "expectedBaseGain": 2750000,
+        "reportedNativeGain": 2750000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 1 1.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 1,
+        "saleRatio": 1.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 5500000,
+        "expectedBaseGain": 4400000,
+        "reportedNativeGain": 4400000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 3 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 3,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 4500000,
+        "expectedBaseGain": -4500000,
+        "reportedNativeGain": -4500000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 3 0 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 3,
+        "saleRatio": 0,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 4300000,
+        "expectedBaseGain": -4300000,
+        "reportedNativeGain": -4300000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 3 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 3,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 4500000,
+        "expectedBaseGain": -2250000,
+        "reportedNativeGain": -2250000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 3 0.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 3,
+        "saleRatio": 0.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 4300000,
+        "expectedBaseGain": -1600000,
+        "reportedNativeGain": -1600000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 3 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 3,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 4500000,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 3 1 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 3,
+        "saleRatio": 1,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 4300000,
+        "expectedBaseGain": 1100000,
+        "reportedNativeGain": 1100000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 3 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 3,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 4500000,
+        "expectedBaseGain": 2250000,
+        "reportedNativeGain": 2250000
+      }
+    },
+    {
+      "name": "استبعاد أصل USD 120000 3 1.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 120000,
+        "depreciations": 3,
+        "saleRatio": 1.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 4300000,
+        "expectedBaseGain": 3800000,
+        "reportedNativeGain": 3800000
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 0 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 0,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 15900,
+        "expectedBaseGain": -15900,
+        "reportedNativeGain": -15900
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 0 0 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 0,
+        "saleRatio": 0,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 15900,
+        "expectedBaseGain": -15900,
+        "reportedNativeGain": -15900
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 0 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 0,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 15900,
+        "expectedBaseGain": -7950,
+        "reportedNativeGain": -7950
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 0 0.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 0,
+        "saleRatio": 0.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 15900,
+        "expectedBaseGain": -6900,
+        "reportedNativeGain": -6900
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 0 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 0,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 15900,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 0 1 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 0,
+        "saleRatio": 1,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 15900,
+        "expectedBaseGain": 2100,
+        "reportedNativeGain": 2100
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 0 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 0,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 15900,
+        "expectedBaseGain": 7950,
+        "reportedNativeGain": 7950
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 0 1.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 0,
+        "saleRatio": 1.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 15900,
+        "expectedBaseGain": 11100,
+        "reportedNativeGain": 11100
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 1 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 1,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 14575,
+        "expectedBaseGain": -14575,
+        "reportedNativeGain": -14575
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 1 0 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 1,
+        "saleRatio": 0,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 14575,
+        "expectedBaseGain": -14575,
+        "reportedNativeGain": -14575
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 1 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 1,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 14575,
+        "expectedBaseGain": -7287.5,
+        "reportedNativeGain": -7287.5
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 1 0.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 1,
+        "saleRatio": 0.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 14575,
+        "expectedBaseGain": -6325,
+        "reportedNativeGain": -6325
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 1 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 1,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 14575,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 1 1 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 1,
+        "saleRatio": 1,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 14575,
+        "expectedBaseGain": 1925,
+        "reportedNativeGain": 1925
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 1 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 1,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 14575,
+        "expectedBaseGain": 7287.5,
+        "reportedNativeGain": 7287.5
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 1 1.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 1,
+        "saleRatio": 1.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 14575,
+        "expectedBaseGain": 10175,
+        "reportedNativeGain": 10175
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 3 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 3,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 11925,
+        "expectedBaseGain": -11925,
+        "reportedNativeGain": -11925
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 3 0 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 3,
+        "saleRatio": 0,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 11575,
+        "expectedBaseGain": -11575,
+        "reportedNativeGain": -11575
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 3 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 3,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 11925,
+        "expectedBaseGain": -5962.5,
+        "reportedNativeGain": -5962.5
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 3 0.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 3,
+        "saleRatio": 0.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 11575,
+        "expectedBaseGain": -4825,
+        "reportedNativeGain": -4825
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 3 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 3,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 11925,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 3 1 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 3,
+        "saleRatio": 1,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 11575,
+        "expectedBaseGain": 1925,
+        "reportedNativeGain": 1925
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 3 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 3,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 11925,
+        "expectedBaseGain": 5962.5,
+        "reportedNativeGain": 5962.5
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 1200 3 1.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1200,
+        "depreciations": 3,
+        "saleRatio": 1.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 11575,
+        "expectedBaseGain": 8675,
+        "reportedNativeGain": 8675
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 0 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 0,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 159000,
+        "expectedBaseGain": -159000,
+        "reportedNativeGain": -159000
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 0 0 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 0,
+        "saleRatio": 0,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 159000,
+        "expectedBaseGain": -159000,
+        "reportedNativeGain": -159000
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 0 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 0,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 159000,
+        "expectedBaseGain": -79500,
+        "reportedNativeGain": -79500
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 0 0.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 0,
+        "saleRatio": 0.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 159000,
+        "expectedBaseGain": -69000,
+        "reportedNativeGain": -69000
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 0 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 0,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 159000,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 0 1 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 0,
+        "saleRatio": 1,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 159000,
+        "expectedBaseGain": 21000,
+        "reportedNativeGain": 21000
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 0 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 0,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 159000,
+        "expectedBaseGain": 79500,
+        "reportedNativeGain": 79500
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 0 1.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 0,
+        "saleRatio": 1.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 159000,
+        "expectedBaseGain": 111000,
+        "reportedNativeGain": 111000
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 1 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 1,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 145750,
+        "expectedBaseGain": -145750,
+        "reportedNativeGain": -145750
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 1 0 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 1,
+        "saleRatio": 0,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 145750,
+        "expectedBaseGain": -145750,
+        "reportedNativeGain": -145750
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 1 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 1,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 145750,
+        "expectedBaseGain": -72875,
+        "reportedNativeGain": -72875
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 1 0.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 1,
+        "saleRatio": 0.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 145750,
+        "expectedBaseGain": -63250,
+        "reportedNativeGain": -63250
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 1 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 1,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 145750,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 1 1 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 1,
+        "saleRatio": 1,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 145750,
+        "expectedBaseGain": 19250,
+        "reportedNativeGain": 19250
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 1 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 1,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 145750,
+        "expectedBaseGain": 72875,
+        "reportedNativeGain": 72875
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 1 1.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 1,
+        "saleRatio": 1.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 145750,
+        "expectedBaseGain": 101750,
+        "reportedNativeGain": 101750
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 3 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 3,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 119250,
+        "expectedBaseGain": -119250,
+        "reportedNativeGain": -119250
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 3 0 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 3,
+        "saleRatio": 0,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 115750,
+        "expectedBaseGain": -115750,
+        "reportedNativeGain": -115750
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 3 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 3,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 119250,
+        "expectedBaseGain": -59625,
+        "reportedNativeGain": -59625
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 3 0.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 3,
+        "saleRatio": 0.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 115750,
+        "expectedBaseGain": -48250,
+        "reportedNativeGain": -48250
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 3 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 3,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 119250,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 3 1 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 3,
+        "saleRatio": 1,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 115750,
+        "expectedBaseGain": 19250,
+        "reportedNativeGain": 19250
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 3 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 3,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 119250,
+        "expectedBaseGain": 59625,
+        "reportedNativeGain": 59625
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 12000 3 1.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 12000,
+        "depreciations": 3,
+        "saleRatio": 1.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 115750,
+        "expectedBaseGain": 86750,
+        "reportedNativeGain": 86750
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 0 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 0,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1590000,
+        "expectedBaseGain": -1590000,
+        "reportedNativeGain": -1590000
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 0 0 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 0,
+        "saleRatio": 0,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1590000,
+        "expectedBaseGain": -1590000,
+        "reportedNativeGain": -1590000
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 0 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 0,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1590000,
+        "expectedBaseGain": -795000,
+        "reportedNativeGain": -795000
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 0 0.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 0,
+        "saleRatio": 0.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1590000,
+        "expectedBaseGain": -690000,
+        "reportedNativeGain": -690000
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 0 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 0,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1590000,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 0 1 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 0,
+        "saleRatio": 1,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1590000,
+        "expectedBaseGain": 210000,
+        "reportedNativeGain": 210000
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 0 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 0,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1590000,
+        "expectedBaseGain": 795000,
+        "reportedNativeGain": 795000
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 0 1.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 0,
+        "saleRatio": 1.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1590000,
+        "expectedBaseGain": 1110000,
+        "reportedNativeGain": 1110000
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 1 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 1,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1457500,
+        "expectedBaseGain": -1457500,
+        "reportedNativeGain": -1457500
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 1 0 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 1,
+        "saleRatio": 0,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1457500,
+        "expectedBaseGain": -1457500,
+        "reportedNativeGain": -1457500
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 1 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 1,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1457500,
+        "expectedBaseGain": -728750,
+        "reportedNativeGain": -728750
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 1 0.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 1,
+        "saleRatio": 0.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1457500,
+        "expectedBaseGain": -632500,
+        "reportedNativeGain": -632500
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 1 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 1,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1457500,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 1 1 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 1,
+        "saleRatio": 1,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1457500,
+        "expectedBaseGain": 192500,
+        "reportedNativeGain": 192500
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 1 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 1,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1457500,
+        "expectedBaseGain": 728750,
+        "reportedNativeGain": 728750
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 1 1.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 1,
+        "saleRatio": 1.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1457500,
+        "expectedBaseGain": 1017500,
+        "reportedNativeGain": 1017500
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 3 0 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 3,
+        "saleRatio": 0,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1192500,
+        "expectedBaseGain": -1192500,
+        "reportedNativeGain": -1192500
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 3 0 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 3,
+        "saleRatio": 0,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1157500,
+        "expectedBaseGain": -1157500,
+        "reportedNativeGain": -1157500
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 3 0.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 3,
+        "saleRatio": 0.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1192500,
+        "expectedBaseGain": -596250,
+        "reportedNativeGain": -596250
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 3 0.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 3,
+        "saleRatio": 0.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1157500,
+        "expectedBaseGain": -482500,
+        "reportedNativeGain": -482500
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 3 1 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 3,
+        "saleRatio": 1,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1192500,
+        "expectedBaseGain": 0,
+        "reportedNativeGain": 0
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 3 1 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 3,
+        "saleRatio": 1,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1157500,
+        "expectedBaseGain": 192500,
+        "reportedNativeGain": 192500
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 3 1.5 false",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 3,
+        "saleRatio": 1.5,
+        "changed": false,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1192500,
+        "expectedBaseGain": 596250,
+        "reportedNativeGain": 596250
+      }
+    },
+    {
+      "name": "استبعاد أصل SAR 120000 3 1.5 true",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 120000,
+        "depreciations": 3,
+        "saleRatio": 1.5,
+        "changed": true,
+        "status": "disposed",
+        "nativeAsset": 0,
+        "baseAsset": 0,
+        "baseAccumulated": 0,
+        "nbvBase": 1157500,
+        "expectedBaseGain": 867500,
+        "reportedNativeGain": 867500
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> erp-professional-suite-commercial@32.5.68 test:audit-repairs
+> node scripts/verify-audit-repairs.mjs
+
+{"test":"f02-company-scenarios.mjs","ok":true,"passed":26,"failed":0,"exitCode":0}
+{"test":"f03-company-scenarios.mjs","ok":true,"passed":13,"failed":0,"exitCode":0}
+{"test":"f04-manager-scenarios.mjs","ok":true,"passed":11,"failed":0,"exitCode":0}
+{"test":"f05-commercial-matrix.mjs","ok":true,"passed":240,"failed":0,"exitCode":0}
+{"test":"f05-company-matrix.mjs","ok":true,"passed":428,"failed":0,"exitCode":0}
+{"test":"f05-invoice-matrix.mjs","ok":true,"passed":1920,"failed":0,"exitCode":0}
+{"test":"f05-isolated-company-cases.mjs","ok":true,"passed":14,"failed":0,"exitCode":0}
+{"test":"f05-ordinary-lifecycles.mjs","ok":true,"passed":1200,"failed":0,"exitCode":0}
+{"test":"f06-native-booking-matrix.mjs","ok":true,"passed":80,"failed":0,"exitCode":0}
+{"test":"f06-realistic-umrah-accounting.mjs","ok":true,"passed":16,"failed":0,"exitCode":0}
+{"test":"f07-operational-accounting.mjs","ok":true,"passed":46,"failed":0,"exitCode":0}
+{"test":"f08-cheque-matrix.mjs","ok":true,"passed":332,"failed":0,"exitCode":0}
+{"test":"f08-contract-payments.mjs","ok":true,"passed":27,"failed":0,"exitCode":0}
+{"test":"f08-deep-accounting.mjs","ok":true,"passed":297,"failed":0,"exitCode":0}
+{"test":"f08-deep-netting.mjs","ok":true,"passed":96,"failed":0,"exitCode":0}
+{"test":"f08-deep-umrah.mjs","ok":true,"passed":165,"failed":0,"exitCode":0}
+{"test":"f08-isolated-evidence.mjs","ok":true,"passed":16,"failed":0,"exitCode":0}
+{"test":"f08-lottery-company-case.mjs","ok":true,"passed":12,"failed":0,"exitCode":0}
+{"test":"f08-period-close-cycles.mjs","ok":true,"passed":90,"failed":0,"exitCode":0}
+{"test":"f08-refunded-pending-advances.mjs","ok":true,"passed":18,"failed":0,"exitCode":0}
+{"test":"f08-three-currency-vouchers.mjs","ok":true,"passed":498,"failed":0,"exitCode":0}
+{"test":"f09-adjustment-interactions.mjs","ok":true,"passed":126,"failed":0,"exitCode":0}
+{"test":"f09-controls-assets.mjs","ok":true,"passed":342,"failed":0,"exitCode":0}
+{"test":"f09-isolated-evidence.mjs","ok":true,"passed":5,"failed":0,"exitCode":0}
+{"test":"f09-taxed-adjustment-matrix.mjs","ok":true,"passed":217,"failed":0,"exitCode":0}
+{"test":"f09-zero-net-payroll.mjs","ok":true,"passed":27,"failed":0,"exitCode":0}
+{"test":"fix-acceptance.mjs","ok":true,"passed":24,"failed":0,"exitCode":0}
+{"suites":27,"failedSuites":0}

@@ -1,0 +1,89 @@
+{
+  "scenarios": 5,
+  "passed": 5,
+  "failed": 0,
+  "diary": [
+    {
+      "name": "إكمال الاعتراف بعد عكس الإشعار customer",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "invoiceNet": 10000,
+        "scheduleTotal": 10000,
+        "scheduleStatus": "completed",
+        "deferredBase": 0,
+        "currentRevenueOrCost": -10000
+      }
+    },
+    {
+      "name": "إكمال الاعتراف بعد عكس الإشعار supplier",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "invoiceNet": 10000,
+        "scheduleTotal": 10000,
+        "scheduleStatus": "completed",
+        "deferredBase": 0,
+        "currentRevenueOrCost": 10000
+      }
+    },
+    {
+      "name": "إشعار بند متكرر يحترم حد البند عند عدم وجود شامل customer",
+      "status": "PASS",
+      "facts": {
+        "remaining": 4000
+      }
+    },
+    {
+      "name": "إشعار بند متكرر يحترم حد البند عند عدم وجود شامل supplier",
+      "status": "PASS",
+      "facts": {
+        "remaining": 4000
+      }
+    },
+    {
+      "name": "مثال بيع أصل1200USD بالقيمة الأصلية بعد الإهلاك وتغير الصرف",
+      "status": "PASS",
+      "facts": {
+        "status": "disposed",
+        "nativeCostBalance": 0,
+        "baseCostBalance": 0,
+        "baseAccumulated": 0,
+        "carryingBefore": 54000,
+        "saleCash": 66000,
+        "expectedBaseGain": 12000,
+        "reportedNativeGain": 12000,
+        "bank": 106000
+      }
+    }
+  ],
+  "probes": {
+    "completedDeferred_customer": {
+      "kind": "customer",
+      "invoiceNet": 10000,
+      "scheduleTotal": 10000,
+      "scheduleStatus": "completed",
+      "deferredBase": 0,
+      "currentRevenueOrCost": -10000
+    },
+    "completedDeferred_supplier": {
+      "kind": "supplier",
+      "invoiceNet": 10000,
+      "scheduleTotal": 10000,
+      "scheduleStatus": "completed",
+      "deferredBase": 0,
+      "currentRevenueOrCost": 10000
+    },
+    "asset": {
+      "status": "disposed",
+      "nativeCostBalance": 0,
+      "baseCostBalance": 0,
+      "baseAccumulated": 0,
+      "carryingBefore": 54000,
+      "saleCash": 66000,
+      "expectedBaseGain": 12000,
+      "reportedNativeGain": 12000,
+      "bank": 106000
+    }
+  }
+}

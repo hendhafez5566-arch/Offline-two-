@@ -1,0 +1,393 @@
+{
+  "scenarios": 12,
+  "passed": 12,
+  "failed": 0,
+  "diary": [
+    {
+      "name": "قرعة3عملاء 0 فائز ورسومغيرالفائز 0",
+      "status": "PASS",
+      "facts": {
+        "registered": 3,
+        "depositEach": 120000,
+        "salePerWinner": 395000,
+        "costPerWinner": 290000,
+        "winners": 0,
+        "loserFee": 0,
+        "refunded": 360000,
+        "revenue": 0,
+        "cost": 0,
+        "profit": 0,
+        "bank": 500000,
+        "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+      }
+    },
+    {
+      "name": "قرعة3عملاء 0 فائز ورسومغيرالفائز 5000",
+      "status": "PASS",
+      "facts": {
+        "registered": 3,
+        "depositEach": 120000,
+        "salePerWinner": 395000,
+        "costPerWinner": 290000,
+        "winners": 0,
+        "loserFee": 5000,
+        "refunded": 345000,
+        "revenue": 15000,
+        "cost": 0,
+        "profit": 15000,
+        "bank": 515000,
+        "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+      }
+    },
+    {
+      "name": "قرعة3عملاء 0 فائز ورسومغيرالفائز 10000",
+      "status": "PASS",
+      "facts": {
+        "registered": 3,
+        "depositEach": 120000,
+        "salePerWinner": 395000,
+        "costPerWinner": 290000,
+        "winners": 0,
+        "loserFee": 10000,
+        "refunded": 330000,
+        "revenue": 30000,
+        "cost": 0,
+        "profit": 30000,
+        "bank": 530000,
+        "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+      }
+    },
+    {
+      "name": "قرعة3عملاء 1 فائز ورسومغيرالفائز 0",
+      "status": "PASS",
+      "facts": {
+        "registered": 3,
+        "depositEach": 120000,
+        "salePerWinner": 395000,
+        "costPerWinner": 290000,
+        "winners": 1,
+        "loserFee": 0,
+        "refunded": 240000,
+        "revenue": 395000,
+        "cost": 290000,
+        "profit": 105000,
+        "bank": 605000,
+        "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+      }
+    },
+    {
+      "name": "قرعة3عملاء 1 فائز ورسومغيرالفائز 5000",
+      "status": "PASS",
+      "facts": {
+        "registered": 3,
+        "depositEach": 120000,
+        "salePerWinner": 395000,
+        "costPerWinner": 290000,
+        "winners": 1,
+        "loserFee": 5000,
+        "refunded": 230000,
+        "revenue": 405000,
+        "cost": 290000,
+        "profit": 115000,
+        "bank": 615000,
+        "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+      }
+    },
+    {
+      "name": "قرعة3عملاء 1 فائز ورسومغيرالفائز 10000",
+      "status": "PASS",
+      "facts": {
+        "registered": 3,
+        "depositEach": 120000,
+        "salePerWinner": 395000,
+        "costPerWinner": 290000,
+        "winners": 1,
+        "loserFee": 10000,
+        "refunded": 220000,
+        "revenue": 415000,
+        "cost": 290000,
+        "profit": 125000,
+        "bank": 625000,
+        "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+      }
+    },
+    {
+      "name": "قرعة3عملاء 2 فائز ورسومغيرالفائز 0",
+      "status": "PASS",
+      "facts": {
+        "registered": 3,
+        "depositEach": 120000,
+        "salePerWinner": 395000,
+        "costPerWinner": 290000,
+        "winners": 2,
+        "loserFee": 0,
+        "refunded": 120000,
+        "revenue": 790000,
+        "cost": 580000,
+        "profit": 210000,
+        "bank": 710000,
+        "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+      }
+    },
+    {
+      "name": "قرعة3عملاء 2 فائز ورسومغيرالفائز 5000",
+      "status": "PASS",
+      "facts": {
+        "registered": 3,
+        "depositEach": 120000,
+        "salePerWinner": 395000,
+        "costPerWinner": 290000,
+        "winners": 2,
+        "loserFee": 5000,
+        "refunded": 115000,
+        "revenue": 795000,
+        "cost": 580000,
+        "profit": 215000,
+        "bank": 715000,
+        "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+      }
+    },
+    {
+      "name": "قرعة3عملاء 2 فائز ورسومغيرالفائز 10000",
+      "status": "PASS",
+      "facts": {
+        "registered": 3,
+        "depositEach": 120000,
+        "salePerWinner": 395000,
+        "costPerWinner": 290000,
+        "winners": 2,
+        "loserFee": 10000,
+        "refunded": 110000,
+        "revenue": 800000,
+        "cost": 580000,
+        "profit": 220000,
+        "bank": 720000,
+        "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+      }
+    },
+    {
+      "name": "قرعة3عملاء 3 فائز ورسومغيرالفائز 0",
+      "status": "PASS",
+      "facts": {
+        "registered": 3,
+        "depositEach": 120000,
+        "salePerWinner": 395000,
+        "costPerWinner": 290000,
+        "winners": 3,
+        "loserFee": 0,
+        "refunded": 0,
+        "revenue": 1185000,
+        "cost": 870000,
+        "profit": 315000,
+        "bank": 815000,
+        "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+      }
+    },
+    {
+      "name": "قرعة3عملاء 3 فائز ورسومغيرالفائز 5000",
+      "status": "PASS",
+      "facts": {
+        "registered": 3,
+        "depositEach": 120000,
+        "salePerWinner": 395000,
+        "costPerWinner": 290000,
+        "winners": 3,
+        "loserFee": 5000,
+        "refunded": 0,
+        "revenue": 1185000,
+        "cost": 870000,
+        "profit": 315000,
+        "bank": 815000,
+        "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+      }
+    },
+    {
+      "name": "قرعة3عملاء 3 فائز ورسومغيرالفائز 10000",
+      "status": "PASS",
+      "facts": {
+        "registered": 3,
+        "depositEach": 120000,
+        "salePerWinner": 395000,
+        "costPerWinner": 290000,
+        "winners": 3,
+        "loserFee": 10000,
+        "refunded": 0,
+        "revenue": 1185000,
+        "cost": 870000,
+        "profit": 315000,
+        "bank": 815000,
+        "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "registered": 3,
+      "depositEach": 120000,
+      "salePerWinner": 395000,
+      "costPerWinner": 290000,
+      "winners": 0,
+      "loserFee": 0,
+      "refunded": 360000,
+      "revenue": 0,
+      "cost": 0,
+      "profit": 0,
+      "bank": 500000,
+      "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+    },
+    {
+      "registered": 3,
+      "depositEach": 120000,
+      "salePerWinner": 395000,
+      "costPerWinner": 290000,
+      "winners": 0,
+      "loserFee": 5000,
+      "refunded": 345000,
+      "revenue": 15000,
+      "cost": 0,
+      "profit": 15000,
+      "bank": 515000,
+      "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+    },
+    {
+      "registered": 3,
+      "depositEach": 120000,
+      "salePerWinner": 395000,
+      "costPerWinner": 290000,
+      "winners": 0,
+      "loserFee": 10000,
+      "refunded": 330000,
+      "revenue": 30000,
+      "cost": 0,
+      "profit": 30000,
+      "bank": 530000,
+      "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+    },
+    {
+      "registered": 3,
+      "depositEach": 120000,
+      "salePerWinner": 395000,
+      "costPerWinner": 290000,
+      "winners": 1,
+      "loserFee": 0,
+      "refunded": 240000,
+      "revenue": 395000,
+      "cost": 290000,
+      "profit": 105000,
+      "bank": 605000,
+      "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+    },
+    {
+      "registered": 3,
+      "depositEach": 120000,
+      "salePerWinner": 395000,
+      "costPerWinner": 290000,
+      "winners": 1,
+      "loserFee": 5000,
+      "refunded": 230000,
+      "revenue": 405000,
+      "cost": 290000,
+      "profit": 115000,
+      "bank": 615000,
+      "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+    },
+    {
+      "registered": 3,
+      "depositEach": 120000,
+      "salePerWinner": 395000,
+      "costPerWinner": 290000,
+      "winners": 1,
+      "loserFee": 10000,
+      "refunded": 220000,
+      "revenue": 415000,
+      "cost": 290000,
+      "profit": 125000,
+      "bank": 625000,
+      "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+    },
+    {
+      "registered": 3,
+      "depositEach": 120000,
+      "salePerWinner": 395000,
+      "costPerWinner": 290000,
+      "winners": 2,
+      "loserFee": 0,
+      "refunded": 120000,
+      "revenue": 790000,
+      "cost": 580000,
+      "profit": 210000,
+      "bank": 710000,
+      "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+    },
+    {
+      "registered": 3,
+      "depositEach": 120000,
+      "salePerWinner": 395000,
+      "costPerWinner": 290000,
+      "winners": 2,
+      "loserFee": 5000,
+      "refunded": 115000,
+      "revenue": 795000,
+      "cost": 580000,
+      "profit": 215000,
+      "bank": 715000,
+      "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+    },
+    {
+      "registered": 3,
+      "depositEach": 120000,
+      "salePerWinner": 395000,
+      "costPerWinner": 290000,
+      "winners": 2,
+      "loserFee": 10000,
+      "refunded": 110000,
+      "revenue": 800000,
+      "cost": 580000,
+      "profit": 220000,
+      "bank": 720000,
+      "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+    },
+    {
+      "registered": 3,
+      "depositEach": 120000,
+      "salePerWinner": 395000,
+      "costPerWinner": 290000,
+      "winners": 3,
+      "loserFee": 0,
+      "refunded": 0,
+      "revenue": 1185000,
+      "cost": 870000,
+      "profit": 315000,
+      "bank": 815000,
+      "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+    },
+    {
+      "registered": 3,
+      "depositEach": 120000,
+      "salePerWinner": 395000,
+      "costPerWinner": 290000,
+      "winners": 3,
+      "loserFee": 5000,
+      "refunded": 0,
+      "revenue": 1185000,
+      "cost": 870000,
+      "profit": 315000,
+      "bank": 815000,
+      "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+    },
+    {
+      "registered": 3,
+      "depositEach": 120000,
+      "salePerWinner": 395000,
+      "costPerWinner": 290000,
+      "winners": 3,
+      "loserFee": 10000,
+      "refunded": 0,
+      "revenue": 1185000,
+      "cost": 870000,
+      "profit": 315000,
+      "bank": 815000,
+      "route": "مسودات وفواتير وسندات وتسويات أصلية بتنسيق يدوي؛ لا workflow قرعة تلقائي"
+    }
+  ]
+}

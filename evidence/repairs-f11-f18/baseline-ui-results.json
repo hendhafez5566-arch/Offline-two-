@@ -1,0 +1,23 @@
+{
+  "results": [
+    {
+      "id": "F11-02-before",
+      "status": "PASS",
+      "facts": {
+        "bugReproduced": true,
+        "salesPrintCost": 900
+      }
+    },
+    {
+      "id": "F15-02-before",
+      "status": "PASS",
+      "facts": {
+        "bugReproduced": true,
+        "nativeBalance": -100
+      }
+    }
+  ],
+  "pageErrors": [
+    "Cannot read properties of undefined (reading 'update')"
+  ]
+}

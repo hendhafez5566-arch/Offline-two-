@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "invoiceId": "59a0f4d0-045b-4ce9-85cd-bffb1499f852",
+  "attachmentId": "deaa3a5f-bfe9-41fc-b911-ead98a3c7173",
+  "stateSaved": true,
+  "restoreFailureRejected": true,
+  "memoryRollback": true,
+  "indexedDbRollback": true,
+  "fileRollback": true,
+  "afterReload": {
+    "invoice": true,
+    "attachment": true
+  }
+}

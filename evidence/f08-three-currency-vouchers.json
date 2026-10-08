@@ -1,0 +1,4633 @@
+{
+  "scenarios": 498,
+  "passed": 498,
+  "failed": 0,
+  "diary": [
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/EGP 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/EGP 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/EGP 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/EGP 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/EGP 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/EGP 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/EGP 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/EGP 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/EGP 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/USD 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/USD 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/USD 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/USD 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/USD 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/USD 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/USD 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/USD 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/USD 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/SAR 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/SAR 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/SAR 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/SAR 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/SAR 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/SAR 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/SAR 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/SAR 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/EGP/SAR 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/EGP 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/EGP 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/EGP 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/EGP 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/EGP 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/EGP 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/EGP 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/EGP 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/EGP 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/USD 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/USD 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/USD 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/USD 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/USD 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/USD 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/USD 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/USD 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/USD 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/SAR 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/SAR 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/SAR 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/SAR 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/SAR 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/SAR 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/SAR 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/SAR 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/USD/SAR 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/EGP 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/EGP 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/EGP 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/EGP 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/EGP 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/EGP 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/EGP 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/EGP 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/EGP 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/USD 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/USD 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/USD 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/USD 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/USD 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/USD 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/USD 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/USD 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/USD 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/SAR 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/SAR 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/SAR 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/SAR 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/SAR 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/SAR 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/SAR 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/SAR 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer EGP/SAR/SAR 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/EGP 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/EGP 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/EGP 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/EGP 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/EGP 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/EGP 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/EGP 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/EGP 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/EGP 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/USD 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/USD 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/USD 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/USD 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/USD 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/USD 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/USD 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/USD 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/USD 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/SAR 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/SAR 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/SAR 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/SAR 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/SAR 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/SAR 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/SAR 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/SAR 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/EGP/SAR 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/EGP 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/EGP 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/EGP 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/EGP 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/EGP 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/EGP 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/EGP 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/EGP 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/EGP 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/USD 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/USD 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/USD 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/USD 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/USD 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/USD 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/USD 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/USD 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/USD 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/SAR 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/SAR 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/SAR 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/SAR 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/SAR 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/SAR 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/SAR 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/SAR 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/USD/SAR 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/EGP 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/EGP 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/EGP 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/EGP 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/EGP 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/EGP 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/EGP 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/EGP 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/EGP 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/USD 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/USD 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/USD 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/USD 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/USD 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/USD 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/USD 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/USD 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/USD 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/SAR 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/SAR 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/SAR 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/SAR 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/SAR 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/SAR 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/SAR 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/SAR 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer USD/SAR/SAR 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/EGP 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/EGP 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/EGP 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/EGP 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/EGP 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/EGP 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/EGP 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/EGP 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/EGP 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/USD 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/USD 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/USD 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/USD 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/USD 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/USD 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/USD 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/USD 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/USD 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/SAR 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/SAR 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/SAR 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/SAR 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/SAR 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/SAR 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/SAR 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/SAR 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/EGP/SAR 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/EGP 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/EGP 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/EGP 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/EGP 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/EGP 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/EGP 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/EGP 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/EGP 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/EGP 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/USD 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/USD 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/USD 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/USD 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/USD 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/USD 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/USD 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/USD 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/USD 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/SAR 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/SAR 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/SAR 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/SAR 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/SAR 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/SAR 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/SAR 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/SAR 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/USD/SAR 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/EGP 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/EGP 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/EGP 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/EGP 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/EGP 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/EGP 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/EGP 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/EGP 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/EGP 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/USD 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/USD 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/USD 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/USD 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/USD 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/USD 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/USD 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/USD 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/USD 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/SAR 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/SAR 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/SAR 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/SAR 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/SAR 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/SAR 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/SAR 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/SAR 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك customer SAR/SAR/SAR 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/EGP 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/EGP 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/EGP 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/EGP 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/EGP 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/EGP 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/EGP 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/EGP 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/EGP 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/USD 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/USD 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/USD 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/USD 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/USD 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/USD 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/USD 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/USD 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/USD 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/SAR 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/SAR 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/SAR 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/SAR 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/SAR 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/SAR 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/SAR 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/SAR 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/EGP/SAR 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/EGP 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/EGP 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/EGP 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/EGP 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/EGP 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/EGP 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/EGP 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/EGP 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/EGP 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/USD 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/USD 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/USD 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/USD 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/USD 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/USD 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/USD 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/USD 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/USD 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/SAR 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/SAR 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/SAR 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/SAR 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/SAR 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/SAR 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/SAR 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/SAR 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/USD/SAR 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/EGP 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/EGP 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/EGP 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/EGP 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/EGP 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/EGP 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/EGP 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/EGP 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/EGP 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/USD 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/USD 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/USD 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/USD 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/USD 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/USD 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/USD 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/USD 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/USD 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/SAR 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/SAR 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/SAR 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 26500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/SAR 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/SAR 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/SAR 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 132500,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/SAR 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/SAR 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier EGP/SAR/SAR 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 265000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/EGP 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/EGP 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/EGP 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/EGP 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/EGP 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/EGP 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/EGP 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/EGP 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/EGP 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/USD 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/USD 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/USD 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/USD 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/USD 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/USD 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/USD 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/USD 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/USD 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/SAR 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/SAR 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/SAR 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/SAR 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/SAR 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/SAR 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/SAR 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/SAR 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/EGP/SAR 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/EGP 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/EGP 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/EGP 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/EGP 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/EGP 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/EGP 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/EGP 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/EGP 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/EGP 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/USD 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/USD 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/USD 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/USD 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/USD 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/USD 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/USD 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/USD 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/USD 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/SAR 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/SAR 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/SAR 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/SAR 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/SAR 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/SAR 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/SAR 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/SAR 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/USD/SAR 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/EGP 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/EGP 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/EGP 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/EGP 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/EGP 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/EGP 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/EGP 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/EGP 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/EGP 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/USD 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/USD 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/USD 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/USD 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/USD 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/USD 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/USD 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/USD 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/USD 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/SAR 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/SAR 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/SAR 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 530,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/SAR 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/SAR 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/SAR 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 2650,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/SAR 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/SAR 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier USD/SAR/SAR 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 5300,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/EGP 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/EGP 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/EGP 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/EGP 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/EGP 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/EGP 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/EGP 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/EGP 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/EGP 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/USD 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/USD 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/USD 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/USD 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/USD 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/USD 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/USD 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/USD 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/USD 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/SAR 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/SAR 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/SAR 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/SAR 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/SAR 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/SAR 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/SAR 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/SAR 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/EGP/SAR 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/EGP 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/EGP 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/EGP 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/EGP 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/EGP 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/EGP 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/EGP 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/EGP 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/EGP 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/USD 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/USD 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/USD 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/USD 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/USD 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/USD 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/USD 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/USD 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/USD 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/SAR 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/SAR 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/SAR 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/SAR 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/SAR 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/SAR 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/SAR 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/SAR 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/USD/SAR 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/EGP 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/EGP 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/EGP 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/EGP 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/EGP 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/EGP 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/EGP 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/EGP 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/EGP 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/USD 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/USD 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/USD 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/USD 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/USD 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/USD 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/USD 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/USD 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/USD 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/SAR 26500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/SAR 26500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/SAR 26500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 26500,
+        "invoiceNative": 2000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/SAR 132500 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/SAR 132500 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/SAR 132500 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 132500,
+        "invoiceNative": 10000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/SAR 265000 1",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 1
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/SAR 265000 2",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 2
+      }
+    },
+    {
+      "name": "ثلاث عملات فاتورة/سند/بنك supplier SAR/SAR/SAR 265000 5",
+      "status": "PASS",
+      "facts": {
+        "baseAmount": 265000,
+        "invoiceNative": 20000,
+        "lineCount": 5
+      }
+    },
+    {
+      "name": "سند سبتمبر لفاتورة أكتوبر customer EGP false",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "explicit": false,
+        "invoiceDate": "2026-10-05",
+        "voucherDate": "2026-09-30",
+        "historicalControlBalance": 0,
+        "historicalAdvance": 10000,
+        "allocations": []
+      }
+    },
+    {
+      "name": "سند سبتمبر لفاتورة أكتوبر customer EGP true",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "explicit": true,
+        "invoiceDate": "2026-10-05",
+        "voucherDate": "2026-09-30",
+        "historicalControlBalance": 0,
+        "historicalAdvance": 10000,
+        "allocations": [
+          {
+            "invoiceId": "d7677b65-6b9a-4c6c-83f8-4f7bd13ebddd",
+            "invoiceNo": "SI260001",
+            "invoiceAmount": 10000,
+            "invoiceCurrency": "EGP",
+            "paymentCurrency": "EGP",
+            "paymentAmount": 10000,
+            "paymentBase": 10000,
+            "carryingBase": 10000,
+            "realizedFx": 0,
+            "settlementRate": 1,
+            "source": "advance"
+          }
+        ]
+      }
+    },
+    {
+      "name": "سند سبتمبر لفاتورة أكتوبر customer USD false",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "explicit": false,
+        "invoiceDate": "2026-10-05",
+        "voucherDate": "2026-09-30",
+        "historicalControlBalance": 0,
+        "historicalAdvance": 10000,
+        "allocations": []
+      }
+    },
+    {
+      "name": "سند سبتمبر لفاتورة أكتوبر customer USD true",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "explicit": true,
+        "invoiceDate": "2026-10-05",
+        "voucherDate": "2026-09-30",
+        "historicalControlBalance": 0,
+        "historicalAdvance": 10000,
+        "allocations": [
+          {
+            "invoiceId": "a61aa999-383c-4154-9c25-9067a35fca5e",
+            "invoiceNo": "SI260001",
+            "invoiceAmount": 10000,
+            "invoiceCurrency": "USD",
+            "paymentCurrency": "USD",
+            "paymentAmount": 10000,
+            "paymentBase": 500000,
+            "carryingBase": 500000,
+            "realizedFx": 0,
+            "settlementRate": 50,
+            "source": "advance"
+          }
+        ]
+      }
+    },
+    {
+      "name": "سند سبتمبر لفاتورة أكتوبر customer SAR false",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "explicit": false,
+        "invoiceDate": "2026-10-05",
+        "voucherDate": "2026-09-30",
+        "historicalControlBalance": 0,
+        "historicalAdvance": 10000,
+        "allocations": []
+      }
+    },
+    {
+      "name": "سند سبتمبر لفاتورة أكتوبر customer SAR true",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "explicit": true,
+        "invoiceDate": "2026-10-05",
+        "voucherDate": "2026-09-30",
+        "historicalControlBalance": 0,
+        "historicalAdvance": 10000,
+        "allocations": [
+          {
+            "invoiceId": "a9f34ab7-c8ea-402f-a0c9-5af8478a06dc",
+            "invoiceNo": "SI260001",
+            "invoiceAmount": 10000,
+            "invoiceCurrency": "SAR",
+            "paymentCurrency": "SAR",
+            "paymentAmount": 10000,
+            "paymentBase": 132500,
+            "carryingBase": 132500,
+            "realizedFx": 0,
+            "settlementRate": 13.25,
+            "source": "advance"
+          }
+        ]
+      }
+    },
+    {
+      "name": "سند سبتمبر لفاتورة أكتوبر supplier EGP false",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "explicit": false,
+        "invoiceDate": "2026-10-05",
+        "voucherDate": "2026-09-30",
+        "historicalControlBalance": 0,
+        "historicalAdvance": 10000,
+        "allocations": []
+      }
+    },
+    {
+      "name": "سند سبتمبر لفاتورة أكتوبر supplier EGP true",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "explicit": true,
+        "invoiceDate": "2026-10-05",
+        "voucherDate": "2026-09-30",
+        "historicalControlBalance": 0,
+        "historicalAdvance": 10000,
+        "allocations": [
+          {
+            "invoiceId": "dc8d6c16-042b-4c52-bc2d-e7a21ed7c92b",
+            "invoiceNo": "PI260001",
+            "invoiceAmount": 10000,
+            "invoiceCurrency": "EGP",
+            "paymentCurrency": "EGP",
+            "paymentAmount": 10000,
+            "paymentBase": 10000,
+            "carryingBase": 10000,
+            "realizedFx": 0,
+            "settlementRate": 1,
+            "source": "advance"
+          }
+        ]
+      }
+    },
+    {
+      "name": "سند سبتمبر لفاتورة أكتوبر supplier USD false",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "explicit": false,
+        "invoiceDate": "2026-10-05",
+        "voucherDate": "2026-09-30",
+        "historicalControlBalance": 0,
+        "historicalAdvance": 10000,
+        "allocations": []
+      }
+    },
+    {
+      "name": "سند سبتمبر لفاتورة أكتوبر supplier USD true",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "explicit": true,
+        "invoiceDate": "2026-10-05",
+        "voucherDate": "2026-09-30",
+        "historicalControlBalance": 0,
+        "historicalAdvance": 10000,
+        "allocations": [
+          {
+            "invoiceId": "1ffbf815-f9fd-4a26-880b-e9d28761fadf",
+            "invoiceNo": "PI260001",
+            "invoiceAmount": 10000,
+            "invoiceCurrency": "USD",
+            "paymentCurrency": "USD",
+            "paymentAmount": 10000,
+            "paymentBase": 500000,
+            "carryingBase": 500000,
+            "realizedFx": 0,
+            "settlementRate": 50,
+            "source": "advance"
+          }
+        ]
+      }
+    },
+    {
+      "name": "سند سبتمبر لفاتورة أكتوبر supplier SAR false",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "explicit": false,
+        "invoiceDate": "2026-10-05",
+        "voucherDate": "2026-09-30",
+        "historicalControlBalance": 0,
+        "historicalAdvance": 10000,
+        "allocations": []
+      }
+    },
+    {
+      "name": "سند سبتمبر لفاتورة أكتوبر supplier SAR true",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "explicit": true,
+        "invoiceDate": "2026-10-05",
+        "voucherDate": "2026-09-30",
+        "historicalControlBalance": 0,
+        "historicalAdvance": 10000,
+        "allocations": [
+          {
+            "invoiceId": "8317b675-02db-47d5-8f9b-5038378015eb",
+            "invoiceNo": "PI260001",
+            "invoiceAmount": 10000,
+            "invoiceCurrency": "SAR",
+            "paymentCurrency": "SAR",
+            "paymentAmount": 10000,
+            "paymentBase": 132500,
+            "carryingBase": 132500,
+            "realizedFx": 0,
+            "settlementRate": 13.25,
+            "source": "advance"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "id": "F14-01",
+    "status": "PASS",
+    "facts": [
+      {
+        "kind": "customer",
+        "rates": [
+          13.25,
+          14,
+          15
+        ],
+        "native": 0,
+        "carrying": 0
+      },
+      {
+        "kind": "customer",
+        "rates": [
+          15,
+          14,
+          13.25
+        ],
+        "native": 0,
+        "carrying": 0
+      },
+      {
+        "kind": "supplier",
+        "rates": [
+          13.25,
+          14,
+          15
+        ],
+        "native": 0,
+        "carrying": 0
+      },
+      {
+        "kind": "supplier",
+        "rates": [
+          15,
+          14,
+          13.25
+        ],
+        "native": 0,
+        "carrying": 0
+      }
+    ]
+  },
+  {
+    "id": "F18-01",
+    "status": "PASS",
+    "facts": [
+      {
+        "cancelled": 0,
+        "externalNo": "PO260001-P4",
+        "activeCost": 600
+      },
+      {
+        "cancelled": 1,
+        "externalNo": "PO260002-P4",
+        "activeCost": 600
+      },
+      {
+        "cancelled": 2,
+        "externalNo": "PO260003-P4",
+        "activeCost": 600
+      }
+    ]
+  },
+  {
+    "id": "F13-01",
+    "status": "PASS",
+    "facts": {
+      "duplicateRejected": true,
+      "otherSectorAllowed": true,
+      "cancelledSeatReusable": true
+    }
+  },
+  {
+    "id": "F13-02",
+    "status": "PASS",
+    "facts": {
+      "history": [
+        {
+          "before": {
+            "ticketNo": "",
+            "status": "",
+            "pnr": "",
+            "seat": ""
+          },
+          "after": {
+            "ticketNo": "QA-OLD",
+            "status": "issued",
+            "pnr": "QA",
+            "seat": ""
+          },
+          "userId": "qa",
+          "at": "2026-10-08T11:22:28.738Z"
+        },
+        {
+          "before": {
+            "ticketNo": "QA-OLD",
+            "status": "issued",
+            "pnr": "QA",
+            "seat": ""
+          },
+          "after": {
+            "ticketNo": "QA-NEW",
+            "status": "reissued",
+            "pnr": "QA",
+            "seat": ""
+          },
+          "userId": "qa",
+          "at": "2026-10-08T11:22:28.744Z"
+        }
+      ],
+      "noDuplicateCost": true
+    }
+  },
+  {
+    "id": "F13-03",
+    "status": "PASS",
+    "facts": {
+      "cancelledReuse": true,
+      "activeDuplicateBlocked": true,
+      "historyRetained": true
+    }
+  },
+  {
+    "id": "F16-01",
+    "status": "PASS",
+    "facts": {
+      "matched": 1,
+      "unmatched": 1,
+      "newJournals": 0
+    }
+  }
+]

@@ -1,0 +1,10 @@
+PASS identity PNG 512 exists and is nontrivial
+PASS identity PNG 192 exists and is nontrivial
+PASS dist icon bytes exactly match source identity assets
+PASS setup/reset screens use versioned 512 identity asset
+PASS static build cache-busts both identity icon sizes
+PASS dist login identity 192 is versioned
+PASS manifest identity icons are versioned
+PASS service worker uses current versioned identity icons
+PASS service worker no longer references deleted HR chunk
+PASS service worker activates updated cache immediately

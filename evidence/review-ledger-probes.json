@@ -1,0 +1,160 @@
+[
+  {
+    "name": "one_cent_unbalanced",
+    "accepted": false,
+    "error": "القيد غير متزن: 0.01 / 0"
+  },
+  {
+    "name": "sub_cent_zero_journal",
+    "accepted": true,
+    "debit": 0,
+    "credit": 0,
+    "lines": [
+      {
+        "accountId": "4200",
+        "debit": 0.004,
+        "currency": "EGP",
+        "credit": 0,
+        "rate": 1,
+        "baseDebit": 0,
+        "baseCredit": 0,
+        "baseOnly": false,
+        "baseAmount": 0
+      },
+      {
+        "accountId": "5100",
+        "credit": 0.004,
+        "currency": "EGP",
+        "debit": 0,
+        "rate": 1,
+        "baseDebit": 0,
+        "baseCredit": 0,
+        "baseOnly": false,
+        "baseAmount": 0
+      }
+    ]
+  },
+  {
+    "name": "infinite_amount",
+    "accepted": false,
+    "error": "قيمة طرف القيد غير صحيحة"
+  },
+  {
+    "name": "infinite_rate",
+    "accepted": false,
+    "error": "قيمة طرف القيد غير صحيحة"
+  },
+  {
+    "name": "invalid_date",
+    "accepted": false,
+    "error": "تاريخ القيد غير صحيح"
+  },
+  {
+    "name": "nonexistent_party",
+    "accepted": false,
+    "error": "الطرف المرتبط غير موجود"
+  },
+  {
+    "name": "base_only_negative_side",
+    "accepted": false,
+    "error": "قيمة طرف القيد غير صحيحة"
+  },
+  {
+    "name": "reverse_closed_period_direct",
+    "error": "الفترة المحاسبية 10/2026 مغلقة",
+    "originalStatus": "posted",
+    "reversalCount": 0
+  },
+  {
+    "name": "reverse_closed_period_atomic",
+    "error": "الفترة المحاسبية 10/2026 مغلقة",
+    "storedOriginalStatus": "posted",
+    "reversalCount": 0,
+    "depth": 0
+  },
+  {
+    "name": "customer_fx_revalue_then_settle",
+    "remaining": 0,
+    "native": 0,
+    "carrying": 0,
+    "realizedGain": 0,
+    "unrealizedGain": -1000
+  },
+  {
+    "name": "supplier_fx_revalue_then_settle",
+    "remaining": 0,
+    "native": 0,
+    "carrying": 0,
+    "realizedLoss": 0,
+    "unrealizedLoss": 1000
+  },
+  {
+    "name": "one_cent_receipt",
+    "amount": 0.01,
+    "advance": 0.01,
+    "journalDebit": 0.01,
+    "journalCredit": 0.01
+  },
+  {
+    "name": "three_decimal_unbalanced",
+    "accepted": false,
+    "error": "القيد غير متزن: 10 / 10"
+  },
+  {
+    "name": "fx_receipt_rounding_valid_payment",
+    "remaining": 73.24,
+    "journalDelta": 1
+  },
+  {
+    "name": "multi_line_foreign_invoice_rounding",
+    "total": 1000.1,
+    "status": "open",
+    "journalCount": 1
+  },
+  {
+    "name": "historical_rate_edit_before_advance_apply",
+    "before": -5000,
+    "remaining": 100,
+    "advanceNative": 100,
+    "advanceCarrying": -5000
+  },
+  {
+    "name": "missing_fx_rate_revaluation",
+    "error": "لا يوجد سعر صرف صالح للعملة USD",
+    "carrying": 5000
+  },
+  {
+    "name": "fx_transfer_foreign_treasury_carrying",
+    "native": 0,
+    "carrying": 0,
+    "gain": -1000,
+    "toBalance": 6000
+  },
+  {
+    "name": "historical_rate_edit_pending_draft",
+    "remaining": 0,
+    "advanceNative": 0,
+    "advanceCarrying": 0
+  },
+  {
+    "name": "fx_gain_without_revaluation_control",
+    "remaining": 0,
+    "native": 0,
+    "carrying": 0,
+    "gain": -1000
+  },
+  {
+    "name": "invoice_credit_after_full_payment_control",
+    "remaining": 0,
+    "advance": 0,
+    "receivable": 0
+  },
+  {
+    "name": "duplicate_monthly_depreciation",
+    "first": 1000,
+    "error": "تم إهلاك الأصل لهذه الفترة بالفعل",
+    "depreciated": 1000,
+    "expense": 1000,
+    "records": 1
+  }
+]

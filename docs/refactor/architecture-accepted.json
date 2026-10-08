@@ -1,0 +1,207 @@
+{
+ "note": "Accepted architecture state. Matching is by (rule, normalised-AST signature) multiset, file-agnostic. Regenerate only with: node scripts/architecture-check.mjs --update (refuses any increase).",
+ "previousTotal": 53,
+ "counts": {
+  "ARCH001": 0,
+  "ARCH002": 0,
+  "ARCH003": 6,
+  "ARCH004": 26,
+  "ARCH005": 0,
+  "ARCH006": 0,
+  "TOTAL": 32
+ },
+ "findings": [
+  {
+   "rule": "ARCH003",
+   "file": "src/persistence/browser-store.ts",
+   "signature": "7cfcc9727aa93ad15e2ff9e1597e883e9c6abadeb5571b38eed8a74442a0ea43",
+   "sample": "typeof Auth"
+  },
+  {
+   "rule": "ARCH003",
+   "file": "src/persistence/browser-store.ts",
+   "signature": "7cfcc9727aa93ad15e2ff9e1597e883e9c6abadeb5571b38eed8a74442a0ea43",
+   "sample": "typeof Auth"
+  },
+  {
+   "rule": "ARCH003",
+   "file": "src/ui/data-table.ts",
+   "signature": "62983cc92763430c4b6ee45618ed0ad88e50e3cf77627ceb6dc772e750a6e277",
+   "sample": "Auth.can"
+  },
+  {
+   "rule": "ARCH003",
+   "file": "src/ui/delegated-actions.ts",
+   "signature": "8a905610e370f77ef114f54924d4b92a7989a674657520988cbbf6178c01eef9",
+   "sample": "Auth.passwordStrength"
+  },
+  {
+   "rule": "ARCH003",
+   "file": "src/ui/delegated-actions.ts",
+   "signature": "e75bcc7222452eb70ee8d92f8877117204a6693b937187958c42943aee8b07dd",
+   "sample": "Auth.logout"
+  },
+  {
+   "rule": "ARCH003",
+   "file": "src/ui/ui-workspace-nav.ts",
+   "signature": "7cfcc9727aa93ad15e2ff9e1597e883e9c6abadeb5571b38eed8a74442a0ea43",
+   "sample": "typeof Auth"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/documents/attachments-backup.ts",
+   "signature": "6e87fdde92eac41eee7f18c521be12d764b3d5a7f1de81c2e57bc4fe65df05ad",
+   "sample": "DB.data = d"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/persistence/browser-store.ts",
+   "signature": "b1ea0fe5486349eff2514f05cb005c7f42627733db22b852be4c4720bb14a950",
+   "sample": "DB.ensure = function () { const legacyAppearance = this.data?.settings?.appearance, result = DBEnsureAccountingLifecycleBase(); if (this.data.meta.v32473AccountingSourceRepair !== "
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/security/auth.ts",
+   "signature": "655f7b88b26d80052ad1354265d36fcb60bb360b889f890f8d94bf20ef5c6337",
+   "sample": "DB.data = data"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/security/auth.ts",
+   "signature": "655f7b88b26d80052ad1354265d36fcb60bb360b889f890f8d94bf20ef5c6337",
+   "sample": "DB.data = data"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/security/auth.ts",
+   "signature": "b4877eb7c2e350bd9c1450c935b546b2ed232e6d267120c049c4e6c988db903a",
+   "sample": "DB.data = remote.data"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/ui/actions-handlers-master.ts",
+   "signature": "24a933991d86beb6c9f468fb1d8cdc6b0356c7bcab6d38721e11361ae1b723ed",
+   "sample": "UI.workspaceId = ''"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/ui/commercial-ux.ts",
+   "signature": "366621e2037b98d9aa38cbf6fa5a538453dc2bdd46717bf9a75a389717741e1c",
+   "sample": "UI.backHome = function (opts = {}) { if (!CommercialUX.canLeave()) return false; return uxHome(opts); }"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/ui/commercial-ux.ts",
+   "signature": "50a883ee9e4d9b3b182f74c604f3b153066f47f3bcb359227cba2f2ec5564151",
+   "sample": "UI.renderCurrent = function () { uxRender(); CommercialUX.enhance(document); }"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/ui/commercial-ux.ts",
+   "signature": "512385cc8bdd69d59532c53ef58b580425592c92955348750ae858e9f58a1ec0",
+   "sample": "UI.openWorkspace = function (id, opts = {}) { if (!CommercialUX.canLeave()) return false; return uxWorkspace(id, opts); }"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/ui/commercial-ux.ts",
+   "signature": "52264b0819bc1add9d397e437a83ce718c4b1f5350f99dcc8edf6986424c4bc1",
+   "sample": "UI.updateTopbar = function () { uxTopbar(); const all = Commercial.notifications(), read = CommercialUX.readSet(), unread = all.filter(a => !read.has(CommercialUX.notificationId(a)"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/ui/commercial-ux.ts",
+   "signature": "c09e73f4276b1d858f139660b913dde29f4e1f7d82e929c2f0edfff5faa0603b",
+   "sample": "UI.closeModal = function (force = false) { if (!force && !CommercialUX.canLeave()) return false; const modal = document.getElementById('modal'); if (modal?.dataset?.onboarding === "
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/ui/commercial-ux.ts",
+   "signature": "f213508febb4537e64d63978967816ba3dd33ace5af0e85ec60c8ed608f7c9f9",
+   "sample": "UI.openPage = function (page, id = '', opts = {}) { if (page !== this.current && !CommercialUX.canLeave()) return false; return uxOpen(page, id, opts); }"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/ui/commercial-ux.ts",
+   "signature": "fc8bb392498d59f35ce2b6baed881194e2c111c39a81ce2556c834bf3fec71da",
+   "sample": "UI.toggleUserMenu = function (e) { uxUserMenu(e); const p = document.getElementById('userMenu'); if (!p || p.classList.contains('hidden') || p.querySelector('[data-training-link]')"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/ui/data-table.ts",
+   "signature": "301a86fd4ff321939ee2197c04053112faccf5dc263a34cabb1ab470515c18f4",
+   "sample": "UI.sortTable = function (th, index) { if (th.dataset.export === '0') return; const card = th.closest('.table-card'), key = card?.dataset?.lazyTable, rec = key ? this._lazyTables.ge"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/ui/data-table.ts",
+   "signature": "3a047174264e5e72dd7f938e9958a62f261d3dfb8a7b85ad60240b845a921490",
+   "sample": "UI.renderTablePage = function (key, card) { const rec = this._lazyTables.get(key); if (!rec || rec.kind !== 'data') return _dataTableRenderBase(key, card); if (!card) return false;"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/ui/data-table.ts",
+   "signature": "870a8ec41c757db28ed8a2379cda900aa78292a6c2d000c0dec2960f489b3333",
+   "sample": "(UI as any).dataTable = function (headers, items, rowRenderer, empty = 'لا توجد بيانات', opts: any = {}) { const list = Array.isArray(items) ? items : [], noSort = h => /إجراء|الإج"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/ui/data-table.ts",
+   "signature": "98b9136532c9d8b2d3e5bdebf3917e60924752527297a566f4d1e0a885df7b85",
+   "sample": "UI.filterTable = function (input) { const card = input.closest('.table-card'), q = this.searchNormalize(input.value), key = card?.dataset?.lazyTable, rec = key ? this._lazyTables.g"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/ui/data-table.ts",
+   "signature": "98f16d59d396669cd86a0fb66576364da7fec14c74a6b47f9f8e68797d76f4c0",
+   "sample": "UI.exportTable = function (btn) { const card = btn.closest('.table-card'), key = card?.dataset?.lazyTable, rec = key ? this._lazyTables.get(key) : null; if (!rec || rec.kind !== 'd"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/ui/data-table.ts",
+   "signature": "becf2d0ec4bcd8240253ba9f71489ee7a9830c4b8c0f189ebd719ee6b8f89c06",
+   "sample": "(UI as any).dataTableSearchValue = function (rec, item) { if (rec.searchText) { try { return this.searchNormalize(rec.searchText(item)); } catch { return ''; } } return this.search"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/ui/ui-modal-stack.ts",
+   "signature": "34807646bc0730f95948985cc2dd746ae4b3f207df7b10f254f94208b2b21eeb",
+   "sample": "UI.restoreModalControls = function (f, items = []) { if (!f || !items?.length) return; const els = [...f.querySelectorAll('input,select,textarea')]; for (const x of items) { let el"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/ui/ui-modal-stack.ts",
+   "signature": "686e952c7abad5ca9ce1972d1590a60122779f9cdee74a1d75de3dfa6d83fd57",
+   "sample": "UI._modalStack = []"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/ui/ui-modal-stack.ts",
+   "signature": "6b8487bf35ed55728f08b5a29bb792e143185cf601986edf7161bb6e1e25bfa8",
+   "sample": "UI.captureModalControls = function (f) { if (!f) return []; return [...f.querySelectorAll('input,select,textarea')].map((el, index) => ({ index, name: el.name || '', id: el.id || '"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/ui/ui-modal-stack.ts",
+   "signature": "75ad52a23d4ab662543644fc9a7c631dd5f97f5e45558552f00f460aff9c10ac",
+   "sample": "UI.resetModalFooter = function (label = 'حفظ البيانات', { danger = false, hideSubmit = false, cancel = 'إلغاء' } = {}) { const foot = UIDocument.getElementById('modalFoot'); if (!f"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/ui/ui-modal-stack.ts",
+   "signature": "92086baa85d773baf941beb8a0add42800bd44080542e7fcc57720c1831f50e0",
+   "sample": "UI.installGlobalModalStack = function () { if (this._modalStackInstalled) return; const m = UIDocument.getElementById('modal'), f = UIDocument.getElementById('modalForm'), title = "
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/ui/ui-modal-stack.ts",
+   "signature": "b39379db740dda59a6c843c43bbc08435dac39a860fa8d737167b826151522d5",
+   "sample": "UI.restoreModal = function (s) { if (!s) return false; const m = UIDocument.getElementById('modal'), f = UIDocument.getElementById('modalForm'), body = UIDocument.getElementById('m"
+  },
+  {
+   "rule": "ARCH004",
+   "file": "src/ui/ui-modal-stack.ts",
+   "signature": "ff49e2ae12a1d30068d696456bdef0a76104a86714bbc40b352cb1b52bc831b3",
+   "sample": "UI.captureModal = function () { const m = UIDocument.getElementById('modal'), f = UIDocument.getElementById('modalForm'), body = UIDocument.getElementById('modalBody'), foot = UIDo"
+  }
+ ]
+}

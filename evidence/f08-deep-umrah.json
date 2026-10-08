@@ -1,0 +1,1418 @@
+{
+  "scenarios": 165,
+  "passed": 165,
+  "failed": 0,
+  "diary": [
+    {
+      "name": "نقل 2+0+0 sedan ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 2,
+        "capacity": 4,
+        "assigned": 2
+      }
+    },
+    {
+      "name": "نقل 2+0+0 sedan ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 2,
+        "capacity": 8,
+        "assigned": 2
+      }
+    },
+    {
+      "name": "نقل 2+0+0 staria_h1 ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 2,
+        "capacity": 7,
+        "assigned": 2
+      }
+    },
+    {
+      "name": "نقل 2+0+0 staria_h1 ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 2,
+        "capacity": 14,
+        "assigned": 2
+      }
+    },
+    {
+      "name": "نقل 2+0+0 hiace ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 2,
+        "capacity": 11,
+        "assigned": 2
+      }
+    },
+    {
+      "name": "نقل 2+0+0 hiace ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 2,
+        "capacity": 22,
+        "assigned": 2
+      }
+    },
+    {
+      "name": "نقل 2+0+0 coaster ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 2,
+        "capacity": 25,
+        "assigned": 2
+      }
+    },
+    {
+      "name": "نقل 2+0+0 coaster ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 2,
+        "capacity": 50,
+        "assigned": 2
+      }
+    },
+    {
+      "name": "نقل 2+0+1 sedan ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 3,
+        "capacity": 4,
+        "assigned": 3
+      }
+    },
+    {
+      "name": "نقل 2+0+1 sedan ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 3,
+        "capacity": 8,
+        "assigned": 3
+      }
+    },
+    {
+      "name": "نقل 2+0+1 staria_h1 ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 3,
+        "capacity": 7,
+        "assigned": 3
+      }
+    },
+    {
+      "name": "نقل 2+0+1 staria_h1 ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 3,
+        "capacity": 14,
+        "assigned": 3
+      }
+    },
+    {
+      "name": "نقل 2+0+1 hiace ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 3,
+        "capacity": 11,
+        "assigned": 3
+      }
+    },
+    {
+      "name": "نقل 2+0+1 hiace ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 3,
+        "capacity": 22,
+        "assigned": 3
+      }
+    },
+    {
+      "name": "نقل 2+0+1 coaster ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 3,
+        "capacity": 25,
+        "assigned": 3
+      }
+    },
+    {
+      "name": "نقل 2+0+1 coaster ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 3,
+        "capacity": 50,
+        "assigned": 3
+      }
+    },
+    {
+      "name": "نقل 2+1+0 sedan ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 3,
+        "capacity": 4,
+        "assigned": 3
+      }
+    },
+    {
+      "name": "نقل 2+1+0 sedan ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 3,
+        "capacity": 8,
+        "assigned": 3
+      }
+    },
+    {
+      "name": "نقل 2+1+0 staria_h1 ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 3,
+        "capacity": 7,
+        "assigned": 3
+      }
+    },
+    {
+      "name": "نقل 2+1+0 staria_h1 ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 3,
+        "capacity": 14,
+        "assigned": 3
+      }
+    },
+    {
+      "name": "نقل 2+1+0 hiace ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 3,
+        "capacity": 11,
+        "assigned": 3
+      }
+    },
+    {
+      "name": "نقل 2+1+0 hiace ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 3,
+        "capacity": 22,
+        "assigned": 3
+      }
+    },
+    {
+      "name": "نقل 2+1+0 coaster ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 3,
+        "capacity": 25,
+        "assigned": 3
+      }
+    },
+    {
+      "name": "نقل 2+1+0 coaster ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 3,
+        "capacity": 50,
+        "assigned": 3
+      }
+    },
+    {
+      "name": "نقل 2+1+1 sedan ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 4,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 2+1+1 sedan ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 8,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 2+1+1 staria_h1 ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 7,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 2+1+1 staria_h1 ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 14,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 2+1+1 hiace ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 11,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 2+1+1 hiace ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 22,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 2+1+1 coaster ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 25,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 2+1+1 coaster ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 50,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 2+2+0 sedan ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 4,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 2+2+0 sedan ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 8,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 2+2+0 staria_h1 ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 7,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 2+2+0 staria_h1 ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 14,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 2+2+0 hiace ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 11,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 2+2+0 hiace ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 22,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 2+2+0 coaster ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 25,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 2+2+0 coaster ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 50,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 2+2+1 sedan ×1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "سعة مركبات مطار الفندق لا تكفي كل المسافرين"
+      }
+    },
+    {
+      "name": "نقل 2+2+1 sedan ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 5,
+        "capacity": 8,
+        "assigned": 5
+      }
+    },
+    {
+      "name": "نقل 2+2+1 staria_h1 ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 5,
+        "capacity": 7,
+        "assigned": 5
+      }
+    },
+    {
+      "name": "نقل 2+2+1 staria_h1 ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 5,
+        "capacity": 14,
+        "assigned": 5
+      }
+    },
+    {
+      "name": "نقل 2+2+1 hiace ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 5,
+        "capacity": 11,
+        "assigned": 5
+      }
+    },
+    {
+      "name": "نقل 2+2+1 hiace ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 5,
+        "capacity": 22,
+        "assigned": 5
+      }
+    },
+    {
+      "name": "نقل 2+2+1 coaster ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 5,
+        "capacity": 25,
+        "assigned": 5
+      }
+    },
+    {
+      "name": "نقل 2+2+1 coaster ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 5,
+        "capacity": 50,
+        "assigned": 5
+      }
+    },
+    {
+      "name": "نقل 4+0+0 sedan ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 4,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 4+0+0 sedan ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 8,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 4+0+0 staria_h1 ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 7,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 4+0+0 staria_h1 ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 14,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 4+0+0 hiace ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 11,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 4+0+0 hiace ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 22,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 4+0+0 coaster ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 25,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 4+0+0 coaster ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 4,
+        "capacity": 50,
+        "assigned": 4
+      }
+    },
+    {
+      "name": "نقل 4+0+1 sedan ×1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "سعة مركبات مطار الفندق لا تكفي كل المسافرين"
+      }
+    },
+    {
+      "name": "نقل 4+0+1 sedan ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 5,
+        "capacity": 8,
+        "assigned": 5
+      }
+    },
+    {
+      "name": "نقل 4+0+1 staria_h1 ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 5,
+        "capacity": 7,
+        "assigned": 5
+      }
+    },
+    {
+      "name": "نقل 4+0+1 staria_h1 ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 5,
+        "capacity": 14,
+        "assigned": 5
+      }
+    },
+    {
+      "name": "نقل 4+0+1 hiace ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 5,
+        "capacity": 11,
+        "assigned": 5
+      }
+    },
+    {
+      "name": "نقل 4+0+1 hiace ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 5,
+        "capacity": 22,
+        "assigned": 5
+      }
+    },
+    {
+      "name": "نقل 4+0+1 coaster ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 5,
+        "capacity": 25,
+        "assigned": 5
+      }
+    },
+    {
+      "name": "نقل 4+0+1 coaster ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 5,
+        "capacity": 50,
+        "assigned": 5
+      }
+    },
+    {
+      "name": "نقل 4+1+0 sedan ×1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "سعة مركبات مطار الفندق لا تكفي كل المسافرين"
+      }
+    },
+    {
+      "name": "نقل 4+1+0 sedan ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 5,
+        "capacity": 8,
+        "assigned": 5
+      }
+    },
+    {
+      "name": "نقل 4+1+0 staria_h1 ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 5,
+        "capacity": 7,
+        "assigned": 5
+      }
+    },
+    {
+      "name": "نقل 4+1+0 staria_h1 ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 5,
+        "capacity": 14,
+        "assigned": 5
+      }
+    },
+    {
+      "name": "نقل 4+1+0 hiace ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 5,
+        "capacity": 11,
+        "assigned": 5
+      }
+    },
+    {
+      "name": "نقل 4+1+0 hiace ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 5,
+        "capacity": 22,
+        "assigned": 5
+      }
+    },
+    {
+      "name": "نقل 4+1+0 coaster ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 5,
+        "capacity": 25,
+        "assigned": 5
+      }
+    },
+    {
+      "name": "نقل 4+1+0 coaster ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 5,
+        "capacity": 50,
+        "assigned": 5
+      }
+    },
+    {
+      "name": "نقل 4+1+1 sedan ×1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "سعة مركبات مطار الفندق لا تكفي كل المسافرين"
+      }
+    },
+    {
+      "name": "نقل 4+1+1 sedan ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 6,
+        "capacity": 8,
+        "assigned": 6
+      }
+    },
+    {
+      "name": "نقل 4+1+1 staria_h1 ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 6,
+        "capacity": 7,
+        "assigned": 6
+      }
+    },
+    {
+      "name": "نقل 4+1+1 staria_h1 ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 6,
+        "capacity": 14,
+        "assigned": 6
+      }
+    },
+    {
+      "name": "نقل 4+1+1 hiace ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 6,
+        "capacity": 11,
+        "assigned": 6
+      }
+    },
+    {
+      "name": "نقل 4+1+1 hiace ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 6,
+        "capacity": 22,
+        "assigned": 6
+      }
+    },
+    {
+      "name": "نقل 4+1+1 coaster ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 6,
+        "capacity": 25,
+        "assigned": 6
+      }
+    },
+    {
+      "name": "نقل 4+1+1 coaster ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 6,
+        "capacity": 50,
+        "assigned": 6
+      }
+    },
+    {
+      "name": "نقل 4+2+0 sedan ×1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "سعة مركبات مطار الفندق لا تكفي كل المسافرين"
+      }
+    },
+    {
+      "name": "نقل 4+2+0 sedan ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 6,
+        "capacity": 8,
+        "assigned": 6
+      }
+    },
+    {
+      "name": "نقل 4+2+0 staria_h1 ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 6,
+        "capacity": 7,
+        "assigned": 6
+      }
+    },
+    {
+      "name": "نقل 4+2+0 staria_h1 ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 6,
+        "capacity": 14,
+        "assigned": 6
+      }
+    },
+    {
+      "name": "نقل 4+2+0 hiace ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 6,
+        "capacity": 11,
+        "assigned": 6
+      }
+    },
+    {
+      "name": "نقل 4+2+0 hiace ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 6,
+        "capacity": 22,
+        "assigned": 6
+      }
+    },
+    {
+      "name": "نقل 4+2+0 coaster ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 6,
+        "capacity": 25,
+        "assigned": 6
+      }
+    },
+    {
+      "name": "نقل 4+2+0 coaster ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 6,
+        "capacity": 50,
+        "assigned": 6
+      }
+    },
+    {
+      "name": "نقل 4+2+1 sedan ×1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "سعة مركبات مطار الفندق لا تكفي كل المسافرين"
+      }
+    },
+    {
+      "name": "نقل 4+2+1 sedan ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 7,
+        "capacity": 8,
+        "assigned": 7
+      }
+    },
+    {
+      "name": "نقل 4+2+1 staria_h1 ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 7,
+        "capacity": 7,
+        "assigned": 7
+      }
+    },
+    {
+      "name": "نقل 4+2+1 staria_h1 ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 7,
+        "capacity": 14,
+        "assigned": 7
+      }
+    },
+    {
+      "name": "نقل 4+2+1 hiace ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 7,
+        "capacity": 11,
+        "assigned": 7
+      }
+    },
+    {
+      "name": "نقل 4+2+1 hiace ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 7,
+        "capacity": 22,
+        "assigned": 7
+      }
+    },
+    {
+      "name": "نقل 4+2+1 coaster ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 7,
+        "capacity": 25,
+        "assigned": 7
+      }
+    },
+    {
+      "name": "نقل 4+2+1 coaster ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 7,
+        "capacity": 50,
+        "assigned": 7
+      }
+    },
+    {
+      "name": "نقل 6+0+0 sedan ×1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "سعة مركبات مطار الفندق لا تكفي كل المسافرين"
+      }
+    },
+    {
+      "name": "نقل 6+0+0 sedan ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 6,
+        "capacity": 8,
+        "assigned": 6
+      }
+    },
+    {
+      "name": "نقل 6+0+0 staria_h1 ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 6,
+        "capacity": 7,
+        "assigned": 6
+      }
+    },
+    {
+      "name": "نقل 6+0+0 staria_h1 ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 6,
+        "capacity": 14,
+        "assigned": 6
+      }
+    },
+    {
+      "name": "نقل 6+0+0 hiace ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 6,
+        "capacity": 11,
+        "assigned": 6
+      }
+    },
+    {
+      "name": "نقل 6+0+0 hiace ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 6,
+        "capacity": 22,
+        "assigned": 6
+      }
+    },
+    {
+      "name": "نقل 6+0+0 coaster ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 6,
+        "capacity": 25,
+        "assigned": 6
+      }
+    },
+    {
+      "name": "نقل 6+0+0 coaster ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 6,
+        "capacity": 50,
+        "assigned": 6
+      }
+    },
+    {
+      "name": "نقل 6+0+1 sedan ×1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "سعة مركبات مطار الفندق لا تكفي كل المسافرين"
+      }
+    },
+    {
+      "name": "نقل 6+0+1 sedan ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 7,
+        "capacity": 8,
+        "assigned": 7
+      }
+    },
+    {
+      "name": "نقل 6+0+1 staria_h1 ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 7,
+        "capacity": 7,
+        "assigned": 7
+      }
+    },
+    {
+      "name": "نقل 6+0+1 staria_h1 ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 7,
+        "capacity": 14,
+        "assigned": 7
+      }
+    },
+    {
+      "name": "نقل 6+0+1 hiace ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 7,
+        "capacity": 11,
+        "assigned": 7
+      }
+    },
+    {
+      "name": "نقل 6+0+1 hiace ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 7,
+        "capacity": 22,
+        "assigned": 7
+      }
+    },
+    {
+      "name": "نقل 6+0+1 coaster ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 7,
+        "capacity": 25,
+        "assigned": 7
+      }
+    },
+    {
+      "name": "نقل 6+0+1 coaster ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 7,
+        "capacity": 50,
+        "assigned": 7
+      }
+    },
+    {
+      "name": "نقل 6+1+0 sedan ×1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "سعة مركبات مطار الفندق لا تكفي كل المسافرين"
+      }
+    },
+    {
+      "name": "نقل 6+1+0 sedan ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 7,
+        "capacity": 8,
+        "assigned": 7
+      }
+    },
+    {
+      "name": "نقل 6+1+0 staria_h1 ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 7,
+        "capacity": 7,
+        "assigned": 7
+      }
+    },
+    {
+      "name": "نقل 6+1+0 staria_h1 ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 7,
+        "capacity": 14,
+        "assigned": 7
+      }
+    },
+    {
+      "name": "نقل 6+1+0 hiace ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 7,
+        "capacity": 11,
+        "assigned": 7
+      }
+    },
+    {
+      "name": "نقل 6+1+0 hiace ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 7,
+        "capacity": 22,
+        "assigned": 7
+      }
+    },
+    {
+      "name": "نقل 6+1+0 coaster ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 7,
+        "capacity": 25,
+        "assigned": 7
+      }
+    },
+    {
+      "name": "نقل 6+1+0 coaster ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 7,
+        "capacity": 50,
+        "assigned": 7
+      }
+    },
+    {
+      "name": "نقل 6+1+1 sedan ×1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "سعة مركبات مطار الفندق لا تكفي كل المسافرين"
+      }
+    },
+    {
+      "name": "نقل 6+1+1 sedan ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 8,
+        "capacity": 8,
+        "assigned": 8
+      }
+    },
+    {
+      "name": "نقل 6+1+1 staria_h1 ×1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "سعة مركبات مطار الفندق لا تكفي كل المسافرين"
+      }
+    },
+    {
+      "name": "نقل 6+1+1 staria_h1 ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 8,
+        "capacity": 14,
+        "assigned": 8
+      }
+    },
+    {
+      "name": "نقل 6+1+1 hiace ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 8,
+        "capacity": 11,
+        "assigned": 8
+      }
+    },
+    {
+      "name": "نقل 6+1+1 hiace ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 8,
+        "capacity": 22,
+        "assigned": 8
+      }
+    },
+    {
+      "name": "نقل 6+1+1 coaster ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 8,
+        "capacity": 25,
+        "assigned": 8
+      }
+    },
+    {
+      "name": "نقل 6+1+1 coaster ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 8,
+        "capacity": 50,
+        "assigned": 8
+      }
+    },
+    {
+      "name": "نقل 6+2+0 sedan ×1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "سعة مركبات مطار الفندق لا تكفي كل المسافرين"
+      }
+    },
+    {
+      "name": "نقل 6+2+0 sedan ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 8,
+        "capacity": 8,
+        "assigned": 8
+      }
+    },
+    {
+      "name": "نقل 6+2+0 staria_h1 ×1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "سعة مركبات مطار الفندق لا تكفي كل المسافرين"
+      }
+    },
+    {
+      "name": "نقل 6+2+0 staria_h1 ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 8,
+        "capacity": 14,
+        "assigned": 8
+      }
+    },
+    {
+      "name": "نقل 6+2+0 hiace ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 8,
+        "capacity": 11,
+        "assigned": 8
+      }
+    },
+    {
+      "name": "نقل 6+2+0 hiace ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 8,
+        "capacity": 22,
+        "assigned": 8
+      }
+    },
+    {
+      "name": "نقل 6+2+0 coaster ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 8,
+        "capacity": 25,
+        "assigned": 8
+      }
+    },
+    {
+      "name": "نقل 6+2+0 coaster ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 8,
+        "capacity": 50,
+        "assigned": 8
+      }
+    },
+    {
+      "name": "نقل 6+2+1 sedan ×1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "سعة مركبات مطار الفندق لا تكفي كل المسافرين"
+      }
+    },
+    {
+      "name": "نقل 6+2+1 sedan ×2",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "سعة مركبات مطار الفندق لا تكفي كل المسافرين"
+      }
+    },
+    {
+      "name": "نقل 6+2+1 staria_h1 ×1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "سعة مركبات مطار الفندق لا تكفي كل المسافرين"
+      }
+    },
+    {
+      "name": "نقل 6+2+1 staria_h1 ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 9,
+        "capacity": 14,
+        "assigned": 9
+      }
+    },
+    {
+      "name": "نقل 6+2+1 hiace ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 9,
+        "capacity": 11,
+        "assigned": 9
+      }
+    },
+    {
+      "name": "نقل 6+2+1 hiace ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 9,
+        "capacity": 22,
+        "assigned": 9
+      }
+    },
+    {
+      "name": "نقل 6+2+1 coaster ×1",
+      "status": "PASS",
+      "facts": {
+        "persons": 9,
+        "capacity": 25,
+        "assigned": 9
+      }
+    },
+    {
+      "name": "نقل 6+2+1 coaster ×2",
+      "status": "PASS",
+      "facts": {
+        "persons": 9,
+        "capacity": 50,
+        "assigned": 9
+      }
+    },
+    {
+      "name": "تخفيض مقاعد برنامج محجوز 2 hold",
+      "status": "PASS",
+      "facts": {
+        "error": "مقاعد الطيران أقل من العدد المحجوز"
+      }
+    },
+    {
+      "name": "تخفيض مقاعد برنامج محجوز 2 confirmed",
+      "status": "PASS",
+      "facts": {
+        "error": "مقاعد الطيران أقل من العدد المحجوز"
+      }
+    },
+    {
+      "name": "تخفيض مقاعد برنامج محجوز 2 fullyPaid",
+      "status": "PASS",
+      "facts": {
+        "error": "مقاعد الطيران أقل من العدد المحجوز"
+      }
+    },
+    {
+      "name": "تخفيض مقاعد برنامج محجوز 4 hold",
+      "status": "PASS",
+      "facts": {
+        "error": "مقاعد الطيران أقل من العدد المحجوز"
+      }
+    },
+    {
+      "name": "تخفيض مقاعد برنامج محجوز 4 confirmed",
+      "status": "PASS",
+      "facts": {
+        "error": "مقاعد الطيران أقل من العدد المحجوز"
+      }
+    },
+    {
+      "name": "تخفيض مقاعد برنامج محجوز 4 fullyPaid",
+      "status": "PASS",
+      "facts": {
+        "error": "مقاعد الطيران أقل من العدد المحجوز"
+      }
+    },
+    {
+      "name": "تخفيض مقاعد برنامج محجوز 6 hold",
+      "status": "PASS",
+      "facts": {
+        "error": "مقاعد الطيران أقل من العدد المحجوز"
+      }
+    },
+    {
+      "name": "تخفيض مقاعد برنامج محجوز 6 confirmed",
+      "status": "PASS",
+      "facts": {
+        "error": "مقاعد الطيران أقل من العدد المحجوز"
+      }
+    },
+    {
+      "name": "تخفيض مقاعد برنامج محجوز 6 fullyPaid",
+      "status": "PASS",
+      "facts": {
+        "error": "مقاعد الطيران أقل من العدد المحجوز"
+      }
+    },
+    {
+      "name": "حذف قطاع عليه تذكرة مصدرة 1",
+      "status": "PASS",
+      "facts": {
+        "error": "القطاع مرتبط بتذاكر؛ لا يمكن حذفه"
+      }
+    },
+    {
+      "name": "حذف قطاع عليه تذكرة مصدرة 2",
+      "status": "PASS",
+      "facts": {
+        "error": "القطاع مرتبط بتذاكر؛ لا يمكن حذفه"
+      }
+    },
+    {
+      "name": "حذف قطاع عليه تذكرة مصدرة 4",
+      "status": "PASS",
+      "facts": {
+        "error": "القطاع مرتبط بتذاكر؛ لا يمكن حذفه"
+      }
+    },
+    {
+      "name": "حذف قطاع عليه تذكرة مصدرة 6",
+      "status": "PASS",
+      "facts": {
+        "error": "القطاع مرتبط بتذاكر؛ لا يمكن حذفه"
+      }
+    },
+    {
+      "name": "حذف فندق مرتبط بتوزيع غرف 1",
+      "status": "PASS",
+      "facts": {
+        "rooms": 1
+      }
+    },
+    {
+      "name": "حذف فندق مرتبط بتوزيع غرف 2",
+      "status": "PASS",
+      "facts": {
+        "rooms": 1
+      }
+    },
+    {
+      "name": "حذف فندق مرتبط بتوزيع غرف 4",
+      "status": "PASS",
+      "facts": {
+        "rooms": 2
+      }
+    },
+    {
+      "name": "حذف فندق مرتبط بتوزيع غرف 6",
+      "status": "PASS",
+      "facts": {
+        "rooms": 3
+      }
+    },
+    {
+      "name": "منع مركبة على قطاع برنامج آخر sedan",
+      "status": "PASS",
+      "facts": {
+        "vt": "sedan"
+      }
+    },
+    {
+      "name": "منع مركبة على قطاع برنامج آخر staria_h1",
+      "status": "PASS",
+      "facts": {
+        "vt": "staria_h1"
+      }
+    },
+    {
+      "name": "منع مركبة على قطاع برنامج آخر hiace",
+      "status": "PASS",
+      "facts": {
+        "vt": "hiace"
+      }
+    },
+    {
+      "name": "منع مركبة على قطاع برنامج آخر coaster",
+      "status": "PASS",
+      "facts": {
+        "vt": "coaster"
+      }
+    }
+  ]
+}

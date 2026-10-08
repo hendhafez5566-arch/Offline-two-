@@ -1,0 +1,36 @@
+[
+  {
+    "id": "F14-01",
+    "status": "FAIL",
+    "error": "carrying zero customer13.25: 105 != 0"
+  },
+  {
+    "id": "F18-01",
+    "status": "FAIL",
+    "error": "رقم فاتورة المورد مكرر لنفس المورد"
+  },
+  {
+    "id": "F13-01",
+    "status": "FAIL",
+    "error": "same seat rejected"
+  },
+  {
+    "id": "F13-02",
+    "status": "FAIL",
+    "error": "Cannot read properties of undefined (reading 'some')"
+  },
+  {
+    "id": "F13-03",
+    "status": "FAIL",
+    "error": "رقم الجواز مستخدم في حجز متداخل/نشط للملف QA0"
+  },
+  {
+    "id": "F16-01",
+    "status": "PASS",
+    "facts": {
+      "matched": 1,
+      "unmatched": 1,
+      "newJournals": 0
+    }
+  }
+]

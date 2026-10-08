@@ -1,0 +1,20 @@
+[
+  {
+    "id": "F11-03-extra",
+    "status": "PASS",
+    "facts": {
+      "consumedReceiptBlocked": true,
+      "duplicateBlocked": true,
+      "reverseAndReapply": true,
+      "noNewCash": true
+    }
+  },
+  {
+    "id": "F16-01-ambiguity",
+    "status": "PASS",
+    "facts": {
+      "ambiguousBothPending": true,
+      "newJournals": 0
+    }
+  }
+]

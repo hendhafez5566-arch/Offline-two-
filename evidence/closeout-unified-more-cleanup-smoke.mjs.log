@@ -1,0 +1,125 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "master customer uses unified إجراءات + المزيد controls",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "master supplier uses unified إجراءات + المزيد controls",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "master agent uses unified إجراءات + المزيد controls",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "unified control renders exactly Actions and More entry points",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "More supports customers, suppliers and agents",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "More management owns edit/delete/direct WhatsApp/documents",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "More documents use real print sources without duplicating transaction creation",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "visible More wording no longer exposes old 360 label",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "operations menu contains no WhatsApp/edit/delete duplication",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "global modal context stack restores parent dialogs system-wide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "modal stack preserves nested form values and scroll position",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "modal stack preserves ancestry through replace-style dialogs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Umrah bridge uses same unified party controls",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Umrah party links no longer use a visible 360 button",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "comfort theme exists in CSS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "comfort theme exists in settings",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "print font selection follows settings with safe local fallback",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "print logo is compacted for oversized embedded logos",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "production source maps disabled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "production comments stripped",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "stale source map cleanup enabled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Android release version matches package release",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "package release version is valid semantic version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "dist source map removed",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> erp-professional-suite-commercial@32.5.67 typecheck
+> tsc -p tsconfig.json
+

@@ -1,0 +1,23 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> erp-professional-suite-commercial@32.5.68 architecture:check
+> node scripts/architecture-check.mjs
+
+{
+  "counts": {
+    "ARCH001": 0,
+    "ARCH002": 0,
+    "ARCH003": 6,
+    "ARCH004": 25,
+    "ARCH005": 0,
+    "ARCH006": 0,
+    "TOTAL": 31
+  },
+  "acceptedTotal": 32,
+  "phase1Total": 1255,
+  "newViolations": 0,
+  "movedBetweenFiles": 0,
+  "reductions": 1,
+  "newVsPhase1": 0
+}
+PASS architecture ratchet

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "F12-01",
+    "status": "PASS",
+    "facts": {
+      "labelCorrect": true,
+      "actualSavePlanning": true,
+      "notForSale": true,
+      "reloaded": true
+    }
+  }
+]

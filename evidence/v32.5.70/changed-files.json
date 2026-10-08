@@ -1,0 +1,92 @@
+[
+  {
+    "path": "server/package-lock.json",
+    "before": "a9c9115d83544f3b002cad5ba18839bc14ca39866f5157721480547075cab9d3",
+    "after": "f1f3a421016d6bc95da72afa6f5b777be87eba70e6bcab85dcdca70a429fd92b"
+  },
+  {
+    "path": "server/package.json",
+    "before": "d5ea88af0956c9f310b9f7359482a6a4cb0a56b406eab7e80b132a8c68de3f41",
+    "after": "c2b852f5200351efd2335f94b94fd3932c5820a822e3d40fae263efdaf638972"
+  },
+  {
+    "path": "src/persistence/browser-store.ts",
+    "before": "cc530d19683a2e0e8d77ef5ff5d620b46fb3df91fdc73c9f7078a33cdbb6198c",
+    "after": "5cc0e9f73a868318cbe39d69a47dd4845c5f5446707e6d63f5d114da5439ef01"
+  },
+  {
+    "path": "src/mobile.ts",
+    "before": "df6232692c5c916403c18a6add37150b90893db44ad22626732d01ba38aa4a01",
+    "after": "cd27c8dd47a13506bf0c4ab26dc1108973c1de53d07b8305552bb3b8c9cc7e94"
+  },
+  {
+    "path": "src/core/runtime.ts",
+    "before": "4fe60ea99095474795e46c744cf4320b6172e8fa97ea2609b8a91c1e5348ee8c",
+    "after": "dbbc64679086be8e3e6fd33e2dca91cde3bc5ed69a7b470b1c54705205476de1"
+  },
+  {
+    "path": "dist/sw.js",
+    "before": "d75f063f7000030d3cefb7f3fd5e71de903d03072394f35e42ade1f7b2f36ebd",
+    "after": "5be97b152d8fbc4a287608d8f323b4ae60a4d5202e4906ce9d09e73e9edc6f3e"
+  },
+  {
+    "path": "dist/app.js",
+    "before": "5f99b79b3894374f80d9f072cfdd63db4be3400f26b242f5f2b3866ea304164a",
+    "after": "0ced5d8ceec2776631aaab8aba274824badcb492ea36fb68f386f240daece77b"
+  },
+  {
+    "path": "dist/index.html",
+    "before": "2856fa73bfa6ed1d287597d9f58731c795b5e61cc8331cf5c4744a669a86ba7a",
+    "after": "1d8899d448437c7ce2ff5a7dd14bd40e5555c89d7034f38642a62d6a94aea816"
+  },
+  {
+    "path": "dist/manifest.webmanifest",
+    "before": "58a59fb656936f210c748e60668084697fb84a5afe438e6bbcd67f63c27fad6b",
+    "after": "828043c30d5de47720a5270165c4f3eb90b58dd551dafd184d66126962a89250"
+  },
+  {
+    "path": "package-lock.json",
+    "before": "ac900be5601bef6339d3fedb48f288a223988610f85fddfcab9adb0c747905a4",
+    "after": "afe9fafac86f33f2a8e18dc2b30e221bf69cf93235394d3f2c529a202f754d0e"
+  },
+  {
+    "path": "android/app/build.gradle",
+    "before": "a3432e8617ec8703b3a1399f3b7f45b585cf542f67ead76dce36d029831f6015",
+    "after": "980adac59bac848813ab500e930633e6b1271a919cfea83241322dc9160963f2"
+  },
+  {
+    "path": "android/app/src/main/assets/public/sw.js",
+    "before": "d75f063f7000030d3cefb7f3fd5e71de903d03072394f35e42ade1f7b2f36ebd",
+    "after": "5be97b152d8fbc4a287608d8f323b4ae60a4d5202e4906ce9d09e73e9edc6f3e"
+  },
+  {
+    "path": "android/app/src/main/assets/public/app.js",
+    "before": "5f99b79b3894374f80d9f072cfdd63db4be3400f26b242f5f2b3866ea304164a",
+    "after": "0ced5d8ceec2776631aaab8aba274824badcb492ea36fb68f386f240daece77b"
+  },
+  {
+    "path": "android/app/src/main/assets/public/index.html",
+    "before": "2856fa73bfa6ed1d287597d9f58731c795b5e61cc8331cf5c4744a669a86ba7a",
+    "after": "1d8899d448437c7ce2ff5a7dd14bd40e5555c89d7034f38642a62d6a94aea816"
+  },
+  {
+    "path": "android/app/src/main/assets/public/manifest.webmanifest",
+    "before": "58a59fb656936f210c748e60668084697fb84a5afe438e6bbcd67f63c27fad6b",
+    "after": "828043c30d5de47720a5270165c4f3eb90b58dd551dafd184d66126962a89250"
+  },
+  {
+    "path": "package.json",
+    "before": "42c1420a9264a37f9e4f8fb0b29bc48e23b6e120cbd4e593733398081dc6340e",
+    "after": "59dcc86e4657ec7a03f1242edfffac605a7ae9cfd4af87b76350f9a67aa78af0"
+  },
+  {
+    "path": "evidence/current-results.json",
+    "before": "bd346c51639b1205c4b5c0884d35a779f17c9004c3cbe559ad2aca963668c706",
+    "after": "3ded88c80c1639075dbc544632c2391225583d78f95ed6f5ea017534ade4be2d"
+  },
+  {
+    "path": "evidence/CURRENT-RUN.md",
+    "before": "01f606504169118aa3aed784b7b90598be4a54b1dfe1e8fa06297bc8e12cec07",
+    "after": "2f202ddf9d71dc747fb052beb9de6d296668add5cd4b6301915821832ba380dc"
+  }
+]

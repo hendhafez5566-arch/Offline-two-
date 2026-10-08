@@ -1,0 +1,332 @@
+[
+  {
+    "test": "accounting-constitution-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "accounting-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "action-integrity-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "advanced-accounting-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "android-connectivity-smoke.mjs",
+    "passed": false,
+    "exitCode": 1
+  },
+  {
+    "test": "archive-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "brand-asset-smoke.mjs",
+    "passed": false,
+    "exitCode": 9
+  },
+  {
+    "test": "cancel-integrity-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "central-vendor-customer-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "clean-ui-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "commercial-smoke.mjs",
+    "passed": false,
+    "exitCode": 1
+  },
+  {
+    "test": "concurrency-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "contracts-inventory-smoke.mjs",
+    "passed": false,
+    "exitCode": 1
+  },
+  {
+    "test": "core-suite-integration-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "customer-parity-smoke.mjs",
+    "passed": false,
+    "exitCode": 1
+  },
+  {
+    "test": "data-protection-smoke.mjs",
+    "passed": false,
+    "exitCode": 1
+  },
+  {
+    "test": "entity-mirror-read-source-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "hr-removed-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "migration-plan-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "migration-runner-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "mobile-android-smoke.mjs",
+    "passed": false,
+    "exitCode": 1
+  },
+  {
+    "test": "offline-copy-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "reset-entry-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "rocket-360-performance-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "role-workflow-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "server-hardening-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "state-verify-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "system-ux-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "umrah-ui-parity-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "umrah-workflow-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "unified-more-cleanup-smoke.mjs",
+    "passed": false,
+    "exitCode": 1
+  },
+  {
+    "test": "unified-party-accounting-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v32470-regression-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v32472-accounting-lifecycle-smoke.mjs",
+    "passed": false,
+    "exitCode": 1
+  },
+  {
+    "test": "v32475-integrity-cleanup-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v32481-mobile-ux-action-policy-smoke.mjs",
+    "passed": false,
+    "exitCode": 1
+  },
+  {
+    "test": "v32482-smart-filters-traveler-integrity-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v32482-traveler-cleanup-runtime-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v32483-mobile-refresh-compact-filters-smoke.mjs",
+    "passed": false,
+    "exitCode": 1
+  },
+  {
+    "test": "v32483-mobile-refresh-filter-traveler-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v32484-layout-font-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v32485-filter-refresh-font-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v32510-operations-execution-split-smoke.mjs",
+    "passed": false,
+    "exitCode": 1
+  },
+  {
+    "test": "v32511-entity-backed-read-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v32512-entity-backed-write-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v32512-ui-delegation-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v32513-module-boundaries-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v32514-auth-ui-delegation-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v32515-zero-inline-events-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v3254-global-ux-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v32549-keyboard-autofill-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v32552-native-backup-delivery-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v32554-persistent-android-session-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v32555-auth-ui-clean-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v32556-ui-consistency-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v32563-android-bundle-parity-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v32563-single-pdf-engine-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v32565-party-transactions-report-smoke.mjs",
+    "passed": false,
+    "exitCode": 3
+  },
+  {
+    "test": "v32566-party-transactions-dynamic-filters-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v3257-security-release-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v3258-structural-hardening-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v3259-customer-type-structure-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "v70-governance-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "workspace-navigation-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "xss-render-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  },
+  {
+    "test": "xss-safety-smoke.mjs",
+    "passed": true,
+    "exitCode": 0
+  }
+]

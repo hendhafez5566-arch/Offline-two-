@@ -1,0 +1,8 @@
+Elhafez Tourism v32.5.46 OFFLINE FULL COPY
+- Full local Android copy; no Railway required at runtime.
+- Unified Party roles and official AR/AP netting preserved.
+- Central print formatting is concise by default; accounting source data is unchanged.
+- WhatsApp PDF renders at native A4 content width with multi-page output.
+- Per-user My Shortcuts enabled; no Recent Use section.
+- Activity Log UI remains capped at 1000 visible movements.
+- No database migration and no CSS change in this release.

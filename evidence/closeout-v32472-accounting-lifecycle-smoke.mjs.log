@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "cleanDelete": "hard",
+  "approvedPO": "void",
+  "billedProgram": "cancelled",
+  "billedDelete": "audit-retained",
+  "paidCancelBlocked": true,
+  "operationsCloseBlocked": true,
+  "closedProgram": "closed",
+  "journals": 10,
+  "imbalanced": 0
+}

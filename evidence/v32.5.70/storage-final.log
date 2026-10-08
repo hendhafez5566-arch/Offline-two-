@@ -1,0 +1,14 @@
+{
+  "passed": 8,
+  "failed": 0,
+  "checks": {
+    "writeFailureRollback": true,
+    "syncFailurePreservesCache": true,
+    "transactionAbort": true,
+    "cacheQuotaWithIdbSuccess": true,
+    "readFailureFallbackAfterReload": true,
+    "localStorageOnlySave": true,
+    "bothStoresFailRollback": true,
+    "localStorageOnlyReload": true
+  }
+}

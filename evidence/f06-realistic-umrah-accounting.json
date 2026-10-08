@@ -1,0 +1,283 @@
+{
+  "scenarios": 16,
+  "passed": 16,
+  "failed": 0,
+  "diary": [
+    {
+      "name": "شركة عمرة: عشرة بالغين بإيراد450000 وتكلفة384000 وتحصيل وسداد كامل",
+      "status": "PASS",
+      "facts": {
+        "sales": 450000,
+        "cost": 384000,
+        "profit": 66000,
+        "bookings": 5,
+        "travelers": 10,
+        "costInvoices": [
+          {
+            "name": "فندق مكة",
+            "total": 12000,
+            "currency": "SAR"
+          },
+          {
+            "name": "شركة الطيران",
+            "total": 180000,
+            "currency": "EGP"
+          },
+          {
+            "name": "شركة النقل",
+            "total": 15000,
+            "currency": "EGP"
+          },
+          {
+            "name": "مكتب التأشيرات",
+            "total": 30000,
+            "currency": "EGP"
+          }
+        ]
+      }
+    },
+    {
+      "name": "أسرة بالغين وطفلين ورضيع: تسعير وخصم ومقاعد وغرف",
+      "status": "PASS",
+      "facts": {
+        "total": 140000,
+        "paid": 50000,
+        "remaining": 90000,
+        "travelers": 5,
+        "roomPlan": [
+          {
+            "id": "5740ed34-fff8-44bc-85c4-8642d7fe9d64",
+            "segmentId": "7cfef94f-d265-4eb3-8db2-b7f1bafeeba7",
+            "roomType": "double",
+            "rooms": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "إلغاء بعد رد فعلي: إشعار كامل ثم دفع الرد ثم إتمام إلغاء الحجز",
+      "status": "PASS",
+      "facts": {
+        "status": "cancelled",
+        "customerDebt": 0,
+        "customerAdvance": 0,
+        "invoiceRemaining": 0,
+        "reserved": 0
+      }
+    },
+    {
+      "name": "إلغاء بعد عكس الإيصال: دورة الحجز والموارد والإيراد المؤجل",
+      "status": "PASS",
+      "facts": {
+        "status": "cancelled",
+        "invoice": "void",
+        "remaining": 0,
+        "reserved": 0,
+        "deferred": 0
+      }
+    },
+    {
+      "name": "فشل تأكيد بسبب حد الائتمان: الحجز يبقى مؤقتا بلا أثر جزئي",
+      "status": "PASS",
+      "facts": {
+        "error": "العملية تتجاوز حد ائتمان العميل 50,000 EGP",
+        "status": "hold",
+        "invoiceId": "",
+        "invoices": []
+      }
+    },
+    {
+      "name": "فاتورة فندق عمرة: لقطة المشتريات تعرض75000 وليس صفرا",
+      "status": "PASS",
+      "facts": {
+        "computedInvoiceTotal": 75000,
+        "snapshot": {
+          "poId": "0e2adfd1-5c90-4148-9234-9a9218412014",
+          "poNo": "PO260001",
+          "status": "open",
+          "poStatus": "partiallyInvoiced",
+          "invoiceId": "7c64036c-bc19-4470-9f05-493dc79cd4ae",
+          "invoiceNo": "PI260001",
+          "total": 75000,
+          "currency": "EGP",
+          "remaining": 75000,
+          "paid": 0,
+          "receivedQty": 0,
+          "invoicedQty": 1,
+          "hasExecution": true
+        }
+      }
+    },
+    {
+      "name": "عمولة مندوب حجز عمرة بالدولار إلى جنيه: المسار التلقائي صحيح",
+      "status": "PASS",
+      "facts": {
+        "booking": 2000,
+        "currency": "USD",
+        "commission": 10000,
+        "commissionCurrency": "EGP",
+        "invoiceParty": "agent"
+      }
+    },
+    {
+      "name": "السعة:20 مقعدا ومنع الحجز21 دون فاتورة زائدة",
+      "status": "PASS",
+      "facts": {
+        "reserved": 20
+      }
+    },
+    {
+      "name": "حجز مؤقت انتهت مهلته: منع الفاتورة وتحرير الموارد",
+      "status": "PASS",
+      "facts": {
+        "status": "expired",
+        "invoices": 0
+      }
+    },
+    {
+      "name": "حدث عربون مكرر: نفس المفتاح لا ينشئ قبضين",
+      "status": "PASS",
+      "facts": {
+        "sameId": true
+      }
+    },
+    {
+      "name": "دفعتان متساويتان بمراجع مختلفة:60000 تحصيل",
+      "status": "PASS",
+      "facts": {
+        "paid": 60000,
+        "remaining": 30000
+      }
+    },
+    {
+      "name": "إعادة التأكيد بعد رفع حد الائتمان: استكمال الربط المالي",
+      "status": "PASS",
+      "facts": {
+        "status": "confirmed",
+        "invoiceId": "e01cbb40-0ac9-464f-8ca9-ffb746737a54",
+        "invoices": [
+          "open"
+        ]
+      }
+    },
+    {
+      "name": "تعديل حجز مؤقت: منع استخدام غرفتين من مخزون غرفة واحدة",
+      "status": "PASS",
+      "facts": {
+        "error": "مخزون ثنائي غير كاف في أحد الفنادق",
+        "adults": 2,
+        "roomsUsed": 1,
+        "inventory": 1
+      }
+    },
+    {
+      "name": "تعديل حجز مؤقت: منع4مسافرين على قطاع بمقعدين",
+      "status": "PASS",
+      "facts": {
+        "error": "مقاعد الطيران غير كافية في قطاع ربط مقعدين",
+        "persons": 2,
+        "seats": 2
+      }
+    },
+    {
+      "name": "استئناف المحاسبة بعد فشل تعديل من نموذج العمرة الافتراضي",
+      "status": "PASS",
+      "facts": {
+        "error": "الخصم لا يمكن أن يتجاوز قيمة الحجز",
+        "discount": 0,
+        "total": 90000
+      }
+    },
+    {
+      "name": "تنفيذ عمرة: جوازات وتأشيرات6000 وطيران36000 وحافلة وجاهزية",
+      "status": "PASS",
+      "facts": {
+        "booking": "ready",
+        "visaBatch": "completed",
+        "visaCost": 6000,
+        "flightCost": 36000,
+        "tickets": 4,
+        "travelerReadiness": 100,
+        "busCapacity": 7
+      }
+    }
+  ],
+  "evidence": {
+    "actualRefund": {
+      "status": "cancelled",
+      "customerDebt": 0,
+      "customerAdvance": 0,
+      "invoiceRemaining": 0,
+      "reserved": 0
+    },
+    "nativeCancel": {
+      "status": "cancelled",
+      "invoice": "void",
+      "remaining": 0,
+      "reserved": 0,
+      "deferred": 0
+    },
+    "failedConfirm": {
+      "error": "العملية تتجاوز حد ائتمان العميل 50,000 EGP",
+      "status": "hold",
+      "invoiceId": "",
+      "invoices": []
+    },
+    "procurementTotal": {
+      "computedInvoiceTotal": 75000,
+      "snapshot": {
+        "poId": "0e2adfd1-5c90-4148-9234-9a9218412014",
+        "poNo": "PO260001",
+        "status": "open",
+        "poStatus": "partiallyInvoiced",
+        "invoiceId": "7c64036c-bc19-4470-9f05-493dc79cd4ae",
+        "invoiceNo": "PI260001",
+        "total": 75000,
+        "currency": "EGP",
+        "remaining": 75000,
+        "paid": 0,
+        "receivedQty": 0,
+        "invoicedQty": 1,
+        "hasExecution": true
+      }
+    },
+    "confirmRetry": {
+      "status": "confirmed",
+      "invoiceId": "e01cbb40-0ac9-464f-8ca9-ffb746737a54",
+      "invoices": [
+        "open"
+      ]
+    },
+    "roomOverbook": {
+      "error": "مخزون ثنائي غير كاف في أحد الفنادق",
+      "adults": 2,
+      "roomsUsed": 1,
+      "inventory": 1
+    },
+    "flightOverbook": {
+      "error": "مقاعد الطيران غير كافية في قطاع ربط مقعدين",
+      "persons": 2,
+      "seats": 2
+    },
+    "formRollback": {
+      "error": "الخصم لا يمكن أن يتجاوز قيمة الحجز",
+      "discount": 0,
+      "total": 90000
+    }
+  },
+  "snapshots": [
+    {
+      "label": "قبل السفر",
+      "cash": 566000,
+      "deferredRevenue": -450000,
+      "deferredCost": 384000
+    },
+    {
+      "label": "بعد تقديم الخدمة",
+      "revenue": 450000,
+      "cost": 384000,
+      "profit": 66000,
+      "cash": 566000
+    }
+  ]
+}

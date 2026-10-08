@@ -1,0 +1,19 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> erp-professional-suite-commercial@32.5.68 test:persistence
+> python scripts/fix-persistence-browser.py
+
+{
+  "ok": true,
+  "invoiceId": "138d4651-3bf8-41cc-98db-6f0c465a63d9",
+  "attachmentId": "94924546-73e9-424d-83f5-a5095564e760",
+  "stateSaved": true,
+  "restoreFailureRejected": true,
+  "memoryRollback": true,
+  "indexedDbRollback": true,
+  "fileRollback": true,
+  "afterReload": {
+    "invoice": true,
+    "attachment": true
+  }
+}

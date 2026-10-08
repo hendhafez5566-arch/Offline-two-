@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "id": "F12-02-before",
+      "status": "PASS",
+      "facts": {
+        "staleCollected": 4000,
+        "staleReasonReproduced": true
+      }
+    },
+    {
+      "id": "F12-03-before",
+      "status": "PASS",
+      "facts": {
+        "rawCancelled": true,
+        "staleButton": true
+      }
+    },
+    {
+      "id": "F16-01-before",
+      "status": "PASS",
+      "facts": {
+        "imported": 1,
+        "matchingActionAbsent": true
+      }
+    }
+  ],
+  "pageErrors": [
+    "Cannot read properties of undefined (reading 'update')",
+    "Cannot read properties of undefined (reading 'update')",
+    "Cannot read properties of undefined (reading 'update')"
+  ]
+}

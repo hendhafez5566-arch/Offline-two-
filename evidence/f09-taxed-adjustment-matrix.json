@@ -1,0 +1,3254 @@
+{
+  "scenarios": 217,
+  "passed": 217,
+  "failed": 0,
+  "diary": [
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 1000 5 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 682.5,
+        "nativeDebt": 682.5,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 1000 5 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 472.5,
+        "nativeDebt": 472.5,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 1000 5 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 157.5,
+        "nativeDebt": 157.5,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 1000 5 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 105,
+        "nativeDebt": 105,
+        "nativeAdvance": 157.5
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 1000 5 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 105,
+        "nativeDebt": 105,
+        "nativeAdvance": 210
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 1000 5 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 105,
+        "nativeDebt": 105,
+        "nativeAdvance": 420
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 1000 14 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 741,
+        "nativeDebt": 741,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 1000 14 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 513,
+        "nativeDebt": 513,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 1000 14 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 171,
+        "nativeDebt": 171,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 1000 14 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 114,
+        "nativeDebt": 114,
+        "nativeAdvance": 171
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 1000 14 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 114,
+        "nativeDebt": 114,
+        "nativeAdvance": 228
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 1000 14 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 114,
+        "nativeDebt": 114,
+        "nativeAdvance": 456
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 10000 5 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 6825,
+        "nativeDebt": 6825,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 10000 5 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 4725,
+        "nativeDebt": 4725,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 10000 5 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1575,
+        "nativeDebt": 1575,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 10000 5 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1050,
+        "nativeDebt": 1050,
+        "nativeAdvance": 1575
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 10000 5 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1050,
+        "nativeDebt": 1050,
+        "nativeAdvance": 2100
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 10000 5 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1050,
+        "nativeDebt": 1050,
+        "nativeAdvance": 4200
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 10000 14 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 7410,
+        "nativeDebt": 7410,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 10000 14 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 5130,
+        "nativeDebt": 5130,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 10000 14 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1710,
+        "nativeDebt": 1710,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 10000 14 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1140,
+        "nativeDebt": 1140,
+        "nativeAdvance": 1710
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 10000 14 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1140,
+        "nativeDebt": 1140,
+        "nativeAdvance": 2280
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 10000 14 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1140,
+        "nativeDebt": 1140,
+        "nativeAdvance": 4560
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 90000 5 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 61425,
+        "nativeDebt": 61425,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 90000 5 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 42525,
+        "nativeDebt": 42525,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 90000 5 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 14175,
+        "nativeDebt": 14175,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 90000 5 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 9450,
+        "nativeDebt": 9450,
+        "nativeAdvance": 14175
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 90000 5 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 9450,
+        "nativeDebt": 9450,
+        "nativeAdvance": 18900
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 90000 5 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 9450,
+        "nativeDebt": 9450,
+        "nativeAdvance": 37800
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 90000 14 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 66690,
+        "nativeDebt": 66690,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 90000 14 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 46170,
+        "nativeDebt": 46170,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 90000 14 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 15390,
+        "nativeDebt": 15390,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 90000 14 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 10260,
+        "nativeDebt": 10260,
+        "nativeAdvance": 15390
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 90000 14 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 10260,
+        "nativeDebt": 10260,
+        "nativeAdvance": 20520
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer EGP 90000 14 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 10260,
+        "nativeDebt": 10260,
+        "nativeAdvance": 41040
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 1000 5 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 682.5,
+        "nativeDebt": 682.5,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 1000 5 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 472.5,
+        "nativeDebt": 472.5,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 1000 5 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 157.5,
+        "nativeDebt": 157.5,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 1000 5 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 105,
+        "nativeDebt": 105,
+        "nativeAdvance": 157.5
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 1000 5 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 105,
+        "nativeDebt": 105,
+        "nativeAdvance": 210
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 1000 5 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 105,
+        "nativeDebt": 105,
+        "nativeAdvance": 420
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 1000 14 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 741,
+        "nativeDebt": 741,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 1000 14 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 513,
+        "nativeDebt": 513,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 1000 14 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 171,
+        "nativeDebt": 171,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 1000 14 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 114,
+        "nativeDebt": 114,
+        "nativeAdvance": 171
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 1000 14 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 114,
+        "nativeDebt": 114,
+        "nativeAdvance": 228
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 1000 14 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 114,
+        "nativeDebt": 114,
+        "nativeAdvance": 456
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 10000 5 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 6825,
+        "nativeDebt": 6825,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 10000 5 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 4725,
+        "nativeDebt": 4725,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 10000 5 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1575,
+        "nativeDebt": 1575,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 10000 5 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1050,
+        "nativeDebt": 1050,
+        "nativeAdvance": 1575
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 10000 5 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1050,
+        "nativeDebt": 1050,
+        "nativeAdvance": 2100
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 10000 5 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1050,
+        "nativeDebt": 1050,
+        "nativeAdvance": 4200
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 10000 14 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 7410,
+        "nativeDebt": 7410,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 10000 14 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 5130,
+        "nativeDebt": 5130,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 10000 14 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1710,
+        "nativeDebt": 1710,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 10000 14 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1140,
+        "nativeDebt": 1140,
+        "nativeAdvance": 1710
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 10000 14 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1140,
+        "nativeDebt": 1140,
+        "nativeAdvance": 2280
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 10000 14 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1140,
+        "nativeDebt": 1140,
+        "nativeAdvance": 4560
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 90000 5 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 61425,
+        "nativeDebt": 61425,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 90000 5 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 42525,
+        "nativeDebt": 42525,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 90000 5 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 14175,
+        "nativeDebt": 14175,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 90000 5 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 9450,
+        "nativeDebt": 9450,
+        "nativeAdvance": 14175
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 90000 5 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 9450,
+        "nativeDebt": 9450,
+        "nativeAdvance": 18900
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 90000 5 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 9450,
+        "nativeDebt": 9450,
+        "nativeAdvance": 37800
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 90000 14 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 66690,
+        "nativeDebt": 66690,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 90000 14 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 46170,
+        "nativeDebt": 46170,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 90000 14 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 15390,
+        "nativeDebt": 15390,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 90000 14 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 10260,
+        "nativeDebt": 10260,
+        "nativeAdvance": 15390
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 90000 14 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 10260,
+        "nativeDebt": 10260,
+        "nativeAdvance": 20520
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer USD 90000 14 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 10260,
+        "nativeDebt": 10260,
+        "nativeAdvance": 41040
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 1000 5 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 682.5,
+        "nativeDebt": 682.5,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 1000 5 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 472.5,
+        "nativeDebt": 472.5,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 1000 5 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 157.5,
+        "nativeDebt": 157.5,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 1000 5 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 105,
+        "nativeDebt": 105,
+        "nativeAdvance": 157.5
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 1000 5 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 105,
+        "nativeDebt": 105,
+        "nativeAdvance": 210
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 1000 5 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 105,
+        "nativeDebt": 105,
+        "nativeAdvance": 420
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 1000 14 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 741,
+        "nativeDebt": 741,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 1000 14 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 513,
+        "nativeDebt": 513,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 1000 14 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 171,
+        "nativeDebt": 171,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 1000 14 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 114,
+        "nativeDebt": 114,
+        "nativeAdvance": 171
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 1000 14 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 114,
+        "nativeDebt": 114,
+        "nativeAdvance": 228
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 1000 14 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 114,
+        "nativeDebt": 114,
+        "nativeAdvance": 456
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 10000 5 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 6825,
+        "nativeDebt": 6825,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 10000 5 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 4725,
+        "nativeDebt": 4725,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 10000 5 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1575,
+        "nativeDebt": 1575,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 10000 5 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1050,
+        "nativeDebt": 1050,
+        "nativeAdvance": 1575
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 10000 5 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1050,
+        "nativeDebt": 1050,
+        "nativeAdvance": 2100
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 10000 5 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1050,
+        "nativeDebt": 1050,
+        "nativeAdvance": 4200
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 10000 14 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 7410,
+        "nativeDebt": 7410,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 10000 14 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 5130,
+        "nativeDebt": 5130,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 10000 14 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1710,
+        "nativeDebt": 1710,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 10000 14 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1140,
+        "nativeDebt": 1140,
+        "nativeAdvance": 1710
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 10000 14 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1140,
+        "nativeDebt": 1140,
+        "nativeAdvance": 2280
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 10000 14 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1140,
+        "nativeDebt": 1140,
+        "nativeAdvance": 4560
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 90000 5 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 61425,
+        "nativeDebt": 61425,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 90000 5 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 42525,
+        "nativeDebt": 42525,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 90000 5 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 14175,
+        "nativeDebt": 14175,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 90000 5 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 9450,
+        "nativeDebt": 9450,
+        "nativeAdvance": 14175
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 90000 5 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 9450,
+        "nativeDebt": 9450,
+        "nativeAdvance": 18900
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 90000 5 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 9450,
+        "nativeDebt": 9450,
+        "nativeAdvance": 37800
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 90000 14 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 66690,
+        "nativeDebt": 66690,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 90000 14 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 46170,
+        "nativeDebt": 46170,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 90000 14 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 15390,
+        "nativeDebt": 15390,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 90000 14 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 10260,
+        "nativeDebt": 10260,
+        "nativeAdvance": 15390
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 90000 14 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 10260,
+        "nativeDebt": 10260,
+        "nativeAdvance": 20520
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة customer SAR 90000 14 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 10260,
+        "nativeDebt": 10260,
+        "nativeAdvance": 41040
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 1000 5 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 682.5,
+        "nativeDebt": 682.5,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 1000 5 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 472.5,
+        "nativeDebt": 472.5,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 1000 5 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 157.5,
+        "nativeDebt": 157.5,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 1000 5 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 105,
+        "nativeDebt": 105,
+        "nativeAdvance": 157.5
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 1000 5 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 105,
+        "nativeDebt": 105,
+        "nativeAdvance": 210
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 1000 5 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 105,
+        "nativeDebt": 105,
+        "nativeAdvance": 420
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 1000 14 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 741,
+        "nativeDebt": 741,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 1000 14 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 513,
+        "nativeDebt": 513,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 1000 14 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 171,
+        "nativeDebt": 171,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 1000 14 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 114,
+        "nativeDebt": 114,
+        "nativeAdvance": 171
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 1000 14 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 114,
+        "nativeDebt": 114,
+        "nativeAdvance": 228
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 1000 14 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 114,
+        "nativeDebt": 114,
+        "nativeAdvance": 456
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 10000 5 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 6825,
+        "nativeDebt": 6825,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 10000 5 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 4725,
+        "nativeDebt": 4725,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 10000 5 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1575,
+        "nativeDebt": 1575,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 10000 5 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1050,
+        "nativeDebt": 1050,
+        "nativeAdvance": 1575
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 10000 5 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1050,
+        "nativeDebt": 1050,
+        "nativeAdvance": 2100
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 10000 5 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1050,
+        "nativeDebt": 1050,
+        "nativeAdvance": 4200
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 10000 14 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 7410,
+        "nativeDebt": 7410,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 10000 14 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 5130,
+        "nativeDebt": 5130,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 10000 14 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1710,
+        "nativeDebt": 1710,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 10000 14 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1140,
+        "nativeDebt": 1140,
+        "nativeAdvance": 1710
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 10000 14 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1140,
+        "nativeDebt": 1140,
+        "nativeAdvance": 2280
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 10000 14 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1140,
+        "nativeDebt": 1140,
+        "nativeAdvance": 4560
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 90000 5 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 61425,
+        "nativeDebt": 61425,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 90000 5 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 42525,
+        "nativeDebt": 42525,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 90000 5 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 14175,
+        "nativeDebt": 14175,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 90000 5 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 9450,
+        "nativeDebt": 9450,
+        "nativeAdvance": 14175
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 90000 5 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 9450,
+        "nativeDebt": 9450,
+        "nativeAdvance": 18900
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 90000 5 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 9450,
+        "nativeDebt": 9450,
+        "nativeAdvance": 37800
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 90000 14 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 66690,
+        "nativeDebt": 66690,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 90000 14 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 46170,
+        "nativeDebt": 46170,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 90000 14 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 15390,
+        "nativeDebt": 15390,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 90000 14 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 10260,
+        "nativeDebt": 10260,
+        "nativeAdvance": 15390
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 90000 14 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 10260,
+        "nativeDebt": 10260,
+        "nativeAdvance": 20520
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier EGP 90000 14 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 10260,
+        "nativeDebt": 10260,
+        "nativeAdvance": 41040
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 1000 5 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 682.5,
+        "nativeDebt": 682.5,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 1000 5 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 472.5,
+        "nativeDebt": 472.5,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 1000 5 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 157.5,
+        "nativeDebt": 157.5,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 1000 5 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 105,
+        "nativeDebt": 105,
+        "nativeAdvance": 157.5
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 1000 5 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 105,
+        "nativeDebt": 105,
+        "nativeAdvance": 210
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 1000 5 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 105,
+        "nativeDebt": 105,
+        "nativeAdvance": 420
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 1000 14 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 741,
+        "nativeDebt": 741,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 1000 14 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 513,
+        "nativeDebt": 513,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 1000 14 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 171,
+        "nativeDebt": 171,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 1000 14 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 114,
+        "nativeDebt": 114,
+        "nativeAdvance": 171
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 1000 14 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 114,
+        "nativeDebt": 114,
+        "nativeAdvance": 228
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 1000 14 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 114,
+        "nativeDebt": 114,
+        "nativeAdvance": 456
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 10000 5 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 6825,
+        "nativeDebt": 6825,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 10000 5 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 4725,
+        "nativeDebt": 4725,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 10000 5 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1575,
+        "nativeDebt": 1575,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 10000 5 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1050,
+        "nativeDebt": 1050,
+        "nativeAdvance": 1575
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 10000 5 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1050,
+        "nativeDebt": 1050,
+        "nativeAdvance": 2100
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 10000 5 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1050,
+        "nativeDebt": 1050,
+        "nativeAdvance": 4200
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 10000 14 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 7410,
+        "nativeDebt": 7410,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 10000 14 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 5130,
+        "nativeDebt": 5130,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 10000 14 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1710,
+        "nativeDebt": 1710,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 10000 14 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1140,
+        "nativeDebt": 1140,
+        "nativeAdvance": 1710
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 10000 14 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1140,
+        "nativeDebt": 1140,
+        "nativeAdvance": 2280
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 10000 14 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1140,
+        "nativeDebt": 1140,
+        "nativeAdvance": 4560
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 90000 5 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 61425,
+        "nativeDebt": 61425,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 90000 5 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 42525,
+        "nativeDebt": 42525,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 90000 5 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 14175,
+        "nativeDebt": 14175,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 90000 5 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 9450,
+        "nativeDebt": 9450,
+        "nativeAdvance": 14175
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 90000 5 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 9450,
+        "nativeDebt": 9450,
+        "nativeAdvance": 18900
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 90000 5 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 9450,
+        "nativeDebt": 9450,
+        "nativeAdvance": 37800
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 90000 14 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 66690,
+        "nativeDebt": 66690,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 90000 14 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 46170,
+        "nativeDebt": 46170,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 90000 14 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 15390,
+        "nativeDebt": 15390,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 90000 14 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 10260,
+        "nativeDebt": 10260,
+        "nativeAdvance": 15390
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 90000 14 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 10260,
+        "nativeDebt": 10260,
+        "nativeAdvance": 20520
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier USD 90000 14 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 10260,
+        "nativeDebt": 10260,
+        "nativeAdvance": 41040
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 1000 5 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 682.5,
+        "nativeDebt": 682.5,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 1000 5 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 472.5,
+        "nativeDebt": 472.5,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 1000 5 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 157.5,
+        "nativeDebt": 157.5,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 1000 5 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 105,
+        "nativeDebt": 105,
+        "nativeAdvance": 157.5
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 1000 5 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 105,
+        "nativeDebt": 105,
+        "nativeAdvance": 210
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 1000 5 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 105,
+        "nativeDebt": 105,
+        "nativeAdvance": 420
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 1000 14 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 741,
+        "nativeDebt": 741,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 1000 14 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 513,
+        "nativeDebt": 513,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 1000 14 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 171,
+        "nativeDebt": 171,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 1000 14 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 114,
+        "nativeDebt": 114,
+        "nativeAdvance": 171
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 1000 14 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 114,
+        "nativeDebt": 114,
+        "nativeAdvance": 228
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 1000 14 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 1000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 114,
+        "nativeDebt": 114,
+        "nativeAdvance": 456
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 10000 5 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 6825,
+        "nativeDebt": 6825,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 10000 5 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 4725,
+        "nativeDebt": 4725,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 10000 5 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1575,
+        "nativeDebt": 1575,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 10000 5 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1050,
+        "nativeDebt": 1050,
+        "nativeAdvance": 1575
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 10000 5 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1050,
+        "nativeDebt": 1050,
+        "nativeAdvance": 2100
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 10000 5 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1050,
+        "nativeDebt": 1050,
+        "nativeAdvance": 4200
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 10000 14 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 7410,
+        "nativeDebt": 7410,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 10000 14 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 5130,
+        "nativeDebt": 5130,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 10000 14 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1710,
+        "nativeDebt": 1710,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 10000 14 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1140,
+        "nativeDebt": 1140,
+        "nativeAdvance": 1710
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 10000 14 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 1140,
+        "nativeDebt": 1140,
+        "nativeAdvance": 2280
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 10000 14 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 10000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 1140,
+        "nativeDebt": 1140,
+        "nativeAdvance": 4560
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 90000 5 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 61425,
+        "nativeDebt": 61425,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 90000 5 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 42525,
+        "nativeDebt": 42525,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 90000 5 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 14175,
+        "nativeDebt": 14175,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 90000 5 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 9450,
+        "nativeDebt": 9450,
+        "nativeAdvance": 14175
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 90000 5 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 9450,
+        "nativeDebt": 9450,
+        "nativeAdvance": 18900
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 90000 5 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 5,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 9450,
+        "nativeDebt": 9450,
+        "nativeAdvance": 37800
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 90000 14 0.25 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 66690,
+        "nativeDebt": 66690,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 90000 14 0.25 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.25,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 46170,
+        "nativeDebt": 46170,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 90000 14 0.75 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 15390,
+        "nativeDebt": 15390,
+        "nativeAdvance": 0
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 90000 14 0.75 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 0.75,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 10260,
+        "nativeDebt": 10260,
+        "nativeAdvance": 15390
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 90000 14 1 0.2",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.2,
+        "invoiceRemaining": 10260,
+        "nativeDebt": 10260,
+        "nativeAdvance": 20520
+      }
+    },
+    {
+      "name": "إشعار ضريبي ثم زيادة supplier SAR 90000 14 1 0.4",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 90000,
+        "taxRate": 14,
+        "paidFraction": 1,
+        "creditFraction": 0.4,
+        "invoiceRemaining": 10260,
+        "nativeDebt": 10260,
+        "nativeAdvance": 41040
+      }
+    },
+    {
+      "name": "تحصيل الذمة الجديدة بعد تخفيض فاتورة مدفوعة",
+      "status": "PASS",
+      "facts": {
+        "collected": true
+      }
+    }
+  ]
+}

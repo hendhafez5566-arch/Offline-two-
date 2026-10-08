@@ -1,0 +1,2172 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> erp-professional-suite-commercial@32.5.66 test:all-node-smokes
+> node scripts/all-node-smokes.mjs
+
+
+===== accounting-constitution-smoke.mjs =====
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "used customer cannot be deleted",
+      "pass": true
+    },
+    {
+      "name": "unused customer can be deleted",
+      "pass": true
+    },
+    {
+      "name": "posted account cannot be deleted",
+      "pass": true
+    },
+    {
+      "name": "linked draft invoice cannot be deleted",
+      "pass": true
+    },
+    {
+      "name": "void receipt is financially immutable",
+      "pass": true
+    },
+    {
+      "name": "cancelled Umrah booking is financially immutable",
+      "pass": true
+    },
+    {
+      "name": "Umrah PO cancellation tolerates equivalent legacy line metadata",
+      "pass": true
+    },
+    {
+      "name": "approved Umrah PO still blocks real financial line edits",
+      "pass": true
+    },
+    {
+      "name": "technical activity cleanup retains critical financial audit",
+      "pass": true
+    }
+  ]
+}
+
+===== accounting-smoke.mjs =====
+{
+  "validation": {
+    "invalidQtyBlocked": true,
+    "invalidDiscountBlocked": true
+  },
+  "integrityDetections": {
+    "receivedNotInvoiced": true,
+    "staleConverted": true
+  },
+  "vendorAdvance": {
+    "allocated": 300,
+    "remaining": 200,
+    "unrelatedRemaining": 900,
+    "advanceAfter": 0
+  },
+  "contractAdvance": {
+    "advanceBeforeInvoice": 200,
+    "advanceAfterInvoice": 0,
+    "relatedAllocated": 200,
+    "relatedRemaining": 300,
+    "unrelatedRemaining": 1000,
+    "sourceId": "HC-SMOKE"
+  },
+  "prePostCustomer": {
+    "status": "partial",
+    "allocated": 5000,
+    "remaining": 10000
+  },
+  "prePostSupplier": {
+    "status": "partial",
+    "allocated": 4000,
+    "remaining": 6000
+  },
+  "prePostVoid": {
+    "status": "open",
+    "remaining": 7000
+  },
+  "sales": {
+    "total": 15000,
+    "received": 13000,
+    "remaining": 2000
+  },
+  "purchase": {
+    "total": 10000,
+    "paid": 4000,
+    "remaining": 6000
+  },
+  "sar": {
+    "rate": 13.25,
+    "total": 1000,
+    "received": 500,
+    "remaining": 500
+  },
+  "multiAllocation": {
+    "firstRemaining": 0,
+    "secondRemaining": 2000,
+    "allocations": 2
+  },
+  "reversal": {
+    "remainingAfterVoid": 1000
+  },
+  "journals": 31,
+  "imbalanced": 0,
+  "criticalAudit": 0
+}
+
+===== action-integrity-smoke.mjs =====
+node:internal/modules/package_json_reader:301
+  throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);
+        ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'typescript' imported from /workspace/scratch/fd17ea13a424/pristine/scripts/action-integrity-smoke.mjs
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:301:9)
+    at packageResolve (node:internal/modules/esm/resolve:768:81)
+    at moduleResolve (node:internal/modules/esm/resolve:859:18)
+    at defaultResolve (node:internal/modules/esm/resolve:992:11)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:701:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:721:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:759:56)
+    at #resolve (node:internal/modules/esm/loader:683:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:163:33) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+
+Node.js v24.19.0
+FAILED action-integrity-smoke.mjs (1)
+
+===== advanced-accounting-smoke.mjs =====
+{
+  "ok": true,
+  "supplierCancellation": {
+    "credit": 2000,
+    "refund": 500,
+    "cancellationExpense": 1500,
+    "endingAdvance": 0
+  },
+  "lineCredit": true,
+  "deferredRevenue": 2400,
+  "deferredCost": 3000,
+  "asset": {
+    "status": "disposed",
+    "depreciation": 1000
+  },
+  "loan": {
+    "status": "paid"
+  },
+  "badDebtReceivable": 600,
+  "payroll": "paid",
+  "bankMatched": 1,
+  "journals": 28,
+  "imbalanced": 0,
+  "criticalAudit": 0
+}
+
+===== android-connectivity-smoke.mjs =====
+file:///workspace/scratch/fd17ea13a424/pristine/scripts/android-connectivity-smoke.mjs:22
+for(const [name,ok] of checks){if(!ok)throw new Error(`connectivity check failed: ${name}`)}
+                                            ^
+
+Error: connectivity check failed: Android release header is current
+    at file:///workspace/scratch/fd17ea13a424/pristine/scripts/android-connectivity-smoke.mjs:22:45
+
+Node.js v24.19.0
+FAILED android-connectivity-smoke.mjs (1)
+
+===== archive-smoke.mjs =====
+{"ok":true,"archivedRecords":3,"openingLines":2,"currentBytes":1055,"nextBytes":2143,"balanced":true}
+
+===== brand-asset-smoke.mjs =====
+PASS identity PNG 512 exists and is nontrivial
+PASS identity PNG 192 exists and is nontrivial
+PASS dist icon bytes exactly match source identity assets
+PASS setup/reset screens use versioned 512 identity asset
+PASS static build cache-busts both identity icon sizes
+FAIL dist login identity 512 is versioned
+PASS manifest identity icons are versioned
+PASS service worker uses current versioned identity icons
+PASS service worker no longer references deleted HR chunk
+PASS service worker activates updated cache immediately
+FAILED brand-asset-smoke.mjs (9)
+
+===== cancel-integrity-smoke.mjs =====
+{"ok":true,"draftCleanup":true,"activeCommitmentProtected":true,"approvedProtected":true,"invoiceProtected":true}
+
+===== central-vendor-customer-smoke.mjs =====
+PASS central vendor customer hardening + dual-key licensing
+
+===== clean-ui-smoke.mjs =====
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "Quick Navigation removed from topbar and sidebar",
+      "pass": true
+    },
+    {
+      "name": "Umrah navigation follows the simplified workflow",
+      "pass": true
+    },
+    {
+      "name": "Umrah sidebar groups the simplified workflow compactly",
+      "pass": true
+    },
+    {
+      "name": "Android text fields request keyboard suggestions",
+      "pass": true
+    },
+    {
+      "name": "Android keyboard resizes app content",
+      "pass": true
+    },
+    {
+      "name": "Global modal footer reset exists",
+      "pass": true
+    },
+    {
+      "name": "Umrah forms use global modal footer",
+      "pass": true
+    },
+    {
+      "name": "Safe delete framework compiled centrally",
+      "pass": true
+    },
+    {
+      "name": "Party deletion uses central safe delete",
+      "pass": true
+    },
+    {
+      "name": "Party attachments have one More entry",
+      "pass": true
+    },
+    {
+      "name": "Theme light exists",
+      "pass": true
+    },
+    {
+      "name": "Theme dark exists",
+      "pass": true
+    },
+    {
+      "name": "Theme comfort exists",
+      "pass": true
+    },
+    {
+      "name": "Legacy theme executive removed",
+      "pass": true
+    },
+    {
+      "name": "Legacy theme sand removed",
+      "pass": true
+    },
+    {
+      "name": "Legacy theme graphite removed",
+      "pass": true
+    },
+    {
+      "name": "Font 13px preview exists",
+      "pass": true
+    },
+    {
+      "name": "Font 14px preview exists",
+      "pass": true
+    },
+    {
+      "name": "Font 15px preview exists",
+      "pass": true
+    },
+    {
+      "name": "Font 16px preview exists",
+      "pass": true
+    },
+    {
+      "name": "Font 17px preview exists",
+      "pass": true
+    },
+    {
+      "name": "Font 18px preview exists",
+      "pass": true
+    },
+    {
+      "name": "Umrah navigation has no disabled legacy group headers",
+      "pass": true
+    },
+    {
+      "name": "Active Umrah route reopens its sidebar group",
+      "pass": true
+    },
+    {
+      "name": "Umrah programs expose central safe delete",
+      "pass": true
+    },
+    {
+      "name": "Program delete blocks financial/operational references",
+      "pass": true
+    },
+    {
+      "name": "High-volume Umrah lists separate current and historical records",
+      "pass": true
+    },
+    {
+      "name": "Visa batch creation preflights duplicate travelers",
+      "pass": true
+    },
+    {
+      "name": "Party attachments expose open and delete",
+      "pass": true
+    },
+    {
+      "name": "Party recent activity is limited to five and removable",
+      "pass": true
+    },
+    {
+      "name": "Redundant company instruction removed",
+      "pass": true
+    },
+    {
+      "name": "Generic page descriptions removed from page headers",
+      "pass": true
+    },
+    {
+      "name": "Production source maps disabled",
+      "pass": true
+    }
+  ]
+}
+
+===== commercial-smoke.mjs =====
+{
+  "ok": false,
+  "licenseCrypto": true,
+  "freshNamespace": false,
+  "passwordSecretsPreserved": true,
+  "clientHashesStripped": true,
+  "emailVerificationServerOwned": true,
+  "passwordHashCompatible": true,
+  "uniqueSessionCookie": true,
+  "setupCreatesSession": true,
+  "setupReturnsAuthenticated": true,
+  "setupEmailRequired": true,
+  "loginReturnsData": true,
+  "recoveryRoutes": true,
+  "checks": [
+    {
+      "file": "server/src/license.ts",
+      "text": "verifyLicenseToken",
+      "pass": true
+    },
+    {
+      "file": "server/src/migrations.ts",
+      "text": "erp_schema_migrations",
+      "pass": true
+    },
+    {
+      "file": "src/documents/attachments-backup.ts",
+      "text": "erp-professional-suite-portable",
+      "pass": true
+    },
+    {
+      "file": "server/src/session.ts",
+      "text": "last_seen_at",
+      "pass": true
+    },
+    {
+      "file": "server/src/authz.ts",
+      "text": "assertStateChangeAllowed",
+      "pass": true
+    },
+    {
+      "file": "src/commercial/product.ts",
+      "text": "BranchScope",
+      "pass": true
+    },
+    {
+      "file": "src/commercial/data-exchange.ts",
+      "text": "name.endsWith('.xlsx')",
+      "pass": true
+    },
+    {
+      "file": "src/ui/party360.ts",
+      "text": "Party360",
+      "pass": true
+    },
+    {
+      "file": "src/commercial/pages.ts",
+      "text": "programProfitability",
+      "pass": true
+    },
+    {
+      "file": "scripts/init-env.ps1",
+      "text": "ERP_COMPANY_ID",
+      "pass": true
+    },
+    {
+      "file": "src/commercial/pages.ts",
+      "text": "حماية البيانات",
+      "pass": true
+    },
+    {
+      "file": "server/src/server.ts",
+      "text": "/api/integrations/whatsapp/send",
+      "pass": true
+    },
+    {
+      "file": "src/persistence/server-store.ts",
+      "text": "_requireLogin",
+      "pass": true
+    },
+    {
+      "file": "src/persistence/server-store.ts",
+      "text": "setupPassword",
+      "pass": true
+    },
+    {
+      "file": "src/security/auth.ts",
+      "text": "ServerStore.setup(DB.data,password)",
+      "pass": true
+    },
+    {
+      "file": "src/security/auth.ts",
+      "text": "data-setup-key=\"email\"",
+      "pass": true
+    },
+    {
+      "file": "src/security/auth.ts",
+      "text": "showRecovery()",
+      "pass": true
+    },
+    {
+      "file": "server/src/auth-recovery.ts",
+      "text": "resetPasswordWithToken",
+      "pass": true
+    },
+    {
+      "file": "server/src/server.ts",
+      "text": "verifyPassword(adminUser,setupPassword)",
+      "pass": true
+    },
+    {
+      "file": "src/persistence/browser-store.ts",
+      "text": "d.meta.setupComplete===true&&!d.treasuries.length",
+      "pass": true
+    },
+    {
+      "file": "src/commercial/product.ts",
+      "text": "if(ServerStore.available!==true){if(!(await ServerStore.probe()))",
+      "pass": true
+    },
+    {
+      "file": "VERIFY_BACKUP_WINDOWS.bat",
+      "text": "docker compose --env-file \".env\" exec -T db pg_restore -l",
+      "pass": true
+    },
+    {
+      "file": "VERIFY_BACKUP_WINDOWS.bat",
+      "text": "backups\\*.dump",
+      "pass": true
+    },
+    {
+      "file": "BACKUP_ERP_WINDOWS.bat",
+      "text": "Backup completed and verified.",
+      "pass": true
+    },
+    {
+      "file": "BUILD_ANDROID_APK_WINDOWS.bat",
+      "text": "Elhafez_Tourism_Customer_v%ERP_VERSION%_DEBUG.apk",
+      "pass": true
+    },
+    {
+      "file": "scripts/install-update.ps1",
+      "text": "build --pull --no-cache app",
+      "pass": true
+    }
+  ]
+}
+FAILED commercial-smoke.mjs (1)
+
+===== concurrency-smoke.mjs =====
+{
+  "ok": true,
+  "merged": [
+    "independent records",
+    "independent fields",
+    "record additions",
+    "audit additions"
+  ],
+  "blocked": [
+    "same field conflict",
+    "sequence conflict"
+  ]
+}
+
+===== contracts-inventory-smoke.mjs =====
+app.js:17165
+          throw new Error("العقد غير مؤكد/فعال");
+                ^
+
+Error: العقد غير مؤكد/فعال
+    at UmrahCore_DB2.atomic.save (app.js:17165:17)
+    at run (app.js:16299:26)
+    at Object.atomic (app.js:5225:24)
+    at Object.atomic (app.js:16315:26)
+    at Object.allocate (app.js:17160:28)
+    at file:///workspace/scratch/fd17ea13a424/pristine/scripts/contracts-inventory-smoke.mjs:13:184
+
+Node.js v24.19.0
+FAILED contracts-inventory-smoke.mjs (1)
+
+===== core-suite-integration-smoke.mjs =====
+{
+  "ok": true,
+  "mode": "single-main-runtime",
+  "hrRemoved": true,
+  "routes": {
+    "umrah": true,
+    "hr": false
+  },
+  "sameRouter": true,
+  "sameStore": true,
+  "shadowDom": false,
+  "iframe": false
+}
+
+===== customer-parity-smoke.mjs =====
+node:fs:484
+    return binding.readFileUtf8(path, stringToFlags(options.flag));
+                   ^
+
+Error: ENOENT: no such file or directory, open '/workspace/scratch/fd17ea13a424/pristine/mobile-customer/index.html'
+    at Object.readFileSync (node:fs:484:20)
+    at read (file:///workspace/scratch/fd17ea13a424/pristine/scripts/customer-parity-smoke.mjs:4:18)
+    at file:///workspace/scratch/fd17ea13a424/pristine/scripts/customer-parity-smoke.mjs:13:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/workspace/scratch/fd17ea13a424/pristine/mobile-customer/index.html'
+}
+
+Node.js v24.19.0
+FAILED customer-parity-smoke.mjs (1)
+
+===== data-protection-smoke.mjs =====
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: erpbackup extension missing
+    at file:///workspace/scratch/fd17ea13a424/pristine/scripts/data-protection-smoke.mjs:23:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.19.0
+FAILED data-protection-smoke.mjs (1)
+
+===== entity-mirror-read-source-smoke.mjs =====
+entity mirror read-source smoke: passed
+
+===== hr-removed-smoke.mjs =====
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "HR source directory removed",
+      "pass": true
+    },
+    {
+      "name": "HR compiler removed",
+      "pass": true
+    },
+    {
+      "name": "HR runtime bundle removed",
+      "pass": true
+    },
+    {
+      "name": "HTML does not load HR runtime",
+      "pass": true
+    },
+    {
+      "name": "PWA service worker does not precache deleted HR runtime",
+      "pass": true
+    },
+    {
+      "name": "navigation contains no HR route",
+      "pass": true
+    },
+    {
+      "name": "Pages registry contains no HR route",
+      "pass": true
+    },
+    {
+      "name": "core suite host is Umrah-only",
+      "pass": true
+    },
+    {
+      "name": "seed has no HR workspace/license module",
+      "pass": true
+    },
+    {
+      "name": "commercial product no longer exposes HR",
+      "pass": true
+    },
+    {
+      "name": "client auth no longer exposes HR permission",
+      "pass": true
+    },
+    {
+      "name": "server auth no longer exposes HR permission",
+      "pass": true
+    },
+    {
+      "name": "license editions no longer contain HR module",
+      "pass": true
+    },
+    {
+      "name": "vendor editions no longer contain HR module",
+      "pass": true
+    },
+    {
+      "name": "old integrated HR state is purged on load",
+      "pass": true
+    },
+    {
+      "name": "server migration purges persisted HR payload and workspace from live state/history",
+      "pass": true
+    },
+    {
+      "name": "old HR workspace is filtered on load",
+      "pass": true
+    },
+    {
+      "name": "official accounting collections are not blanket-deleted by HR cleanup",
+      "pass": true
+    }
+  ]
+}
+
+===== migration-plan-smoke.mjs =====
+PASS COLLECTIONS list equals server MIRRORED_COLLECTION_KEYS (same names, same order)
+PASS plan is safe for clean data
+PASS row count = sum of mirrored collections
+PASS stripped payload keeps settings/users/license and drops mirrored collections
+PASS present keys keep empty collections (suppliers)
+PASS round trip: before == after (counts, content, trial balance, party balances)
+PASS round trip preserves record order
+PASS round trip preserves Arabic/newline/quote text exactly
+PASS hydrate is independent of row fetch order
+PASS original payload not mutated by plan
+PASS unsafe: missing id is reported, not guessed
+PASS unsafe: duplicate id reported
+PASS unsafe: non-array collection reported
+PASS empty payload: safe, zero rows
+
+Migration plan smoke passed
+
+===== migration-runner-smoke.mjs =====
+PASS dry-run: status ready, writes nothing
+PASS dry-run reports mirror absent (0 rows) honestly
+PASS apply: migrated + backup taken
+PASS apply: revision unchanged (no client resync forced)
+PASS apply: old data kept in backup, not deleted
+PASS apply: stripped payload no longer holds collections
+PASS verifyAfter: before == after
+PASS dry-run on migrated tenant says already_entity_backed
+PASS apply twice is refused
+PASS rollback: back to legacy-full with all collections
+PASS rollback keeps data saved after migration
+PASS rollback: trial balance unchanged
+PASS restore from backup requires explicit force
+PASS restore with force returns the exact original payload
+PASS corrupted copy is detected and the transaction rolls back
+PASS duplicate ids block the migration, nothing written
+PASS unbalanced source journals block the migration
+PASS unknown tenant
+
+Migration runner smoke passed
+
+===== mobile-android-smoke.mjs =====
+node:internal/fs/promises:697
+  return new FileHandle(await PromisePrototypeThen(
+                        ^
+
+Error: ENOENT: no such file or directory, open '/workspace/scratch/fd17ea13a424/pristine/mobile-customer/index.html'
+    at async open (node:internal/fs/promises:697:25)
+    at async readFile (node:internal/fs/promises:1348:14)
+    at async Promise.all (index 8)
+    at async file:///workspace/scratch/fd17ea13a424/pristine/scripts/mobile-android-smoke.mjs:5:119 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/workspace/scratch/fd17ea13a424/pristine/mobile-customer/index.html'
+}
+
+Node.js v24.19.0
+FAILED mobile-android-smoke.mjs (1)
+
+===== offline-copy-smoke.mjs =====
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "offline edition flag",
+      "pass": true
+    },
+    {
+      "name": "separate offline schema/storage",
+      "pass": true
+    },
+    {
+      "name": "server never required",
+      "pass": true
+    },
+    {
+      "name": "server probe hard-disabled",
+      "pass": true
+    },
+    {
+      "name": "local datastore remains primary fallback",
+      "pass": true
+    },
+    {
+      "name": "local save path does not require remote",
+      "pass": true
+    },
+    {
+      "name": "offline license active professional",
+      "pass": true
+    },
+    {
+      "name": "mobile server health path short-circuited",
+      "pass": true
+    },
+    {
+      "name": "no Railway navigation in native shell",
+      "pass": true
+    },
+    {
+      "name": "Capacitor bundles full dist",
+      "pass": true
+    },
+    {
+      "name": "separate Android app id",
+      "pass": true
+    },
+    {
+      "name": "owner URL not required for offline build",
+      "pass": true
+    },
+    {
+      "name": "local factory reset path exists",
+      "pass": true
+    },
+    {
+      "name": "external backup local fallback preserved",
+      "pass": true
+    },
+    {
+      "name": "local restore path preserved",
+      "pass": true
+    }
+  ]
+}
+
+===== reset-entry-smoke.mjs =====
+PASS boot routes reset state to choice gate
+PASS choice gate contains existing and new user paths
+PASS existing login can return to reset gate
+PASS new setup can return to reset gate
+PASS client tracks reset flags from bootstrap
+PASS factory reset preserves only admin directory identities
+PASS factory reset is disabled by environment unless explicitly enabled
+PASS factory reset marks reset gate instead of first install
+PASS legacy reset state is upgraded to reset gate before boot
+PASS legacy reset can recover previous admin only from pre-reset server backup
+PASS existing-user button is enabled only when a previous admin is really available
+PASS old admin login restores reset state
+PASS ordinary user cannot claim reset company
+PASS new setup updates reset state instead of duplicate insert
+PASS reset confirmation explains two-path landing
+PASS reset gate has mobile responsive styling
+
+===== rocket-360-performance-smoke.mjs =====
+{
+  "ok": true,
+  "lazyMore": true,
+  "unifiedPartyControls": true,
+  "backgroundOperationalSaves": true,
+  "umrahProgressiveRender": true,
+  "moneyFit": true,
+  "accountingIndexed": true,
+  "branchNormalizeCached": true
+}
+
+===== role-workflow-smoke.mjs =====
+{
+  "ok": true,
+  "workflows": [
+    "cashier receipt",
+    "cashier cheque",
+    "sales booking"
+  ],
+  "blocked": [
+    "manual journal",
+    "invoice financial edit",
+    "foreign journal owner",
+    "unlinked invoice"
+  ]
+}
+
+===== server-hardening-smoke.mjs =====
+PASS enforced CSP has frame-ancestors/base-uri/form-action
+PASS full CSP is Report-Only, never enforced with script-src
+PASS report-only CSP forbids inline scripts and objects
+PASS HSTS header present
+PASS dangerous ALLOW_* flags default to false
+PASS session cookie is HttpOnly + SameSite
+PASS ACTIVE_MIME defined
+PASS active type "text/html" is forced to attachment/octet-stream
+PASS active type "text/html; charset=utf-8" is forced to attachment/octet-stream
+PASS active type "image/svg+xml" is forced to attachment/octet-stream
+PASS active type "application/xhtml+xml" is forced to attachment/octet-stream
+PASS active type "text/xml" is forced to attachment/octet-stream
+PASS active type "application/javascript" is forced to attachment/octet-stream
+PASS active type "text/javascript" is forced to attachment/octet-stream
+PASS active type "TEXT/HTML" is forced to attachment/octet-stream
+PASS active type "" is forced to attachment/octet-stream
+PASS normal type "image/png" unchanged
+PASS normal type "image/jpeg" unchanged
+PASS normal type "application/pdf" unchanged
+PASS normal type "image/webp" unchanged
+PASS normal type "application/vnd.openxmlformats-officedocument.wordprocessingml.document" unchanged
+PASS normal type "text/plain" unchanged
+PASS server.ts serves files via fileResponseHeaders
+
+Server hardening smoke passed
+
+===== state-verify-smoke.mjs =====
+PASS fingerprint of 5000 customers + 20001 journals completes
+PASS counts correct
+PASS journals balanced per currency (incl. 0.1+0.2=0.3 float case)
+PASS record order does not matter (same data, reordered)
+PASS detects a lost customer
+PASS detects silent field edit (content hash)
+PASS detects balanced-but-changed amounts (trial balance + party balance)
+PASS detects debit != credit
+PASS reports duplicate ids
+(timing: 255ms)
+
+State verify smoke passed
+
+===== system-ux-smoke.mjs =====
+{
+  "ok": true,
+  "workCenter": true,
+  "party360": true,
+  "wrongEmptyCtaFixed": true,
+  "outputHub": true,
+  "auditDiff": true,
+  "transientSyncRetry": true,
+  "sharedStatuses": true,
+  "smartUmrahWarnings": true,
+  "hrRemoved": true
+}
+
+===== umrah-ui-parity-smoke.mjs =====
+{
+  "ok": true,
+  "directButtons": 231,
+  "directOnclick": 0,
+  "delegatedPartyControls": 5,
+  "centralPrint": true,
+  "methodBaseline": {
+    "operations": 1,
+    "execution": 8,
+    "contracts": 45
+  },
+  "routes": 16
+}
+
+===== umrah-workflow-smoke.mjs =====
+{
+  "ok": true,
+  "staleDraftMigration": true,
+  "wizardPersistCalls": 1,
+  "failedOpenPersistCalls": 1,
+  "wizardProgram": "UP0001",
+  "wizardBooking": "UB0001",
+  "wizardInvoice": "SI260001",
+  "wizardReceipt": "R260001",
+  "openFailureRetained": "UP0002",
+  "program": "UP0008",
+  "booking": "UB0003",
+  "invoice": "SI260003",
+  "receipt": "R260002",
+  "travelers": 2,
+  "visaBatch": "VB0001",
+  "duplicateVisaBatchBlocked": true,
+  "rooms": 2,
+  "busCapacity": 7,
+  "fakeFlightBlocked": true,
+  "cancelStatus": "cancelRequested",
+  "hajjServicesBlocked": true,
+  "hajjPermitRequired": true,
+  "hajjCampRequired": true,
+  "receivedCancelBlocked": true,
+  "supplierInvoiceCancelBlocked": true,
+  "journals": 9,
+  "imbalanced": 0,
+  "segments": 4
+}
+
+===== unified-more-cleanup-smoke.mjs =====
+{
+  "ok": false,
+  "checks": [
+    {
+      "name": "master customer uses unified إجراءات + المزيد controls",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "master supplier uses unified إجراءات + المزيد controls",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "master agent uses unified إجراءات + المزيد controls",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "unified control renders exactly Actions and More entry points",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "More supports customers, suppliers and agents",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "More management owns edit/delete/direct WhatsApp/documents",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "More documents use real print sources without duplicating transaction creation",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "visible More wording no longer exposes old 360 label",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "operations menu contains no WhatsApp/edit/delete duplication",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "global modal context stack restores parent dialogs system-wide",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "modal stack preserves nested form values and scroll position",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "modal stack preserves ancestry through replace-style dialogs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Umrah bridge uses same unified party controls",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Umrah party links no longer use a visible 360 button",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "comfort theme exists in CSS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "comfort theme exists in settings",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "print font selection follows settings with safe local fallback",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "name": "print logo is compacted for oversized embedded logos",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "production source maps disabled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "production comments stripped",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "stale source map cleanup enabled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Android release version matches package release",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "package release version is valid semantic version",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "dist source map removed",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}
+FAILED unified-more-cleanup-smoke.mjs (1)
+
+===== unified-party-accounting-smoke.mjs =====
+{
+  "ok": true,
+  "before": {
+    "له": 25000,
+    "عليه": 15000,
+    "net": 10000
+  },
+  "netting": {
+    "max": 15000,
+    "amount": 15000,
+    "status": "reversed",
+    "invoiceAllocations": 2
+  },
+  "afterPost": {
+    "saleRemaining": 0,
+    "purchaseRemaining": 10000,
+    "ar": 0,
+    "ap": 10000
+  },
+  "afterReverse": {
+    "saleRemaining": 15000,
+    "purchaseRemaining": 25000,
+    "ar": 15000,
+    "ap": 25000
+  },
+  "roleDeleteRecreate": true,
+  "imbalanced": 0
+}
+
+===== v32470-regression-smoke.mjs =====
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "release is current and runtime-aligned",
+      "pass": true
+    },
+    {
+      "name": "normal save stays lean and 409 retry sends merge baseline",
+      "pass": true
+    },
+    {
+      "name": "party deletion requires suspension",
+      "pass": true
+    },
+    {
+      "name": "activity history has current range and retention controls",
+      "pass": true
+    },
+    {
+      "name": "program deletion uses lifecycle and dependency guards",
+      "pass": true
+    },
+    {
+      "name": "only three supported themes remain",
+      "pass": true
+    },
+    {
+      "name": "same device session is deduplicated",
+      "pass": true
+    },
+    {
+      "name": "customer package has no local Owner/Vendor administration",
+      "pass": true
+    },
+    {
+      "name": "Android session is cookie-backed and not JS-token-backed",
+      "pass": true
+    },
+    {
+      "name": "login throttling is PostgreSQL-backed",
+      "pass": true
+    },
+    {
+      "name": "Umrah intermediate workspace interface is removed",
+      "pass": true
+    }
+  ]
+}
+
+===== v32472-accounting-lifecycle-smoke.mjs =====
+app.js:2134
+        throw new Error(`تم إغلاق البيع للبرنامج بتاريخ ${p.salesCloseDate}`);
+              ^
+
+Error: تم إغلاق البيع للبرنامج بتاريخ 2026-09-10
+    at Object.saleAllowed (app.js:2134:15)
+    at Object.assertNewBookingSaleAllowed (app.js:20571:33)
+    at Object.createBooking (app.js:20607:12)
+    at file:///workspace/scratch/fd17ea13a424/pristine/scripts/v32472-accounting-lifecycle-smoke.mjs:23:77
+
+Node.js v24.19.0
+FAILED v32472-accounting-lifecycle-smoke.mjs (1)
+
+===== v32475-integrity-cleanup-smoke.mjs =====
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "existing financial control center owns the integrity checker",
+      "pass": true
+    },
+    {
+      "name": "integrity report covers accounting lifecycle summaries",
+      "pass": true
+    },
+    {
+      "name": "issues can open their source page",
+      "pass": true
+    },
+    {
+      "name": "legacy settings are absent from new data",
+      "pass": true
+    },
+    {
+      "name": "legacy client data is migrated before cleanup",
+      "pass": true
+    },
+    {
+      "name": "legacy route umrah-suite removed from runtime maps",
+      "pass": true
+    },
+    {
+      "name": "legacy route umrah-contracts-link removed from runtime maps",
+      "pass": true
+    },
+    {
+      "name": "legacy route umrah-management-link removed from runtime maps",
+      "pass": true
+    },
+    {
+      "name": "dead custom workspace edit/delete handlers removed",
+      "pass": true
+    },
+    {
+      "name": "Umrah activity follows configured retention period",
+      "pass": true
+    },
+    {
+      "name": "duplicate report header shortcuts removed",
+      "pass": true
+    }
+  ]
+}
+
+===== v32481-mobile-ux-action-policy-smoke.mjs =====
+✓ PO edit is draft-only in central policy
+✓ Quotation accepted/converted/void/cancelled are locked
+✓ Umrah program edit states match server lifecycle
+✓ Umrah booking edit states match server lifecycle
+✓ Purchase-order page hides invalid edit action
+✓ Quotation page hides invalid edit action
+✓ Commercial edit form has lifecycle guard
+✓ Commercial domain update has lifecycle guard
+✓ Accepted/cancelled quotation does not expose permanent delete
+✓ Umrah programs hide edit outside editable states
+✓ Umrah forms defend direct calls
+✓ Locked normal booking is labelled operational, not generic edit
+✓ Locked normal service is labelled operational, not generic edit
+✓ Party360 dynamic tabs re-enhance responsive tables
+✓ Party360 tabs use icon/label wrappers
+✓ Party360 mobile layout is bounded
+✓ Pull-to-refresh has no persistent visible instruction text
+✗ Web/mobile live version header matches package release
+FAILED: 1 checks
+FAILED v32481-mobile-ux-action-policy-smoke.mjs (1)
+
+===== v32482-smart-filters-traveler-integrity-smoke.mjs =====
+PASS smart filter engine
+PASS smart filter CSS active state
+PASS customer filters
+PASS supplier filters
+PASS agent filters
+PASS PO filters
+PASS voucher filters
+PASS invoice filters
+PASS Umrah program/booking filters
+PASS traveler readiness/filter cards
+PASS strong traveler identity guard
+PASS safe program delete cascades booking/travelers
+PASS financial audit retention preserved
+v32.4.82 checks: 13/13
+
+===== v32482-traveler-cleanup-runtime-smoke.mjs =====
+{
+  "ok": true,
+  "personFilesBefore": 2,
+  "duplicateBlocked": true,
+  "beforeBookings": 1,
+  "beforeTravelers": 2,
+  "removedBookings": 1,
+  "removedTravelers": 2
+}
+
+===== v32483-mobile-refresh-compact-filters-smoke.mjs =====
+PASS root/server release versions are identical
+PASS health version comes from server package
+FAIL Android header current
+PASS release checker does not force timer reload
+PASS release reload guarded once per server version
+PASS pull refresh finds page or nested scroll owner
+PASS pull refresh available on view modals while edit forms protected
+PASS compact unified smart filter renderer
+PASS compact filter dimensions
+PASS Umrah history tabs use same smart-filter style
+PASS traveler safe-delete is exposed only when allowed
+PASS traveler delete requires cancelled booking
+PASS traveler delete blocks historical operational evidence
+FAILED v32483-mobile-refresh-compact-filters-smoke.mjs (1)
+
+===== v32483-mobile-refresh-filter-traveler-smoke.mjs =====
+{
+  "ok": true,
+  "sourceChecks": 12,
+  "cancelledTravelerDeleted": true,
+  "issuedTicketProtected": true
+}
+
+===== v32484-layout-font-smoke.mjs =====
+PASS 3-column filters
+PASS font picker
+PASS font apply
+PASS font save
+PASS compact 360
+
+===== v32485-filter-refresh-font-smoke.mjs =====
+PASS release aligned
+PASS record scope has dedicated class
+PASS record scope labels remain fully readable
+PASS record scope active palette is distinct
+PASS pull refresh requires deliberate pull
+PASS pull refresh resets on aborted gestures
+PASS portable Arabic font catalog
+PASS legacy font choices migrate to working fonts
+PASS font settings expose working families
+PASS font-size controls are styled
+PASS Umrah dashboard KPIs are drill filters
+PASS action smart filters persist active state
+v32.4.85 checks: 12/12
+
+===== v32510-operations-execution-split-smoke.mjs =====
+{
+  "ok": false,
+  "checks": [
+    {
+      "name": "release version is at least 32.5.10",
+      "pass": true
+    },
+    {
+      "name": "server source has no @ts-nocheck",
+      "pass": true
+    },
+    {
+      "name": "server package version matches",
+      "pass": true
+    },
+    {
+      "name": "web runtime version matches",
+      "pass": true
+    },
+    {
+      "name": "mobile header version matches",
+      "pass": false
+    },
+    {
+      "name": "Android versionName/code match",
+      "pass": true
+    },
+    {
+      "name": "execution module compiled after core operations",
+      "pass": true
+    },
+    {
+      "name": "operations module below regular 100KB ceiling",
+      "pass": true
+    },
+    {
+      "name": "execution module remains focused",
+      "pass": true
+    },
+    {
+      "name": "execution object is attached to UmrahCore_Ops",
+      "pass": true
+    },
+    {
+      "name": "execution owns createVisaBatch",
+      "pass": true
+    },
+    {
+      "name": "execution owns updateVisaItem",
+      "pass": true
+    },
+    {
+      "name": "execution owns upsertTicket",
+      "pass": true
+    },
+    {
+      "name": "execution owns createBusRun",
+      "pass": true
+    },
+    {
+      "name": "execution owns autoAssignBuses",
+      "pass": true
+    },
+    {
+      "name": "execution owns addIncident",
+      "pass": true
+    },
+    {
+      "name": "execution owns setIncidentStatus",
+      "pass": true
+    }
+  ]
+}
+FAILED v32510-operations-execution-split-smoke.mjs (1)
+
+===== v32511-entity-backed-read-smoke.mjs =====
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "release remains newer than the 32.5.11 read-source milestone",
+      "pass": true
+    },
+    {
+      "name": "mirror metadata migration exists",
+      "pass": true
+    },
+    {
+      "name": "state read strips mirrored arrays before hydration",
+      "pass": true
+    },
+    {
+      "name": "state read requires matching revision",
+      "pass": true
+    },
+    {
+      "name": "state read has full-state fallback",
+      "pass": true
+    },
+    {
+      "name": "state write locks through entity-backed reader",
+      "pass": true
+    },
+    {
+      "name": "mirror validates row count",
+      "pass": true
+    },
+    {
+      "name": "mirror rejects duplicate or missing IDs",
+      "pass": true
+    },
+    {
+      "name": "startup initializes mirror metadata",
+      "pass": true
+    },
+    {
+      "name": "writes record mirror revision",
+      "pass": true
+    },
+    {
+      "name": "support diagnostics exposes entity storage status",
+      "pass": true
+    },
+    {
+      "name": "backup/history preserve hydrated schema version",
+      "pass": true
+    }
+  ]
+}
+
+===== v32512-entity-backed-write-smoke.mjs =====
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "release remains at least 32.5.12",
+      "pass": true
+    },
+    {
+      "name": "storage-mode migration exists",
+      "pass": true
+    },
+    {
+      "name": "write plan verifies mirror count before compaction",
+      "pass": true
+    },
+    {
+      "name": "write plan strips mirrored collections only after verification",
+      "pass": true
+    },
+    {
+      "name": "state persistence centralizes compact writes",
+      "pass": true
+    },
+    {
+      "name": "entity-backed reads use state manifest and fail closed on inconsistency",
+      "pass": true
+    },
+    {
+      "name": "application writers no longer update erp_state directly",
+      "pass": true
+    },
+    {
+      "name": "main write history stores hydrated full payload",
+      "pass": true
+    },
+    {
+      "name": "backup restore reads hydrated current state",
+      "pass": true
+    },
+    {
+      "name": "period archive writes through centralized state persistence",
+      "pass": true
+    },
+    {
+      "name": "auth recovery writes through centralized state persistence",
+      "pass": true
+    },
+    {
+      "name": "new company state can be inserted compactly after mirror rebuild",
+      "pass": true
+    }
+  ],
+  "directWrites": []
+}
+
+===== v32512-ui-delegation-smoke.mjs =====
+{
+  "ok": true,
+  "rawOnclick": 0,
+  "rawOnchange": 1,
+  "rawOninput": 0,
+  "rawOnsubmit": 0,
+  "checks": [
+    {
+      "name": "delegated module compiled before UI",
+      "pass": true
+    },
+    {
+      "name": "central handler exists",
+      "pass": true
+    },
+    {
+      "name": "page navigation delegated",
+      "pass": true
+    },
+    {
+      "name": "plain Forms.open delegated",
+      "pass": true
+    },
+    {
+      "name": "Quick Create delegated",
+      "pass": true
+    },
+    {
+      "name": "font preview delegated",
+      "pass": true
+    },
+    {
+      "name": "invoice print delegated",
+      "pass": true
+    },
+    {
+      "name": "attachment preview delegated",
+      "pass": true
+    },
+    {
+      "name": "inline onclick ceiling protected",
+      "pass": true
+    },
+    {
+      "name": "inline onchange reduced to generic hooks only",
+      "pass": true
+    },
+    {
+      "name": "inline oninput eliminated",
+      "pass": true
+    },
+    {
+      "name": "inline onsubmit eliminated",
+      "pass": true
+    }
+  ]
+}
+
+===== v32513-module-boundaries-smoke.mjs =====
+{
+  "ok": true,
+  "sizes": {
+    "wizard": 23173,
+    "wizardView": 37955,
+    "forms": 49545,
+    "definitions": 47790,
+    "umrahForms": 6132,
+    "contractForms": 12310,
+    "uiShell": 10693,
+    "uiPages": 7494,
+    "contractCore": 54453,
+    "contractManagement": 29194
+  },
+  "checks": [
+    {
+      "name": "release is at least 32.5.13",
+      "pass": true
+    },
+    {
+      "name": "program wizard view module compiled after core",
+      "pass": true
+    },
+    {
+      "name": "program wizard rendering moved out of core",
+      "pass": true
+    },
+    {
+      "name": "form definitions module compiled after form runtime",
+      "pass": true
+    },
+    {
+      "name": "large form definition table moved out of runtime",
+      "pass": true
+    },
+    {
+      "name": "Umrah contract forms compiled after base forms",
+      "pass": true
+    },
+    {
+      "name": "contract allocation forms moved out of base forms",
+      "pass": true
+    },
+    {
+      "name": "Umrah pages compiled after UI shell",
+      "pass": true
+    },
+    {
+      "name": "Umrah page rendering moved out of UI shell",
+      "pass": true
+    },
+    {
+      "name": "contract management compiled after contract core",
+      "pass": true
+    },
+    {
+      "name": "contract management moved out of allocation core",
+      "pass": true
+    },
+    {
+      "name": "all new focused modules below 80KB",
+      "pass": true
+    }
+  ]
+}
+
+===== v32514-auth-ui-delegation-smoke.mjs =====
+{
+  "ok": true,
+  "rawOnclick": 0,
+  "checks": [
+    {
+      "name": "release remains at least 32.5.14",
+      "pass": true
+    },
+    {
+      "name": "pre-login auth delegation installed",
+      "pass": true
+    },
+    {
+      "name": "Auth source has no onclick assignment",
+      "pass": true
+    },
+    {
+      "name": "password visibility uses delegated auth action",
+      "pass": true
+    },
+    {
+      "name": "recovery navigation uses auth data actions",
+      "pass": true
+    },
+    {
+      "name": "workspace module navigation delegated",
+      "pass": true
+    },
+    {
+      "name": "mobile search delegated",
+      "pass": true
+    },
+    {
+      "name": "search result navigation delegated",
+      "pass": true
+    },
+    {
+      "name": "table paging delegated",
+      "pass": true
+    },
+    {
+      "name": "party modal actions delegated",
+      "pass": true
+    },
+    {
+      "name": "explicit inline onclick ceiling improved",
+      "pass": true
+    }
+  ]
+}
+
+===== v32515-zero-inline-events-smoke.mjs =====
+{
+  "ok": true,
+  "raw": {
+    "onclick": 0,
+    "onchange": 0,
+    "oninput": 0,
+    "onsubmit": 0,
+    "directOnclick": 0
+  },
+  "checks": [
+    {
+      "name": "release is at least 32.5.15",
+      "pass": true
+    },
+    {
+      "name": "HTML onclick eliminated",
+      "pass": true
+    },
+    {
+      "name": "HTML onchange eliminated",
+      "pass": true
+    },
+    {
+      "name": "HTML oninput eliminated",
+      "pass": true
+    },
+    {
+      "name": "HTML onsubmit eliminated",
+      "pass": true
+    },
+    {
+      "name": "direct onclick assignments eliminated",
+      "pass": true
+    },
+    {
+      "name": "delegation contains no eval",
+      "pass": true
+    },
+    {
+      "name": "smart filters are structured",
+      "pass": true
+    },
+    {
+      "name": "Umrah history filters are structured",
+      "pass": true
+    },
+    {
+      "name": "guided recommendations are structured",
+      "pass": true
+    },
+    {
+      "name": "contract edit is whitelisted",
+      "pass": true
+    },
+    {
+      "name": "output center actions are structured",
+      "pass": true
+    },
+    {
+      "name": "program selector uses structured state keys",
+      "pass": true
+    }
+  ]
+}
+
+===== v3254-global-ux-smoke.mjs =====
+{
+  "ok": true,
+  "mobileNext": true,
+  "accordion": true,
+  "noGroupCounters": true,
+  "guidedProgramCreate": true
+}
+
+===== v32549-keyboard-autofill-smoke.mjs =====
+PASS Capacitor uses standard Android InputConnection
+PASS Login exposes credential autofill semantics
+PASS First-run setup no longer blocks profile autofill
+PASS Normal text fields request correction and suggestions
+PASS Email and phone fields expose semantic IME/autofill hints
+PASS Search controls keep browser autofill out while retaining IME correction
+PASS Android WebView is explicitly important for Autofill
+v32.5.49 keyboard/autofill smoke: 7/7
+
+===== v32552-native-backup-delivery-smoke.mjs =====
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "release version advanced while backup behavior remains protected",
+      "pass": true
+    },
+    {
+      "name": "one canonical restorable backup builder preserved",
+      "pass": true
+    },
+    {
+      "name": "android native backup bridge registered",
+      "pass": true
+    },
+    {
+      "name": "chunked backup transfer avoids giant single bridge payload",
+      "pass": true
+    },
+    {
+      "name": "android download uses MediaStore Downloads",
+      "pass": true
+    },
+    {
+      "name": "legacy android save permission limited to api 28",
+      "pass": true
+    },
+    {
+      "name": "android share uses system ACTION_SEND and FileProvider",
+      "pass": true
+    },
+    {
+      "name": "delivery waits for native success before saved status",
+      "pass": true
+    },
+    {
+      "name": "browser/laptop download fallback retained",
+      "pass": true
+    },
+    {
+      "name": "browser share fallback retained",
+      "pass": true
+    },
+    {
+      "name": "backup center exposes exactly the two requested primary actions",
+      "pass": true
+    },
+    {
+      "name": "restore remains available from .erpbackup",
+      "pass": true
+    },
+    {
+      "name": "offline backup page does not show unusable server snapshots",
+      "pass": true
+    }
+  ]
+}
+
+===== v32554-persistent-android-session-smoke.mjs =====
+PASS release retains v32.5.54+ persistent session behavior
+PASS native auth preferences are private app storage
+PASS native bridge exposes persistent user id read/write/clear
+PASS persistent session stores user id only and never password
+PASS offline auth restores native session after WebView recreation
+PASS successful setup/login persists native session
+PASS explicit logout clears both browser and native session
+PASS invalid or disallowed stored user is rejected and cleared
+PASS Home/pause/resume never clears login
+PASS accounting core is not coupled to persistent login storage
+v32.5.54+ persistent Android session smoke: 10/10
+
+===== v32555-auth-ui-clean-smoke.mjs =====
+PASS release retains v32.5.55+ auth UI behavior
+PASS regular login uses one compact operational card
+PASS duplicate recovery card is removed
+PASS password toggle uses delegated auth action
+PASS first-run setup has no marketing split panel
+PASS first-run remains three operational steps
+PASS offline email is optional but server email remains required
+PASS email validation only runs when email is provided
+PASS clean auth CSS replaces legacy split-panel auth blocks
+PASS accounting core is not coupled to auth UI
+v32.5.56 clean auth UI smoke: 10/10
+
+===== v32556-ui-consistency-smoke.mjs =====
+PASS release retains v32.5.56+ UI consistency behavior
+PASS one Arabic display locale drives core number/date formatting
+PASS Umrah number formatter uses the same Latin-digit Arabic locale
+PASS backup and archive filenames are human readable
+PASS PDF filenames include document identity and party/number when context exists
+PASS Android no longer appends timestamp to shared PDF filename
+PASS output center uses Arabic-first rooming and lodging voucher labels
+PASS repeated spacing inline styles are consolidated
+PASS party More action order is edit WhatsApp documents suspend delete
+v32.5.56 UI consistency smoke: 9/9
+
+===== v32563-android-bundle-parity-smoke.mjs =====
+PASS Android bundle has canonical Print bridge
+PASS Android bundle has canonical WhatsApp bridge
+PASS Android bundle has no structured renderer path
+PASS Android bundle source contract matches current source
+PASS Android manifest carries current version
+v32.5.63 Android bundle parity: 5/5
+
+===== v32563-single-pdf-engine-smoke.mjs =====
+PASS release is v32.5.63+
+PASS print modal exposes Print and WhatsApp document delivery
+PASS Print and WhatsApp consume one printPayload HTML/CSS source
+PASS Print uses canonical A4 bridge
+PASS WhatsApp uses same HTML filename orientation payload
+PASS canonical payload is explicit RTL A4 and bounded
+PASS offline template does not fetch web fonts
+PASS dead structured DOM model is removed
+PASS Android has exactly one canonical PDF cache path for both actions
+PASS canonical PDF is generated by Chromium PrintDocumentAdapter
+PASS PdfPrint delegates layout and write to WebView print adapter
+PASS no screenshot/Canvas PDF generator remains
+PASS print consumes generated PDF file directly
+PASS WhatsApp consumes the same generated PDF file directly
+PASS same generated PDF can be reused byte-for-byte between Print and WhatsApp
+PASS A4 attributes are central and shared
+PASS registered party phone is resolved centrally
+PASS WhatsApp targets registered jid and normal/business packages
+PASS delegated WhatsApp button routes only to Print.sharePdf
+PASS Android keyboard suggestions remain enabled
+PASS native contact picker remains permission-light
+PASS agent WhatsApp field remains available
+PASS party More keeps direct WhatsApp and Documents
+PASS framework callback helper is isolated in android.print package
+v32.5.63 single PDF engine gate: 24/24
+
+===== v32565-party-transactions-report-smoke.mjs =====
+{
+  "programHasName": true,
+  "programExcludesIndividual": true,
+  "individualHasService": true,
+  "individualExcludesProgram": false,
+  "programFilterWorks": true,
+  "readOnly": true,
+  "imbalanced": 0
+}
+FAILED v32565-party-transactions-report-smoke.mjs (3)
+
+===== v32566-party-transactions-dynamic-filters-smoke.mjs =====
+{
+  "options": [
+    {
+      "key": "program:7256f19e-0999-4427-934f-6951a051d4d0",
+      "label": "برنامج — عمرة سبتمبر اختبار"
+    },
+    {
+      "key": "service:83f600ba-ecd0-4582-a1e5-42176c660a34",
+      "label": "تأشيرة — SV260001 — تأشيرة فردية بالريال"
+    },
+    {
+      "key": "purchaseOrder:c8ee30c7-67a5-481b-a26b-347fc256101f",
+      "label": "أمر شراء — PO260001"
+    }
+  ],
+  "checks": {
+    "dynamicProgram": true,
+    "dynamicService": true,
+    "noInventedStaticScopes": true,
+    "allEqualsOriginal": true,
+    "serviceKeepsSAR": true,
+    "statementLanguage": true,
+    "serviceExcludesProgram": true,
+    "programExcludesService": true,
+    "programHasProgram": true,
+    "accountingCritical": 0
+  }
+}
+
+===== v3257-security-release-smoke.mjs =====
+PASS persistent login throttling migration exists
+PASS process-memory login limiter removed
+PASS Android session token not exposed to JavaScript
+PASS session list does not disclose token hash
+PASS factory reset preserves audit history
+PASS Release build requires signing credentials
+PASS Customer preparer keeps central vendor agent key
+
+===== v3258-structural-hardening-smoke.mjs =====
+node:internal/modules/package_json_reader:301
+  throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);
+        ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'typescript' imported from /workspace/scratch/fd17ea13a424/pristine/scripts/v3258-structural-hardening-smoke.mjs
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:301:9)
+    at packageResolve (node:internal/modules/esm/resolve:768:81)
+    at moduleResolve (node:internal/modules/esm/resolve:859:18)
+    at defaultResolve (node:internal/modules/esm/resolve:992:11)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:701:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:721:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:759:56)
+    at #resolve (node:internal/modules/esm/loader:683:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:163:33) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+
+Node.js v24.19.0
+FAILED v3258-structural-hardening-smoke.mjs (1)
+
+===== v3259-customer-type-structure-smoke.mjs =====
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "frontend source has zero @ts-nocheck",
+      "pass": true
+    },
+    {
+      "name": "customer preparer does not reintroduce @ts-nocheck",
+      "pass": true
+    },
+    {
+      "name": "customer Owner workspace registration removed",
+      "pass": true
+    },
+    {
+      "name": "customer Owner CSS block removed",
+      "pass": true
+    },
+    {
+      "name": "customer CSS patch count materially reduced",
+      "pass": true
+    },
+    {
+      "name": "procurement split into focused module",
+      "pass": true
+    },
+    {
+      "name": "procurement module is compiled",
+      "pass": true
+    },
+    {
+      "name": "contracts module is below regular size limit",
+      "pass": true
+    },
+    {
+      "name": "procurement module is focused",
+      "pass": true
+    },
+    {
+      "name": "execution workflow split into focused module",
+      "pass": true
+    },
+    {
+      "name": "execution module is compiled",
+      "pass": true
+    },
+    {
+      "name": "operations module is below regular size limit",
+      "pass": true
+    },
+    {
+      "name": "execution module is focused",
+      "pass": true
+    }
+  ]
+}
+
+===== v70-governance-smoke.mjs =====
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "Same-device save conflict retries with base data",
+      "pass": true
+    },
+    {
+      "name": "Party More has suspend and delete is locked while active",
+      "pass": true
+    },
+    {
+      "name": "Master delete also enforces suspend",
+      "pass": true
+    },
+    {
+      "name": "Activity history uses range view plus one advanced cleanup entry",
+      "pass": true
+    },
+    {
+      "name": "Activity cleanup reaches server",
+      "pass": true
+    },
+    {
+      "name": "Local activity storage is capped and retention-aware",
+      "pass": true
+    },
+    {
+      "name": "Same device/IP/user session is deduplicated",
+      "pass": true
+    },
+    {
+      "name": "Umrah workspace duplicate home removed",
+      "pass": true
+    },
+    {
+      "name": "Safe Umrah program delete blocks live operation/finance",
+      "pass": true
+    },
+    {
+      "name": "Only three themes remain",
+      "pass": true
+    },
+    {
+      "name": "Typography scale is global",
+      "pass": true
+    },
+    {
+      "name": "Customer runtime has no local Vendor deployment authority",
+      "pass": true
+    },
+    {
+      "name": "Customer Vendor UI is physically disabled",
+      "pass": true
+    }
+  ]
+}
+
+===== workspace-navigation-smoke.mjs =====
+node:internal/modules/package_json_reader:301
+  throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);
+        ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'typescript' imported from /workspace/scratch/fd17ea13a424/pristine/scripts/workspace-navigation-smoke.mjs
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:301:9)
+    at packageResolve (node:internal/modules/esm/resolve:768:81)
+    at moduleResolve (node:internal/modules/esm/resolve:859:18)
+    at defaultResolve (node:internal/modules/esm/resolve:992:11)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:701:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:721:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:759:56)
+    at #resolve (node:internal/modules/esm/loader:683:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:163:33) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+
+Node.js v24.19.0
+FAILED workspace-navigation-smoke.mjs (1)
+
+===== xss-render-smoke.mjs =====
+node:internal/modules/package_json_reader:301
+  throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);
+        ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'typescript' imported from /workspace/scratch/fd17ea13a424/pristine/scripts/lib/src-bundle.mjs
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:301:9)
+    at packageResolve (node:internal/modules/esm/resolve:768:81)
+    at moduleResolve (node:internal/modules/esm/resolve:859:18)
+    at defaultResolve (node:internal/modules/esm/resolve:992:11)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:701:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:721:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:759:56)
+    at #resolve (node:internal/modules/esm/loader:683:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:163:33) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+
+Node.js v24.19.0
+FAILED xss-render-smoke.mjs (1)
+
+===== xss-safety-smoke.mjs =====
+PASS src/core/runtime.ts: esc definition found
+PASS src/core/runtime.ts: neutralises "<img src=x onerror=alert(1)>"
+PASS src/core/runtime.ts: stays inside quoted attribute for "<img src=x onerror=alert(1)>"
+PASS src/core/runtime.ts: neutralises "\"><script>alert(1)</script>"
+PASS src/core/runtime.ts: stays inside quoted attribute for "\"><script>alert(1)</script>"
+PASS src/core/runtime.ts: neutralises "javascript:alert(1)"
+PASS src/core/runtime.ts: stays inside quoted attribute for "javascript:alert(1)"
+PASS src/core/runtime.ts: neutralises "' onmouseover='alert(1)"
+PASS src/core/runtime.ts: stays inside quoted attribute for "' onmouseover='alert(1)"
+PASS src/core/runtime.ts: neutralises "\"</td><td onclick=\"x()"
+PASS src/core/runtime.ts: stays inside quoted attribute for "\"</td><td onclick=\"x()"
+PASS src/core/runtime.ts: neutralises "&lt;already&gt;"
+PASS src/core/runtime.ts: stays inside quoted attribute for "&lt;already&gt;"
+PASS src/core/runtime.ts: normal ids unchanged
+PASS src/core/umrah/runtime.ts: esc definition found
+PASS src/core/umrah/runtime.ts: neutralises "<img src=x onerror=alert(1)>"
+PASS src/core/umrah/runtime.ts: stays inside quoted attribute for "<img src=x onerror=alert(1)>"
+PASS src/core/umrah/runtime.ts: neutralises "\"><script>alert(1)</script>"
+PASS src/core/umrah/runtime.ts: stays inside quoted attribute for "\"><script>alert(1)</script>"
+PASS src/core/umrah/runtime.ts: neutralises "javascript:alert(1)"
+PASS src/core/umrah/runtime.ts: stays inside quoted attribute for "javascript:alert(1)"
+PASS src/core/umrah/runtime.ts: neutralises "' onmouseover='alert(1)"
+PASS src/core/umrah/runtime.ts: stays inside quoted attribute for "' onmouseover='alert(1)"
+PASS src/core/umrah/runtime.ts: neutralises "\"</td><td onclick=\"x()"
+PASS src/core/umrah/runtime.ts: stays inside quoted attribute for "\"</td><td onclick=\"x()"
+PASS src/core/umrah/runtime.ts: neutralises "&lt;already&gt;"
+PASS src/core/umrah/runtime.ts: stays inside quoted attribute for "&lt;already&gt;"
+PASS src/core/umrah/runtime.ts: normal ids unchanged
+PASS no raw record field interpolated into an HTML attribute
+PASS no document.write / eval / new Function in src/
+PASS inline handlers with interpolated data <= baseline (1)
+PASS runtime.ts defines SafeHtml/html/raw/escAttr
+node:internal/modules/package_json_reader:301
+  throw new ERR_MODULE_NOT_FOUND(packageName, fileURLToPath(base), null);
+        ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'typescript' imported from /workspace/scratch/fd17ea13a424/pristine/scripts/xss-safety-smoke.mjs
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:301:9)
+    at packageResolve (node:internal/modules/esm/resolve:768:81)
+    at moduleResolve (node:internal/modules/esm/resolve:859:18)
+    at defaultResolve (node:internal/modules/esm/resolve:992:11)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:701:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:721:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:759:56)
+    at #resolve (node:internal/modules/esm/loader:683:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+    at node:internal/modules/esm/loader:632:32 {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+
+Node.js v24.19.0
+FAILED xss-safety-smoke.mjs (1)
+
+Node smoke summary: 48/66 passed

@@ -1,0 +1,196 @@
+{
+  "scenarios": 27,
+  "passed": 27,
+  "failed": 0,
+  "diary": [
+    {
+      "name": "رواتب صافي صفر أو موجب EGP 1000 0",
+      "status": "PASS",
+      "facts": {
+        "net": 1000
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب EGP 1000 0.5",
+      "status": "PASS",
+      "facts": {
+        "net": 500
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب EGP 1000 1",
+      "status": "PASS",
+      "facts": {
+        "net": 0
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب EGP 10000 0",
+      "status": "PASS",
+      "facts": {
+        "net": 10000
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب EGP 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "net": 5000
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب EGP 10000 1",
+      "status": "PASS",
+      "facts": {
+        "net": 0
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب EGP 90000 0",
+      "status": "PASS",
+      "facts": {
+        "net": 90000
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب EGP 90000 0.5",
+      "status": "PASS",
+      "facts": {
+        "net": 45000
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب EGP 90000 1",
+      "status": "PASS",
+      "facts": {
+        "net": 0
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب USD 1000 0",
+      "status": "PASS",
+      "facts": {
+        "net": 1000
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب USD 1000 0.5",
+      "status": "PASS",
+      "facts": {
+        "net": 500
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب USD 1000 1",
+      "status": "PASS",
+      "facts": {
+        "net": 0
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب USD 10000 0",
+      "status": "PASS",
+      "facts": {
+        "net": 10000
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب USD 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "net": 5000
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب USD 10000 1",
+      "status": "PASS",
+      "facts": {
+        "net": 0
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب USD 90000 0",
+      "status": "PASS",
+      "facts": {
+        "net": 90000
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب USD 90000 0.5",
+      "status": "PASS",
+      "facts": {
+        "net": 45000
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب USD 90000 1",
+      "status": "PASS",
+      "facts": {
+        "net": 0
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب SAR 1000 0",
+      "status": "PASS",
+      "facts": {
+        "net": 1000
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب SAR 1000 0.5",
+      "status": "PASS",
+      "facts": {
+        "net": 500
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب SAR 1000 1",
+      "status": "PASS",
+      "facts": {
+        "net": 0
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب SAR 10000 0",
+      "status": "PASS",
+      "facts": {
+        "net": 10000
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب SAR 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "net": 5000
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب SAR 10000 1",
+      "status": "PASS",
+      "facts": {
+        "net": 0
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب SAR 90000 0",
+      "status": "PASS",
+      "facts": {
+        "net": 90000
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب SAR 90000 0.5",
+      "status": "PASS",
+      "facts": {
+        "net": 45000
+      }
+    },
+    {
+      "name": "رواتب صافي صفر أو موجب SAR 90000 1",
+      "status": "PASS",
+      "facts": {
+        "net": 0
+      }
+    }
+  ]
+}

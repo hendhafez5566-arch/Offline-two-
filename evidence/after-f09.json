@@ -1,0 +1,1687 @@
+{
+  "scenarios": 126,
+  "passed": 126,
+  "failed": 0,
+  "diary": [
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer EGP 1000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 1000,
+        "months": 1,
+        "invoiceNet": 1000,
+        "scheduleTotal": 1000,
+        "partsSum": 1000,
+        "deferredBalance": -1000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer EGP 1000 3",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 1000,
+        "months": 3,
+        "invoiceNet": 1000,
+        "scheduleTotal": 1000,
+        "partsSum": 1000,
+        "deferredBalance": -1000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer EGP 10000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 10000,
+        "months": 1,
+        "invoiceNet": 10000,
+        "scheduleTotal": 10000,
+        "partsSum": 10000,
+        "deferredBalance": -10000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer EGP 10000 3",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 10000,
+        "months": 3,
+        "invoiceNet": 10000,
+        "scheduleTotal": 10000,
+        "partsSum": 10000,
+        "deferredBalance": -10000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer EGP 90000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 90000,
+        "months": 1,
+        "invoiceNet": 90000,
+        "scheduleTotal": 90000,
+        "partsSum": 90000,
+        "deferredBalance": -90000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer EGP 90000 3",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 90000,
+        "months": 3,
+        "invoiceNet": 90000,
+        "scheduleTotal": 90000,
+        "partsSum": 90000,
+        "deferredBalance": -90000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer USD 1000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 1000,
+        "months": 1,
+        "invoiceNet": 1000,
+        "scheduleTotal": 1000,
+        "partsSum": 1000,
+        "deferredBalance": -50000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer USD 1000 3",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 1000,
+        "months": 3,
+        "invoiceNet": 1000,
+        "scheduleTotal": 1000,
+        "partsSum": 1000,
+        "deferredBalance": -50000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer USD 10000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 10000,
+        "months": 1,
+        "invoiceNet": 10000,
+        "scheduleTotal": 10000,
+        "partsSum": 10000,
+        "deferredBalance": -500000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer USD 10000 3",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 10000,
+        "months": 3,
+        "invoiceNet": 10000,
+        "scheduleTotal": 10000,
+        "partsSum": 10000,
+        "deferredBalance": -500000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer USD 90000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 90000,
+        "months": 1,
+        "invoiceNet": 90000,
+        "scheduleTotal": 90000,
+        "partsSum": 90000,
+        "deferredBalance": -4500000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer USD 90000 3",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 90000,
+        "months": 3,
+        "invoiceNet": 90000,
+        "scheduleTotal": 90000,
+        "partsSum": 90000,
+        "deferredBalance": -4500000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer SAR 1000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 1000,
+        "months": 1,
+        "invoiceNet": 1000,
+        "scheduleTotal": 1000,
+        "partsSum": 1000,
+        "deferredBalance": -13250
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer SAR 1000 3",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 1000,
+        "months": 3,
+        "invoiceNet": 1000,
+        "scheduleTotal": 1000,
+        "partsSum": 1000,
+        "deferredBalance": -13250
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer SAR 10000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 10000,
+        "months": 1,
+        "invoiceNet": 10000,
+        "scheduleTotal": 10000,
+        "partsSum": 10000,
+        "deferredBalance": -132500
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer SAR 10000 3",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 10000,
+        "months": 3,
+        "invoiceNet": 10000,
+        "scheduleTotal": 10000,
+        "partsSum": 10000,
+        "deferredBalance": -132500
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer SAR 90000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 90000,
+        "months": 1,
+        "invoiceNet": 90000,
+        "scheduleTotal": 90000,
+        "partsSum": 90000,
+        "deferredBalance": -1192500
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer SAR 90000 3",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 90000,
+        "months": 3,
+        "invoiceNet": 90000,
+        "scheduleTotal": 90000,
+        "partsSum": 90000,
+        "deferredBalance": -1192500
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier EGP 1000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 1000,
+        "months": 1,
+        "invoiceNet": 1000,
+        "scheduleTotal": 1000,
+        "partsSum": 1000,
+        "deferredBalance": 1000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier EGP 1000 3",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 1000,
+        "months": 3,
+        "invoiceNet": 1000,
+        "scheduleTotal": 1000,
+        "partsSum": 1000,
+        "deferredBalance": 1000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier EGP 10000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 10000,
+        "months": 1,
+        "invoiceNet": 10000,
+        "scheduleTotal": 10000,
+        "partsSum": 10000,
+        "deferredBalance": 10000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier EGP 10000 3",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 10000,
+        "months": 3,
+        "invoiceNet": 10000,
+        "scheduleTotal": 10000,
+        "partsSum": 10000,
+        "deferredBalance": 10000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier EGP 90000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 90000,
+        "months": 1,
+        "invoiceNet": 90000,
+        "scheduleTotal": 90000,
+        "partsSum": 90000,
+        "deferredBalance": 90000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier EGP 90000 3",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 90000,
+        "months": 3,
+        "invoiceNet": 90000,
+        "scheduleTotal": 90000,
+        "partsSum": 90000,
+        "deferredBalance": 90000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier USD 1000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 1000,
+        "months": 1,
+        "invoiceNet": 1000,
+        "scheduleTotal": 1000,
+        "partsSum": 1000,
+        "deferredBalance": 50000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier USD 1000 3",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 1000,
+        "months": 3,
+        "invoiceNet": 1000,
+        "scheduleTotal": 1000,
+        "partsSum": 1000,
+        "deferredBalance": 50000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier USD 10000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 10000,
+        "months": 1,
+        "invoiceNet": 10000,
+        "scheduleTotal": 10000,
+        "partsSum": 10000,
+        "deferredBalance": 500000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier USD 10000 3",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 10000,
+        "months": 3,
+        "invoiceNet": 10000,
+        "scheduleTotal": 10000,
+        "partsSum": 10000,
+        "deferredBalance": 500000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier USD 90000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 90000,
+        "months": 1,
+        "invoiceNet": 90000,
+        "scheduleTotal": 90000,
+        "partsSum": 90000,
+        "deferredBalance": 4500000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier USD 90000 3",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 90000,
+        "months": 3,
+        "invoiceNet": 90000,
+        "scheduleTotal": 90000,
+        "partsSum": 90000,
+        "deferredBalance": 4500000
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier SAR 1000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 1000,
+        "months": 1,
+        "invoiceNet": 1000,
+        "scheduleTotal": 1000,
+        "partsSum": 1000,
+        "deferredBalance": 13250
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier SAR 1000 3",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 1000,
+        "months": 3,
+        "invoiceNet": 1000,
+        "scheduleTotal": 1000,
+        "partsSum": 1000,
+        "deferredBalance": 13250
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier SAR 10000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 10000,
+        "months": 1,
+        "invoiceNet": 10000,
+        "scheduleTotal": 10000,
+        "partsSum": 10000,
+        "deferredBalance": 132500
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier SAR 10000 3",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 10000,
+        "months": 3,
+        "invoiceNet": 10000,
+        "scheduleTotal": 10000,
+        "partsSum": 10000,
+        "deferredBalance": 132500
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier SAR 90000 1",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 90000,
+        "months": 1,
+        "invoiceNet": 90000,
+        "scheduleTotal": 90000,
+        "partsSum": 90000,
+        "deferredBalance": 1192500
+      }
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier SAR 90000 3",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 90000,
+        "months": 3,
+        "invoiceNet": 90000,
+        "scheduleTotal": 90000,
+        "partsSum": 90000,
+        "deferredBalance": 1192500
+      }
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل customer EGP 0.25",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "globalFraction": 0.25,
+        "netAExpectedBefore": 750,
+        "remaining": 3000,
+        "accountA": -750,
+        "error": "الإشعار الدائن يتجاوز صافي البند المحدد"
+      }
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل customer EGP 0.5",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "globalFraction": 0.5,
+        "netAExpectedBefore": 500,
+        "remaining": 2000,
+        "accountA": -500,
+        "error": "الإشعار الدائن يتجاوز صافي البند المحدد"
+      }
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل customer EGP 0.75",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "globalFraction": 0.75,
+        "netAExpectedBefore": 250,
+        "remaining": 1000,
+        "accountA": -250,
+        "error": "الإشعار الدائن يتجاوز صافي البند المحدد"
+      }
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل customer USD 0.25",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "globalFraction": 0.25,
+        "netAExpectedBefore": 750,
+        "remaining": 3000,
+        "accountA": -37500,
+        "error": "الإشعار الدائن يتجاوز صافي البند المحدد"
+      }
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل customer USD 0.5",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "globalFraction": 0.5,
+        "netAExpectedBefore": 500,
+        "remaining": 2000,
+        "accountA": -25000,
+        "error": "الإشعار الدائن يتجاوز صافي البند المحدد"
+      }
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل customer USD 0.75",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "globalFraction": 0.75,
+        "netAExpectedBefore": 250,
+        "remaining": 1000,
+        "accountA": -12500,
+        "error": "الإشعار الدائن يتجاوز صافي البند المحدد"
+      }
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل customer SAR 0.25",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "globalFraction": 0.25,
+        "netAExpectedBefore": 750,
+        "remaining": 3000,
+        "accountA": -9937.5,
+        "error": "الإشعار الدائن يتجاوز صافي البند المحدد"
+      }
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل customer SAR 0.5",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "globalFraction": 0.5,
+        "netAExpectedBefore": 500,
+        "remaining": 2000,
+        "accountA": -6625,
+        "error": "الإشعار الدائن يتجاوز صافي البند المحدد"
+      }
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل customer SAR 0.75",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "globalFraction": 0.75,
+        "netAExpectedBefore": 250,
+        "remaining": 1000,
+        "accountA": -3312.5,
+        "error": "الإشعار الدائن يتجاوز صافي البند المحدد"
+      }
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل supplier EGP 0.25",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "globalFraction": 0.25,
+        "netAExpectedBefore": 750,
+        "remaining": 3000,
+        "accountA": 750,
+        "error": "الإشعار الدائن يتجاوز صافي البند المحدد"
+      }
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل supplier EGP 0.5",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "globalFraction": 0.5,
+        "netAExpectedBefore": 500,
+        "remaining": 2000,
+        "accountA": 500,
+        "error": "الإشعار الدائن يتجاوز صافي البند المحدد"
+      }
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل supplier EGP 0.75",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "globalFraction": 0.75,
+        "netAExpectedBefore": 250,
+        "remaining": 1000,
+        "accountA": 250,
+        "error": "الإشعار الدائن يتجاوز صافي البند المحدد"
+      }
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل supplier USD 0.25",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "globalFraction": 0.25,
+        "netAExpectedBefore": 750,
+        "remaining": 3000,
+        "accountA": 37500,
+        "error": "الإشعار الدائن يتجاوز صافي البند المحدد"
+      }
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل supplier USD 0.5",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "globalFraction": 0.5,
+        "netAExpectedBefore": 500,
+        "remaining": 2000,
+        "accountA": 25000,
+        "error": "الإشعار الدائن يتجاوز صافي البند المحدد"
+      }
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل supplier USD 0.75",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "globalFraction": 0.75,
+        "netAExpectedBefore": 250,
+        "remaining": 1000,
+        "accountA": 12500,
+        "error": "الإشعار الدائن يتجاوز صافي البند المحدد"
+      }
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل supplier SAR 0.25",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "globalFraction": 0.25,
+        "netAExpectedBefore": 750,
+        "remaining": 3000,
+        "accountA": 9937.5,
+        "error": "الإشعار الدائن يتجاوز صافي البند المحدد"
+      }
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل supplier SAR 0.5",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "globalFraction": 0.5,
+        "netAExpectedBefore": 500,
+        "remaining": 2000,
+        "accountA": 6625,
+        "error": "الإشعار الدائن يتجاوز صافي البند المحدد"
+      }
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل supplier SAR 0.75",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "globalFraction": 0.75,
+        "netAExpectedBefore": 250,
+        "remaining": 1000,
+        "accountA": 3312.5,
+        "error": "الإشعار الدائن يتجاوز صافي البند المحدد"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer EGP 1000 cancelInvoice",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 1000,
+        "action": "cancelInvoice",
+        "GLSeptember": 140,
+        "taxLedgerSeptember": 140,
+        "invoiceStatus": "void"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer EGP 1000 reverseCredit",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 1000,
+        "action": "reverseCredit",
+        "GLSeptember": 126,
+        "taxLedgerSeptember": 126,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer EGP 10000 cancelInvoice",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 10000,
+        "action": "cancelInvoice",
+        "GLSeptember": 1400,
+        "taxLedgerSeptember": 1400,
+        "invoiceStatus": "void"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer EGP 10000 reverseCredit",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 10000,
+        "action": "reverseCredit",
+        "GLSeptember": 1260,
+        "taxLedgerSeptember": 1260,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer EGP 90000 cancelInvoice",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 90000,
+        "action": "cancelInvoice",
+        "GLSeptember": 12600,
+        "taxLedgerSeptember": 12600,
+        "invoiceStatus": "void"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer EGP 90000 reverseCredit",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 90000,
+        "action": "reverseCredit",
+        "GLSeptember": 11340,
+        "taxLedgerSeptember": 11340,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer USD 1000 cancelInvoice",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 1000,
+        "action": "cancelInvoice",
+        "GLSeptember": 7000,
+        "taxLedgerSeptember": 7000,
+        "invoiceStatus": "void"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer USD 1000 reverseCredit",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 1000,
+        "action": "reverseCredit",
+        "GLSeptember": 6300,
+        "taxLedgerSeptember": 6300,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer USD 10000 cancelInvoice",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 10000,
+        "action": "cancelInvoice",
+        "GLSeptember": 70000,
+        "taxLedgerSeptember": 70000,
+        "invoiceStatus": "void"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer USD 10000 reverseCredit",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 10000,
+        "action": "reverseCredit",
+        "GLSeptember": 63000,
+        "taxLedgerSeptember": 63000,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer USD 90000 cancelInvoice",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 90000,
+        "action": "cancelInvoice",
+        "GLSeptember": 630000,
+        "taxLedgerSeptember": 630000,
+        "invoiceStatus": "void"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer USD 90000 reverseCredit",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 90000,
+        "action": "reverseCredit",
+        "GLSeptember": 567000,
+        "taxLedgerSeptember": 567000,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer SAR 1000 cancelInvoice",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 1000,
+        "action": "cancelInvoice",
+        "GLSeptember": 1855,
+        "taxLedgerSeptember": 1855,
+        "invoiceStatus": "void"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer SAR 1000 reverseCredit",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 1000,
+        "action": "reverseCredit",
+        "GLSeptember": 1669.5,
+        "taxLedgerSeptember": 1669.5,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer SAR 10000 cancelInvoice",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 10000,
+        "action": "cancelInvoice",
+        "GLSeptember": 18550,
+        "taxLedgerSeptember": 18550,
+        "invoiceStatus": "void"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer SAR 10000 reverseCredit",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 10000,
+        "action": "reverseCredit",
+        "GLSeptember": 16695,
+        "taxLedgerSeptember": 16695,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer SAR 90000 cancelInvoice",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 90000,
+        "action": "cancelInvoice",
+        "GLSeptember": 166950,
+        "taxLedgerSeptember": 166950,
+        "invoiceStatus": "void"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer SAR 90000 reverseCredit",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 90000,
+        "action": "reverseCredit",
+        "GLSeptember": 150255,
+        "taxLedgerSeptember": 150255,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier EGP 1000 cancelInvoice",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 1000,
+        "action": "cancelInvoice",
+        "GLSeptember": 140,
+        "taxLedgerSeptember": 140,
+        "invoiceStatus": "void"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier EGP 1000 reverseCredit",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 1000,
+        "action": "reverseCredit",
+        "GLSeptember": 126,
+        "taxLedgerSeptember": 126,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier EGP 10000 cancelInvoice",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 10000,
+        "action": "cancelInvoice",
+        "GLSeptember": 1400,
+        "taxLedgerSeptember": 1400,
+        "invoiceStatus": "void"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier EGP 10000 reverseCredit",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 10000,
+        "action": "reverseCredit",
+        "GLSeptember": 1260,
+        "taxLedgerSeptember": 1260,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier EGP 90000 cancelInvoice",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 90000,
+        "action": "cancelInvoice",
+        "GLSeptember": 12600,
+        "taxLedgerSeptember": 12600,
+        "invoiceStatus": "void"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier EGP 90000 reverseCredit",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 90000,
+        "action": "reverseCredit",
+        "GLSeptember": 11340,
+        "taxLedgerSeptember": 11340,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier USD 1000 cancelInvoice",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 1000,
+        "action": "cancelInvoice",
+        "GLSeptember": 7000,
+        "taxLedgerSeptember": 7000,
+        "invoiceStatus": "void"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier USD 1000 reverseCredit",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 1000,
+        "action": "reverseCredit",
+        "GLSeptember": 6300,
+        "taxLedgerSeptember": 6300,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier USD 10000 cancelInvoice",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 10000,
+        "action": "cancelInvoice",
+        "GLSeptember": 70000,
+        "taxLedgerSeptember": 70000,
+        "invoiceStatus": "void"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier USD 10000 reverseCredit",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 10000,
+        "action": "reverseCredit",
+        "GLSeptember": 63000,
+        "taxLedgerSeptember": 63000,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier USD 90000 cancelInvoice",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 90000,
+        "action": "cancelInvoice",
+        "GLSeptember": 630000,
+        "taxLedgerSeptember": 630000,
+        "invoiceStatus": "void"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier USD 90000 reverseCredit",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 90000,
+        "action": "reverseCredit",
+        "GLSeptember": 567000,
+        "taxLedgerSeptember": 567000,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier SAR 1000 cancelInvoice",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 1000,
+        "action": "cancelInvoice",
+        "GLSeptember": 1855,
+        "taxLedgerSeptember": 1855,
+        "invoiceStatus": "void"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier SAR 1000 reverseCredit",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 1000,
+        "action": "reverseCredit",
+        "GLSeptember": 1669.5,
+        "taxLedgerSeptember": 1669.5,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier SAR 10000 cancelInvoice",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 10000,
+        "action": "cancelInvoice",
+        "GLSeptember": 18550,
+        "taxLedgerSeptember": 18550,
+        "invoiceStatus": "void"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier SAR 10000 reverseCredit",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 10000,
+        "action": "reverseCredit",
+        "GLSeptember": 16695,
+        "taxLedgerSeptember": 16695,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier SAR 90000 cancelInvoice",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 90000,
+        "action": "cancelInvoice",
+        "GLSeptember": 166950,
+        "taxLedgerSeptember": 166950,
+        "invoiceStatus": "void"
+      }
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier SAR 90000 reverseCredit",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 90000,
+        "action": "reverseCredit",
+        "GLSeptember": 150255,
+        "taxLedgerSeptember": 150255,
+        "invoiceStatus": "open"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit customer EGP 1000",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 1000,
+        "action": "debitAfterCredit",
+        "invoiceRemaining": 200,
+        "nativeDebt": 200,
+        "nativeAdvance": 400,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit customer EGP 1000",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "اعكس الإشعار الذي نقل السداد إلى مقدم قبل عكس السند"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit customer EGP 10000",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 10000,
+        "action": "debitAfterCredit",
+        "invoiceRemaining": 2000,
+        "nativeDebt": 2000,
+        "nativeAdvance": 4000,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit customer EGP 10000",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "اعكس الإشعار الذي نقل السداد إلى مقدم قبل عكس السند"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit customer EGP 90000",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "EGP",
+        "amount": 90000,
+        "action": "debitAfterCredit",
+        "invoiceRemaining": 18000,
+        "nativeDebt": 18000,
+        "nativeAdvance": 36000,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit customer EGP 90000",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "اعكس الإشعار الذي نقل السداد إلى مقدم قبل عكس السند"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit customer USD 1000",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 1000,
+        "action": "debitAfterCredit",
+        "invoiceRemaining": 200,
+        "nativeDebt": 200,
+        "nativeAdvance": 400,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit customer USD 1000",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "اعكس الإشعار الذي نقل السداد إلى مقدم قبل عكس السند"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit customer USD 10000",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 10000,
+        "action": "debitAfterCredit",
+        "invoiceRemaining": 2000,
+        "nativeDebt": 2000,
+        "nativeAdvance": 4000,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit customer USD 10000",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "اعكس الإشعار الذي نقل السداد إلى مقدم قبل عكس السند"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit customer USD 90000",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "USD",
+        "amount": 90000,
+        "action": "debitAfterCredit",
+        "invoiceRemaining": 18000,
+        "nativeDebt": 18000,
+        "nativeAdvance": 36000,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit customer USD 90000",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "اعكس الإشعار الذي نقل السداد إلى مقدم قبل عكس السند"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit customer SAR 1000",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 1000,
+        "action": "debitAfterCredit",
+        "invoiceRemaining": 200,
+        "nativeDebt": 200,
+        "nativeAdvance": 400,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit customer SAR 1000",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "اعكس الإشعار الذي نقل السداد إلى مقدم قبل عكس السند"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit customer SAR 10000",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 10000,
+        "action": "debitAfterCredit",
+        "invoiceRemaining": 2000,
+        "nativeDebt": 2000,
+        "nativeAdvance": 4000,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit customer SAR 10000",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "اعكس الإشعار الذي نقل السداد إلى مقدم قبل عكس السند"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit customer SAR 90000",
+      "status": "PASS",
+      "facts": {
+        "kind": "customer",
+        "cur": "SAR",
+        "amount": 90000,
+        "action": "debitAfterCredit",
+        "invoiceRemaining": 18000,
+        "nativeDebt": 18000,
+        "nativeAdvance": 36000,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit customer SAR 90000",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "اعكس الإشعار الذي نقل السداد إلى مقدم قبل عكس السند"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit supplier EGP 1000",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 1000,
+        "action": "debitAfterCredit",
+        "invoiceRemaining": 200,
+        "nativeDebt": 200,
+        "nativeAdvance": 400,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit supplier EGP 1000",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "اعكس الإشعار الذي نقل السداد إلى مقدم قبل عكس السند"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit supplier EGP 10000",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 10000,
+        "action": "debitAfterCredit",
+        "invoiceRemaining": 2000,
+        "nativeDebt": 2000,
+        "nativeAdvance": 4000,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit supplier EGP 10000",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "اعكس الإشعار الذي نقل السداد إلى مقدم قبل عكس السند"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit supplier EGP 90000",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "amount": 90000,
+        "action": "debitAfterCredit",
+        "invoiceRemaining": 18000,
+        "nativeDebt": 18000,
+        "nativeAdvance": 36000,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit supplier EGP 90000",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "اعكس الإشعار الذي نقل السداد إلى مقدم قبل عكس السند"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit supplier USD 1000",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 1000,
+        "action": "debitAfterCredit",
+        "invoiceRemaining": 200,
+        "nativeDebt": 200,
+        "nativeAdvance": 400,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit supplier USD 1000",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "اعكس الإشعار الذي نقل السداد إلى مقدم قبل عكس السند"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit supplier USD 10000",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 10000,
+        "action": "debitAfterCredit",
+        "invoiceRemaining": 2000,
+        "nativeDebt": 2000,
+        "nativeAdvance": 4000,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit supplier USD 10000",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "اعكس الإشعار الذي نقل السداد إلى مقدم قبل عكس السند"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit supplier USD 90000",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "USD",
+        "amount": 90000,
+        "action": "debitAfterCredit",
+        "invoiceRemaining": 18000,
+        "nativeDebt": 18000,
+        "nativeAdvance": 36000,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit supplier USD 90000",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "اعكس الإشعار الذي نقل السداد إلى مقدم قبل عكس السند"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit supplier SAR 1000",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 1000,
+        "action": "debitAfterCredit",
+        "invoiceRemaining": 200,
+        "nativeDebt": 200,
+        "nativeAdvance": 400,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit supplier SAR 1000",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "اعكس الإشعار الذي نقل السداد إلى مقدم قبل عكس السند"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit supplier SAR 10000",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 10000,
+        "action": "debitAfterCredit",
+        "invoiceRemaining": 2000,
+        "nativeDebt": 2000,
+        "nativeAdvance": 4000,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit supplier SAR 10000",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "اعكس الإشعار الذي نقل السداد إلى مقدم قبل عكس السند"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit supplier SAR 90000",
+      "status": "PASS",
+      "facts": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "amount": 90000,
+        "action": "debitAfterCredit",
+        "invoiceRemaining": 18000,
+        "nativeDebt": 18000,
+        "nativeAdvance": 36000,
+        "invoiceStatus": "partial"
+      }
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit supplier SAR 90000",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "اعكس الإشعار الذي نقل السداد إلى مقدم قبل عكس السند"
+      }
+    }
+  ],
+  "probes": {
+    "reverseDeferred_customer": {
+      "kind": "customer",
+      "cur": "EGP",
+      "amount": 10000,
+      "months": 1,
+      "invoiceNet": 10000,
+      "scheduleTotal": 10000,
+      "partsSum": 10000,
+      "deferredBalance": -10000
+    },
+    "reverseDeferred_supplier": {
+      "kind": "supplier",
+      "cur": "EGP",
+      "amount": 10000,
+      "months": 1,
+      "invoiceNet": 10000,
+      "scheduleTotal": 10000,
+      "partsSum": 10000,
+      "deferredBalance": 10000
+    },
+    "lineCredit_customer": {
+      "kind": "customer",
+      "cur": "EGP",
+      "globalFraction": 0.5,
+      "netAExpectedBefore": 500,
+      "remaining": 2000,
+      "accountA": -500,
+      "error": "الإشعار الدائن يتجاوز صافي البند المحدد"
+    },
+    "lineCredit_supplier": {
+      "kind": "supplier",
+      "cur": "EGP",
+      "globalFraction": 0.5,
+      "netAExpectedBefore": 500,
+      "remaining": 2000,
+      "accountA": 500,
+      "error": "الإشعار الدائن يتجاوز صافي البند المحدد"
+    },
+    "taxHistory_customer_cancelInvoice": {
+      "kind": "customer",
+      "cur": "EGP",
+      "amount": 10000,
+      "action": "cancelInvoice",
+      "GLSeptember": 1400,
+      "taxLedgerSeptember": 1400,
+      "invoiceStatus": "void"
+    },
+    "taxHistory_customer_reverseCredit": {
+      "kind": "customer",
+      "cur": "EGP",
+      "amount": 10000,
+      "action": "reverseCredit",
+      "GLSeptember": 1260,
+      "taxLedgerSeptember": 1260,
+      "invoiceStatus": "open"
+    },
+    "taxHistory_supplier_cancelInvoice": {
+      "kind": "supplier",
+      "cur": "EGP",
+      "amount": 10000,
+      "action": "cancelInvoice",
+      "GLSeptember": 1400,
+      "taxLedgerSeptember": 1400,
+      "invoiceStatus": "void"
+    },
+    "taxHistory_supplier_reverseCredit": {
+      "kind": "supplier",
+      "cur": "EGP",
+      "amount": 10000,
+      "action": "reverseCredit",
+      "GLSeptember": 1260,
+      "taxLedgerSeptember": 1260,
+      "invoiceStatus": "open"
+    },
+    "creditAllocation_customer_debitAfterCredit": {
+      "kind": "customer",
+      "cur": "EGP",
+      "amount": 10000,
+      "action": "debitAfterCredit",
+      "invoiceRemaining": 2000,
+      "nativeDebt": 2000,
+      "nativeAdvance": 4000,
+      "invoiceStatus": "partial"
+    },
+    "creditAllocation_supplier_debitAfterCredit": {
+      "kind": "supplier",
+      "cur": "EGP",
+      "amount": 10000,
+      "action": "debitAfterCredit",
+      "invoiceRemaining": 2000,
+      "nativeDebt": 2000,
+      "nativeAdvance": 4000,
+      "invoiceStatus": "partial"
+    }
+  }
+}

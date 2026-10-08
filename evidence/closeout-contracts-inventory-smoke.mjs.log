@@ -1,0 +1,49 @@
+{
+  "ok": true,
+  "hotelContract": "HC-2026-0001",
+  "dateLevelAvailable": 1,
+  "seasonalCost": 2400,
+  "adjustedCost": 1800,
+  "overbookBlocked": true,
+  "stopSaleBlocked": true,
+  "amendment": "HC-2026-0003",
+  "serviceContract": "SC-2026-0001",
+  "serviceAllocated": 10,
+  "releaseBlocked": true,
+  "flight": {
+    "reserved": 10,
+    "used": 5,
+    "available": 0
+  },
+  "transport": {
+    "reservedVehicles": 2,
+    "usedPeak": 7,
+    "availableVehicles": 0
+  },
+  "visa": {
+    "reserved": 9,
+    "available": 1,
+    "stopSaleBlocked": true
+  },
+  "openCoverageBlocked": true,
+  "directServiceInventory": {
+    "service": "SV260001",
+    "before": 7,
+    "after": 6,
+    "cost": 200,
+    "noDuplicateSupplierInvoice": true,
+    "releasedOnCancel": true
+  },
+  "mixedFulfillment": {
+    "mode": "mixed",
+    "inventoryUnits": 3,
+    "externalInvoice": 500
+  },
+  "partialPO": {
+    "status": "converted",
+    "received": 20,
+    "invoice": 1500
+  },
+  "purchaseCommitments": 3,
+  "imbalanced": 0
+}

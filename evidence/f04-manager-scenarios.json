@@ -1,0 +1,196 @@
+{
+  "scenarios": 11,
+  "passed": 11,
+  "failed": 0,
+  "diary": [
+    {
+      "name": "تقرير الضرائب: مصروف مدفوع يجب أن يظهر ضريبة المدخلات",
+      "status": "PASS",
+      "facts": {
+        "ledgerInput": 140,
+        "glInput": 140,
+        "reportGenerated": true
+      }
+    },
+    {
+      "name": "تقرير الضرائب: مصروف مقدم يجب أن يظهر ضريبة المدخلات",
+      "status": "PASS",
+      "facts": {
+        "ledgerInput": 280,
+        "glInput": 280
+      }
+    },
+    {
+      "name": "تقرير الضرائب: المصروف المستحق عبر فاتورة مورد يطابق الأستاذ",
+      "status": "PASS",
+      "facts": {
+        "tax": 140
+      }
+    },
+    {
+      "name": "تقرير المبيعات: تعديل سعر صرف تاريخي لا يغير فاتورة مرحلة",
+      "status": "PASS",
+      "facts": {
+        "before": [
+          [
+            "probe customer",
+            "1",
+            "5,000 EGP"
+          ]
+        ],
+        "after": [
+          [
+            "probe customer",
+            "1",
+            "5,000 EGP"
+          ]
+        ],
+        "originalRate": 50,
+        "gl": 5000
+      }
+    },
+    {
+      "name": "تقرير ربحية الخدمات: احترام فترة التقرير",
+      "status": "PASS",
+      "facts": {
+        "oldService": "SV260001",
+        "rows": [
+          [
+            "لا توجد بيانات"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "تقرير مبيعات فرع القاهرة: منع إدراج فاتورة الإسكندرية",
+      "status": "PASS",
+      "facts": {
+        "selected": "CAI",
+        "invoiceBranch": "ALX",
+        "rows": [
+          [
+            "لا توجد بيانات"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "تقرير التحصيلات: احترام فترة التقرير",
+      "status": "PASS",
+      "facts": {
+        "oldReceipt": "R260001",
+        "excluded": true
+      }
+    },
+    {
+      "name": "قائمة الدخل: مبيعات 10000 وتكلفة 6000 تعطي ربحا 4000",
+      "status": "PASS",
+      "facts": {
+        "profit": 4000
+      }
+    },
+    {
+      "name": "تقرير مبيعات سبتمبر: إشعار أكتوبر لا يغير الفترة السابقة",
+      "status": "PASS",
+      "facts": {
+        "before": [
+          [
+            "probe customer",
+            "1",
+            "10,000 EGP"
+          ]
+        ],
+        "after": [
+          [
+            "probe customer",
+            "1",
+            "10,000 EGP"
+          ]
+        ],
+        "creditDate": "2026-10-01"
+      }
+    },
+    {
+      "name": "تدفقات النقد: استلام قرض يصنف تمويليا",
+      "status": "PASS",
+      "facts": {
+        "operating": 0,
+        "investing": 0,
+        "financing": 50000,
+        "total": 50000,
+        "currency": "EGP"
+      }
+    },
+    {
+      "name": "موظف مبيعات: منع عرض تقرير تكلفة الموردين",
+      "status": "PASS",
+      "facts": {
+        "costsHidden": true,
+        "message": "غير مصرح لك بمشاهدة التكلفة والربحية"
+      }
+    }
+  ],
+  "evidence": {
+    "paidExpenseTax": {
+      "ledgerInput": 140,
+      "glInput": 140,
+      "reportGenerated": true
+    },
+    "prepaidExpenseTax": {
+      "ledgerInput": 280,
+      "glInput": 280
+    },
+    "salesFx": {
+      "before": [
+        [
+          "probe customer",
+          "1",
+          "5,000 EGP"
+        ]
+      ],
+      "after": [
+        [
+          "probe customer",
+          "1",
+          "5,000 EGP"
+        ]
+      ],
+      "originalRate": 50,
+      "gl": 5000
+    },
+    "servicePeriod": {
+      "oldService": "SV260001",
+      "rows": [
+        [
+          "لا توجد بيانات"
+        ]
+      ]
+    },
+    "branchSales": {
+      "selected": "CAI",
+      "invoiceBranch": "ALX",
+      "rows": [
+        [
+          "لا توجد بيانات"
+        ]
+      ]
+    },
+    "adjustmentPeriod": {
+      "before": [
+        [
+          "probe customer",
+          "1",
+          "10,000 EGP"
+        ]
+      ],
+      "after": [
+        [
+          "probe customer",
+          "1",
+          "10,000 EGP"
+        ]
+      ],
+      "creditDate": "2026-10-01"
+    }
+  }
+}

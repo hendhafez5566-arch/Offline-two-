@@ -1,0 +1,3351 @@
+{
+  "scenarios": 332,
+  "passed": 332,
+  "failed": 0,
+  "diary": [
+    {
+      "name": "شيك customer EGP→EGP 100 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer EGP→EGP 100 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer EGP→EGP 100 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer EGP→EGP 100 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer EGP→EGP 100 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer EGP→EGP 100 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer EGP→EGP 1000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer EGP→EGP 1000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer EGP→EGP 1000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer EGP→EGP 1000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer EGP→EGP 1000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer EGP→EGP 1000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer EGP→EGP 10000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer EGP→EGP 10000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer EGP→EGP 10000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer EGP→EGP 10000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer EGP→EGP 10000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer EGP→EGP 10000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer EGP→USD 100 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer EGP→USD 100 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer EGP→USD 100 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer EGP→USD 100 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer EGP→USD 100 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer EGP→USD 100 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer EGP→USD 1000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer EGP→USD 1000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer EGP→USD 1000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer EGP→USD 1000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer EGP→USD 1000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer EGP→USD 1000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer EGP→USD 10000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer EGP→USD 10000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer EGP→USD 10000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer EGP→USD 10000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer EGP→USD 10000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer EGP→USD 10000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer EGP→SAR 100 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer EGP→SAR 100 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer EGP→SAR 100 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer EGP→SAR 100 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer EGP→SAR 100 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer EGP→SAR 100 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer EGP→SAR 1000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer EGP→SAR 1000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer EGP→SAR 1000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer EGP→SAR 1000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer EGP→SAR 1000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer EGP→SAR 1000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer EGP→SAR 10000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer EGP→SAR 10000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer EGP→SAR 10000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer EGP→SAR 10000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer EGP→SAR 10000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer EGP→SAR 10000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer USD→EGP 100 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer USD→EGP 100 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer USD→EGP 100 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer USD→EGP 100 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer USD→EGP 100 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer USD→EGP 100 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer USD→EGP 1000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer USD→EGP 1000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer USD→EGP 1000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer USD→EGP 1000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer USD→EGP 1000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer USD→EGP 1000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer USD→EGP 10000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer USD→EGP 10000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer USD→EGP 10000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer USD→EGP 10000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer USD→EGP 10000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer USD→EGP 10000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer USD→USD 100 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer USD→USD 100 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer USD→USD 100 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer USD→USD 100 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer USD→USD 100 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer USD→USD 100 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer USD→USD 1000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer USD→USD 1000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer USD→USD 1000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer USD→USD 1000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer USD→USD 1000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer USD→USD 1000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer USD→USD 10000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer USD→USD 10000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer USD→USD 10000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer USD→USD 10000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer USD→USD 10000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer USD→USD 10000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer USD→SAR 100 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer USD→SAR 100 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer USD→SAR 100 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer USD→SAR 100 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer USD→SAR 100 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer USD→SAR 100 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer USD→SAR 1000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer USD→SAR 1000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer USD→SAR 1000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer USD→SAR 1000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer USD→SAR 1000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer USD→SAR 1000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer USD→SAR 10000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer USD→SAR 10000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer USD→SAR 10000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer USD→SAR 10000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer USD→SAR 10000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer USD→SAR 10000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer SAR→EGP 100 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer SAR→EGP 100 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer SAR→EGP 100 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer SAR→EGP 100 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer SAR→EGP 100 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer SAR→EGP 100 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer SAR→EGP 1000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer SAR→EGP 1000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer SAR→EGP 1000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer SAR→EGP 1000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer SAR→EGP 1000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer SAR→EGP 1000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer SAR→EGP 10000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer SAR→EGP 10000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer SAR→EGP 10000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer SAR→EGP 10000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer SAR→EGP 10000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer SAR→EGP 10000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك customer SAR→USD 100 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer SAR→USD 100 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer SAR→USD 100 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer SAR→USD 100 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer SAR→USD 100 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer SAR→USD 100 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer SAR→USD 1000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer SAR→USD 1000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer SAR→USD 1000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer SAR→USD 1000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer SAR→USD 1000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer SAR→USD 1000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer SAR→USD 10000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer SAR→USD 10000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer SAR→USD 10000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer SAR→USD 10000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer SAR→USD 10000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer SAR→USD 10000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك customer SAR→SAR 100 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer SAR→SAR 100 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer SAR→SAR 100 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer SAR→SAR 100 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer SAR→SAR 100 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer SAR→SAR 100 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer SAR→SAR 1000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer SAR→SAR 1000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer SAR→SAR 1000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer SAR→SAR 1000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer SAR→SAR 1000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer SAR→SAR 1000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer SAR→SAR 10000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer SAR→SAR 10000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer SAR→SAR 10000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer SAR→SAR 10000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer SAR→SAR 10000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك customer SAR→SAR 10000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→EGP 100 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→EGP 100 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→EGP 100 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→EGP 100 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→EGP 100 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→EGP 100 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→EGP 1000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→EGP 1000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→EGP 1000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→EGP 1000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→EGP 1000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→EGP 1000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→EGP 10000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→EGP 10000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→EGP 10000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→EGP 10000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→EGP 10000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→EGP 10000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→USD 100 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→USD 100 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→USD 100 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→USD 100 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→USD 100 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→USD 100 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→USD 1000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→USD 1000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→USD 1000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→USD 1000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→USD 1000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→USD 1000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→USD 10000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→USD 10000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→USD 10000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→USD 10000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→USD 10000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→USD 10000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→SAR 100 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→SAR 100 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→SAR 100 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→SAR 100 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→SAR 100 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→SAR 100 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→SAR 1000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→SAR 1000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→SAR 1000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→SAR 1000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→SAR 1000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→SAR 1000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→SAR 10000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→SAR 10000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→SAR 10000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→SAR 10000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→SAR 10000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier EGP→SAR 10000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "EGP",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier USD→EGP 100 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier USD→EGP 100 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier USD→EGP 100 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier USD→EGP 100 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier USD→EGP 100 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier USD→EGP 100 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier USD→EGP 1000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier USD→EGP 1000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier USD→EGP 1000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier USD→EGP 1000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier USD→EGP 1000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier USD→EGP 1000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier USD→EGP 10000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier USD→EGP 10000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier USD→EGP 10000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier USD→EGP 10000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier USD→EGP 10000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier USD→EGP 10000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier USD→USD 100 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier USD→USD 100 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier USD→USD 100 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier USD→USD 100 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier USD→USD 100 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier USD→USD 100 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier USD→USD 1000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier USD→USD 1000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier USD→USD 1000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier USD→USD 1000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier USD→USD 1000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier USD→USD 1000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier USD→USD 10000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier USD→USD 10000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier USD→USD 10000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier USD→USD 10000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier USD→USD 10000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier USD→USD 10000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier USD→SAR 100 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier USD→SAR 100 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier USD→SAR 100 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier USD→SAR 100 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier USD→SAR 100 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier USD→SAR 100 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier USD→SAR 1000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier USD→SAR 1000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier USD→SAR 1000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier USD→SAR 1000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier USD→SAR 1000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier USD→SAR 1000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier USD→SAR 10000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier USD→SAR 10000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier USD→SAR 10000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier USD→SAR 10000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier USD→SAR 10000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier USD→SAR 10000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "USD",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→EGP 100 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→EGP 100 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→EGP 100 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→EGP 100 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→EGP 100 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→EGP 100 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→EGP 1000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→EGP 1000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→EGP 1000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→EGP 1000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→EGP 1000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→EGP 1000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→EGP 10000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→EGP 10000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→EGP 10000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→EGP 10000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→EGP 10000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→EGP 10000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "EGP"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→USD 100 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→USD 100 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→USD 100 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→USD 100 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→USD 100 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→USD 100 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→USD 1000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→USD 1000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→USD 1000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→USD 1000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→USD 1000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→USD 1000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→USD 10000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→USD 10000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→USD 10000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→USD 10000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→USD 10000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→USD 10000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "USD"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→SAR 100 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→SAR 100 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→SAR 100 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→SAR 100 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→SAR 100 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→SAR 100 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 100,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→SAR 1000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→SAR 1000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→SAR 1000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→SAR 1000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→SAR 1000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→SAR 1000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 1000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→SAR 10000 clear false",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→SAR 10000 clear true",
+      "status": "PASS",
+      "facts": {
+        "status": "cleared",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→SAR 10000 bounce false",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→SAR 10000 bounce true",
+      "status": "PASS",
+      "facts": {
+        "status": "bounced",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→SAR 10000 void false",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك supplier SAR→SAR 10000 void true",
+      "status": "PASS",
+      "facts": {
+        "status": "void",
+        "amount": 10000,
+        "cur": "SAR",
+        "bankCur": "SAR"
+      }
+    },
+    {
+      "name": "شيك بعد إعادة تقييم customer USD clear",
+      "status": "PASS",
+      "facts": {
+        "native": 0,
+        "base": 0,
+        "realizedGain": 10000,
+        "realizedLoss": 10000,
+        "unrealizedGain": 10000,
+        "unrealizedLoss": 0,
+        "status": "cleared"
+      }
+    },
+    {
+      "name": "شيك بعد إعادة تقييم customer USD bounce",
+      "status": "PASS",
+      "facts": {
+        "native": 0,
+        "base": 0,
+        "realizedGain": 0,
+        "realizedLoss": 0,
+        "unrealizedGain": 10000,
+        "unrealizedLoss": 10000,
+        "status": "bounced"
+      }
+    },
+    {
+      "name": "شيك بعد إعادة تقييم customer SAR clear",
+      "status": "PASS",
+      "facts": {
+        "native": 0,
+        "base": 0,
+        "realizedGain": 1750,
+        "realizedLoss": 1750,
+        "unrealizedGain": 1750,
+        "unrealizedLoss": 0,
+        "status": "cleared"
+      }
+    },
+    {
+      "name": "شيك بعد إعادة تقييم customer SAR bounce",
+      "status": "PASS",
+      "facts": {
+        "native": 0,
+        "base": 0,
+        "realizedGain": 0,
+        "realizedLoss": 0,
+        "unrealizedGain": 1750,
+        "unrealizedLoss": 1750,
+        "status": "bounced"
+      }
+    },
+    {
+      "name": "شيك بعد إعادة تقييم supplier USD clear",
+      "status": "PASS",
+      "facts": {
+        "native": 0,
+        "base": 0,
+        "realizedGain": 10000,
+        "realizedLoss": 10000,
+        "unrealizedGain": 0,
+        "unrealizedLoss": 10000,
+        "status": "cleared"
+      }
+    },
+    {
+      "name": "شيك بعد إعادة تقييم supplier USD bounce",
+      "status": "PASS",
+      "facts": {
+        "native": 0,
+        "base": 0,
+        "realizedGain": 0,
+        "realizedLoss": 0,
+        "unrealizedGain": 10000,
+        "unrealizedLoss": 10000,
+        "status": "bounced"
+      }
+    },
+    {
+      "name": "شيك بعد إعادة تقييم supplier SAR clear",
+      "status": "PASS",
+      "facts": {
+        "native": 0,
+        "base": 0,
+        "realizedGain": 1750,
+        "realizedLoss": 1750,
+        "unrealizedGain": 0,
+        "unrealizedLoss": 1750,
+        "status": "cleared"
+      }
+    },
+    {
+      "name": "شيك بعد إعادة تقييم supplier SAR bounce",
+      "status": "PASS",
+      "facts": {
+        "native": 0,
+        "base": 0,
+        "realizedGain": 0,
+        "realizedLoss": 0,
+        "unrealizedGain": 1750,
+        "unrealizedLoss": 1750,
+        "status": "bounced"
+      }
+    }
+  ]
+}

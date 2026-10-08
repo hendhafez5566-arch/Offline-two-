@@ -1,0 +1,42 @@
+{
+  "scenarios": 3,
+  "passed": 3,
+  "failed": 0,
+  "diary": [
+    {
+      "name": "تراجع العمرة الافتراضي لا يعتمد على strict",
+      "status": "PASS",
+      "facts": {
+        "rollback": true
+      }
+    },
+    {
+      "name": "تراجع معاملة عمرة async افتراضيًا",
+      "status": "PASS",
+      "facts": {
+        "rollback": true
+      }
+    },
+    {
+      "name": "حاجز العقد المنتهي محفوظ",
+      "status": "PASS",
+      "facts": {
+        "expiredBlocked": true
+      }
+    }
+  ]
+}
+{
+  "ok": true,
+  "lazyMore": true,
+  "unifiedPartyControls": true,
+  "backgroundOperationalSaves": true,
+  "umrahProgressiveRender": true,
+  "moneyFit": true,
+  "accountingIndexed": true,
+  "branchNormalizeCached": true
+}
+(node:61) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/fd17ea13a424/closeout/src/main.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/fd17ea13a424/closeout/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)

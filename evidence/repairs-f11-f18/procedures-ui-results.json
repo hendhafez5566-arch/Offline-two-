@@ -1,0 +1,37 @@
+{
+  "results": [
+    {
+      "id": "F16-01",
+      "status": "PASS",
+      "facts": {
+        "uniqueMatched": 1,
+        "unmatched": 1,
+        "newJournals": 0,
+        "repeatAndReload": true
+      }
+    },
+    {
+      "id": "F18-01",
+      "status": "PASS",
+      "facts": {
+        "newReference": "PO260001-P3",
+        "netCost": 400,
+        "payable": 400,
+        "reloadRetry": true
+      }
+    },
+    {
+      "id": "F17",
+      "status": "PASS",
+      "facts": {
+        "healthyMetadataAndBlob": true,
+        "backupContainsBytes": true,
+        "restoreActuallyExecuted": true,
+        "rawLedgerEqual": true,
+        "attachmentBytesRestored": true,
+        "historicalMissingCause": "not available without original company profile"
+      }
+    }
+  ],
+  "pageErrors": []
+}

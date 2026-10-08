@@ -1,0 +1,17 @@
+{
+  "results": [
+    {
+      "id": "F11-03",
+      "status": "PASS",
+      "facts": {
+        "settlement": "CUS260001",
+        "applied": 120000,
+        "newCashMovements": 0,
+        "reloaded": true
+      }
+    }
+  ],
+  "pageErrors": [
+    "Cannot read properties of undefined (reading 'update')"
+  ]
+}

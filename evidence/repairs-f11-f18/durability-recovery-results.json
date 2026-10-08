@@ -1,0 +1,81 @@
+[
+  {
+    "case": "F15 stale-window rejected from UI",
+    "status": "PASS",
+    "facts": {
+      "newerRecordPreserved": true,
+      "failedFormOpen": true,
+      "rollback": true,
+      "explicitErrorAndBlock": true
+    }
+  },
+  {
+    "case": "F15 reversal UI waits for commit",
+    "status": "PASS",
+    "facts": {
+      "noPrematureSuccess": true,
+      "formRemainsPending": true,
+      "diskStillPosted": true
+    }
+  },
+  {
+    "case": "F17 failed deletion preserves metadata and bytes",
+    "status": "PASS",
+    "facts": {
+      "rejected": true,
+      "metadataRollback": true,
+      "bytes": "Original attachment A"
+    }
+  },
+  {
+    "case": "F17 metadata-only fault and original-file recovery UI",
+    "status": "PASS",
+    "facts": {
+      "backupRejectedMissingBytes": "تعذر إنشاء نسخة كاملة: ملف المرفق recovery-a.txt غير موجود",
+      "wrongBytesRejected": true,
+      "originalBytesRestored": true,
+      "identityAndHistoryPreserved": true
+    }
+  },
+  {
+    "case": "F17 restore-write failure compensates both stores",
+    "status": "PASS",
+    "facts": {
+      "rejected": true,
+      "unchanged": true,
+      "disk": true,
+      "intentCleared": true,
+      "bytes": [
+        "Original attachment B",
+        "Original attachment A"
+      ]
+    }
+  },
+  {
+    "case": "F17 interrupted restore before file 1",
+    "status": "PASS",
+    "facts": {
+      "actualBrowserClosed": true,
+      "journalEqual": true,
+      "bytesEqual": true,
+      "candidateRecovered": true
+    }
+  },
+  {
+    "case": "F17 interrupted restore before file 2",
+    "status": "PASS",
+    "facts": {
+      "actualBrowserClosed": true,
+      "journalEqual": true,
+      "bytesEqual": true,
+      "candidateRecovered": true
+    }
+  },
+  {
+    "case": "F17 incomplete imported package rejected",
+    "status": "PASS",
+    "facts": {
+      "metadataReferencesRequireManifest": true
+    }
+  }
+]

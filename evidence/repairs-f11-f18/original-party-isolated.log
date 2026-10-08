@@ -1,0 +1,333 @@
+TEST customer actions
+TEST customer more
+  TAB customer 'الملخص'
+  TAB customer 'المالية'
+  TAB customer 'الحجوزات والخدمات'
+  TAB customer 'المرفقات والنشاط'
+  TAB customer 'الحساب الشامل'
+  MANAGE customer 'تعديل'
+  MANAGE customer 'واتساب'
+  MANAGE customer 'المستندات'
+  MANAGE customer 'تعليق'
+  MANAGE customer 'حذف'
+TEST supplier actions
+TEST supplier more
+  TAB supplier 'الملخص'
+  TAB supplier 'المالية'
+  TAB supplier 'العقود والمشتريات'
+  TAB supplier 'المرفقات والنشاط'
+  TAB supplier 'الحساب الشامل'
+  MANAGE supplier 'تعديل'
+  MANAGE supplier 'واتساب'
+  MANAGE supplier 'المستندات'
+  MANAGE supplier 'تعليق'
+  MANAGE supplier 'حذف'
+TEST agent actions
+TEST agent more
+  TAB agent 'الملخص'
+  TAB agent 'المالية'
+  TAB agent 'العملاء والعمولات'
+  TAB agent 'المرفقات والنشاط'
+  TAB agent 'الحساب الشامل'
+  MANAGE agent 'تعديل'
+  MANAGE agent 'واتساب'
+  MANAGE agent 'المستندات'
+  MANAGE agent 'تعليق'
+  MANAGE agent 'حذف'
+{
+  "ok": false,
+  "failed": [
+    {
+      "scope": "supplier",
+      "button": "المزيد/العقود والمشتريات",
+      "reason": "slow tab 1222.4ms"
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "results": [
+    {
+      "scope": "customer",
+      "area": "actions",
+      "button": "سند قبض",
+      "ms": 438.0
+    },
+    {
+      "scope": "customer",
+      "area": "actions",
+      "button": "فاتورة مبيعات",
+      "ms": 138.5
+    },
+    {
+      "scope": "customer",
+      "area": "actions",
+      "button": "خدمة جديدة",
+      "ms": 135.5
+    },
+    {
+      "scope": "customer",
+      "area": "actions",
+      "button": "OPEN",
+      "ms": 155.0
+    },
+    {
+      "scope": "customer",
+      "area": "more",
+      "button": "OPEN",
+      "ms": 46.4
+    },
+    {
+      "scope": "customer",
+      "area": "more-tab",
+      "button": "الملخص",
+      "ms": 158.6
+    },
+    {
+      "scope": "customer",
+      "area": "more-tab",
+      "button": "المالية",
+      "ms": 177.5
+    },
+    {
+      "scope": "customer",
+      "area": "more-tab",
+      "button": "الحجوزات والخدمات",
+      "ms": 91.1
+    },
+    {
+      "scope": "customer",
+      "area": "more-tab",
+      "button": "المرفقات والنشاط",
+      "ms": 86.2
+    },
+    {
+      "scope": "customer",
+      "area": "more-tab",
+      "button": "الحساب الشامل",
+      "ms": 72.5
+    },
+    {
+      "scope": "customer",
+      "area": "more-manage",
+      "button": "تعديل",
+      "ms": 192.3
+    },
+    {
+      "scope": "customer",
+      "area": "more-manage",
+      "button": "واتساب",
+      "ms": 109.8
+    },
+    {
+      "scope": "customer",
+      "area": "more-manage",
+      "button": "المستندات",
+      "ms": 332.4
+    },
+    {
+      "scope": "customer",
+      "area": "more-manage",
+      "button": "تعليق",
+      "ms": 209.4
+    },
+    {
+      "scope": "customer",
+      "area": "more-manage",
+      "button": "حذف",
+      "ms": 115.9
+    },
+    {
+      "scope": "supplier",
+      "area": "actions",
+      "button": "سند صرف",
+      "ms": 322.4
+    },
+    {
+      "scope": "supplier",
+      "area": "actions",
+      "button": "فاتورة مورد",
+      "ms": 475.3
+    },
+    {
+      "scope": "supplier",
+      "area": "actions",
+      "button": "خدمة بهذا المورد",
+      "ms": 138.8
+    },
+    {
+      "scope": "supplier",
+      "area": "actions",
+      "button": "OPEN",
+      "ms": 31.3
+    },
+    {
+      "scope": "supplier",
+      "area": "more",
+      "button": "OPEN",
+      "ms": 46.9
+    },
+    {
+      "scope": "supplier",
+      "area": "more-tab",
+      "button": "الملخص",
+      "ms": 148.4
+    },
+    {
+      "scope": "supplier",
+      "area": "more-tab",
+      "button": "المالية",
+      "ms": 235.2
+    },
+    {
+      "scope": "supplier",
+      "area": "more-tab",
+      "button": "العقود والمشتريات",
+      "ms": 1222.4
+    },
+    {
+      "scope": "supplier",
+      "area": "more-tab",
+      "button": "المرفقات والنشاط",
+      "ms": 327.8
+    },
+    {
+      "scope": "supplier",
+      "area": "more-tab",
+      "button": "الحساب الشامل",
+      "ms": 56.7
+    },
+    {
+      "scope": "supplier",
+      "area": "more-manage",
+      "button": "تعديل",
+      "ms": 245.1
+    },
+    {
+      "scope": "supplier",
+      "area": "more-manage",
+      "button": "واتساب",
+      "ms": 92.7
+    },
+    {
+      "scope": "supplier",
+      "area": "more-manage",
+      "button": "المستندات",
+      "ms": 91.3
+    },
+    {
+      "scope": "supplier",
+      "area": "more-manage",
+      "button": "تعليق",
+      "ms": 106.5
+    },
+    {
+      "scope": "supplier",
+      "area": "more-manage",
+      "button": "حذف",
+      "ms": 88.2
+    },
+    {
+      "scope": "agent",
+      "area": "actions",
+      "button": "سند قبض من المندوب",
+      "ms": 180.4
+    },
+    {
+      "scope": "agent",
+      "area": "actions",
+      "button": "فاتورة على المندوب",
+      "ms": 110.2
+    },
+    {
+      "scope": "agent",
+      "area": "actions",
+      "button": "سداد عمولة مستحقة",
+      "ms": 153.3
+    },
+    {
+      "scope": "agent",
+      "area": "actions",
+      "button": "OPEN",
+      "ms": 29.1
+    },
+    {
+      "scope": "agent",
+      "area": "more",
+      "button": "OPEN",
+      "ms": 43.4
+    },
+    {
+      "scope": "agent",
+      "area": "more-tab",
+      "button": "الملخص",
+      "ms": 177.6
+    },
+    {
+      "scope": "agent",
+      "area": "more-tab",
+      "button": "المالية",
+      "ms": 137.3
+    },
+    {
+      "scope": "agent",
+      "area": "more-tab",
+      "button": "العملاء والعمولات",
+      "ms": 101.2
+    },
+    {
+      "scope": "agent",
+      "area": "more-tab",
+      "button": "المرفقات والنشاط",
+      "ms": 150.6
+    },
+    {
+      "scope": "agent",
+      "area": "more-tab",
+      "button": "الحساب الشامل",
+      "ms": 117.2
+    },
+    {
+      "scope": "agent",
+      "area": "more-manage",
+      "button": "تعديل",
+      "ms": 174.1
+    },
+    {
+      "scope": "agent",
+      "area": "more-manage",
+      "button": "واتساب",
+      "ms": 72.5
+    },
+    {
+      "scope": "agent",
+      "area": "more-manage",
+      "button": "المستندات",
+      "ms": 109.5
+    },
+    {
+      "scope": "agent",
+      "area": "more-manage",
+      "button": "تعليق",
+      "ms": 89.3
+    },
+    {
+      "scope": "agent",
+      "area": "more-manage",
+      "button": "حذف",
+      "ms": 114.5
+    },
+    {
+      "scope": "customer",
+      "area": "documents",
+      "button": "real-invoice-print",
+      "ms": 0
+    },
+    {
+      "scope": "customer",
+      "area": "live-mutation",
+      "button": "تعليق",
+      "ms": 0
+    }
+  ],
+  "worstTimerMs": 58.9
+}

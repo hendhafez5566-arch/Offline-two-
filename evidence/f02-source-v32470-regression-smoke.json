@@ -1,0 +1,49 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "release is current and runtime-aligned",
+      "pass": true
+    },
+    {
+      "name": "normal save stays lean and 409 retry sends merge baseline",
+      "pass": true
+    },
+    {
+      "name": "party deletion requires suspension",
+      "pass": true
+    },
+    {
+      "name": "activity history has current range and retention controls",
+      "pass": true
+    },
+    {
+      "name": "program deletion uses lifecycle and dependency guards",
+      "pass": true
+    },
+    {
+      "name": "only three supported themes remain",
+      "pass": true
+    },
+    {
+      "name": "same device session is deduplicated",
+      "pass": true
+    },
+    {
+      "name": "customer package has no local Owner/Vendor administration",
+      "pass": true
+    },
+    {
+      "name": "Android session is cookie-backed and not JS-token-backed",
+      "pass": true
+    },
+    {
+      "name": "login throttling is PostgreSQL-backed",
+      "pass": true
+    },
+    {
+      "name": "Umrah intermediate workspace interface is removed",
+      "pass": true
+    }
+  ]
+}

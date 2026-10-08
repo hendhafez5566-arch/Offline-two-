@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "before": {
+    "له": 25000,
+    "عليه": 15000,
+    "net": 10000
+  },
+  "netting": {
+    "max": 15000,
+    "amount": 15000,
+    "status": "reversed",
+    "invoiceAllocations": 2
+  },
+  "afterPost": {
+    "saleRemaining": 0,
+    "purchaseRemaining": 10000,
+    "ar": 0,
+    "ap": 10000
+  },
+  "afterReverse": {
+    "saleRemaining": 15000,
+    "purchaseRemaining": 25000,
+    "ar": 15000,
+    "ap": 25000
+  },
+  "roleDeleteRecreate": true,
+  "imbalanced": 0
+}

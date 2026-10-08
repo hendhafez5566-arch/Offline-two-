@@ -1,0 +1,252 @@
+[
+  {
+    "test": "f02-company-scenarios.mjs",
+    "exitCode": 0,
+    "scenarios": 26,
+    "passed": 26,
+    "failed": 0
+  },
+  {
+    "test": "f02-source-contracts-inventory-smoke.mjs",
+    "exitCode": 0,
+    "ok": true
+  },
+  {
+    "test": "f02-source-data-protection-smoke.mjs",
+    "exitCode": 1,
+    "parseError": true
+  },
+  {
+    "test": "f02-source-role-workflow-smoke.mjs",
+    "exitCode": 0,
+    "ok": true
+  },
+  {
+    "test": "f02-source-umrah-workflow-smoke.mjs",
+    "exitCode": 0,
+    "ok": true
+  },
+  {
+    "test": "f02-source-v32470-regression-smoke.mjs",
+    "exitCode": 0,
+    "ok": true
+  },
+  {
+    "test": "f02-source-v32472-accounting-lifecycle-smoke.mjs",
+    "exitCode": 1,
+    "parseError": true
+  },
+  {
+    "test": "f02-source-v32482-smart-filters-traveler-integrity-smoke.mjs",
+    "exitCode": 0,
+    "parseError": true
+  },
+  {
+    "test": "f02-source-v32565-party-transactions-report-smoke.mjs",
+    "exitCode": 3
+  },
+  {
+    "test": "f03-company-scenarios.mjs",
+    "exitCode": 0,
+    "scenarios": 13,
+    "passed": 12,
+    "failed": 1
+  },
+  {
+    "test": "f04-manager-scenarios.mjs",
+    "exitCode": 0,
+    "scenarios": 11,
+    "passed": 11,
+    "failed": 0
+  },
+  {
+    "test": "f05-commercial-matrix.mjs",
+    "exitCode": 0,
+    "passed": 240,
+    "failed": 0
+  },
+  {
+    "test": "f05-company-matrix.mjs",
+    "exitCode": 0,
+    "passed": 428,
+    "failed": 0
+  },
+  {
+    "test": "f05-invoice-matrix.mjs",
+    "exitCode": 0,
+    "passed": 1920,
+    "failed": 0
+  },
+  {
+    "test": "f05-isolated-company-cases.mjs",
+    "exitCode": 0,
+    "scenarios": 14,
+    "passed": 14,
+    "failed": 0
+  },
+  {
+    "test": "f05-ordinary-lifecycles.mjs",
+    "exitCode": 0,
+    "passed": 1200
+  },
+  {
+    "test": "f06-native-booking-matrix.mjs",
+    "exitCode": 0,
+    "scenarios": 80,
+    "passed": 80,
+    "failed": 0
+  },
+  {
+    "test": "f06-realistic-umrah-accounting.mjs",
+    "exitCode": 0,
+    "scenarios": 16,
+    "passed": 16,
+    "failed": 0
+  },
+  {
+    "test": "f07-operational-accounting.mjs",
+    "exitCode": 0,
+    "scenarios": 46,
+    "passed": 46,
+    "failed": 0
+  },
+  {
+    "test": "f08-cheque-matrix.mjs",
+    "exitCode": 0,
+    "scenarios": 332,
+    "passed": 332,
+    "failed": 0
+  },
+  {
+    "test": "f08-contract-payments.mjs",
+    "exitCode": 0,
+    "scenarios": 27,
+    "passed": 27,
+    "failed": 0
+  },
+  {
+    "test": "f08-deep-accounting.mjs",
+    "exitCode": 0,
+    "scenarios": 297,
+    "passed": 297,
+    "failed": 0
+  },
+  {
+    "test": "f08-deep-netting.mjs",
+    "exitCode": 0,
+    "scenarios": 96,
+    "passed": 96,
+    "failed": 0
+  },
+  {
+    "test": "f08-deep-umrah.mjs",
+    "exitCode": 0,
+    "scenarios": 165,
+    "passed": 165,
+    "failed": 0
+  },
+  {
+    "test": "f08-isolated-evidence.mjs",
+    "exitCode": 0,
+    "scenarios": 16,
+    "passed": 16,
+    "failed": 0
+  },
+  {
+    "test": "f08-lottery-company-case.mjs",
+    "exitCode": 0,
+    "scenarios": 12,
+    "passed": 12,
+    "failed": 0
+  },
+  {
+    "test": "f08-period-close-cycles.mjs",
+    "exitCode": 0,
+    "scenarios": 90,
+    "passed": 90,
+    "failed": 0
+  },
+  {
+    "test": "f08-refunded-pending-advances.mjs",
+    "exitCode": 0,
+    "scenarios": 18,
+    "passed": 18,
+    "failed": 0
+  },
+  {
+    "test": "f08-three-currency-vouchers.mjs",
+    "exitCode": 0,
+    "scenarios": 498,
+    "passed": 498,
+    "failed": 0
+  },
+  {
+    "test": "f09-adjustment-interactions.mjs",
+    "exitCode": 0,
+    "scenarios": 126,
+    "passed": 126,
+    "failed": 0
+  },
+  {
+    "test": "f09-controls-assets.mjs",
+    "exitCode": 0,
+    "scenarios": 342,
+    "passed": 342,
+    "failed": 0
+  },
+  {
+    "test": "f09-isolated-evidence.mjs",
+    "exitCode": 0,
+    "scenarios": 5,
+    "passed": 5,
+    "failed": 0
+  },
+  {
+    "test": "f09-taxed-adjustment-matrix.mjs",
+    "exitCode": 0,
+    "scenarios": 217,
+    "passed": 217,
+    "failed": 0
+  },
+  {
+    "test": "f09-zero-net-payroll.mjs",
+    "exitCode": 0,
+    "scenarios": 27,
+    "passed": 27,
+    "failed": 0
+  },
+  {
+    "test": "review-accounting-source.mjs",
+    "exitCode": 0
+  },
+  {
+    "test": "review-ledger-probes.mjs",
+    "exitCode": 0,
+    "rows": 22
+  },
+  {
+    "test": "review-random-ledger.mjs",
+    "exitCode": 0,
+    "passed": 150
+  },
+  {
+    "test": "review-source-accounting-constitution-smoke.mjs",
+    "exitCode": 0,
+    "ok": true
+  },
+  {
+    "test": "review-source-advanced-accounting-smoke.mjs",
+    "exitCode": 0,
+    "ok": true
+  },
+  {
+    "test": "review-source-cancel-integrity-smoke.mjs",
+    "exitCode": 0,
+    "ok": true
+  },
+  {
+    "test": "review-source-unified-party-accounting-smoke.mjs",
+    "exitCode": 0,
+    "ok": true
+  }
+]

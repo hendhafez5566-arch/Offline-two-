@@ -1,0 +1,9 @@
+{
+  "programHasName": true,
+  "programExcludesIndividual": true,
+  "individualHasService": true,
+  "individualExcludesProgram": false,
+  "programFilterWorks": true,
+  "readOnly": true,
+  "imbalanced": 0
+}

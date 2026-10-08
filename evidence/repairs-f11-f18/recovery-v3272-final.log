@@ -1,0 +1,8 @@
+F15 stale-window rejected from UI PASS
+F15 reversal UI waits for commit PASS
+F17 failed deletion preserves metadata and bytes PASS
+F17 metadata-only fault and original-file recovery UI PASS
+F17 restore-write failure compensates both stores PASS
+F17 interrupted restore before file 1 PASS
+F17 interrupted restore before file 2 PASS
+F17 incomplete imported package rejected PASS

@@ -1,0 +1,2083 @@
+{
+  "scenarios": 126,
+  "passed": 0,
+  "failed": 126,
+  "diary": [
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer EGP 1000 1",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 800,
+        "expected": 1000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer EGP 1000 3",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 800,
+        "expected": 1000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer EGP 10000 1",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 8000,
+        "expected": 10000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer EGP 10000 3",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 8000,
+        "expected": 10000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer EGP 90000 1",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 72000,
+        "expected": 90000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer EGP 90000 3",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 72000,
+        "expected": 90000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer USD 1000 1",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 800,
+        "expected": 1000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer USD 1000 3",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 800,
+        "expected": 1000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer USD 10000 1",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 8000,
+        "expected": 10000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer USD 10000 3",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 8000,
+        "expected": 10000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer USD 90000 1",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 72000,
+        "expected": 90000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer USD 90000 3",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 72000,
+        "expected": 90000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer SAR 1000 1",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 800,
+        "expected": 1000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer SAR 1000 3",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 800,
+        "expected": 1000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer SAR 10000 1",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 8000,
+        "expected": 10000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer SAR 10000 3",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 8000,
+        "expected": 10000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer SAR 90000 1",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 72000,
+        "expected": 90000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل customer SAR 90000 3",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 72000,
+        "expected": 90000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier EGP 1000 1",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 800,
+        "expected": 1000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier EGP 1000 3",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 800,
+        "expected": 1000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier EGP 10000 1",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 8000,
+        "expected": 10000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier EGP 10000 3",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 8000,
+        "expected": 10000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier EGP 90000 1",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 72000,
+        "expected": 90000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier EGP 90000 3",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 72000,
+        "expected": 90000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier USD 1000 1",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 800,
+        "expected": 1000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier USD 1000 3",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 800,
+        "expected": 1000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier USD 10000 1",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 8000,
+        "expected": 10000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier USD 10000 3",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 8000,
+        "expected": 10000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier USD 90000 1",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 72000,
+        "expected": 90000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier USD 90000 3",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 72000,
+        "expected": 90000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier SAR 1000 1",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 800,
+        "expected": 1000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier SAR 1000 3",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 800,
+        "expected": 1000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier SAR 10000 1",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 8000,
+        "expected": 10000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier SAR 10000 3",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 8000,
+        "expected": 10000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier SAR 90000 1",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 72000,
+        "expected": 90000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "عكس إشعار بعد جدول التأجيل supplier SAR 90000 3",
+      "status": "FAIL",
+      "error": "عكس الإشعار لم يستعد قيمة الجدول",
+      "actual": {
+        "actual": 72000,
+        "expected": 90000
+      },
+      "stack": [
+        "Error: عكس الإشعار لم يستعد قيمة الجدول",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:50:792"
+      ]
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل customer EGP 0.25",
+      "status": "FAIL",
+      "error": "الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+      "actual": {
+        "kind": "customer",
+        "cur": "EGP",
+        "globalFraction": 0.25,
+        "netAExpectedBefore": 750,
+        "remaining": 2000,
+        "accountA": 250
+      },
+      "stack": [
+        "Error: الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:51:1152",
+        "    at scene (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:32:72)"
+      ]
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل customer EGP 0.5",
+      "status": "FAIL",
+      "error": "الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+      "actual": {
+        "kind": "customer",
+        "cur": "EGP",
+        "globalFraction": 0.5,
+        "netAExpectedBefore": 500,
+        "remaining": 1000,
+        "accountA": 500
+      },
+      "stack": [
+        "Error: الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:51:1152",
+        "    at scene (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:32:72)"
+      ]
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل customer EGP 0.75",
+      "status": "FAIL",
+      "error": "الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+      "actual": {
+        "kind": "customer",
+        "cur": "EGP",
+        "globalFraction": 0.75,
+        "netAExpectedBefore": 250,
+        "remaining": 0,
+        "accountA": 750
+      },
+      "stack": [
+        "Error: الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:51:1152",
+        "    at scene (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:32:72)"
+      ]
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل customer USD 0.25",
+      "status": "FAIL",
+      "error": "الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+      "actual": {
+        "kind": "customer",
+        "cur": "USD",
+        "globalFraction": 0.25,
+        "netAExpectedBefore": 750,
+        "remaining": 2000,
+        "accountA": 12500
+      },
+      "stack": [
+        "Error: الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:51:1152",
+        "    at scene (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:32:72)"
+      ]
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل customer USD 0.5",
+      "status": "FAIL",
+      "error": "الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+      "actual": {
+        "kind": "customer",
+        "cur": "USD",
+        "globalFraction": 0.5,
+        "netAExpectedBefore": 500,
+        "remaining": 1000,
+        "accountA": 25000
+      },
+      "stack": [
+        "Error: الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:51:1152",
+        "    at scene (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:32:72)"
+      ]
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل customer USD 0.75",
+      "status": "FAIL",
+      "error": "الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+      "actual": {
+        "kind": "customer",
+        "cur": "USD",
+        "globalFraction": 0.75,
+        "netAExpectedBefore": 250,
+        "remaining": 0,
+        "accountA": 37500
+      },
+      "stack": [
+        "Error: الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:51:1152",
+        "    at scene (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:32:72)"
+      ]
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل customer SAR 0.25",
+      "status": "FAIL",
+      "error": "الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+      "actual": {
+        "kind": "customer",
+        "cur": "SAR",
+        "globalFraction": 0.25,
+        "netAExpectedBefore": 750,
+        "remaining": 2000,
+        "accountA": 3312.5
+      },
+      "stack": [
+        "Error: الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:51:1152",
+        "    at scene (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:32:72)"
+      ]
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل customer SAR 0.5",
+      "status": "FAIL",
+      "error": "الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+      "actual": {
+        "kind": "customer",
+        "cur": "SAR",
+        "globalFraction": 0.5,
+        "netAExpectedBefore": 500,
+        "remaining": 1000,
+        "accountA": 6625
+      },
+      "stack": [
+        "Error: الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:51:1152",
+        "    at scene (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:32:72)"
+      ]
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل customer SAR 0.75",
+      "status": "FAIL",
+      "error": "الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+      "actual": {
+        "kind": "customer",
+        "cur": "SAR",
+        "globalFraction": 0.75,
+        "netAExpectedBefore": 250,
+        "remaining": 0,
+        "accountA": 9937.5
+      },
+      "stack": [
+        "Error: الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:51:1152",
+        "    at scene (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:32:72)"
+      ]
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل supplier EGP 0.25",
+      "status": "FAIL",
+      "error": "الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+      "actual": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "globalFraction": 0.25,
+        "netAExpectedBefore": 750,
+        "remaining": 2000,
+        "accountA": -250
+      },
+      "stack": [
+        "Error: الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:51:1152",
+        "    at scene (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:32:72)"
+      ]
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل supplier EGP 0.5",
+      "status": "FAIL",
+      "error": "الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+      "actual": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "globalFraction": 0.5,
+        "netAExpectedBefore": 500,
+        "remaining": 1000,
+        "accountA": -500
+      },
+      "stack": [
+        "Error: الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:51:1152",
+        "    at scene (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:32:72)"
+      ]
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل supplier EGP 0.75",
+      "status": "FAIL",
+      "error": "الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+      "actual": {
+        "kind": "supplier",
+        "cur": "EGP",
+        "globalFraction": 0.75,
+        "netAExpectedBefore": 250,
+        "remaining": 0,
+        "accountA": -750
+      },
+      "stack": [
+        "Error: الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:51:1152",
+        "    at scene (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:32:72)"
+      ]
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل supplier USD 0.25",
+      "status": "FAIL",
+      "error": "الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+      "actual": {
+        "kind": "supplier",
+        "cur": "USD",
+        "globalFraction": 0.25,
+        "netAExpectedBefore": 750,
+        "remaining": 2000,
+        "accountA": -12500
+      },
+      "stack": [
+        "Error: الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:51:1152",
+        "    at scene (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:32:72)"
+      ]
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل supplier USD 0.5",
+      "status": "FAIL",
+      "error": "الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+      "actual": {
+        "kind": "supplier",
+        "cur": "USD",
+        "globalFraction": 0.5,
+        "netAExpectedBefore": 500,
+        "remaining": 1000,
+        "accountA": -25000
+      },
+      "stack": [
+        "Error: الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:51:1152",
+        "    at scene (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:32:72)"
+      ]
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل supplier USD 0.75",
+      "status": "FAIL",
+      "error": "الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+      "actual": {
+        "kind": "supplier",
+        "cur": "USD",
+        "globalFraction": 0.75,
+        "netAExpectedBefore": 250,
+        "remaining": 0,
+        "accountA": -37500
+      },
+      "stack": [
+        "Error: الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:51:1152",
+        "    at scene (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:32:72)"
+      ]
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل supplier SAR 0.25",
+      "status": "FAIL",
+      "error": "الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+      "actual": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "globalFraction": 0.25,
+        "netAExpectedBefore": 750,
+        "remaining": 2000,
+        "accountA": -3312.5
+      },
+      "stack": [
+        "Error: الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:51:1152",
+        "    at scene (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:32:72)"
+      ]
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل supplier SAR 0.5",
+      "status": "FAIL",
+      "error": "الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+      "actual": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "globalFraction": 0.5,
+        "netAExpectedBefore": 500,
+        "remaining": 1000,
+        "accountA": -6625
+      },
+      "stack": [
+        "Error: الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:51:1152",
+        "    at scene (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:32:72)"
+      ]
+    },
+    {
+      "name": "حد إشعار بند بعد إشعار شامل supplier SAR 0.75",
+      "status": "FAIL",
+      "error": "الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+      "actual": {
+        "kind": "supplier",
+        "cur": "SAR",
+        "globalFraction": 0.75,
+        "netAExpectedBefore": 250,
+        "remaining": 0,
+        "accountA": -9937.5
+      },
+      "stack": [
+        "Error: الإشعار تجاوز صافي البند بعد التخفيض الشامل",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:51:1152",
+        "    at scene (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:32:72)"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer EGP 1000 cancelInvoice",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 0,
+        "expected": 140
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer EGP 1000 reverseCredit",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 140,
+        "expected": 126
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer EGP 10000 cancelInvoice",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 0,
+        "expected": 1400
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer EGP 10000 reverseCredit",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 1400,
+        "expected": 1260
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer EGP 90000 cancelInvoice",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 0,
+        "expected": 12600
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer EGP 90000 reverseCredit",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 12600,
+        "expected": 11340
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer USD 1000 cancelInvoice",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 0,
+        "expected": 7000
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer USD 1000 reverseCredit",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 7000,
+        "expected": 6300
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer USD 10000 cancelInvoice",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 0,
+        "expected": 70000
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer USD 10000 reverseCredit",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 70000,
+        "expected": 63000
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer USD 90000 cancelInvoice",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 0,
+        "expected": 630000
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer USD 90000 reverseCredit",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 630000,
+        "expected": 567000
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer SAR 1000 cancelInvoice",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 0,
+        "expected": 1855
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer SAR 1000 reverseCredit",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 1855,
+        "expected": 1669.5
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer SAR 10000 cancelInvoice",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 0,
+        "expected": 18550
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer SAR 10000 reverseCredit",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 18550,
+        "expected": 16695
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer SAR 90000 cancelInvoice",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 0,
+        "expected": 166950
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة customer SAR 90000 reverseCredit",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 166950,
+        "expected": 150255
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier EGP 1000 cancelInvoice",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 0,
+        "expected": 140
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier EGP 1000 reverseCredit",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 140,
+        "expected": 126
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier EGP 10000 cancelInvoice",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 0,
+        "expected": 1400
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier EGP 10000 reverseCredit",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 1400,
+        "expected": 1260
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier EGP 90000 cancelInvoice",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 0,
+        "expected": 12600
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier EGP 90000 reverseCredit",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 12600,
+        "expected": 11340
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier USD 1000 cancelInvoice",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 0,
+        "expected": 7000
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier USD 1000 reverseCredit",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 7000,
+        "expected": 6300
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier USD 10000 cancelInvoice",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 0,
+        "expected": 70000
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier USD 10000 reverseCredit",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 70000,
+        "expected": 63000
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier USD 90000 cancelInvoice",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 0,
+        "expected": 630000
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier USD 90000 reverseCredit",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 630000,
+        "expected": 567000
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier SAR 1000 cancelInvoice",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 0,
+        "expected": 1855
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier SAR 1000 reverseCredit",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 1855,
+        "expected": 1669.5
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier SAR 10000 cancelInvoice",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 0,
+        "expected": 18550
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier SAR 10000 reverseCredit",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 18550,
+        "expected": 16695
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier SAR 90000 cancelInvoice",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 0,
+        "expected": 166950
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "تاريخ دفتر الضريبة supplier SAR 90000 reverseCredit",
+      "status": "FAIL",
+      "error": "الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+      "actual": {
+        "actual": 166950,
+        "expected": 150255
+      },
+      "stack": [
+        "Error: الدفتر الضريبي التاريخي تغير بسبب إلغاء/عكس لاحق",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:52:1326"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit customer EGP 1000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 0,
+        "expected": 200
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit customer EGP 1000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 600,
+        "expected": 1000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit customer EGP 10000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 0,
+        "expected": 2000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit customer EGP 10000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 6000,
+        "expected": 10000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit customer EGP 90000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 0,
+        "expected": 18000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit customer EGP 90000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 54000,
+        "expected": 90000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit customer USD 1000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 0,
+        "expected": 200
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit customer USD 1000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 600,
+        "expected": 1000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit customer USD 10000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 0,
+        "expected": 2000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit customer USD 10000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 6000,
+        "expected": 10000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit customer USD 90000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 0,
+        "expected": 18000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit customer USD 90000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 54000,
+        "expected": 90000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit customer SAR 1000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 0,
+        "expected": 200
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit customer SAR 1000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 600,
+        "expected": 1000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit customer SAR 10000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 0,
+        "expected": 2000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit customer SAR 10000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 6000,
+        "expected": 10000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit customer SAR 90000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 0,
+        "expected": 18000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit customer SAR 90000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 54000,
+        "expected": 90000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit supplier EGP 1000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 0,
+        "expected": 200
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit supplier EGP 1000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 600,
+        "expected": 1000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit supplier EGP 10000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 0,
+        "expected": 2000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit supplier EGP 10000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 6000,
+        "expected": 10000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit supplier EGP 90000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 0,
+        "expected": 18000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit supplier EGP 90000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 54000,
+        "expected": 90000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit supplier USD 1000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 0,
+        "expected": 200
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit supplier USD 1000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 600,
+        "expected": 1000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit supplier USD 10000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 0,
+        "expected": 2000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit supplier USD 10000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 6000,
+        "expected": 10000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit supplier USD 90000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 0,
+        "expected": 18000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit supplier USD 90000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 54000,
+        "expected": 90000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit supplier SAR 1000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 0,
+        "expected": 200
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit supplier SAR 1000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 600,
+        "expected": 1000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit supplier SAR 10000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 0,
+        "expected": 2000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit supplier SAR 10000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 6000,
+        "expected": 10000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم debitAfterCredit supplier SAR 90000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 0,
+        "expected": 18000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    },
+    {
+      "name": "فاتورة مدفوعة ثم إشعار ثم voidPaymentAfterCredit supplier SAR 90000",
+      "status": "FAIL",
+      "error": "الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+      "actual": {
+        "actual": 54000,
+        "expected": 90000
+      },
+      "stack": [
+        "Error: الفاتورة والذمة انفصلتا بعد إعادة تخصيص المبلغ للإشعار",
+        "    at check (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:29:58)",
+        "    at near (file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:30:26)",
+        "    at file:///workspace/scratch/fd17ea13a424/repair/scripts/f09-adjustment-interactions.mjs:53:1494"
+      ]
+    }
+  ],
+  "probes": {
+    "reverseDeferred_customer": {
+      "kind": "customer",
+      "cur": "EGP",
+      "amount": 10000,
+      "months": 1,
+      "invoiceNet": 10000,
+      "scheduleTotal": 8000,
+      "partsSum": 8000,
+      "deferredBalance": -10000
+    },
+    "reverseDeferred_supplier": {
+      "kind": "supplier",
+      "cur": "EGP",
+      "amount": 10000,
+      "months": 1,
+      "invoiceNet": 10000,
+      "scheduleTotal": 8000,
+      "partsSum": 8000,
+      "deferredBalance": 10000
+    },
+    "lineCredit_customer": {
+      "kind": "customer",
+      "cur": "EGP",
+      "globalFraction": 0.5,
+      "netAExpectedBefore": 500,
+      "remaining": 1000,
+      "accountA": 500
+    },
+    "lineCredit_supplier": {
+      "kind": "supplier",
+      "cur": "EGP",
+      "globalFraction": 0.5,
+      "netAExpectedBefore": 500,
+      "remaining": 1000,
+      "accountA": -500
+    },
+    "taxHistory_customer_cancelInvoice": {
+      "kind": "customer",
+      "cur": "EGP",
+      "amount": 10000,
+      "action": "cancelInvoice",
+      "GLSeptember": 1400,
+      "taxLedgerSeptember": 0,
+      "invoiceStatus": "void"
+    },
+    "taxHistory_customer_reverseCredit": {
+      "kind": "customer",
+      "cur": "EGP",
+      "amount": 10000,
+      "action": "reverseCredit",
+      "GLSeptember": 1260,
+      "taxLedgerSeptember": 1400,
+      "invoiceStatus": "open"
+    },
+    "taxHistory_supplier_cancelInvoice": {
+      "kind": "supplier",
+      "cur": "EGP",
+      "amount": 10000,
+      "action": "cancelInvoice",
+      "GLSeptember": 1400,
+      "taxLedgerSeptember": 0,
+      "invoiceStatus": "void"
+    },
+    "taxHistory_supplier_reverseCredit": {
+      "kind": "supplier",
+      "cur": "EGP",
+      "amount": 10000,
+      "action": "reverseCredit",
+      "GLSeptember": 1260,
+      "taxLedgerSeptember": 1400,
+      "invoiceStatus": "open"
+    },
+    "creditAllocation_customer_debitAfterCredit": {
+      "kind": "customer",
+      "cur": "EGP",
+      "amount": 10000,
+      "action": "debitAfterCredit",
+      "invoiceRemaining": 0,
+      "nativeDebt": 2000,
+      "nativeAdvance": 4000,
+      "invoiceStatus": "paid"
+    },
+    "creditAllocation_customer_voidPaymentAfterCredit": {
+      "kind": "customer",
+      "cur": "EGP",
+      "amount": 10000,
+      "action": "voidPaymentAfterCredit",
+      "invoiceRemaining": 6000,
+      "nativeDebt": 10000,
+      "nativeAdvance": 4000,
+      "invoiceStatus": "open"
+    },
+    "creditAllocation_supplier_debitAfterCredit": {
+      "kind": "supplier",
+      "cur": "EGP",
+      "amount": 10000,
+      "action": "debitAfterCredit",
+      "invoiceRemaining": 0,
+      "nativeDebt": 2000,
+      "nativeAdvance": 4000,
+      "invoiceStatus": "paid"
+    },
+    "creditAllocation_supplier_voidPaymentAfterCredit": {
+      "kind": "supplier",
+      "cur": "EGP",
+      "amount": 10000,
+      "action": "voidPaymentAfterCredit",
+      "invoiceRemaining": 6000,
+      "nativeDebt": 10000,
+      "nativeAdvance": 4000,
+      "invoiceStatus": "open"
+    }
+  }
+}

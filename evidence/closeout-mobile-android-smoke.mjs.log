@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "edition": "offline",
+  "checks": 21,
+  "remoteCustomerResolver": "not part of offline edition"
+}

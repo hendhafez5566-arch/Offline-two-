@@ -1,0 +1,19 @@
+{
+  "release": "32.5.72",
+  "verifyExitCode": 0,
+  "node": {
+    "passed": 79,
+    "total": 79
+  },
+  "browser": {
+    "passed": 8,
+    "total": 8
+  },
+  "buildClient": true,
+  "buildServer": true,
+  "androidAssetsCopied": true,
+  "originalTestScriptsUnchanged": 170,
+  "historicalIncidentRootCauseConfirmed": false,
+  "oldMissingAttachmentRecovered": false,
+  "stressBundleWasUpdatedDuringRun": true
+}

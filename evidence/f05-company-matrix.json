@@ -1,0 +1,5456 @@
+{
+  "cases": 428,
+  "passed": 428,
+  "failed": 0,
+  "checks": 1408,
+  "records": [
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 0,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 0,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 0,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 0,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 0,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 0,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 1,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0.08
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 1,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0.12
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 1,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0.17
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 1,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0.29
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 1,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0.54
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 1,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1.04
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 12,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 12,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1.5
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 12,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 2.01
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 12,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 3.53
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 12,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 6.63
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 12,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 12.97
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 24,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 2
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 24,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 3.01
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 24,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 4.03
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 24,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 7.11
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 24,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 13.46
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 24,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 26.87
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 60,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 5
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 60,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 7.56
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 60,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 10.16
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 60,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 18.2
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 60,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 35.42
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "annualRate": 60,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 73.93
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 0,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 0,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 0,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 0,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 0,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 0,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 1,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0.08
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 1,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0.12
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 1,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0.17
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 1,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0.29
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 1,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0.54
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 1,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1.04
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 12,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 12,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1.5
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 12,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 2.01
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 12,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 3.53
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 12,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 6.61
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 12,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 12.97
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 24,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 2
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 24,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 3.01
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 24,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 4.03
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 24,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 7.11
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 24,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 13.46
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 24,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 26.87
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 60,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 5
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 60,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 7.56
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 60,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 10.16
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 60,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 18.21
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 60,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 35.43
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "annualRate": 60,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 73.95
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 0,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 0,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 0,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 0,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 0,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 0,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 1,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0.83
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 1,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1.25
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 1,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1.67
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 1,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 2.92
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 1,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 5.44
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 1,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 10.44
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 12,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 10
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 12,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 15.03
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 12,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 20.07
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 12,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 35.3
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 12,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 66.19
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 12,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 129.8
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 24,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 20
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 24,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 30.1
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 24,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 40.27
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 24,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 71.16
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 24,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 134.75
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 24,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 268.91
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 60,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 50.01
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 60,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 75.62
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 60,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 101.64
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 60,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 182.14
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 60,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 353.99
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "annualRate": 60,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 739.38
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 0,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 0,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 0,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 0,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 0,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 0,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 1,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 8.33
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 1,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 12.5
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 1,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 16.67
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 1,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 29.18
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 1,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 54.24
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 1,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 104.5
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 12,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 100
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 12,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 150.25
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 12,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 200.67
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 12,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 352.91
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 12,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 661.86
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 12,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1297.65
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 24,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 200
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 24,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 300.99
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 24,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 402.64
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 24,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 711.54
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 24,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1347.15
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 24,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 2689.07
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 60,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 500
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 60,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 756.1
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 60,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1016.26
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 60,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1821.05
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 60,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 3539.07
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "annualRate": 60,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 7393.01
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 0,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 0,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 0,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 0,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 0,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 0,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 1,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0.08
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 1,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0.12
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 1,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0.17
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 1,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0.29
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 1,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0.54
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 1,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1.04
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 12,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 12,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1.5
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 12,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 2.01
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 12,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 3.53
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 12,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 6.63
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 12,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 12.97
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 24,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 2
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 24,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 3.01
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 24,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 4.03
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 24,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 7.11
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 24,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 13.46
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 24,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 26.87
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 60,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 5
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 60,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 7.56
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 60,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 10.16
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 60,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 18.2
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 60,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 35.42
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "annualRate": 60,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 73.93
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 0,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 0,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 0,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 0,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 0,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 0,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 1,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0.08
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 1,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0.12
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 1,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0.17
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 1,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0.29
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 1,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0.54
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 1,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1.04
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 12,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 12,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1.5
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 12,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 2.01
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 12,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 3.53
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 12,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 6.61
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 12,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 12.97
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 24,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 2
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 24,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 3.01
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 24,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 4.03
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 24,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 7.11
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 24,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 13.46
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 24,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 26.87
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 60,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 5
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 60,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 7.56
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 60,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 10.16
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 60,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 18.21
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 60,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 35.43
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "annualRate": 60,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 73.95
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 0,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 0,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 0,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 0,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 0,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 0,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 1,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0.83
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 1,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1.25
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 1,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1.67
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 1,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 2.92
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 1,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 5.44
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 1,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 10.44
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 12,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 10
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 12,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 15.03
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 12,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 20.07
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 12,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 35.3
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 12,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 66.19
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 12,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 129.8
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 24,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 20
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 24,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 30.1
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 24,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 40.27
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 24,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 71.16
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 24,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 134.75
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 24,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 268.91
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 60,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 50.01
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 60,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 75.62
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 60,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 101.64
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 60,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 182.14
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 60,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 353.99
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "annualRate": 60,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 739.38
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 0,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 0,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 0,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 0,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 0,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 0,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 0
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 1,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 8.33
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 1,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 12.5
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 1,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 16.67
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 1,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 29.18
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 1,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 54.24
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 1,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 104.5
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 12,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 100
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 12,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 150.25
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 12,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 200.67
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 12,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 352.91
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 12,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 661.86
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 12,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1297.65
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 24,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 200
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 24,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 300.99
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 24,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 402.64
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 24,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 711.54
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 24,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1347.15
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 24,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 2689.07
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 60,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 500
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 60,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 756.1
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 60,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1016.26
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 60,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 1821.05
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 60,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 3539.07
+      }
+    },
+    {
+      "group": "loan",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "annualRate": 60,
+        "months": 24
+      },
+      "status": "PASS",
+      "facts": {
+        "interest": 7393.01
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 1
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 2
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 3
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 6
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "EGP",
+        "amount": 100,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 12
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 1
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 2
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 3
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 6
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "EGP",
+        "amount": 100.01,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 12
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 1
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 2
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 3
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 6
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "EGP",
+        "amount": 1000.13,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 12
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 1
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 2
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 3
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 6
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "EGP",
+        "amount": 10000,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 12
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 1
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 2
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 3
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 6
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "USD",
+        "amount": 100,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 12
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 1
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 2
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 3
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 6
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "USD",
+        "amount": 100.01,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 12
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 1
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 2
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 3
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 6
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "USD",
+        "amount": 1000.13,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 12
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 1
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 2
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 3
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 6
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "USD",
+        "amount": 10000,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 12
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "BHD",
+        "amount": 100,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 1
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "BHD",
+        "amount": 100,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 2
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "BHD",
+        "amount": 100,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 3
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "BHD",
+        "amount": 100,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 6
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "BHD",
+        "amount": 100,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 12
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "BHD",
+        "amount": 100.01,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 1
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "BHD",
+        "amount": 100.01,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 2
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "BHD",
+        "amount": 100.01,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 3
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "BHD",
+        "amount": 100.01,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 6
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "BHD",
+        "amount": 100.01,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 12
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "BHD",
+        "amount": 1000.13,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 1
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "BHD",
+        "amount": 1000.13,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 2
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "BHD",
+        "amount": 1000.13,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 3
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "BHD",
+        "amount": 1000.13,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 6
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "BHD",
+        "amount": 1000.13,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 12
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "BHD",
+        "amount": 10000,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 1
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "BHD",
+        "amount": 10000,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 2
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "BHD",
+        "amount": 10000,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 3
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "BHD",
+        "amount": 10000,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 6
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "BHD",
+        "amount": 10000,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 12
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "JPY",
+        "amount": 100,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 1
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "JPY",
+        "amount": 100,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 2
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "JPY",
+        "amount": 100,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 3
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "JPY",
+        "amount": 100,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 6
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "JPY",
+        "amount": 100,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 12
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "JPY",
+        "amount": 100.01,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 1
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "JPY",
+        "amount": 100.01,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 2
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "JPY",
+        "amount": 100.01,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 3
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "JPY",
+        "amount": 100.01,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 6
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "JPY",
+        "amount": 100.01,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 12
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "JPY",
+        "amount": 1000.13,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 1
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "JPY",
+        "amount": 1000.13,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 2
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "JPY",
+        "amount": 1000.13,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 3
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "JPY",
+        "amount": 1000.13,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 6
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "JPY",
+        "amount": 1000.13,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 12
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "JPY",
+        "amount": 10000,
+        "months": 1
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 1
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "JPY",
+        "amount": 10000,
+        "months": 2
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 2
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "JPY",
+        "amount": 10000,
+        "months": 3
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 3
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "JPY",
+        "amount": 10000,
+        "months": 6
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 6
+      }
+    },
+    {
+      "group": "prepaid",
+      "config": {
+        "cur": "JPY",
+        "amount": 10000,
+        "months": 12
+      },
+      "status": "PASS",
+      "facts": {
+        "parts": 12
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "EGP",
+        "pct": 1,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 10
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "EGP",
+        "pct": 1,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 10
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "EGP",
+        "pct": 5,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 50
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "EGP",
+        "pct": 5,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 50
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "EGP",
+        "pct": 10,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 100
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "EGP",
+        "pct": 10,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 100
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "EGP",
+        "pct": 15,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 150
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "EGP",
+        "pct": 15,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 150
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "EGP",
+        "pct": 25,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 250
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "EGP",
+        "pct": 25,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 250
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "USD",
+        "pct": 1,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 0.2
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "USD",
+        "pct": 1,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 0.2
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "USD",
+        "pct": 5,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 1
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "USD",
+        "pct": 5,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 1
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "USD",
+        "pct": 10,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 2
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "USD",
+        "pct": 10,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 2
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "USD",
+        "pct": 15,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 3
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "USD",
+        "pct": 15,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 3
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "USD",
+        "pct": 25,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 5
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "USD",
+        "pct": 25,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 5
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "SAR",
+        "pct": 1,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 0.75
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "SAR",
+        "pct": 1,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 0.75
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "SAR",
+        "pct": 5,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 3.77
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "SAR",
+        "pct": 5,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 3.77
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "SAR",
+        "pct": 10,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 7.55
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "SAR",
+        "pct": 10,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 7.55
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "SAR",
+        "pct": 15,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 11.32
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "SAR",
+        "pct": 15,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 11.32
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "SAR",
+        "pct": 25,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 18.87
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "EGP",
+        "targetCur": "SAR",
+        "pct": 25,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 18.87
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "EGP",
+        "pct": 1,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 500
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "EGP",
+        "pct": 1,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 500
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "EGP",
+        "pct": 5,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 2500
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "EGP",
+        "pct": 5,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 2500
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "EGP",
+        "pct": 10,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 5000
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "EGP",
+        "pct": 10,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 5000
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "EGP",
+        "pct": 15,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 7500
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "EGP",
+        "pct": 15,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 7500
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "EGP",
+        "pct": 25,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 12500
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "EGP",
+        "pct": 25,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 12500
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "USD",
+        "pct": 1,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 10
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "USD",
+        "pct": 1,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 10
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "USD",
+        "pct": 5,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 50
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "USD",
+        "pct": 5,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 50
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "USD",
+        "pct": 10,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 100
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "USD",
+        "pct": 10,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 100
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "USD",
+        "pct": 15,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 150
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "USD",
+        "pct": 15,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 150
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "USD",
+        "pct": 25,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 250
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "USD",
+        "pct": 25,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 250
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "SAR",
+        "pct": 1,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 37.74
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "SAR",
+        "pct": 1,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 37.74
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "SAR",
+        "pct": 5,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 188.68
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "SAR",
+        "pct": 5,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 188.68
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "SAR",
+        "pct": 10,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 377.36
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "SAR",
+        "pct": 10,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 377.36
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "SAR",
+        "pct": 15,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 566.04
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "SAR",
+        "pct": 15,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 566.04
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "SAR",
+        "pct": 25,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 943.4
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "USD",
+        "targetCur": "SAR",
+        "pct": 25,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 943.4
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "EGP",
+        "pct": 1,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 132.5
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "EGP",
+        "pct": 1,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 132.5
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "EGP",
+        "pct": 5,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 662.5
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "EGP",
+        "pct": 5,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 662.5
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "EGP",
+        "pct": 10,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 1325
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "EGP",
+        "pct": 10,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 1325
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "EGP",
+        "pct": 15,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 1987.5
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "EGP",
+        "pct": 15,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 1987.5
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "EGP",
+        "pct": 25,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 3312.5
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "EGP",
+        "pct": 25,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 3312.5
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "USD",
+        "pct": 1,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 2.65
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "USD",
+        "pct": 1,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 2.65
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "USD",
+        "pct": 5,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 13.25
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "USD",
+        "pct": 5,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 13.25
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "USD",
+        "pct": 10,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 26.5
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "USD",
+        "pct": 10,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 26.5
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "USD",
+        "pct": 15,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 39.75
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "USD",
+        "pct": 15,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 39.75
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "USD",
+        "pct": 25,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 66.25
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "USD",
+        "pct": 25,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 66.25
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "SAR",
+        "pct": 1,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 10
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "SAR",
+        "pct": 1,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 10
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "SAR",
+        "pct": 5,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 50
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "SAR",
+        "pct": 5,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 50
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "SAR",
+        "pct": 10,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 100
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "SAR",
+        "pct": 10,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 100
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "SAR",
+        "pct": 15,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 150
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "SAR",
+        "pct": 15,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 150
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "SAR",
+        "pct": 25,
+        "mode": "agent"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 250
+      }
+    },
+    {
+      "group": "commission",
+      "config": {
+        "sourceCur": "SAR",
+        "targetCur": "SAR",
+        "pct": 25,
+        "mode": "rule"
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 250
+      }
+    },
+    {
+      "group": "cashcount",
+      "config": {
+        "opening": 100,
+        "diff": -50
+      },
+      "status": "PASS",
+      "facts": {
+        "differencePosted": true
+      }
+    },
+    {
+      "group": "cashcount",
+      "config": {
+        "opening": 100,
+        "diff": -0.01
+      },
+      "status": "PASS",
+      "facts": {
+        "differencePosted": true
+      }
+    },
+    {
+      "group": "cashcount",
+      "config": {
+        "opening": 100,
+        "diff": 0
+      },
+      "status": "PASS",
+      "facts": {
+        "differencePosted": false
+      }
+    },
+    {
+      "group": "cashcount",
+      "config": {
+        "opening": 100,
+        "diff": 0.01
+      },
+      "status": "PASS",
+      "facts": {
+        "differencePosted": true
+      }
+    },
+    {
+      "group": "cashcount",
+      "config": {
+        "opening": 100,
+        "diff": 50
+      },
+      "status": "PASS",
+      "facts": {
+        "differencePosted": true
+      }
+    },
+    {
+      "group": "cashcount",
+      "config": {
+        "opening": 1000,
+        "diff": -50
+      },
+      "status": "PASS",
+      "facts": {
+        "differencePosted": true
+      }
+    },
+    {
+      "group": "cashcount",
+      "config": {
+        "opening": 1000,
+        "diff": -0.01
+      },
+      "status": "PASS",
+      "facts": {
+        "differencePosted": true
+      }
+    },
+    {
+      "group": "cashcount",
+      "config": {
+        "opening": 1000,
+        "diff": 0
+      },
+      "status": "PASS",
+      "facts": {
+        "differencePosted": false
+      }
+    },
+    {
+      "group": "cashcount",
+      "config": {
+        "opening": 1000,
+        "diff": 0.01
+      },
+      "status": "PASS",
+      "facts": {
+        "differencePosted": true
+      }
+    },
+    {
+      "group": "cashcount",
+      "config": {
+        "opening": 1000,
+        "diff": 50
+      },
+      "status": "PASS",
+      "facts": {
+        "differencePosted": true
+      }
+    },
+    {
+      "group": "cashcount",
+      "config": {
+        "opening": 10000,
+        "diff": -50
+      },
+      "status": "PASS",
+      "facts": {
+        "differencePosted": true
+      }
+    },
+    {
+      "group": "cashcount",
+      "config": {
+        "opening": 10000,
+        "diff": -0.01
+      },
+      "status": "PASS",
+      "facts": {
+        "differencePosted": true
+      }
+    },
+    {
+      "group": "cashcount",
+      "config": {
+        "opening": 10000,
+        "diff": 0
+      },
+      "status": "PASS",
+      "facts": {
+        "differencePosted": false
+      }
+    },
+    {
+      "group": "cashcount",
+      "config": {
+        "opening": 10000,
+        "diff": 0.01
+      },
+      "status": "PASS",
+      "facts": {
+        "differencePosted": true
+      }
+    },
+    {
+      "group": "cashcount",
+      "config": {
+        "opening": 10000,
+        "diff": 50
+      },
+      "status": "PASS",
+      "facts": {
+        "differencePosted": true
+      }
+    },
+    {
+      "group": "historical-cashcount",
+      "config": {
+        "amount": 100
+      },
+      "status": "PASS",
+      "facts": {
+        "system": 100,
+        "diff": 0
+      }
+    },
+    {
+      "group": "historical-cashcount",
+      "config": {
+        "amount": 1000
+      },
+      "status": "PASS",
+      "facts": {
+        "system": 1000,
+        "diff": 0
+      }
+    },
+    {
+      "group": "historical-cashcount",
+      "config": {
+        "amount": 10000
+      },
+      "status": "PASS",
+      "facts": {
+        "system": 10000,
+        "diff": 0
+      }
+    }
+  ]
+}

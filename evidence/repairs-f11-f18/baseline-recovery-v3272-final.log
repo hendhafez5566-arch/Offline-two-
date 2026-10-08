@@ -1,0 +1,3 @@
+F15 original stale-window loss PASS
+F15 original success before commit PASS
+F17 original interrupted restore loses attachment bytes PASS

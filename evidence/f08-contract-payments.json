@@ -1,0 +1,466 @@
+{
+  "scenarios": 27,
+  "passed": 27,
+  "failed": 0,
+  "diary": [
+    {
+      "name": "تغطية دفعة عقد EGP بدفع EGP 0.1",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "EGP",
+        "paymentCur": "EGP",
+        "contractTotal": 100000,
+        "paid": 10000,
+        "expectedCoverage": 10000,
+        "coverage": 10000,
+        "scheduleState": {
+          "paid": 10000,
+          "outstanding": 40000,
+          "status": "partial"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد EGP بدفع EGP 0.3",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "EGP",
+        "paymentCur": "EGP",
+        "contractTotal": 100000,
+        "paid": 30000,
+        "expectedCoverage": 30000,
+        "coverage": 30000,
+        "scheduleState": {
+          "paid": 30000,
+          "outstanding": 20000,
+          "status": "partial"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد EGP بدفع EGP 0.5",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "EGP",
+        "paymentCur": "EGP",
+        "contractTotal": 100000,
+        "paid": 50000,
+        "expectedCoverage": 50000,
+        "coverage": 50000,
+        "scheduleState": {
+          "paid": 50000,
+          "outstanding": 0,
+          "status": "paid"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد EGP بدفع USD 0.1",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "EGP",
+        "paymentCur": "USD",
+        "contractTotal": 100000,
+        "paid": 200,
+        "expectedCoverage": 10000,
+        "coverage": 10000,
+        "scheduleState": {
+          "paid": 10000,
+          "outstanding": 40000,
+          "status": "partial"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد EGP بدفع USD 0.3",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "EGP",
+        "paymentCur": "USD",
+        "contractTotal": 100000,
+        "paid": 600,
+        "expectedCoverage": 30000,
+        "coverage": 30000,
+        "scheduleState": {
+          "paid": 30000,
+          "outstanding": 20000,
+          "status": "partial"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد EGP بدفع USD 0.5",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "EGP",
+        "paymentCur": "USD",
+        "contractTotal": 100000,
+        "paid": 1000,
+        "expectedCoverage": 50000,
+        "coverage": 50000,
+        "scheduleState": {
+          "paid": 50000,
+          "outstanding": 0,
+          "status": "paid"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد EGP بدفع SAR 0.1",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "EGP",
+        "paymentCur": "SAR",
+        "contractTotal": 100000,
+        "paid": 754.72,
+        "expectedCoverage": 10000.04,
+        "coverage": 10000.04,
+        "scheduleState": {
+          "paid": 10000.04,
+          "outstanding": 39999.96,
+          "status": "partial"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد EGP بدفع SAR 0.3",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "EGP",
+        "paymentCur": "SAR",
+        "contractTotal": 100000,
+        "paid": 2264.15,
+        "expectedCoverage": 29999.987500000003,
+        "coverage": 29999.987500000003,
+        "scheduleState": {
+          "paid": 29999.987500000003,
+          "outstanding": 20000.012499999997,
+          "status": "partial"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد EGP بدفع SAR 0.5",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "EGP",
+        "paymentCur": "SAR",
+        "contractTotal": 100000,
+        "paid": 3773.58,
+        "expectedCoverage": 49999.935,
+        "coverage": 49999.935,
+        "scheduleState": {
+          "paid": 49999.935,
+          "outstanding": 0.0650000000023283,
+          "status": "partial"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد USD بدفع EGP 0.1",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "USD",
+        "paymentCur": "EGP",
+        "contractTotal": 2000,
+        "paid": 10000,
+        "expectedCoverage": 200,
+        "coverage": 200,
+        "scheduleState": {
+          "paid": 200,
+          "outstanding": 800,
+          "status": "partial"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد USD بدفع EGP 0.3",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "USD",
+        "paymentCur": "EGP",
+        "contractTotal": 2000,
+        "paid": 30000,
+        "expectedCoverage": 600,
+        "coverage": 600,
+        "scheduleState": {
+          "paid": 600,
+          "outstanding": 400,
+          "status": "partial"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد USD بدفع EGP 0.5",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "USD",
+        "paymentCur": "EGP",
+        "contractTotal": 2000,
+        "paid": 50000,
+        "expectedCoverage": 1000,
+        "coverage": 1000,
+        "scheduleState": {
+          "paid": 1000,
+          "outstanding": 0,
+          "status": "paid"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد USD بدفع USD 0.1",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "USD",
+        "paymentCur": "USD",
+        "contractTotal": 2000,
+        "paid": 200,
+        "expectedCoverage": 200,
+        "coverage": 200,
+        "scheduleState": {
+          "paid": 200,
+          "outstanding": 800,
+          "status": "partial"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد USD بدفع USD 0.3",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "USD",
+        "paymentCur": "USD",
+        "contractTotal": 2000,
+        "paid": 600,
+        "expectedCoverage": 600,
+        "coverage": 600,
+        "scheduleState": {
+          "paid": 600,
+          "outstanding": 400,
+          "status": "partial"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد USD بدفع USD 0.5",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "USD",
+        "paymentCur": "USD",
+        "contractTotal": 2000,
+        "paid": 1000,
+        "expectedCoverage": 1000,
+        "coverage": 1000,
+        "scheduleState": {
+          "paid": 1000,
+          "outstanding": 0,
+          "status": "paid"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد USD بدفع SAR 0.1",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "USD",
+        "paymentCur": "SAR",
+        "contractTotal": 2000,
+        "paid": 754.72,
+        "expectedCoverage": 200.00080000000003,
+        "coverage": 200.00080000000003,
+        "scheduleState": {
+          "paid": 200.00080000000003,
+          "outstanding": 799.9992,
+          "status": "partial"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد USD بدفع SAR 0.3",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "USD",
+        "paymentCur": "SAR",
+        "contractTotal": 2000,
+        "paid": 2264.15,
+        "expectedCoverage": 599.9997500000001,
+        "coverage": 599.9997500000001,
+        "scheduleState": {
+          "paid": 599.9997500000001,
+          "outstanding": 400.00024999999994,
+          "status": "partial"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد USD بدفع SAR 0.5",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "USD",
+        "paymentCur": "SAR",
+        "contractTotal": 2000,
+        "paid": 3773.58,
+        "expectedCoverage": 999.9987,
+        "coverage": 999.9987,
+        "scheduleState": {
+          "paid": 999.9987,
+          "outstanding": 0.0013000000000147338,
+          "status": "paid"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد SAR بدفع EGP 0.1",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "SAR",
+        "paymentCur": "EGP",
+        "contractTotal": 7547.16,
+        "paid": 10000.04,
+        "expectedCoverage": 754.72,
+        "coverage": 754.72,
+        "scheduleState": {
+          "paid": 754.72,
+          "outstanding": 3018.8599999999997,
+          "status": "partial"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد SAR بدفع EGP 0.3",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "SAR",
+        "paymentCur": "EGP",
+        "contractTotal": 7547.16,
+        "paid": 29999.99,
+        "expectedCoverage": 2264.1501886792453,
+        "coverage": 2264.1501886792453,
+        "scheduleState": {
+          "paid": 2264.1501886792453,
+          "outstanding": 1509.4298113207547,
+          "status": "partial"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد SAR بدفع EGP 0.5",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "SAR",
+        "paymentCur": "EGP",
+        "contractTotal": 7547.16,
+        "paid": 49999.94,
+        "expectedCoverage": 3773.5803773584908,
+        "coverage": 3773.5803773584908,
+        "scheduleState": {
+          "paid": 3773.58,
+          "outstanding": 0,
+          "status": "paid"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد SAR بدفع USD 0.1",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "SAR",
+        "paymentCur": "USD",
+        "contractTotal": 7547.16,
+        "paid": 200,
+        "expectedCoverage": 754.7169811320755,
+        "coverage": 754.7169811320755,
+        "scheduleState": {
+          "paid": 754.7169811320755,
+          "outstanding": 3018.8630188679244,
+          "status": "partial"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد SAR بدفع USD 0.3",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "SAR",
+        "paymentCur": "USD",
+        "contractTotal": 7547.16,
+        "paid": 600,
+        "expectedCoverage": 2264.1509433962265,
+        "coverage": 2264.1509433962265,
+        "scheduleState": {
+          "paid": 2264.1509433962265,
+          "outstanding": 1509.4290566037735,
+          "status": "partial"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد SAR بدفع USD 0.5",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "SAR",
+        "paymentCur": "USD",
+        "contractTotal": 7547.16,
+        "paid": 1000,
+        "expectedCoverage": 3773.5849056603774,
+        "coverage": 3773.5849056603774,
+        "scheduleState": {
+          "paid": 3773.58,
+          "outstanding": 0,
+          "status": "paid"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد SAR بدفع SAR 0.1",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "SAR",
+        "paymentCur": "SAR",
+        "contractTotal": 7547.16,
+        "paid": 754.72,
+        "expectedCoverage": 754.72,
+        "coverage": 754.72,
+        "scheduleState": {
+          "paid": 754.72,
+          "outstanding": 3018.8599999999997,
+          "status": "partial"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد SAR بدفع SAR 0.3",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "SAR",
+        "paymentCur": "SAR",
+        "contractTotal": 7547.16,
+        "paid": 2264.15,
+        "expectedCoverage": 2264.15,
+        "coverage": 2264.15,
+        "scheduleState": {
+          "paid": 2264.15,
+          "outstanding": 1509.4299999999998,
+          "status": "partial"
+        }
+      }
+    },
+    {
+      "name": "تغطية دفعة عقد SAR بدفع SAR 0.5",
+      "status": "PASS",
+      "facts": {
+        "contractCur": "SAR",
+        "paymentCur": "SAR",
+        "contractTotal": 7547.16,
+        "paid": 3773.58,
+        "expectedCoverage": 3773.58,
+        "coverage": 3773.58,
+        "scheduleState": {
+          "paid": 3773.58,
+          "outstanding": 0,
+          "status": "paid"
+        }
+      }
+    }
+  ]
+}

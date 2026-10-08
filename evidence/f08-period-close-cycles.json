@@ -1,0 +1,943 @@
+{
+  "scenarios": 90,
+  "passed": 90,
+  "failed": 0,
+  "diary": [
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 EGP 10000 0",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "EGP",
+        "profit": 10000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 EGP 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "EGP",
+        "profit": 5000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 EGP 10000 1",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "EGP",
+        "profit": 0,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 EGP 10000 1.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "EGP",
+        "profit": -5000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 EGP 30000 0",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "EGP",
+        "profit": 30000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 EGP 30000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "EGP",
+        "profit": 15000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 EGP 30000 1",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "EGP",
+        "profit": 0,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 EGP 30000 1.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "EGP",
+        "profit": -15000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 EGP 120000 0",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "EGP",
+        "profit": 120000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 EGP 120000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "EGP",
+        "profit": 60000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 EGP 120000 1",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "EGP",
+        "profit": 0,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 EGP 120000 1.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "EGP",
+        "profit": -60000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 USD 10000 0",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "USD",
+        "profit": 500000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 USD 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "USD",
+        "profit": 250000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 USD 10000 1",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "USD",
+        "profit": 0,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 USD 10000 1.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "USD",
+        "profit": -250000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 USD 30000 0",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "USD",
+        "profit": 1500000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 USD 30000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "USD",
+        "profit": 750000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 USD 30000 1",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "USD",
+        "profit": 0,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 USD 30000 1.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "USD",
+        "profit": -750000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 USD 120000 0",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "USD",
+        "profit": 6000000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 USD 120000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "USD",
+        "profit": 3000000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 USD 120000 1",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "USD",
+        "profit": 0,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 USD 120000 1.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "USD",
+        "profit": -3000000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 SAR 10000 0",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "SAR",
+        "profit": 132500,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 SAR 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "SAR",
+        "profit": 66250,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 SAR 10000 1",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "SAR",
+        "profit": 0,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 SAR 10000 1.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "SAR",
+        "profit": -66250,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 SAR 30000 0",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "SAR",
+        "profit": 397500,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 SAR 30000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "SAR",
+        "profit": 198750,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 SAR 30000 1",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "SAR",
+        "profit": 0,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 SAR 30000 1.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "SAR",
+        "profit": -198750,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 SAR 120000 0",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "SAR",
+        "profit": 1590000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 SAR 120000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "SAR",
+        "profit": 795000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 SAR 120000 1",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "SAR",
+        "profit": 0,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 1 SAR 120000 1.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 1,
+        "cur": "SAR",
+        "profit": -795000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 EGP 10000 0",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "EGP",
+        "profit": 10000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 EGP 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "EGP",
+        "profit": 5000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 EGP 10000 1",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "EGP",
+        "profit": 0,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 EGP 10000 1.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "EGP",
+        "profit": -5000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 EGP 30000 0",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "EGP",
+        "profit": 30000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 EGP 30000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "EGP",
+        "profit": 15000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 EGP 30000 1",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "EGP",
+        "profit": 0,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 EGP 30000 1.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "EGP",
+        "profit": -15000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 EGP 120000 0",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "EGP",
+        "profit": 120000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 EGP 120000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "EGP",
+        "profit": 60000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 EGP 120000 1",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "EGP",
+        "profit": 0,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 EGP 120000 1.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "EGP",
+        "profit": -60000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 USD 10000 0",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "USD",
+        "profit": 500000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 USD 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "USD",
+        "profit": 250000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 USD 10000 1",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "USD",
+        "profit": 0,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 USD 10000 1.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "USD",
+        "profit": -250000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 USD 30000 0",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "USD",
+        "profit": 1500000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 USD 30000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "USD",
+        "profit": 750000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 USD 30000 1",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "USD",
+        "profit": 0,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 USD 30000 1.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "USD",
+        "profit": -750000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 USD 120000 0",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "USD",
+        "profit": 6000000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 USD 120000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "USD",
+        "profit": 3000000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 USD 120000 1",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "USD",
+        "profit": 0,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 USD 120000 1.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "USD",
+        "profit": -3000000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 SAR 10000 0",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "SAR",
+        "profit": 132500,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 SAR 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "SAR",
+        "profit": 66250,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 SAR 10000 1",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "SAR",
+        "profit": 0,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 SAR 10000 1.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "SAR",
+        "profit": -66250,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 SAR 30000 0",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "SAR",
+        "profit": 397500,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 SAR 30000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "SAR",
+        "profit": 198750,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 SAR 30000 1",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "SAR",
+        "profit": 0,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 SAR 30000 1.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "SAR",
+        "profit": -198750,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 SAR 120000 0",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "SAR",
+        "profit": 1590000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 SAR 120000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "SAR",
+        "profit": 795000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 SAR 120000 1",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "SAR",
+        "profit": 0,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "إقفال وفتح وإقفال السنة 7 SAR 120000 1.5",
+      "status": "PASS",
+      "facts": {
+        "fiscalStart": 7,
+        "cur": "SAR",
+        "profit": -795000,
+        "cycles": 3,
+        "status": "closed"
+      }
+    },
+    {
+      "name": "فترة مغلقة تمنع قبض بلا أثر جزئي EGP 1000",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 1000
+      }
+    },
+    {
+      "name": "فترة مغلقة تمنع قبض بلا أثر جزئي EGP 10000",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 10000
+      }
+    },
+    {
+      "name": "فترة مغلقة تمنع قبض بلا أثر جزئي EGP 90000",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 90000
+      }
+    },
+    {
+      "name": "فترة مغلقة تمنع قبض بلا أثر جزئي USD 1000",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1000
+      }
+    },
+    {
+      "name": "فترة مغلقة تمنع قبض بلا أثر جزئي USD 10000",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 10000
+      }
+    },
+    {
+      "name": "فترة مغلقة تمنع قبض بلا أثر جزئي USD 90000",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 90000
+      }
+    },
+    {
+      "name": "فترة مغلقة تمنع قبض بلا أثر جزئي SAR 1000",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1000
+      }
+    },
+    {
+      "name": "فترة مغلقة تمنع قبض بلا أثر جزئي SAR 10000",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 10000
+      }
+    },
+    {
+      "name": "فترة مغلقة تمنع قبض بلا أثر جزئي SAR 90000",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 90000
+      }
+    },
+    {
+      "name": "فترة مغلقة تمنع صرف بلا أثر جزئي EGP 1000",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 1000
+      }
+    },
+    {
+      "name": "فترة مغلقة تمنع صرف بلا أثر جزئي EGP 10000",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 10000
+      }
+    },
+    {
+      "name": "فترة مغلقة تمنع صرف بلا أثر جزئي EGP 90000",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 90000
+      }
+    },
+    {
+      "name": "فترة مغلقة تمنع صرف بلا أثر جزئي USD 1000",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1000
+      }
+    },
+    {
+      "name": "فترة مغلقة تمنع صرف بلا أثر جزئي USD 10000",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 10000
+      }
+    },
+    {
+      "name": "فترة مغلقة تمنع صرف بلا أثر جزئي USD 90000",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 90000
+      }
+    },
+    {
+      "name": "فترة مغلقة تمنع صرف بلا أثر جزئي SAR 1000",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1000
+      }
+    },
+    {
+      "name": "فترة مغلقة تمنع صرف بلا أثر جزئي SAR 10000",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 10000
+      }
+    },
+    {
+      "name": "فترة مغلقة تمنع صرف بلا أثر جزئي SAR 90000",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 90000
+      }
+    }
+  ]
+}

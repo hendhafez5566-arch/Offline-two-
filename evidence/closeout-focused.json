@@ -1,0 +1,62 @@
+[
+  {
+    "test": "brand-asset-smoke.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "commercial-smoke.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "contracts-inventory-smoke.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "customer-parity-smoke.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "data-protection-smoke.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "mobile-android-smoke.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "rocket-360-performance-smoke.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "unified-more-cleanup-smoke.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "v32472-accounting-lifecycle-smoke.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "v32565-party-transactions-report-smoke.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "f03-company-scenarios.mjs",
+    "exit": 0,
+    "tail": ""
+  },
+  {
+    "test": "closeout-acceptance.mjs",
+    "exit": 0,
+    "tail": ""
+  }
+]

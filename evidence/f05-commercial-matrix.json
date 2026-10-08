@@ -1,0 +1,3368 @@
+{
+  "cases": 240,
+  "passed": 240,
+  "failed": 0,
+  "checks": 840,
+  "records": [
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 1,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 4,
+        "invoiced": 4,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 1,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 4
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 1,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 4,
+        "invoiced": 4,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 1,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 4
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 1,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 4,
+        "invoiced": 4,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 1,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 4
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 100,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 400,
+        "invoiced": 400,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 100,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 400
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 100,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 400,
+        "invoiced": 400,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 100,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 400
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 100,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 400,
+        "invoiced": 400,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 100,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 400
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 100.01,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 400.04,
+        "invoiced": 400.04,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 100.01,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 400.04
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 100.01,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 400.04,
+        "invoiced": 400.04,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 100.01,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 400.04
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 100.01,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 400.04,
+        "invoiced": 400.04,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 100.01,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 400.04
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 1000,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 4000,
+        "invoiced": 4000,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 1000,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 4000
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 1000,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 4000,
+        "invoiced": 4000,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 1000,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 4000
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 1000,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 4000,
+        "invoiced": 4000,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 1000,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 4000
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 9999.99,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 39999.96,
+        "invoiced": 39999.96,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 9999.99,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 39999.96
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 9999.99,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 39999.96,
+        "invoiced": 39999.96,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 9999.99,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 39999.96
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 9999.99,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 39999.96,
+        "invoiced": 39999.96,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 4,
+        "price": 9999.99,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 39999.96
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 1,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 8,
+        "invoiced": 8,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 1,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 8
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 1,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 8,
+        "invoiced": 8,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 1,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 8
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 1,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 8,
+        "invoiced": 8,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 1,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 8
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 100,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 800,
+        "invoiced": 800,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 100,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 800
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 100,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 800,
+        "invoiced": 800,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 100,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 800
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 100,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 800,
+        "invoiced": 800,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 100,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 800
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 100.01,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 800.08,
+        "invoiced": 800.08,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 100.01,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 800.08
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 100.01,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 800.08,
+        "invoiced": 800.08,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 100.01,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 800.08
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 100.01,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 800.08,
+        "invoiced": 800.08,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 100.01,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 800.08
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 1000,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 8000,
+        "invoiced": 8000,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 1000,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 8000
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 1000,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 8000,
+        "invoiced": 8000,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 1000,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 8000
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 1000,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 8000,
+        "invoiced": 8000,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 1000,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 8000
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 9999.99,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 79999.92,
+        "invoiced": 79999.92,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 9999.99,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 79999.92
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 9999.99,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 79999.92,
+        "invoiced": 79999.92,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 9999.99,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 79999.92
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 9999.99,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 79999.92,
+        "invoiced": 79999.92,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 8,
+        "price": 9999.99,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 79999.92
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 1,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 12,
+        "invoiced": 12,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 1,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 12
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 1,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 12,
+        "invoiced": 12,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 1,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 12
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 1,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 12,
+        "invoiced": 12,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 1,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 12
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 100,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 1200,
+        "invoiced": 1200,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 100,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 1200
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 100,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 1200,
+        "invoiced": 1200,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 100,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 1200
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 100,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 1200,
+        "invoiced": 1200,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 100,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 1200
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 100.01,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 1200.12,
+        "invoiced": 1200.12,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 100.01,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 1200.12
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 100.01,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 1200.12,
+        "invoiced": 1200.12,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 100.01,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 1200.12
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 100.01,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 1200.12,
+        "invoiced": 1200.12,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 100.01,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 1200.12
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 1000,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 12000,
+        "invoiced": 12000,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 1000,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 12000
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 1000,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 12000,
+        "invoiced": 12000,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 1000,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 12000
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 1000,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 12000,
+        "invoiced": 12000,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 1000,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 12000
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 9999.99,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 119999.88,
+        "invoiced": 119999.88,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 9999.99,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 119999.88
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 9999.99,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 119999.88,
+        "invoiced": 119999.88,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 9999.99,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 119999.88
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 9999.99,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 119999.88,
+        "invoiced": 119999.88,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 12,
+        "price": 9999.99,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 119999.88
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 1,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 20,
+        "invoiced": 20,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 1,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 20
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 1,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 20,
+        "invoiced": 20,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 1,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 20
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 1,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 20,
+        "invoiced": 20,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 1,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 20
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 100,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 2000,
+        "invoiced": 2000,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 100,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 2000
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 100,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 2000,
+        "invoiced": 2000,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 100,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 2000
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 100,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 2000,
+        "invoiced": 2000,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 100,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 2000
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 100.01,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 2000.2,
+        "invoiced": 2000.2,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 100.01,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 2000.2
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 100.01,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 2000.2,
+        "invoiced": 2000.2,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 100.01,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 2000.2
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 100.01,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 2000.2,
+        "invoiced": 2000.2,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 100.01,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 2000.2
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 1000,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 20000,
+        "invoiced": 20000,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 1000,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 20000
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 1000,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 20000,
+        "invoiced": 20000,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 1000,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 20000
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 1000,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 20000,
+        "invoiced": 20000,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 1000,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 20000
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 9999.99,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 199999.8,
+        "invoiced": 199999.8,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 9999.99,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 199999.8
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 9999.99,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 199999.8,
+        "invoiced": 199999.8,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 9999.99,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 199999.8
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 9999.99,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 199999.8,
+        "invoiced": 199999.8,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "TAX0",
+        "qty": 20,
+        "price": 9999.99,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 199999.8
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 1,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 4.56,
+        "invoiced": 4.56,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 1,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 4.56
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 1,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 4.56,
+        "invoiced": 4.56,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 1,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 4.56
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 1,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 4.56,
+        "invoiced": 4.56,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 1,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 4.56
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 100,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 456,
+        "invoiced": 456,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 100,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 456
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 100,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 456,
+        "invoiced": 456,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 100,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 456
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 100,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 456,
+        "invoiced": 456,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 100,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 456
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 100.01,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 456.05,
+        "invoiced": 456.04,
+        "taxRoundingVariance": -0.01
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 100.01,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 456.05
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 100.01,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 456.05,
+        "invoiced": 456.04,
+        "taxRoundingVariance": -0.01
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 100.01,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 456.05
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 100.01,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 456.05,
+        "invoiced": 456.04,
+        "taxRoundingVariance": -0.01
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 100.01,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 456.05
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 1000,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 4560,
+        "invoiced": 4560,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 1000,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 4560
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 1000,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 4560,
+        "invoiced": 4560,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 1000,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 4560
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 1000,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 4560,
+        "invoiced": 4560,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 1000,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 4560
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 9999.99,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 45599.95,
+        "invoiced": 45599.96,
+        "taxRoundingVariance": 0.01
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 9999.99,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 45599.95
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 9999.99,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 45599.95,
+        "invoiced": 45599.96,
+        "taxRoundingVariance": 0.01
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 9999.99,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 45599.95
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 9999.99,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 45599.95,
+        "invoiced": 45599.96,
+        "taxRoundingVariance": 0.01
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 4,
+        "price": 9999.99,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 45599.95
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 1,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 9.12,
+        "invoiced": 9.12,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 1,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 9.12
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 1,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 9.12,
+        "invoiced": 9.12,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 1,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 9.12
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 1,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 9.12,
+        "invoiced": 9.12,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 1,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 9.12
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 100,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 912,
+        "invoiced": 912,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 100,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 912
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 100,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 912,
+        "invoiced": 912,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 100,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 912
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 100,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 912,
+        "invoiced": 912,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 100,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 912
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 100.01,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 912.09,
+        "invoiced": 912.09,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 100.01,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 912.09
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 100.01,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 912.09,
+        "invoiced": 912.1,
+        "taxRoundingVariance": 0.01
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 100.01,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 912.09
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 100.01,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 912.09,
+        "invoiced": 912.09,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 100.01,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 912.09
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 1000,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 9120,
+        "invoiced": 9120,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 1000,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 9120
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 1000,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 9120,
+        "invoiced": 9120,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 1000,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 9120
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 1000,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 9120,
+        "invoiced": 9120,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 1000,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 9120
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 9999.99,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 91199.91,
+        "invoiced": 91199.91,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 9999.99,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 91199.91
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 9999.99,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 91199.91,
+        "invoiced": 91199.9,
+        "taxRoundingVariance": -0.01
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 9999.99,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 91199.91
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 9999.99,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 91199.91,
+        "invoiced": 91199.91,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 8,
+        "price": 9999.99,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 91199.91
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 1,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 13.68,
+        "invoiced": 13.68,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 1,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 13.68
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 1,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 13.68,
+        "invoiced": 13.68,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 1,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 13.68
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 1,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 13.68,
+        "invoiced": 13.68,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 1,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 13.68
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 100,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 1368,
+        "invoiced": 1368,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 100,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 1368
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 100,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 1368,
+        "invoiced": 1368,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 100,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 1368
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 100,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 1368,
+        "invoiced": 1368,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 100,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 1368
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 100.01,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 1368.14,
+        "invoiced": 1368.13,
+        "taxRoundingVariance": -0.01
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 100.01,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 1368.14
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 100.01,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 1368.14,
+        "invoiced": 1368.14,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 100.01,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 1368.14
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 100.01,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 1368.14,
+        "invoiced": 1368.13,
+        "taxRoundingVariance": -0.01
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 100.01,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 1368.14
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 1000,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 13680,
+        "invoiced": 13680,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 1000,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 13680
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 1000,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 13680,
+        "invoiced": 13680,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 1000,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 13680
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 1000,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 13680,
+        "invoiced": 13680,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 1000,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 13680
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 9999.99,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 136799.86,
+        "invoiced": 136799.87,
+        "taxRoundingVariance": 0.01
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 9999.99,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 136799.86
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 9999.99,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 136799.86,
+        "invoiced": 136799.86,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 9999.99,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 136799.86
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 9999.99,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 136799.86,
+        "invoiced": 136799.87,
+        "taxRoundingVariance": 0.01
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 12,
+        "price": 9999.99,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 136799.86
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 1,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 22.8,
+        "invoiced": 22.8,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 1,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 22.8
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 1,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 22.8,
+        "invoiced": 22.8,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 1,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 22.8
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 1,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 22.8,
+        "invoiced": 22.8,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 1,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 22.8
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 100,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 2280,
+        "invoiced": 2280,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 100,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 2280
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 100,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 2280,
+        "invoiced": 2280,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 100,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 2280
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 100,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 2280,
+        "invoiced": 2280,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 100,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 2280
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 100.01,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 2280.23,
+        "invoiced": 2280.23,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 100.01,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 2280.23
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 100.01,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 2280.23,
+        "invoiced": 2280.22,
+        "taxRoundingVariance": -0.01
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 100.01,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 2280.23
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 100.01,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 2280.23,
+        "invoiced": 2280.23,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 100.01,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 2280.23
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 1000,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 22800,
+        "invoiced": 22800,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 1000,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 22800
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 1000,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 22800,
+        "invoiced": 22800,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 1000,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 22800
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 1000,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 22800,
+        "invoiced": 22800,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 1000,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 22800
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 9999.99,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 227999.77,
+        "invoiced": 227999.77,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 9999.99,
+        "split": 0.25
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 227999.77
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 9999.99,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 227999.77,
+        "invoiced": 227999.78,
+        "taxRoundingVariance": 0.01
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 9999.99,
+        "split": 0.5
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 227999.77
+      }
+    },
+    {
+      "group": "purchase-order",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 9999.99,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "expected": 227999.77,
+        "invoiced": 227999.77,
+        "taxRoundingVariance": 0
+      }
+    },
+    {
+      "group": "quotation",
+      "config": {
+        "taxId": "VAT14",
+        "qty": 20,
+        "price": 9999.99,
+        "split": 0.75
+      },
+      "status": "PASS",
+      "facts": {
+        "total": 227999.77
+      }
+    }
+  ]
+}

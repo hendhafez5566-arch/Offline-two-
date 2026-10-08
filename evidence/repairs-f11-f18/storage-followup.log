@@ -1,0 +1,33 @@
+UI cycles 10
+UI cycles 20
+UI cycles 30
+UI cycles 40
+UI cycles 50
+checkpoint 50 journals 102 transfers 50
+UI cycles 60
+UI cycles 70
+UI cycles 80
+UI cycles 90
+UI cycles 100
+checkpoint 100 journals 202 transfers 100
+UI cycles 110
+UI cycles 120
+UI cycles 130
+UI cycles 140
+UI cycles 150
+checkpoint 150 journals 302 transfers 150
+UI cycles 160
+UI cycles 170
+UI cycles 180
+UI cycles 190
+UI cycles 200
+checkpoint 200 journals 402 transfers 200
+UI cycles 210
+UI cycles 220
+UI cycles 230
+UI cycles 240
+UI cycles 250
+checkpoint 250 journals 502 transfers 250
+UI cycles 260
+UI cycles 270
+checkpoint 270 journals 542 transfers 270

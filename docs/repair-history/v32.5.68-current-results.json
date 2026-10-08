@@ -1,0 +1,533 @@
+{
+  "version": "32.5.68",
+  "verify": {
+    "exitCode": 0,
+    "node": {
+      "passed": 78,
+      "total": 78
+    },
+    "browser": {
+      "passed": 6,
+      "total": 6
+    },
+    "clientAndServerBuild": "PASS"
+  },
+  "originalTestNames": {
+    "passed": 66,
+    "total": 66,
+    "note": "Maintained fixtures updated transparently; prior originals archived"
+  },
+  "nodeTests": [
+    {
+      "test": "accounting-constitution-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "accounting-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "action-integrity-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "advanced-accounting-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "android-connectivity-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "archive-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "brand-asset-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "cancel-integrity-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "central-vendor-customer-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "clean-ui-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "commercial-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "concurrency-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "contracts-inventory-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "core-suite-integration-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "customer-parity-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "data-protection-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "entity-mirror-read-source-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "f02-source-contracts-inventory-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "f02-source-data-protection-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "f02-source-role-workflow-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "f02-source-umrah-workflow-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "f02-source-v32470-regression-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "f02-source-v32472-accounting-lifecycle-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "f02-source-v32482-smart-filters-traveler-integrity-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "f02-source-v32565-party-transactions-report-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "hr-removed-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "migration-plan-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "migration-runner-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "mobile-android-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "offline-copy-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "reset-entry-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "review-source-accounting-constitution-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "review-source-advanced-accounting-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "review-source-cancel-integrity-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "review-source-unified-party-accounting-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "rocket-360-performance-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "role-workflow-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "server-hardening-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "state-verify-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "system-ux-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "umrah-ui-parity-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "umrah-workflow-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "unified-more-cleanup-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "unified-party-accounting-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32470-regression-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32472-accounting-lifecycle-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32475-integrity-cleanup-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32481-mobile-ux-action-policy-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32482-smart-filters-traveler-integrity-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32482-traveler-cleanup-runtime-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32483-mobile-refresh-compact-filters-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32483-mobile-refresh-filter-traveler-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32484-layout-font-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32485-filter-refresh-font-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32510-operations-execution-split-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32511-entity-backed-read-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32512-entity-backed-write-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32512-ui-delegation-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32513-module-boundaries-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32514-auth-ui-delegation-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32515-zero-inline-events-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v3254-global-ux-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32549-keyboard-autofill-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32552-native-backup-delivery-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32554-persistent-android-session-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32555-auth-ui-clean-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32556-ui-consistency-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32563-android-bundle-parity-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32563-single-pdf-engine-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32565-party-transactions-report-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v32566-party-transactions-dynamic-filters-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v3257-security-release-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v3258-structural-hardening-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v3259-customer-type-structure-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "v70-governance-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "workspace-navigation-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "xss-render-smoke.mjs",
+      "status": "PASS"
+    },
+    {
+      "test": "xss-safety-smoke.mjs",
+      "status": "PASS"
+    }
+  ],
+  "auditSuites": [
+    {
+      "test": "f02-company-scenarios.mjs",
+      "ok": true,
+      "passed": 26,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f03-company-scenarios.mjs",
+      "ok": true,
+      "passed": 13,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f04-manager-scenarios.mjs",
+      "ok": true,
+      "passed": 11,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f05-commercial-matrix.mjs",
+      "ok": true,
+      "passed": 240,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f05-company-matrix.mjs",
+      "ok": true,
+      "passed": 428,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f05-invoice-matrix.mjs",
+      "ok": true,
+      "passed": 1920,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f05-isolated-company-cases.mjs",
+      "ok": true,
+      "passed": 14,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f05-ordinary-lifecycles.mjs",
+      "ok": true,
+      "passed": 1200,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f06-native-booking-matrix.mjs",
+      "ok": true,
+      "passed": 80,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f06-realistic-umrah-accounting.mjs",
+      "ok": true,
+      "passed": 16,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f07-operational-accounting.mjs",
+      "ok": true,
+      "passed": 46,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f08-cheque-matrix.mjs",
+      "ok": true,
+      "passed": 332,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f08-contract-payments.mjs",
+      "ok": true,
+      "passed": 27,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f08-deep-accounting.mjs",
+      "ok": true,
+      "passed": 297,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f08-deep-netting.mjs",
+      "ok": true,
+      "passed": 96,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f08-deep-umrah.mjs",
+      "ok": true,
+      "passed": 165,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f08-isolated-evidence.mjs",
+      "ok": true,
+      "passed": 16,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f08-lottery-company-case.mjs",
+      "ok": true,
+      "passed": 12,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f08-period-close-cycles.mjs",
+      "ok": true,
+      "passed": 90,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f08-refunded-pending-advances.mjs",
+      "ok": true,
+      "passed": 18,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f08-three-currency-vouchers.mjs",
+      "ok": true,
+      "passed": 498,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f09-adjustment-interactions.mjs",
+      "ok": true,
+      "passed": 126,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f09-controls-assets.mjs",
+      "ok": true,
+      "passed": 342,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f09-isolated-evidence.mjs",
+      "ok": true,
+      "passed": 5,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f09-taxed-adjustment-matrix.mjs",
+      "ok": true,
+      "passed": 217,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "f09-zero-net-payroll.mjs",
+      "ok": true,
+      "passed": 27,
+      "failed": 0,
+      "exitCode": 0
+    },
+    {
+      "test": "fix-acceptance.mjs",
+      "ok": true,
+      "passed": 24,
+      "failed": 0,
+      "exitCode": 0
+    }
+  ],
+  "golden": {
+    "passed": 10,
+    "total": 10
+  },
+  "persistence": "PASS real IndexedDB save/reload/restore failure rollback",
+  "architecture": "PASS no new occurrences; baseline unchanged",
+  "types": "PASS baseline unchanged",
+  "modules": "PASS"
+}

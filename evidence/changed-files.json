@@ -1,0 +1,278 @@
+[
+  {
+    "path": "android/app/build.gradle",
+    "status": "modified",
+    "originalSha256": "6fe78368ee6d77f11b9b078325956eb211cfaff5e429abfd4b295c319498c592",
+    "repairedSha256": "e710619350bfed7b04b6da19f4523ae711fcdb719ee8a6288670a8d202a616c6"
+  },
+  {
+    "path": "android/app/src/main/assets/capacitor.config.json",
+    "status": "modified",
+    "originalSha256": "d0cd54737d13fd294fa377342e8146bfc28129036eb9a8089f7b1272a3eca082",
+    "repairedSha256": "287948bca4409ae6d8c9960d6428217e7e6df6c8d972dfb9a3437b0cde42022d"
+  },
+  {
+    "path": "android/app/src/main/assets/public/app.js",
+    "status": "modified",
+    "originalSha256": "dfffd43214ef2b57e1d5e909f88101a2bd493c56c3e1187fa8bd80f09cd7959a",
+    "repairedSha256": "ddeeb610afca40e59ddc22b3552a5c3f8639344841c04cec4bc3127f53bccbf9"
+  },
+  {
+    "path": "android/app/src/main/assets/public/index.html",
+    "status": "modified",
+    "originalSha256": "5ef59971d561b118bbca480a46cba9991987b604213ca9d941425b67e071ca09",
+    "repairedSha256": "bf37c6b6a30c311d163216aa1304b927ecfb1e295bfacfeb3cbe3baf0fbcc724"
+  },
+  {
+    "path": "android/app/src/main/assets/public/manifest.webmanifest",
+    "status": "modified",
+    "originalSha256": "6a494dde8f8791cb75712bd12eaab474d1a881b2dafbc8952357989173a25e8b",
+    "repairedSha256": "4e1383f0ab0de55d55e00eaa5a41d2f8ed8c3861035b13ecd29175fa24a54cb6"
+  },
+  {
+    "path": "android/app/src/main/assets/public/sw.js",
+    "status": "modified",
+    "originalSha256": "64d7f70fa749989998a8d9fc7e1a2127dfad146145bb71c3cb9ed7304b27e4ee",
+    "repairedSha256": "b6cc69900ca2bfcce0e6d5b8275fb540564e9d2c6c82c34563aae93fa5224bbb"
+  },
+  {
+    "path": "dist/app.js",
+    "status": "modified",
+    "originalSha256": "c2a5abc0910ae07a749fcecb3300268a6546f545902772f9cb2c1ea4ea439ae8",
+    "repairedSha256": "ddeeb610afca40e59ddc22b3552a5c3f8639344841c04cec4bc3127f53bccbf9"
+  },
+  {
+    "path": "dist/index.html",
+    "status": "modified",
+    "originalSha256": "5ef59971d561b118bbca480a46cba9991987b604213ca9d941425b67e071ca09",
+    "repairedSha256": "bf37c6b6a30c311d163216aa1304b927ecfb1e295bfacfeb3cbe3baf0fbcc724"
+  },
+  {
+    "path": "dist/manifest.webmanifest",
+    "status": "modified",
+    "originalSha256": "6a494dde8f8791cb75712bd12eaab474d1a881b2dafbc8952357989173a25e8b",
+    "repairedSha256": "4e1383f0ab0de55d55e00eaa5a41d2f8ed8c3861035b13ecd29175fa24a54cb6"
+  },
+  {
+    "path": "dist/sw.js",
+    "status": "modified",
+    "originalSha256": "64d7f70fa749989998a8d9fc7e1a2127dfad146145bb71c3cb9ed7304b27e4ee",
+    "repairedSha256": "b6cc69900ca2bfcce0e6d5b8275fb540564e9d2c6c82c34563aae93fa5224bbb"
+  },
+  {
+    "path": "docs/refactor/part2-module-order.json",
+    "status": "modified",
+    "originalSha256": "d2e6857ae7a7cc52a0a621b2c178e7dcf2f6700fe098f959c28a746c05370240",
+    "repairedSha256": "ff8b83fb0af8d9525e81e4f8c2e7f6a7a7602624f2fd23d67049c04e6cb15157"
+  },
+  {
+    "path": "package-lock.json",
+    "status": "modified",
+    "originalSha256": "bd0aec52637de2bc42d84a81900b26ab04535f5c60b1c2fbedd82aeb4fe4dada",
+    "repairedSha256": "8f6b2a7ca604dd4481ab808155c8a0f0c77d56f233e6e46837e161dbfd0bcb95"
+  },
+  {
+    "path": "package.json",
+    "status": "modified",
+    "originalSha256": "e771c097fb7be72a4b6f252a841984e4d67a65b5f42f2bc6ab9960d62dbd89c3",
+    "repairedSha256": "6bccda9d39db67c8a82b8213c355522e7207c27efd404664ce7139480dfa188e"
+  },
+  {
+    "path": "server/package-lock.json",
+    "status": "modified",
+    "originalSha256": "55e13d104d291b64c18cb85af6f064bc8f242140a5c08b17be115b68fed50e59",
+    "repairedSha256": "a95ce50c0078b0ee86ad9c26ce50353c3656dc7aa7575865b59ad8c935a7a23d"
+  },
+  {
+    "path": "server/package.json",
+    "status": "modified",
+    "originalSha256": "432b37aad0714a9726170a75e751da5cf4efa03e7dcf8840b58d717e50940200",
+    "repairedSha256": "5f9512d493f7a92336fd962177c221ee4c1dfda7b56f3e5812112810392c6e54"
+  },
+  {
+    "path": "src/accounting/advanced.ts",
+    "status": "modified",
+    "originalSha256": "38cd8f4ef0f73fa5f33402aff783e391e14ffa2a6cbb5819b57dec7812730199",
+    "repairedSha256": "500b76b0b72554789d74783f11d8a878eb2848ee136ccf993bf2b45198555b3b"
+  },
+  {
+    "path": "src/accounting/engine.ts",
+    "status": "modified",
+    "originalSha256": "870573a2629200473f93d2c04a06e8272287a587cf288a10a8f86c2740231f20",
+    "repairedSha256": "57ebfa8f339afc79100a6153e03f66406b67401e204c10482042dbdf92f59c26"
+  },
+  {
+    "path": "src/accounting/expense-rules.ts",
+    "status": "modified",
+    "originalSha256": "af881a9a2930b93f337c63044a9b59127b343ae2c493ac97cbb6c6347a051dc6",
+    "repairedSha256": "d9d466610a0e1d8f6c44fcf11997b55ba15dd331b780e356ac8a85a38f4ff063"
+  },
+  {
+    "path": "src/accounting/invoices.ts",
+    "status": "modified",
+    "originalSha256": "1180f67408d1a5f1ad5cc874fc55f37ceb2135adb9f9f20b8f46cfd1469cb14f",
+    "repairedSha256": "ca7070d1dfa1762b2db80172735ab603d4e9a70f6169036764a097fdcdd6e09a"
+  },
+  {
+    "path": "src/accounting/journal-rules.ts",
+    "status": "modified",
+    "originalSha256": "0d521ebde7302bd2d37b8085bdffd4e5007fa44ba3a755054a2206fb65c1fd96",
+    "repairedSha256": "240f2d1a6fb540cd0561ad214f8286acbc59495f767c18ec35d00e6c642c6edc"
+  },
+  {
+    "path": "src/accounting/transactions.ts",
+    "status": "modified",
+    "originalSha256": "21b549aa9ec94356edb0bcbd6edfd5237972f5bed261d84bcf0d2fd105577ca4",
+    "repairedSha256": "535cff8e2e0c8025111fd306d4148bbb709aea87cde27238066d1ef954e036db"
+  },
+  {
+    "path": "src/accounting/voucher-rules.ts",
+    "status": "modified",
+    "originalSha256": "a7046f12c2d09185e9798d22bff0281153c3c6e96f3c65d85e18a365a6a2e005",
+    "repairedSha256": "8c8229751ddf647eab339b396dd5a7cb6bafb477da743b7e0479d7238014ead3"
+  },
+  {
+    "path": "src/application/business-contracts.ts",
+    "status": "modified",
+    "originalSha256": "4ffaa28e91ca8300b27665dd51e7dc2a400843c760b0f424d79629e201d0bbe1",
+    "repairedSha256": "cc1d71354be17e2357befe8e81feaa84dbf7ba419a21d8c8573feaa8259e092e"
+  },
+  {
+    "path": "src/application/expense-workflows.ts",
+    "status": "modified",
+    "originalSha256": "bd2c317531c70ebe6bfc239df4446b25723e7d4d2a14397ff67347db0abfa391",
+    "repairedSha256": "e6a47e1bd1217e4d092ea5c8dc0e7aacdc3eddf65ff6bf538c07de25b0d59914"
+  },
+  {
+    "path": "src/application/invoice-workflows.ts",
+    "status": "modified",
+    "originalSha256": "38c500ad49cc164907852defde25c37b010a9332c7b78ed46d52a97764e15d16",
+    "repairedSha256": "3a38cbced45eb7655d73e75b1d0c9ad0fc893f2f853b3bb7685dd586697f06f0"
+  },
+  {
+    "path": "src/application/netting-workflows.ts",
+    "status": "modified",
+    "originalSha256": "48a0805f373ce5c53dc1fbdc239ae0813ce9cfbca75519d48fdad187c0687aa8",
+    "repairedSha256": "906059c05ae2145dfbe79e8e719a99dc5bf668fd142b3b3a25707ee537a6e3d1"
+  },
+  {
+    "path": "src/application/transfer-workflows.ts",
+    "status": "modified",
+    "originalSha256": "b5d76386ac80da56582438f42414c5325cd87fd9c45e16bf5eb8ec7db19037ff",
+    "repairedSha256": "78ad158b33ea8e6b4d319bf0a1110f67bfe23dcd42381c4719998d097c03415c"
+  },
+  {
+    "path": "src/application/umrah-lifecycle-workflows.ts",
+    "status": "modified",
+    "originalSha256": "bc6e2ef967d7a809ccac532ba69b86b0110029169d9770ea2288f60b7bb1aed6",
+    "repairedSha256": "dc28dd049be10b2a4f95fc9e769bfdb29dacf24bc2f92a870dc64178f8a4e0c8"
+  },
+  {
+    "path": "src/application/voucher-workflows.ts",
+    "status": "modified",
+    "originalSha256": "2a40ce268cb46552e023f4814daafb88bc81e0b5fb89fc013a5e66ae1c5b68f6",
+    "repairedSha256": "e8dd020b9084ff5485087ed1ec759a68e2989d885010e8bb42a6b0ce22ea200e"
+  },
+  {
+    "path": "src/bootstrap.ts",
+    "status": "modified",
+    "originalSha256": "c4196112952e44e56fe5edbbc13c8e896018824de627de8ab20287a06f341fad",
+    "repairedSha256": "f858380ee94214ee24c55ae6c60ef4060412d2608cf02b139ab025098d9fab37"
+  },
+  {
+    "path": "src/commercial/product.ts",
+    "status": "modified",
+    "originalSha256": "93eb5d7524c29340992d6ea7b4bb4a494117f21cdf142226b6131d5c03bb89e4",
+    "repairedSha256": "61619e9658cb1bc3b7e05a0e2c81e0356e9cded664d76b261afd02f9cb0f51cd"
+  },
+  {
+    "path": "src/core/runtime.ts",
+    "status": "modified",
+    "originalSha256": "7b0697ace8deb0e24cbaf57d9c7cd3acb470852e57b72f087f33c678172b6b28",
+    "repairedSha256": "726ae736e147c03a5ceb4d43216d8f41b96bad5f6ed0426287afe709f0953648"
+  },
+  {
+    "path": "src/core/umrah/actions-print.ts",
+    "status": "modified",
+    "originalSha256": "15a3a83de91c8414f139aaded02cb7290bd00f5f7e5c3169da3b991b5bb64416",
+    "repairedSha256": "87d496f5ab4dc499134adf77870003f3c1577ae7ec1ddac3c0446427dbc3d597"
+  },
+  {
+    "path": "src/core/umrah/contracts.ts",
+    "status": "modified",
+    "originalSha256": "edaec9ab131d758baa4f33a967c12b9790b78502660658a01f28ae09fdbb47df",
+    "repairedSha256": "11815387722d8526d3efda9082c17af31d97f9d4dd67510c1b6802055969a4b4"
+  },
+  {
+    "path": "src/core/umrah/data.ts",
+    "status": "modified",
+    "originalSha256": "b4d9f41dd9789c4160e9f998c27b9d904efd2d54f6928e52946de39d8ce0f6c0",
+    "repairedSha256": "ecf62382040b8da3fe08aa0bed9cfa63815352b39f8f0e840dc6365671279a0b"
+  },
+  {
+    "path": "src/core/umrah/integration.ts",
+    "status": "modified",
+    "originalSha256": "8d18ee934672aed2419e209c30f3e14808e6fe6146705b0075d4ae4c3e1c67b4",
+    "repairedSha256": "2b119d48731308c0b78a750d30272cdfa86a522ddde40c25c0d2968762b76e8d"
+  },
+  {
+    "path": "src/core/umrah/operations-bookings.ts",
+    "status": "modified",
+    "originalSha256": "21e0131234a5300031b8930554ffd2483b57f675635cfae94405486f523f6375",
+    "repairedSha256": "4382c18b77ea431f9bf62f9fc11a0d3299e5111e05ed75a1683d3d303254f6b5"
+  },
+  {
+    "path": "src/core/umrah/operations-execution.ts",
+    "status": "modified",
+    "originalSha256": "bcfacca3a5f9a91b654f1702400c17aa9d4790291f479561b131a3299a20fbfb",
+    "repairedSha256": "81122c1107bc11c15e2cd094fd9ce6301b6ef90fbf50da6d3e8e2389f7f9be2f"
+  },
+  {
+    "path": "src/core/umrah/operations-programs.ts",
+    "status": "modified",
+    "originalSha256": "019b4a172ebbfdd647c507ecdb6e2c186b4f939b1bbee1f5e79c60a44c306a9b",
+    "repairedSha256": "7cadee1ff70d7f90e5457d88b146c46e4092ba89e0eb39e6882629d69b7147e2"
+  },
+  {
+    "path": "src/core/umrah/operations-schedule.ts",
+    "status": "modified",
+    "originalSha256": "042b22d6a0ca97df21a309c5f508e3399072d2d3621fdc0b22647f4722efb599",
+    "repairedSha256": "237cc4ca35c715ef444bc900922257b1dfc0a8168e8a2fcbf98d9f372f7aceed"
+  },
+  {
+    "path": "src/crm/unified-party.ts",
+    "status": "modified",
+    "originalSha256": "93768bd65df051113ec089c24db0abb5ec684912983d216409ea8606a16ab4de",
+    "repairedSha256": "b80aad3208450efe958e3978328474eff0f729d59be15cc83c37de7407c3b6ba"
+  },
+  {
+    "path": "src/documents/attachments-backup.ts",
+    "status": "modified",
+    "originalSha256": "ac484d38e8fb168daa7ec5f93ffa5fe7e79effaad491206c336c67ac60e3c6fc",
+    "repairedSha256": "affbdfe7317d1c45cab0afe02f4f3b75e570b98fdea28fb403f9a30e25158e84"
+  },
+  {
+    "path": "src/mobile.ts",
+    "status": "modified",
+    "originalSha256": "e7f36f75b4e18fc49aebb9b3eda561620ce0006e167de3b93e8b28d2b084d443",
+    "repairedSha256": "5e5cb6e2bd8713f956b59fda96ae8790c7f3a6ebc562108f6137e7f0e13a0b8d"
+  },
+  {
+    "path": "src/persistence/browser-store.ts",
+    "status": "modified",
+    "originalSha256": "8b1e9878c3032e1911a8a06e1f66ea3ef74a7664b3a1588be0a46efa3314c728",
+    "repairedSha256": "1fca2806b94c269859964674d7df9398be6cf582696bb9dd95b84da71492421c"
+  },
+  {
+    "path": "src/reports/printing.ts",
+    "status": "modified",
+    "originalSha256": "6c55e064d4ee22bc34a6f407945fac91c4477de86f753c614c97dc32731812bb",
+    "repairedSha256": "5a8f43be78a2ca9ba30dd305583327e84e118310806d91f87ced4658a17b04ac"
+  },
+  {
+    "path": "src/reports/reports.ts",
+    "status": "modified",
+    "originalSha256": "cc6f107512651b3f015c286e8bbac664408b7dc18e165423bbfab4425251b754",
+    "repairedSha256": "3c2296055fd996bdd68932213ff747a5f1f30ec0fe5175916ad3855a858705e0"
+  }
+]

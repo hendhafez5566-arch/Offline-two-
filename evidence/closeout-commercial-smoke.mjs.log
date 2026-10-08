@@ -1,0 +1,147 @@
+{
+  "ok": true,
+  "licenseCrypto": true,
+  "freshNamespace": true,
+  "passwordSecretsPreserved": true,
+  "clientHashesStripped": true,
+  "emailVerificationServerOwned": true,
+  "passwordHashCompatible": true,
+  "uniqueSessionCookie": true,
+  "setupCreatesSession": true,
+  "setupReturnsAuthenticated": true,
+  "setupEmailRequired": true,
+  "loginReturnsData": true,
+  "recoveryRoutes": true,
+  "checks": [
+    {
+      "file": "server/src/license.ts",
+      "text": "verifyLicenseToken",
+      "pass": true
+    },
+    {
+      "file": "server/src/migrations.ts",
+      "text": "erp_schema_migrations",
+      "pass": true
+    },
+    {
+      "file": "src/documents/attachments-backup.ts",
+      "text": "erp-professional-suite-portable",
+      "pass": true
+    },
+    {
+      "file": "server/src/session.ts",
+      "text": "last_seen_at",
+      "pass": true
+    },
+    {
+      "file": "server/src/authz.ts",
+      "text": "assertStateChangeAllowed",
+      "pass": true
+    },
+    {
+      "file": "src/commercial/product.ts",
+      "text": "BranchScope",
+      "pass": true
+    },
+    {
+      "file": "src/commercial/data-exchange.ts",
+      "text": "name.endsWith('.xlsx')",
+      "pass": true
+    },
+    {
+      "file": "src/ui/party360.ts",
+      "text": "Party360",
+      "pass": true
+    },
+    {
+      "file": "src/commercial/pages.ts",
+      "text": "programProfitability",
+      "pass": true
+    },
+    {
+      "file": "scripts/init-env.ps1",
+      "text": "ERP_COMPANY_ID",
+      "pass": true
+    },
+    {
+      "file": "src/commercial/pages.ts",
+      "text": "حماية البيانات",
+      "pass": true
+    },
+    {
+      "file": "server/src/server.ts",
+      "text": "/api/integrations/whatsapp/send",
+      "pass": true
+    },
+    {
+      "file": "src/persistence/server-store.ts",
+      "text": "_requireLogin",
+      "pass": true
+    },
+    {
+      "file": "src/persistence/server-store.ts",
+      "text": "setupPassword",
+      "pass": true
+    },
+    {
+      "file": "src/security/auth.ts",
+      "text": "ServerStore.setup(DB.data,password)",
+      "pass": true
+    },
+    {
+      "file": "src/security/auth.ts",
+      "text": "data-setup-key=\"email\"",
+      "pass": true
+    },
+    {
+      "file": "src/security/auth.ts",
+      "text": "showRecovery()",
+      "pass": true
+    },
+    {
+      "file": "server/src/auth-recovery.ts",
+      "text": "resetPasswordWithToken",
+      "pass": true
+    },
+    {
+      "file": "server/src/server.ts",
+      "text": "verifyPassword(adminUser,setupPassword)",
+      "pass": true
+    },
+    {
+      "file": "src/persistence/browser-store.ts",
+      "text": "d.meta.setupComplete===true&&!d.treasuries.length",
+      "pass": true
+    },
+    {
+      "file": "src/commercial/product.ts",
+      "text": "if(ServerStore.available!==true){if(!(await ServerStore.probe()))",
+      "pass": true
+    },
+    {
+      "file": "VERIFY_BACKUP_WINDOWS.bat",
+      "text": "docker compose --env-file \".env\" exec -T db pg_restore -l",
+      "pass": true
+    },
+    {
+      "file": "VERIFY_BACKUP_WINDOWS.bat",
+      "text": "backups\\*.dump",
+      "pass": true
+    },
+    {
+      "file": "BACKUP_ERP_WINDOWS.bat",
+      "text": "Backup completed and verified.",
+      "pass": true
+    },
+    {
+      "file": "BUILD_ANDROID_APK_WINDOWS.bat",
+      "text": "Elhafez_Tourism_Customer_v%ERP_VERSION%_DEBUG.apk",
+      "pass": true
+    },
+    {
+      "file": "scripts/install-update.ps1",
+      "text": "build --pull --no-cache app",
+      "pass": true
+    }
+  ]
+}

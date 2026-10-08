@@ -1,0 +1,26 @@
+[
+  {
+    "case": "F15 original stale-window loss",
+    "status": "PASS",
+    "facts": {
+      "newerRecordLost": true
+    }
+  },
+  {
+    "case": "F15 original success before commit",
+    "status": "PASS",
+    "facts": {
+      "uiSuccessBeforeStorage": true,
+      "diskStillPosted": true
+    }
+  },
+  {
+    "case": "F17 original interrupted restore loses attachment bytes",
+    "status": "PASS",
+    "facts": {
+      "metadataRecords": 2,
+      "missingBlobCount": 2,
+      "actualBrowserClosed": true
+    }
+  }
+]

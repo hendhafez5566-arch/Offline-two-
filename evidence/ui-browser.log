@@ -1,0 +1,104 @@
+{
+  "ok": true,
+  "init": {
+    "appHidden": false,
+    "current": "dashboard",
+    "title": "الصفحة الرئيسية"
+  },
+  "routesTested": 49,
+  "failed": [],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "customerFlow": {
+    "before": 350,
+    "after": 351,
+    "uiSubmitMs": 258.6,
+    "modalOpen": false
+  },
+  "printFlow": {
+    "partyVisible": true,
+    "enabled": true,
+    "native": {
+      "html": "<!doctype html><html dir=\"rtl\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=718,initial-scale=1,maximum-scale=1\"><title>Elhafez — نظام السياحة والحج والعمرة</title><style>:root{--print-navy:#112745;--print-gold:#c9972f;--print-line:#d9e1eb;--print-soft:#f5f8fc}*{box-sizing:border-box;box-shadow:none!important;text-shadow:none!important;min-width:0}html,body{margin:0;padding:0;background:#fff;color:#17243a;direction:rtl;overflow-x:hidden}body{font-family:Tahoma,\"Noto Sans Arabic\",\"Segoe UI\",Arial,sans-serif;font-size:calc(12px * 1);line-height:1.55;width:718px;max-width:718px}.print-document{position:relative;width:100%;max-width:100%;margin:0;padding:0;background:#fff;overflow:visible}.print-document:before{content:\"\";display:block;width:100%;height:7px;margin:0 0 14px;border-radius:3px;background:linear-gradient(90deg,var(--print-navy) 0 72%,var(--print-gold) 72%)}.print-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.75fr);align-items:start;gap:20px;border-bottom:1px solid var(--print-line);padding:0 0 14px;margin:0 0 14px}.print-company{display:flex;gap:12px;align-items:flex-start;min-width:0}.print-company>div{min-width:0}.print-company h2{font-size:18px;color:var(--print-navy);margin:0 0 4px;overflow-wrap:anywhere}.print-company small{display:block;color:#5d6b7e;line-height:1.55;overflow-wrap:anywhere}.print-logo{width:58px;height:58px;flex:0 0 58px;object-fit:contain;border:1px solid var(--print-line);border-radius:10px;background:#fff}.print-document-title{min-width:0;text-align:left}.print-document-title h1{margin:0;color:var(--print-navy);font-size:21px;line-height:1.35;overflow-wrap:anywhere}.print-document-title small{display:block;margin-top:6px;color:#66758a}.print-document-title:after{content:\"\";display:block;width:54px;height:3px;margin:9px 0 0 auto;background:var(--print-gold);border-radius:5px}.print-meta{display:flex;gap:8px 18px;flex-wrap:wrap;width:100%;max-width:100%;background:var(--print-soft);border:1px solid var(--print-line);border-right:4px solid var(--print-gold);border-radius:10px;padding:9px 11px;margin:10px 0 14px;overflow:hidden}.print-meta span{min-width:0;max-width:100%;overflow-wrap:anywhere}.print-table{width:100%;max-width:100%;table-layout:fixed;border-collapse:separate;border-spacing:0;border:1px solid #cdd7e3;border-radius:9px;overflow:hidden;margin-top:10px}.print-table th,.print-table td{border:0;border-bottom:1px solid #dfe6ee;border-left:1px solid #e6ebf1;padding:7px 7px;text-align:right;font-size:11px;line-height:1.45;vertical-align:top;overflow-wrap:anywhere;word-break:normal}.print-table th{background:var(--print-navy);color:#fff;font-weight:700;-webkit-print-color-adjust:exact;print-color-adjust:exact}.print-table tr:last-child td{border-bottom:0}.print-table th:last-child,.print-table td:last-child{border-left:0}.print-table tbody tr:nth-child(even) td{background:#f8fafc}.print-summary,.print-movement-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;width:100%;margin:10px 0}.print-summary>div,.print-movement-card{min-width:0;border:1px solid var(--print-line);border-radius:10px;background:#fff;padding:9px;overflow:hidden}.print-summary small,.print-movement-card small{display:block;color:#66758a;margin-bottom:4px;overflow-wrap:anywhere}.print-summary b,.print-movement-card strong{display:block;overflow-wrap:anywhere}.print-description-block{width:100%;border:1px solid var(--print-line);border-right:4px solid var(--print-gold);background:#fbfcfe;border-radius:10px;padding:9px 11px;margin:9px 0;line-height:1.65;overflow-wrap:anywhere}.print-description-block b{display:block;margin-bottom:3px}.print-balance-alert{display:flex;justify-content:space-between;gap:12px;width:100%;border:2px solid;padding:10px 12px;border-radius:10px;margin:10px 0;font-weight:800;overflow:hidden}.print-balance-alert>*{min-width:0;overflow-wrap:anywhere}.print-balance-alert.red{border-color:#b42318;background:#fff1f0;color:#8f1b13}.print-balance-alert.green{border-color:#08785b;background:#edf9f4;color:#06634a}.print-balance-alert.neutral{border-color:#777;background:#f5f5f5;color:#333}.print-party-due{color:#b42318;font-weight:800}.print-party-credit{color:#08785b;font-weight:800}.print-party-balance{display:inline-block;padding:3px 7px;border-radius:6px;font-weight:800;white-space:normal}.print-party-balance.red{color:#8f1b13;background:#fff1f0}.print-party-balance.green{color:#06634a;background:#edf9f4}.print-party-balance.neutral{color:#555;background:#f3f4f6}.print-total{margin-top:12px;font-weight:700;overflow-wrap:anywhere}.print-movement-card.due,.print-movement-card.balance.red{background:#fff1f0;border-color:#dca9a5;color:#8f1b13}.print-movement-card.credit,.print-movement-card.balance.green{background:#edf9f4;border-color:#abd7c6;color:#06634a}.print-movement-card.balance.neutral{background:#f5f5f5;color:#444}.print-balance-breakdown{display:grid;gap:6px;margin:8px 0}.print-balance-total{border-top:2px solid #bbb;padding-top:7px;margin-top:8px}.print-statement-note{font-size:10px;color:#555;margin:7px 0}.statement-description-full{display:block;font-size:9.5px;color:#555;margin-top:3px;line-height:1.5}.statement-description-short{font-weight:700}.print-role-chip{display:inline-block;padding:2px 7px;border:1px solid var(--print-line);border-radius:999px;background:var(--print-soft);font-size:9px;font-weight:700;color:#46556a;white-space:normal}.print-internal-detail{display:block;font-size:8.7px;color:#7b8797;margin-top:3px}.print-compact-note{font-size:9.5px;color:#66758a;line-height:1.55}.signature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin-top:38px;text-align:center}.signature-grid div{border-top:1px solid #8290a3;padding-top:8px;color:#46556a}.print-footer{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-top:25px;padding-top:9px;border-top:1px solid var(--print-line);font-size:9.5px;color:#69778a}.print-footer>*{min-width:0;overflow-wrap:anywhere}.print-confidential{font-size:8.5px;color:#8793a4}img{max-width:100%;height:auto}@page{size:A4 portrait;margin:10mm}@media print{html,body{width:auto;max-width:none;overflow:visible}.print-document{break-inside:auto}.print-table thead{display:table-header-group}.print-table tr{break-inside:avoid}.signature-grid,.print-footer,.print-summary>div,.print-movement-card{break-inside:avoid}}</style></head><body><section class=\"print-document\"><div class=\"print-head\"><div class=\"print-company\"><div><h2>اسم الشركة</h2></div></div><div class=\"print-document-title\"><h1>كشف حساب عميل</h1><small>تاريخ الإصدار: 06‏/10‏/2026</small></div></div><p>QA</p><div class=\"signature-grid\"><div>المحاسب</div><div>المراجع</div><div>الاعتماد</div></div><div class=\"print-footer\"><span>مع تحيات شركتكم</span><span class=\"print-confidential\">نسخة نظامية • من تطوير Elhafez Technology • 6‏/10‏/2026، 11:26:55 ص</span></div></section></body></html>",
+      "title": "كشف حساب عميل - عميل QA جديد.pdf",
+      "orientation": "portrait",
+      "phone": "201012345678"
+    },
+    "globalVisible": false,
+    "legacyButton": false,
+    "modalVisible": true,
+    "printButtonCount": 4
+  },
+  "slowestRoutes": [
+    {
+      "route": "umrah-programs",
+      "ms": 24.6,
+      "html": 35264,
+      "buttons": 86,
+      "title": "البرامج"
+    },
+    {
+      "route": "umrah-program-new",
+      "ms": 22.9,
+      "html": 8283,
+      "buttons": 14,
+      "title": "إنشاء برنامج"
+    },
+    {
+      "route": "workcenter",
+      "ms": 15.9,
+      "html": 22389,
+      "buttons": 63,
+      "title": "مركز العمل اليومي"
+    },
+    {
+      "route": "trial",
+      "ms": 13.2,
+      "html": 11638,
+      "buttons": 5,
+      "title": "ميزان المراجعة"
+    },
+    {
+      "route": "accounts",
+      "ms": 13.1,
+      "html": 27510,
+      "buttons": 81,
+      "title": "دليل الحسابات"
+    },
+    {
+      "route": "audit",
+      "ms": 11.9,
+      "html": 3133,
+      "buttons": 4,
+      "title": "الرقابة المالية"
+    },
+    {
+      "route": "customers",
+      "ms": 11.3,
+      "html": 34858,
+      "buttons": 59,
+      "title": "العملاء"
+    },
+    {
+      "route": "umrah-dashboard",
+      "ms": 10.3,
+      "html": 5002,
+      "buttons": 8,
+      "title": "نظام الحج والعمرة"
+    },
+    {
+      "route": "suppliers",
+      "ms": 10.2,
+      "html": 34722,
+      "buttons": 60,
+      "title": "الموردون"
+    },
+    {
+      "route": "umrah-trip-ready",
+      "ms": 9.2,
+      "html": 113511,
+      "buttons": 640,
+      "title": "مركز تشغيل الفوج"
+    }
+  ]
+}

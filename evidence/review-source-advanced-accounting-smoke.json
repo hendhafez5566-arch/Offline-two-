@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "supplierCancellation": {
+    "credit": 2000,
+    "refund": 500,
+    "cancellationExpense": 1500,
+    "endingAdvance": 0
+  },
+  "lineCredit": true,
+  "deferredRevenue": 2400,
+  "deferredCost": 3000,
+  "asset": {
+    "status": "disposed",
+    "depreciation": 1000
+  },
+  "loan": {
+    "status": "paid"
+  },
+  "badDebtReceivable": 600,
+  "payroll": "paid",
+  "bankMatched": 1,
+  "journals": 28,
+  "imbalanced": 0,
+  "criticalAudit": 0
+}

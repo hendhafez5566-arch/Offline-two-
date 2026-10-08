@@ -1,0 +1,183 @@
+{
+  "scenarios": 24,
+  "passed": 24,
+  "failed": 0,
+  "diary": [
+    {
+      "name": "رفض تخصيص قبل الفاتورة EGP",
+      "status": "PASS",
+      "facts": {
+        "guard": true
+      }
+    },
+    {
+      "name": "عكس إشعار تخفيض كامل وجدول مؤجل EGP",
+      "status": "PASS",
+      "facts": {
+        "restored": true
+      }
+    },
+    {
+      "name": "منع تخفيض بند بأكثر من وحدة العملة EGP",
+      "status": "PASS",
+      "facts": {
+        "guard": true
+      }
+    },
+    {
+      "name": "إشعار مدين بعد تخفيض كامل EGP",
+      "status": "PASS",
+      "facts": {
+        "balance": 5
+      }
+    },
+    {
+      "name": "رفض تخصيص قبل الفاتورة USD",
+      "status": "PASS",
+      "facts": {
+        "guard": true
+      }
+    },
+    {
+      "name": "عكس إشعار تخفيض كامل وجدول مؤجل USD",
+      "status": "PASS",
+      "facts": {
+        "restored": true
+      }
+    },
+    {
+      "name": "منع تخفيض بند بأكثر من وحدة العملة USD",
+      "status": "PASS",
+      "facts": {
+        "guard": true
+      }
+    },
+    {
+      "name": "إشعار مدين بعد تخفيض كامل USD",
+      "status": "PASS",
+      "facts": {
+        "balance": 5
+      }
+    },
+    {
+      "name": "رفض تخصيص قبل الفاتورة SAR",
+      "status": "PASS",
+      "facts": {
+        "guard": true
+      }
+    },
+    {
+      "name": "عكس إشعار تخفيض كامل وجدول مؤجل SAR",
+      "status": "PASS",
+      "facts": {
+        "restored": true
+      }
+    },
+    {
+      "name": "منع تخفيض بند بأكثر من وحدة العملة SAR",
+      "status": "PASS",
+      "facts": {
+        "guard": true
+      }
+    },
+    {
+      "name": "إشعار مدين بعد تخفيض كامل SAR",
+      "status": "PASS",
+      "facts": {
+        "balance": 5
+      }
+    },
+    {
+      "name": "رفض تخصيص قبل الفاتورة BHD",
+      "status": "PASS",
+      "facts": {
+        "guard": true
+      }
+    },
+    {
+      "name": "عكس إشعار تخفيض كامل وجدول مؤجل BHD",
+      "status": "PASS",
+      "facts": {
+        "restored": true
+      }
+    },
+    {
+      "name": "منع تخفيض بند بأكثر من وحدة العملة BHD",
+      "status": "PASS",
+      "facts": {
+        "guard": true
+      }
+    },
+    {
+      "name": "إشعار مدين بعد تخفيض كامل BHD",
+      "status": "PASS",
+      "facts": {
+        "balance": 5
+      }
+    },
+    {
+      "name": "تراجع فشل عكس التحويل",
+      "status": "PASS",
+      "facts": {
+        "rollback": true
+      }
+    },
+    {
+      "name": "تراجع فشل إنشاء قرض",
+      "status": "PASS",
+      "facts": {
+        "rollback": true
+      }
+    },
+    {
+      "name": "حماية ضريبة مصروف مرحل",
+      "status": "PASS",
+      "facts": {
+        "guard": true,
+        "printSnapshot": true
+      }
+    },
+    {
+      "name": "رفض اشهر كسرية",
+      "status": "PASS",
+      "facts": {
+        "guard": true
+      }
+    },
+    {
+      "name": "فشل تأكيد الحجز ثم إعادة المحاولة",
+      "status": "PASS",
+      "facts": {
+        "rollback": true,
+        "retry": true
+      }
+    },
+    {
+      "name": "مقدم مرتبط بعد تعديل السعر التاريخي USD",
+      "status": "PASS",
+      "facts": {
+        "native": 0,
+        "base": 0,
+        "remaining": 0
+      }
+    },
+    {
+      "name": "مقدم مرتبط بعد تعديل السعر التاريخي SAR",
+      "status": "PASS",
+      "facts": {
+        "native": 0,
+        "base": 0,
+        "remaining": 0
+      }
+    },
+    {
+      "name": "مقدم مرتبط بعد تعديل السعر التاريخي BHD",
+      "status": "PASS",
+      "facts": {
+        "native": 0,
+        "base": 0,
+        "remaining": 0
+      }
+    }
+  ]
+}

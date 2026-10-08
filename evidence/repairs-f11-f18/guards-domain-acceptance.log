@@ -1,0 +1,24 @@
+[
+  {
+    "id": "F15-02-multicurrency",
+    "status": "PASS",
+    "facts": {
+      "partialNativeBalance": 5,
+      "neededNative": 10,
+      "rejectedWithoutMutation": true,
+      "dependentThenOriginal": true
+    }
+  },
+  {
+    "id": "F11-02-details-guards",
+    "status": "PASS",
+    "facts": {
+      "blocked": [
+        "supplierDetails",
+        "supplierInvoiceForm",
+        "supplierPrint",
+        "supplierDisguisedAsCustomer"
+      ]
+    }
+  }
+]

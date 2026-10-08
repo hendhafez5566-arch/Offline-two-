@@ -1,0 +1,2270 @@
+{
+  "scenarios": 297,
+  "passed": 297,
+  "failed": 0,
+  "diary": [
+    {
+      "name": "استحقاق مطابق EGP 1000",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 1000,
+        "status": "settled"
+      }
+    },
+    {
+      "name": "استحقاق مطابق EGP 10000",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 10000,
+        "status": "settled"
+      }
+    },
+    {
+      "name": "استحقاق مطابق EGP 90000",
+      "status": "PASS",
+      "facts": {
+        "cur": "EGP",
+        "amount": 90000,
+        "status": "settled"
+      }
+    },
+    {
+      "name": "استحقاق مطابق USD 1000",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 1000,
+        "status": "settled"
+      }
+    },
+    {
+      "name": "استحقاق مطابق USD 10000",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 10000,
+        "status": "settled"
+      }
+    },
+    {
+      "name": "استحقاق مطابق USD 90000",
+      "status": "PASS",
+      "facts": {
+        "cur": "USD",
+        "amount": 90000,
+        "status": "settled"
+      }
+    },
+    {
+      "name": "استحقاق مطابق SAR 1000",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 1000,
+        "status": "settled"
+      }
+    },
+    {
+      "name": "استحقاق مطابق SAR 10000",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 10000,
+        "status": "settled"
+      }
+    },
+    {
+      "name": "استحقاق مطابق SAR 90000",
+      "status": "PASS",
+      "facts": {
+        "cur": "SAR",
+        "amount": 90000,
+        "status": "settled"
+      }
+    },
+    {
+      "name": "استحقاق جزئي EGP 1000",
+      "status": "PASS",
+      "facts": {
+        "residual": 600
+      }
+    },
+    {
+      "name": "استحقاق جزئي EGP 10000",
+      "status": "PASS",
+      "facts": {
+        "residual": 6000
+      }
+    },
+    {
+      "name": "استحقاق جزئي EGP 90000",
+      "status": "PASS",
+      "facts": {
+        "residual": 54000
+      }
+    },
+    {
+      "name": "استحقاق جزئي USD 1000",
+      "status": "PASS",
+      "facts": {
+        "residual": 30000
+      }
+    },
+    {
+      "name": "استحقاق جزئي USD 10000",
+      "status": "PASS",
+      "facts": {
+        "residual": 300000
+      }
+    },
+    {
+      "name": "استحقاق جزئي USD 90000",
+      "status": "PASS",
+      "facts": {
+        "residual": 2700000
+      }
+    },
+    {
+      "name": "استحقاق جزئي SAR 1000",
+      "status": "PASS",
+      "facts": {
+        "residual": 7950
+      }
+    },
+    {
+      "name": "استحقاق جزئي SAR 10000",
+      "status": "PASS",
+      "facts": {
+        "residual": 79500
+      }
+    },
+    {
+      "name": "استحقاق جزئي SAR 90000",
+      "status": "PASS",
+      "facts": {
+        "residual": 715500
+      }
+    },
+    {
+      "name": "استحقاق لعميل آخر EGP 1000",
+      "status": "PASS",
+      "facts": {
+        "error": "فاتورة التسوية لا تخص الاستحقاق أو تسبقه"
+      }
+    },
+    {
+      "name": "استحقاق لعميل آخر EGP 10000",
+      "status": "PASS",
+      "facts": {
+        "error": "فاتورة التسوية لا تخص الاستحقاق أو تسبقه"
+      }
+    },
+    {
+      "name": "استحقاق لعميل آخر EGP 90000",
+      "status": "PASS",
+      "facts": {
+        "error": "فاتورة التسوية لا تخص الاستحقاق أو تسبقه"
+      }
+    },
+    {
+      "name": "استحقاق لعميل آخر USD 1000",
+      "status": "PASS",
+      "facts": {
+        "error": "فاتورة التسوية لا تخص الاستحقاق أو تسبقه"
+      }
+    },
+    {
+      "name": "استحقاق لعميل آخر USD 10000",
+      "status": "PASS",
+      "facts": {
+        "error": "فاتورة التسوية لا تخص الاستحقاق أو تسبقه"
+      }
+    },
+    {
+      "name": "استحقاق لعميل آخر USD 90000",
+      "status": "PASS",
+      "facts": {
+        "error": "فاتورة التسوية لا تخص الاستحقاق أو تسبقه"
+      }
+    },
+    {
+      "name": "استحقاق لعميل آخر SAR 1000",
+      "status": "PASS",
+      "facts": {
+        "error": "فاتورة التسوية لا تخص الاستحقاق أو تسبقه"
+      }
+    },
+    {
+      "name": "استحقاق لعميل آخر SAR 10000",
+      "status": "PASS",
+      "facts": {
+        "error": "فاتورة التسوية لا تخص الاستحقاق أو تسبقه"
+      }
+    },
+    {
+      "name": "استحقاق لعميل آخر SAR 90000",
+      "status": "PASS",
+      "facts": {
+        "error": "فاتورة التسوية لا تخص الاستحقاق أو تسبقه"
+      }
+    },
+    {
+      "name": "استحقاق عملات EGP→USD 1000",
+      "status": "PASS",
+      "facts": {
+        "amount": 1000,
+        "converted": 20,
+        "residual": 0
+      }
+    },
+    {
+      "name": "استحقاق عملات EGP→USD 10000",
+      "status": "PASS",
+      "facts": {
+        "amount": 10000,
+        "converted": 200,
+        "residual": 0
+      }
+    },
+    {
+      "name": "استحقاق عملات EGP→SAR 1000",
+      "status": "PASS",
+      "facts": {
+        "amount": 1000,
+        "converted": 75.47,
+        "residual": 0
+      }
+    },
+    {
+      "name": "استحقاق عملات EGP→SAR 10000",
+      "status": "PASS",
+      "facts": {
+        "amount": 10000,
+        "converted": 754.72,
+        "residual": 0
+      }
+    },
+    {
+      "name": "استحقاق عملات USD→EGP 1000",
+      "status": "PASS",
+      "facts": {
+        "amount": 1000,
+        "converted": 50000,
+        "residual": 0
+      }
+    },
+    {
+      "name": "استحقاق عملات USD→EGP 10000",
+      "status": "PASS",
+      "facts": {
+        "amount": 10000,
+        "converted": 500000,
+        "residual": 0
+      }
+    },
+    {
+      "name": "استحقاق عملات USD→SAR 1000",
+      "status": "PASS",
+      "facts": {
+        "amount": 1000,
+        "converted": 3773.58,
+        "residual": 0
+      }
+    },
+    {
+      "name": "استحقاق عملات USD→SAR 10000",
+      "status": "PASS",
+      "facts": {
+        "amount": 10000,
+        "converted": 37735.85,
+        "residual": 0
+      }
+    },
+    {
+      "name": "استحقاق عملات SAR→EGP 1000",
+      "status": "PASS",
+      "facts": {
+        "amount": 1000,
+        "converted": 13250,
+        "residual": 0
+      }
+    },
+    {
+      "name": "استحقاق عملات SAR→EGP 10000",
+      "status": "PASS",
+      "facts": {
+        "amount": 10000,
+        "converted": 132500,
+        "residual": 0
+      }
+    },
+    {
+      "name": "استحقاق عملات SAR→USD 1000",
+      "status": "PASS",
+      "facts": {
+        "amount": 1000,
+        "converted": 265,
+        "residual": 0
+      }
+    },
+    {
+      "name": "استحقاق عملات SAR→USD 10000",
+      "status": "PASS",
+      "facts": {
+        "amount": 10000,
+        "converted": 2650,
+        "residual": 0
+      }
+    },
+    {
+      "name": "تعدد استحقاقات لفاتورة واحدة EGP 1000",
+      "status": "PASS",
+      "facts": {
+        "error": "قيمة الفاتورة مستخدمة أو لا يوجد مبلغ متاح للتسوية"
+      }
+    },
+    {
+      "name": "تعدد استحقاقات لفاتورة واحدة EGP 10000",
+      "status": "PASS",
+      "facts": {
+        "error": "قيمة الفاتورة مستخدمة أو لا يوجد مبلغ متاح للتسوية"
+      }
+    },
+    {
+      "name": "تعدد استحقاقات لفاتورة واحدة USD 1000",
+      "status": "PASS",
+      "facts": {
+        "error": "قيمة الفاتورة مستخدمة أو لا يوجد مبلغ متاح للتسوية"
+      }
+    },
+    {
+      "name": "تعدد استحقاقات لفاتورة واحدة USD 10000",
+      "status": "PASS",
+      "facts": {
+        "error": "قيمة الفاتورة مستخدمة أو لا يوجد مبلغ متاح للتسوية"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer EGP 1 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 1,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer EGP 1 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 1,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer EGP 1 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 1,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer EGP 2 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 2,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer EGP 2 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 2,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer EGP 2 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 2,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer EGP 3 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 3,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer EGP 3 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 3,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer EGP 3 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 3,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer EGP 6 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 6,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer EGP 6 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 6,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer EGP 6 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 6,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer USD 1 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 1,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer USD 1 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 1,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer USD 1 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 1,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer USD 2 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 2,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer USD 2 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 2,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer USD 2 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 2,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer USD 3 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 3,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer USD 3 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 3,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer USD 3 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 3,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer USD 6 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 6,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer USD 6 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 6,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer USD 6 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 6,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer SAR 1 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 1,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer SAR 1 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 1,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer SAR 1 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 1,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer SAR 2 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 2,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer SAR 2 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 2,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer SAR 2 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 2,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer SAR 3 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 3,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer SAR 3 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 3,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer SAR 3 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 3,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer SAR 6 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 6,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer SAR 6 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 6,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات customer SAR 6 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 6,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier EGP 1 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 1,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier EGP 1 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 1,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier EGP 1 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 1,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier EGP 2 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 2,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier EGP 2 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 2,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier EGP 2 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 2,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier EGP 3 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 3,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier EGP 3 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 3,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier EGP 3 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 3,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier EGP 6 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 6,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier EGP 6 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 6,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier EGP 6 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 6,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier USD 1 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 1,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier USD 1 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 1,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier USD 1 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 1,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier USD 2 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 2,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier USD 2 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 2,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier USD 2 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 2,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier USD 3 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 3,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier USD 3 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 3,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier USD 3 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 3,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier USD 6 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 6,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier USD 6 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 6,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier USD 6 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 6,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier SAR 1 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 1,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier SAR 1 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 1,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier SAR 1 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 1,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier SAR 2 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 2,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier SAR 2 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 2,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier SAR 2 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 2,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier SAR 3 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 3,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier SAR 3 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 3,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier SAR 3 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 3,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier SAR 6 1000",
+      "status": "PASS",
+      "facts": {
+        "parts": 6,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier SAR 6 10000",
+      "status": "PASS",
+      "facts": {
+        "parts": 6,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل وعكس وإعادة إثبات supplier SAR 6 90000",
+      "status": "PASS",
+      "facts": {
+        "parts": 6,
+        "status": "completed"
+      }
+    },
+    {
+      "name": "تأجيل تغير صرف customer USD 1000 1",
+      "status": "PASS",
+      "facts": {
+        "oldRate": 50,
+        "residual": 0
+      }
+    },
+    {
+      "name": "تأجيل تغير صرف customer USD 1000 3",
+      "status": "PASS",
+      "facts": {
+        "oldRate": 50,
+        "residual": 0
+      }
+    },
+    {
+      "name": "تأجيل تغير صرف customer USD 10000 1",
+      "status": "PASS",
+      "facts": {
+        "oldRate": 50,
+        "residual": 0
+      }
+    },
+    {
+      "name": "تأجيل تغير صرف customer USD 10000 3",
+      "status": "PASS",
+      "facts": {
+        "oldRate": 50,
+        "residual": 0
+      }
+    },
+    {
+      "name": "تأجيل تغير صرف customer SAR 1000 1",
+      "status": "PASS",
+      "facts": {
+        "oldRate": 13.25,
+        "residual": 0
+      }
+    },
+    {
+      "name": "تأجيل تغير صرف customer SAR 1000 3",
+      "status": "PASS",
+      "facts": {
+        "oldRate": 13.25,
+        "residual": 0
+      }
+    },
+    {
+      "name": "تأجيل تغير صرف customer SAR 10000 1",
+      "status": "PASS",
+      "facts": {
+        "oldRate": 13.25,
+        "residual": 0
+      }
+    },
+    {
+      "name": "تأجيل تغير صرف customer SAR 10000 3",
+      "status": "PASS",
+      "facts": {
+        "oldRate": 13.25,
+        "residual": 0
+      }
+    },
+    {
+      "name": "تأجيل تغير صرف supplier USD 1000 1",
+      "status": "PASS",
+      "facts": {
+        "oldRate": 50,
+        "residual": 0
+      }
+    },
+    {
+      "name": "تأجيل تغير صرف supplier USD 1000 3",
+      "status": "PASS",
+      "facts": {
+        "oldRate": 50,
+        "residual": 0
+      }
+    },
+    {
+      "name": "تأجيل تغير صرف supplier USD 10000 1",
+      "status": "PASS",
+      "facts": {
+        "oldRate": 50,
+        "residual": 0
+      }
+    },
+    {
+      "name": "تأجيل تغير صرف supplier USD 10000 3",
+      "status": "PASS",
+      "facts": {
+        "oldRate": 50,
+        "residual": 0
+      }
+    },
+    {
+      "name": "تأجيل تغير صرف supplier SAR 1000 1",
+      "status": "PASS",
+      "facts": {
+        "oldRate": 13.25,
+        "residual": 0
+      }
+    },
+    {
+      "name": "تأجيل تغير صرف supplier SAR 1000 3",
+      "status": "PASS",
+      "facts": {
+        "oldRate": 13.25,
+        "residual": 0
+      }
+    },
+    {
+      "name": "تأجيل تغير صرف supplier SAR 10000 1",
+      "status": "PASS",
+      "facts": {
+        "oldRate": 13.25,
+        "residual": 0
+      }
+    },
+    {
+      "name": "تأجيل تغير صرف supplier SAR 10000 3",
+      "status": "PASS",
+      "facts": {
+        "oldRate": 13.25,
+        "residual": 0
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل customer EGP 1000 0.2",
+      "status": "PASS",
+      "facts": {
+        "total": 800
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل customer EGP 1000 0.5",
+      "status": "PASS",
+      "facts": {
+        "total": 500
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل customer EGP 1000 1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "لا يوجد إيراد قابل للتأجيل"
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل customer EGP 10000 0.2",
+      "status": "PASS",
+      "facts": {
+        "total": 8000
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل customer EGP 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "total": 5000
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل customer EGP 10000 1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "لا يوجد إيراد قابل للتأجيل"
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل customer USD 1000 0.2",
+      "status": "PASS",
+      "facts": {
+        "total": 800
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل customer USD 1000 0.5",
+      "status": "PASS",
+      "facts": {
+        "total": 500
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل customer USD 1000 1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "لا يوجد إيراد قابل للتأجيل"
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل customer USD 10000 0.2",
+      "status": "PASS",
+      "facts": {
+        "total": 8000
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل customer USD 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "total": 5000
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل customer USD 10000 1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "لا يوجد إيراد قابل للتأجيل"
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل supplier EGP 1000 0.2",
+      "status": "PASS",
+      "facts": {
+        "total": 800
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل supplier EGP 1000 0.5",
+      "status": "PASS",
+      "facts": {
+        "total": 500
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل supplier EGP 1000 1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "لا توجد تكلفة قابلة للتأجيل"
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل supplier EGP 10000 0.2",
+      "status": "PASS",
+      "facts": {
+        "total": 8000
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل supplier EGP 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "total": 5000
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل supplier EGP 10000 1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "لا توجد تكلفة قابلة للتأجيل"
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل supplier USD 1000 0.2",
+      "status": "PASS",
+      "facts": {
+        "total": 800
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل supplier USD 1000 0.5",
+      "status": "PASS",
+      "facts": {
+        "total": 500
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل supplier USD 1000 1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "لا توجد تكلفة قابلة للتأجيل"
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل supplier USD 10000 0.2",
+      "status": "PASS",
+      "facts": {
+        "total": 8000
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل supplier USD 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "total": 5000
+      }
+    },
+    {
+      "name": "إشعار قبل إنشاء التأجيل supplier USD 10000 1",
+      "status": "PASS",
+      "facts": {
+        "safeRejection": "لا توجد تكلفة قابلة للتأجيل"
+      }
+    },
+    {
+      "name": "إشعار بعد التأجيل وقبل الاعتراف customer EGP 1000 0.2",
+      "status": "PASS",
+      "facts": {
+        "total": 800
+      }
+    },
+    {
+      "name": "إشعار بعد التأجيل وقبل الاعتراف customer EGP 1000 0.5",
+      "status": "PASS",
+      "facts": {
+        "total": 500
+      }
+    },
+    {
+      "name": "إشعار بعد التأجيل وقبل الاعتراف customer EGP 10000 0.2",
+      "status": "PASS",
+      "facts": {
+        "total": 8000
+      }
+    },
+    {
+      "name": "إشعار بعد التأجيل وقبل الاعتراف customer EGP 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "total": 5000
+      }
+    },
+    {
+      "name": "إشعار بعد التأجيل وقبل الاعتراف customer USD 1000 0.2",
+      "status": "PASS",
+      "facts": {
+        "total": 800
+      }
+    },
+    {
+      "name": "إشعار بعد التأجيل وقبل الاعتراف customer USD 1000 0.5",
+      "status": "PASS",
+      "facts": {
+        "total": 500
+      }
+    },
+    {
+      "name": "إشعار بعد التأجيل وقبل الاعتراف customer USD 10000 0.2",
+      "status": "PASS",
+      "facts": {
+        "total": 8000
+      }
+    },
+    {
+      "name": "إشعار بعد التأجيل وقبل الاعتراف customer USD 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "total": 5000
+      }
+    },
+    {
+      "name": "إشعار بعد التأجيل وقبل الاعتراف supplier EGP 1000 0.2",
+      "status": "PASS",
+      "facts": {
+        "total": 800
+      }
+    },
+    {
+      "name": "إشعار بعد التأجيل وقبل الاعتراف supplier EGP 1000 0.5",
+      "status": "PASS",
+      "facts": {
+        "total": 500
+      }
+    },
+    {
+      "name": "إشعار بعد التأجيل وقبل الاعتراف supplier EGP 10000 0.2",
+      "status": "PASS",
+      "facts": {
+        "total": 8000
+      }
+    },
+    {
+      "name": "إشعار بعد التأجيل وقبل الاعتراف supplier EGP 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "total": 5000
+      }
+    },
+    {
+      "name": "إشعار بعد التأجيل وقبل الاعتراف supplier USD 1000 0.2",
+      "status": "PASS",
+      "facts": {
+        "total": 800
+      }
+    },
+    {
+      "name": "إشعار بعد التأجيل وقبل الاعتراف supplier USD 1000 0.5",
+      "status": "PASS",
+      "facts": {
+        "total": 500
+      }
+    },
+    {
+      "name": "إشعار بعد التأجيل وقبل الاعتراف supplier USD 10000 0.2",
+      "status": "PASS",
+      "facts": {
+        "total": 8000
+      }
+    },
+    {
+      "name": "إشعار بعد التأجيل وقبل الاعتراف supplier USD 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "total": 5000
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer EGP 1000 0.1",
+      "status": "PASS",
+      "facts": {
+        "fee": 100,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer EGP 1000 0.25",
+      "status": "PASS",
+      "facts": {
+        "fee": 250,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer EGP 1000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fee": 500,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer EGP 10000 0.1",
+      "status": "PASS",
+      "facts": {
+        "fee": 1000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer EGP 10000 0.25",
+      "status": "PASS",
+      "facts": {
+        "fee": 2500,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer EGP 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fee": 5000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer EGP 120000 0.1",
+      "status": "PASS",
+      "facts": {
+        "fee": 12000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer EGP 120000 0.25",
+      "status": "PASS",
+      "facts": {
+        "fee": 30000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer EGP 120000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fee": 60000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer USD 1000 0.1",
+      "status": "PASS",
+      "facts": {
+        "fee": 100,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer USD 1000 0.25",
+      "status": "PASS",
+      "facts": {
+        "fee": 250,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer USD 1000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fee": 500,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer USD 10000 0.1",
+      "status": "PASS",
+      "facts": {
+        "fee": 1000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer USD 10000 0.25",
+      "status": "PASS",
+      "facts": {
+        "fee": 2500,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer USD 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fee": 5000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer USD 120000 0.1",
+      "status": "PASS",
+      "facts": {
+        "fee": 12000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer USD 120000 0.25",
+      "status": "PASS",
+      "facts": {
+        "fee": 30000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer USD 120000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fee": 60000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer SAR 1000 0.1",
+      "status": "PASS",
+      "facts": {
+        "fee": 100,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer SAR 1000 0.25",
+      "status": "PASS",
+      "facts": {
+        "fee": 250,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer SAR 1000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fee": 500,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer SAR 10000 0.1",
+      "status": "PASS",
+      "facts": {
+        "fee": 1000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer SAR 10000 0.25",
+      "status": "PASS",
+      "facts": {
+        "fee": 2500,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer SAR 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fee": 5000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer SAR 120000 0.1",
+      "status": "PASS",
+      "facts": {
+        "fee": 12000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer SAR 120000 0.25",
+      "status": "PASS",
+      "facts": {
+        "fee": 30000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس customer SAR 120000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fee": 60000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier EGP 1000 0.1",
+      "status": "PASS",
+      "facts": {
+        "fee": 100,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier EGP 1000 0.25",
+      "status": "PASS",
+      "facts": {
+        "fee": 250,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier EGP 1000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fee": 500,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier EGP 10000 0.1",
+      "status": "PASS",
+      "facts": {
+        "fee": 1000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier EGP 10000 0.25",
+      "status": "PASS",
+      "facts": {
+        "fee": 2500,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier EGP 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fee": 5000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier EGP 120000 0.1",
+      "status": "PASS",
+      "facts": {
+        "fee": 12000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier EGP 120000 0.25",
+      "status": "PASS",
+      "facts": {
+        "fee": 30000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier EGP 120000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fee": 60000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier USD 1000 0.1",
+      "status": "PASS",
+      "facts": {
+        "fee": 100,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier USD 1000 0.25",
+      "status": "PASS",
+      "facts": {
+        "fee": 250,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier USD 1000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fee": 500,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier USD 10000 0.1",
+      "status": "PASS",
+      "facts": {
+        "fee": 1000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier USD 10000 0.25",
+      "status": "PASS",
+      "facts": {
+        "fee": 2500,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier USD 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fee": 5000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier USD 120000 0.1",
+      "status": "PASS",
+      "facts": {
+        "fee": 12000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier USD 120000 0.25",
+      "status": "PASS",
+      "facts": {
+        "fee": 30000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier USD 120000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fee": 60000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier SAR 1000 0.1",
+      "status": "PASS",
+      "facts": {
+        "fee": 100,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier SAR 1000 0.25",
+      "status": "PASS",
+      "facts": {
+        "fee": 250,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier SAR 1000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fee": 500,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier SAR 10000 0.1",
+      "status": "PASS",
+      "facts": {
+        "fee": 1000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier SAR 10000 0.25",
+      "status": "PASS",
+      "facts": {
+        "fee": 2500,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier SAR 10000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fee": 5000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier SAR 120000 0.1",
+      "status": "PASS",
+      "facts": {
+        "fee": 12000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier SAR 120000 0.25",
+      "status": "PASS",
+      "facts": {
+        "fee": 30000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "رسوم تسوية وعكس supplier SAR 120000 0.5",
+      "status": "PASS",
+      "facts": {
+        "fee": 60000,
+        "status": "void"
+      }
+    },
+    {
+      "name": "استحقاق مسوى ثم إلغاء الفاتورة EGP 1000",
+      "status": "PASS",
+      "facts": {
+        "xStatus": "posted"
+      }
+    },
+    {
+      "name": "استحقاق مسوى ثم إلغاء الفاتورة EGP 10000",
+      "status": "PASS",
+      "facts": {
+        "xStatus": "posted"
+      }
+    },
+    {
+      "name": "استحقاق مسوى ثم إلغاء الفاتورة USD 1000",
+      "status": "PASS",
+      "facts": {
+        "xStatus": "posted"
+      }
+    },
+    {
+      "name": "استحقاق مسوى ثم إلغاء الفاتورة USD 10000",
+      "status": "PASS",
+      "facts": {
+        "xStatus": "posted"
+      }
+    },
+    {
+      "name": "استحقاق مسوى ثم إلغاء الفاتورة SAR 1000",
+      "status": "PASS",
+      "facts": {
+        "xStatus": "posted"
+      }
+    },
+    {
+      "name": "استحقاق مسوى ثم إلغاء الفاتورة SAR 10000",
+      "status": "PASS",
+      "facts": {
+        "xStatus": "posted"
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج EGP 1000 1",
+      "status": "PASS",
+      "facts": {
+        "interest": 10
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج EGP 1000 3",
+      "status": "PASS",
+      "facts": {
+        "interest": 20.07
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج EGP 1000 6",
+      "status": "PASS",
+      "facts": {
+        "interest": 35.28
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج EGP 10000 1",
+      "status": "PASS",
+      "facts": {
+        "interest": 100
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج EGP 10000 3",
+      "status": "PASS",
+      "facts": {
+        "interest": 200.67
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج EGP 10000 6",
+      "status": "PASS",
+      "facts": {
+        "interest": 352.91
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج EGP 90000 1",
+      "status": "PASS",
+      "facts": {
+        "interest": 900
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج EGP 90000 3",
+      "status": "PASS",
+      "facts": {
+        "interest": 1805.97
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج EGP 90000 6",
+      "status": "PASS",
+      "facts": {
+        "interest": 3176.13
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج USD 1000 1",
+      "status": "PASS",
+      "facts": {
+        "interest": 10
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج USD 1000 3",
+      "status": "PASS",
+      "facts": {
+        "interest": 20.07
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج USD 1000 6",
+      "status": "PASS",
+      "facts": {
+        "interest": 35.28
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج USD 10000 1",
+      "status": "PASS",
+      "facts": {
+        "interest": 100
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج USD 10000 3",
+      "status": "PASS",
+      "facts": {
+        "interest": 200.67
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج USD 10000 6",
+      "status": "PASS",
+      "facts": {
+        "interest": 352.91
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج USD 90000 1",
+      "status": "PASS",
+      "facts": {
+        "interest": 900
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج USD 90000 3",
+      "status": "PASS",
+      "facts": {
+        "interest": 1805.97
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج USD 90000 6",
+      "status": "PASS",
+      "facts": {
+        "interest": 3176.13
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج SAR 1000 1",
+      "status": "PASS",
+      "facts": {
+        "interest": 10
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج SAR 1000 3",
+      "status": "PASS",
+      "facts": {
+        "interest": 20.07
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج SAR 1000 6",
+      "status": "PASS",
+      "facts": {
+        "interest": 35.28
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج SAR 10000 1",
+      "status": "PASS",
+      "facts": {
+        "interest": 100
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج SAR 10000 3",
+      "status": "PASS",
+      "facts": {
+        "interest": 200.67
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج SAR 10000 6",
+      "status": "PASS",
+      "facts": {
+        "interest": 352.91
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج SAR 90000 1",
+      "status": "PASS",
+      "facts": {
+        "interest": 900
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج SAR 90000 3",
+      "status": "PASS",
+      "facts": {
+        "interest": 1805.97
+      }
+    },
+    {
+      "name": "قرض موجب الفائدة بسداد متدرج SAR 90000 6",
+      "status": "PASS",
+      "facts": {
+        "interest": 3176.13
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد EGP 10000 0",
+      "status": "PASS",
+      "facts": {
+        "net": 10000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد EGP 10000 1000",
+      "status": "PASS",
+      "facts": {
+        "net": 9000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد EGP 10000 5000",
+      "status": "PASS",
+      "facts": {
+        "net": 5000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد EGP 50000 0",
+      "status": "PASS",
+      "facts": {
+        "net": 50000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد EGP 50000 1000",
+      "status": "PASS",
+      "facts": {
+        "net": 49000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد EGP 50000 5000",
+      "status": "PASS",
+      "facts": {
+        "net": 45000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد EGP 120000 0",
+      "status": "PASS",
+      "facts": {
+        "net": 120000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد EGP 120000 1000",
+      "status": "PASS",
+      "facts": {
+        "net": 119000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد EGP 120000 5000",
+      "status": "PASS",
+      "facts": {
+        "net": 115000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد USD 10000 0",
+      "status": "PASS",
+      "facts": {
+        "net": 10000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد USD 10000 1000",
+      "status": "PASS",
+      "facts": {
+        "net": 9000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد USD 10000 5000",
+      "status": "PASS",
+      "facts": {
+        "net": 5000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد USD 50000 0",
+      "status": "PASS",
+      "facts": {
+        "net": 50000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد USD 50000 1000",
+      "status": "PASS",
+      "facts": {
+        "net": 49000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد USD 50000 5000",
+      "status": "PASS",
+      "facts": {
+        "net": 45000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد USD 120000 0",
+      "status": "PASS",
+      "facts": {
+        "net": 120000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد USD 120000 1000",
+      "status": "PASS",
+      "facts": {
+        "net": 119000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد USD 120000 5000",
+      "status": "PASS",
+      "facts": {
+        "net": 115000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد SAR 10000 0",
+      "status": "PASS",
+      "facts": {
+        "net": 10000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد SAR 10000 1000",
+      "status": "PASS",
+      "facts": {
+        "net": 9000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد SAR 10000 5000",
+      "status": "PASS",
+      "facts": {
+        "net": 5000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد SAR 50000 0",
+      "status": "PASS",
+      "facts": {
+        "net": 50000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد SAR 50000 1000",
+      "status": "PASS",
+      "facts": {
+        "net": 49000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد SAR 50000 5000",
+      "status": "PASS",
+      "facts": {
+        "net": 45000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد SAR 120000 0",
+      "status": "PASS",
+      "facts": {
+        "net": 120000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد SAR 120000 1000",
+      "status": "PASS",
+      "facts": {
+        "net": 119000
+      }
+    },
+    {
+      "name": "رواتب استحقاق وسداد SAR 120000 5000",
+      "status": "PASS",
+      "facts": {
+        "net": 115000
+      }
+    },
+    {
+      "name": "التزام loan تغير صرف USD 1000",
+      "status": "PASS",
+      "facts": {
+        "status": "paid"
+      }
+    },
+    {
+      "name": "التزام loan تغير صرف USD 10000",
+      "status": "PASS",
+      "facts": {
+        "status": "paid"
+      }
+    },
+    {
+      "name": "التزام loan تغير صرف SAR 1000",
+      "status": "PASS",
+      "facts": {
+        "status": "paid"
+      }
+    },
+    {
+      "name": "التزام loan تغير صرف SAR 10000",
+      "status": "PASS",
+      "facts": {
+        "status": "paid"
+      }
+    },
+    {
+      "name": "التزام payroll تغير صرف USD 1000",
+      "status": "PASS",
+      "facts": {
+        "status": "paid"
+      }
+    },
+    {
+      "name": "التزام payroll تغير صرف USD 10000",
+      "status": "PASS",
+      "facts": {
+        "status": "paid"
+      }
+    },
+    {
+      "name": "التزام payroll تغير صرف SAR 1000",
+      "status": "PASS",
+      "facts": {
+        "status": "paid"
+      }
+    },
+    {
+      "name": "التزام payroll تغير صرف SAR 10000",
+      "status": "PASS",
+      "facts": {
+        "status": "paid"
+      }
+    },
+    {
+      "name": "التزام provision تغير صرف USD 1000",
+      "status": "PASS",
+      "facts": {
+        "status": "used"
+      }
+    },
+    {
+      "name": "التزام provision تغير صرف USD 10000",
+      "status": "PASS",
+      "facts": {
+        "status": "used"
+      }
+    },
+    {
+      "name": "التزام provision تغير صرف SAR 1000",
+      "status": "PASS",
+      "facts": {
+        "status": "used"
+      }
+    },
+    {
+      "name": "التزام provision تغير صرف SAR 10000",
+      "status": "PASS",
+      "facts": {
+        "status": "used"
+      }
+    }
+  ]
+}

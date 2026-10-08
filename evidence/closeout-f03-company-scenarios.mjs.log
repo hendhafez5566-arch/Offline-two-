@@ -1,0 +1,159 @@
+{
+  "scenarios": 13,
+  "passed": 13,
+  "failed": 0,
+  "diary": [
+    {
+      "name": "شطب دين كامل: دفتر العميل والفاتورة يعرضان نفس المستحق",
+      "status": "PASS",
+      "facts": {
+        "ledger": 0,
+        "invoiceRemaining": 0,
+        "invoiceStatus": "paid",
+        "openInvoices": 0
+      }
+    },
+    {
+      "name": "شطب من مخصص: تسوية المستحق في الفاتورة والدفتر",
+      "status": "PASS",
+      "facts": {
+        "ledger": 0,
+        "remaining": 0
+      }
+    },
+    {
+      "name": "شطب ثم إلغاء الفاتورة: منع إنشاء رصيد دائن وهمي",
+      "status": "PASS",
+      "facts": {
+        "message": "يجب عكس السداد/التحصيل المرتبط قبل إلغاء الفاتورة",
+        "status": "paid",
+        "ledger": 0
+      }
+    },
+    {
+      "name": "تغيير ضريبة مستخدمة في مصروف مرحل: حماية التاريخ",
+      "status": "PASS",
+      "facts": {
+        "rejected": true,
+        "before": 14,
+        "after": 14
+      }
+    },
+    {
+      "name": "تغيير ضريبة فاتورة مرحلة: منع التغيير",
+      "status": "PASS",
+      "facts": {
+        "message": "كود الضريبة مستخدم في مستندات مرحّلة؛ أنشئ كودًا جديدًا بدل تغيير النسبة أو الحسابات"
+      }
+    },
+    {
+      "name": "إشعار دائن جزئي بضريبة ثم عكسه",
+      "status": "PASS",
+      "facts": {
+        "afterReverse": 1140
+      }
+    },
+    {
+      "name": "عميل سدد بالكامل ثم إشعار دائن: الرصيد يتحول لمقدم",
+      "status": "PASS",
+      "facts": {
+        "advance": 570
+      }
+    },
+    {
+      "name": "قرض بدون فائدة: توزيع 10000 على ثلاثة شهور",
+      "status": "PASS",
+      "facts": {
+        "parts": [
+          3333.33,
+          3333.33,
+          3333.34
+        ]
+      }
+    },
+    {
+      "name": "أصل بقيمة خردة: الإهلاك الكامل ثم البيع",
+      "status": "PASS",
+      "facts": {
+        "depreciated": 10000,
+        "gain": 1000,
+        "status": "disposed"
+      }
+    },
+    {
+      "name": "مخصص ديون: منع شطب أكثر من المتاح",
+      "status": "PASS",
+      "facts": {
+        "message": "رصيد مخصص الديون المشكوك فيها غير كافٍ"
+      }
+    },
+    {
+      "name": "قرض بمدة غير صحيحة: منع كسر الشهر قبل الترحيل",
+      "status": "PASS",
+      "facts": {
+        "rejected": true,
+        "allocated": 0
+      }
+    },
+    {
+      "name": "مصروف مقدم بمدة كسرية: منع جدول يزيد عن المصروف",
+      "status": "PASS",
+      "facts": {
+        "rejected": true,
+        "allocated": 0,
+        "parts": 0
+      }
+    },
+    {
+      "name": "طباعة مصروف بعد تغيير الضريبة: مطابقة المبلغ التاريخي",
+      "status": "PASS",
+      "facts": {
+        "paid": 1140,
+        "printedTotal": 1140,
+        "printedTax": 140,
+        "htmlCaptured": true
+      }
+    }
+  ],
+  "evidence": {
+    "writeOff": {
+      "ledger": 0,
+      "invoiceRemaining": 0,
+      "invoiceStatus": "paid",
+      "openInvoices": 0
+    },
+    "allowanceWriteOff": {
+      "ledger": 0,
+      "remaining": 0
+    },
+    "cancelAfterWriteOff": {
+      "message": "يجب عكس السداد/التحصيل المرتبط قبل إلغاء الفاتورة",
+      "status": "paid",
+      "ledger": 0
+    },
+    "expenseTaxEdit": {
+      "rejected": true,
+      "before": 14,
+      "after": 14
+    },
+    "loanFraction": {
+      "rejected": true,
+      "allocated": 0
+    },
+    "prepaidFraction": {
+      "rejected": true,
+      "allocated": 0,
+      "parts": 0
+    },
+    "printedExpenseTax": {
+      "paid": 1140,
+      "printedTotal": 1140,
+      "printedTax": 140,
+      "htmlCaptured": true
+    }
+  }
+}
+(node:102) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/scratch/fd17ea13a424/closeout/src/main.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/scratch/fd17ea13a424/closeout/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)

@@ -1,0 +1,487 @@
+{
+  "scenarios": 46,
+  "passed": 46,
+  "failed": 0,
+  "diary": [
+    {
+      "name": "إغلاق closeProgram مع مانع incident",
+      "status": "PASS",
+      "facts": {
+        "route": "closeProgram",
+        "blocker": "incident",
+        "gaps": [
+          "1 مشكلة/حادث تشغيلي ما زال مفتوحًا"
+        ],
+        "status": "returned",
+        "error": "لا يمكن إغلاق البرنامج نهائيًا قبل معالجة: 1 مشكلة/حادث تشغيلي ما زال مفتوحًا"
+      }
+    },
+    {
+      "name": "إغلاق closeProgram مع مانع task",
+      "status": "PASS",
+      "facts": {
+        "route": "closeProgram",
+        "blocker": "task",
+        "gaps": [
+          "1 مهمة تشغيل حرجة لم تكتمل"
+        ],
+        "status": "returned",
+        "error": "لا يمكن إغلاق البرنامج نهائيًا قبل معالجة: 1 مهمة تشغيل حرجة لم تكتمل"
+      }
+    },
+    {
+      "name": "إغلاق closeProgram مع مانع booking",
+      "status": "PASS",
+      "facts": {
+        "route": "closeProgram",
+        "blocker": "booking",
+        "gaps": [
+          "1 حجز لم يصل لحالة العودة/الإغلاق أو الإلغاء"
+        ],
+        "status": "returned",
+        "error": "لا يمكن إغلاق البرنامج نهائيًا قبل معالجة: 1 حجز لم يصل لحالة العودة/الإغلاق أو الإلغاء"
+      }
+    },
+    {
+      "name": "إغلاق closeProgram مع مانع commitment",
+      "status": "PASS",
+      "facts": {
+        "route": "closeProgram",
+        "blocker": "commitment",
+        "gaps": [
+          "1 التزام مورد لم يتحول لفاتورة أو يلغَ",
+          "1 أمر شراء ما زال مفتوحًا"
+        ],
+        "status": "returned",
+        "error": "لا يمكن إغلاق البرنامج نهائيًا قبل معالجة: 1 التزام مورد لم يتحول لفاتورة أو يلغَ • 1 أمر شراء ما زال مفتوحًا"
+      }
+    },
+    {
+      "name": "إغلاق closeProgram مع مانع draftInvoice",
+      "status": "PASS",
+      "facts": {
+        "route": "closeProgram",
+        "blocker": "draftInvoice",
+        "gaps": [
+          "1 فاتورة ما زالت مسودة"
+        ],
+        "status": "returned",
+        "error": "لا يمكن إغلاق البرنامج نهائيًا قبل معالجة: 1 فاتورة ما زالت مسودة"
+      }
+    },
+    {
+      "name": "إغلاق closeProgram مع مانع openPO",
+      "status": "PASS",
+      "facts": {
+        "route": "closeProgram",
+        "blocker": "openPO",
+        "gaps": [
+          "1 أمر شراء ما زال مفتوحًا"
+        ],
+        "status": "returned",
+        "error": "لا يمكن إغلاق البرنامج نهائيًا قبل معالجة: 1 أمر شراء ما زال مفتوحًا"
+      }
+    },
+    {
+      "name": "إغلاق setProgramStatus مع مانع incident",
+      "status": "PASS",
+      "facts": {
+        "route": "setProgramStatus",
+        "blocker": "incident",
+        "gaps": [
+          "1 مشكلة/حادث تشغيلي ما زال مفتوحًا"
+        ],
+        "status": "returned",
+        "error": "لا يمكن إغلاق البرنامج نهائيًا قبل معالجة: 1 مشكلة/حادث تشغيلي ما زال مفتوحًا"
+      }
+    },
+    {
+      "name": "إغلاق setProgramStatus مع مانع task",
+      "status": "PASS",
+      "facts": {
+        "route": "setProgramStatus",
+        "blocker": "task",
+        "gaps": [
+          "1 مهمة تشغيل حرجة لم تكتمل"
+        ],
+        "status": "returned",
+        "error": "لا يمكن إغلاق البرنامج نهائيًا قبل معالجة: 1 مهمة تشغيل حرجة لم تكتمل"
+      }
+    },
+    {
+      "name": "إغلاق setProgramStatus مع مانع booking",
+      "status": "PASS",
+      "facts": {
+        "route": "setProgramStatus",
+        "blocker": "booking",
+        "gaps": [
+          "1 حجز لم يصل لحالة العودة/الإغلاق أو الإلغاء"
+        ],
+        "status": "returned",
+        "error": "لا يمكن إغلاق البرنامج نهائيًا قبل معالجة: 1 حجز لم يصل لحالة العودة/الإغلاق أو الإلغاء"
+      }
+    },
+    {
+      "name": "إغلاق setProgramStatus مع مانع commitment",
+      "status": "PASS",
+      "facts": {
+        "route": "setProgramStatus",
+        "blocker": "commitment",
+        "gaps": [
+          "1 التزام مورد لم يتحول لفاتورة أو يلغَ",
+          "1 أمر شراء ما زال مفتوحًا"
+        ],
+        "status": "returned",
+        "error": "لا يمكن إغلاق البرنامج نهائيًا قبل معالجة: 1 التزام مورد لم يتحول لفاتورة أو يلغَ • 1 أمر شراء ما زال مفتوحًا"
+      }
+    },
+    {
+      "name": "إغلاق setProgramStatus مع مانع draftInvoice",
+      "status": "PASS",
+      "facts": {
+        "route": "setProgramStatus",
+        "blocker": "draftInvoice",
+        "gaps": [
+          "1 فاتورة ما زالت مسودة"
+        ],
+        "status": "returned",
+        "error": "لا يمكن إغلاق البرنامج نهائيًا قبل معالجة: 1 فاتورة ما زالت مسودة"
+      }
+    },
+    {
+      "name": "إغلاق setProgramStatus مع مانع openPO",
+      "status": "PASS",
+      "facts": {
+        "route": "setProgramStatus",
+        "blocker": "openPO",
+        "gaps": [
+          "1 أمر شراء ما زال مفتوحًا"
+        ],
+        "status": "returned",
+        "error": "لا يمكن إغلاق البرنامج نهائيًا قبل معالجة: 1 أمر شراء ما زال مفتوحًا"
+      }
+    },
+    {
+      "name": "نقل حجز مؤقت 1 EGP",
+      "status": "PASS",
+      "facts": {
+        "adults": 1,
+        "currency": "EGP",
+        "total": 50000
+      }
+    },
+    {
+      "name": "نقل حجز مؤقت 1 USD",
+      "status": "PASS",
+      "facts": {
+        "adults": 1,
+        "currency": "USD",
+        "total": 1000
+      }
+    },
+    {
+      "name": "نقل حجز مؤقت 2 EGP",
+      "status": "PASS",
+      "facts": {
+        "adults": 2,
+        "currency": "EGP",
+        "total": 100000
+      }
+    },
+    {
+      "name": "نقل حجز مؤقت 2 USD",
+      "status": "PASS",
+      "facts": {
+        "adults": 2,
+        "currency": "USD",
+        "total": 2000
+      }
+    },
+    {
+      "name": "نقل حجز مؤقت 4 EGP",
+      "status": "PASS",
+      "facts": {
+        "adults": 4,
+        "currency": "EGP",
+        "total": 200000
+      }
+    },
+    {
+      "name": "نقل حجز مؤقت 4 USD",
+      "status": "PASS",
+      "facts": {
+        "adults": 4,
+        "currency": "USD",
+        "total": 4000
+      }
+    },
+    {
+      "name": "نقل حجز مؤقت 6 EGP",
+      "status": "PASS",
+      "facts": {
+        "adults": 6,
+        "currency": "EGP",
+        "total": 300000
+      }
+    },
+    {
+      "name": "نقل حجز مؤقت 6 USD",
+      "status": "PASS",
+      "facts": {
+        "adults": 6,
+        "currency": "USD",
+        "total": 6000
+      }
+    },
+    {
+      "name": "تسوية جزئية تحصيل 10000 إشعار 5000",
+      "status": "PASS",
+      "facts": {
+        "pay": 10000,
+        "credit": 5000,
+        "remaining": 75000,
+        "advance": 0
+      }
+    },
+    {
+      "name": "تسوية جزئية تحصيل 10000 إشعار 15000",
+      "status": "PASS",
+      "facts": {
+        "pay": 10000,
+        "credit": 15000,
+        "remaining": 65000,
+        "advance": 0
+      }
+    },
+    {
+      "name": "تسوية جزئية تحصيل 10000 إشعار 45000",
+      "status": "PASS",
+      "facts": {
+        "pay": 10000,
+        "credit": 45000,
+        "remaining": 35000,
+        "advance": 0
+      }
+    },
+    {
+      "name": "تسوية جزئية تحصيل 30000 إشعار 5000",
+      "status": "PASS",
+      "facts": {
+        "pay": 30000,
+        "credit": 5000,
+        "remaining": 55000,
+        "advance": 0
+      }
+    },
+    {
+      "name": "تسوية جزئية تحصيل 30000 إشعار 15000",
+      "status": "PASS",
+      "facts": {
+        "pay": 30000,
+        "credit": 15000,
+        "remaining": 45000,
+        "advance": 0
+      }
+    },
+    {
+      "name": "تسوية جزئية تحصيل 30000 إشعار 45000",
+      "status": "PASS",
+      "facts": {
+        "pay": 30000,
+        "credit": 45000,
+        "remaining": 15000,
+        "advance": 0
+      }
+    },
+    {
+      "name": "تسوية جزئية تحصيل 90000 إشعار 5000",
+      "status": "PASS",
+      "facts": {
+        "pay": 90000,
+        "credit": 5000,
+        "remaining": 0,
+        "advance": 5000
+      }
+    },
+    {
+      "name": "تسوية جزئية تحصيل 90000 إشعار 15000",
+      "status": "PASS",
+      "facts": {
+        "pay": 90000,
+        "credit": 15000,
+        "remaining": 0,
+        "advance": 15000
+      }
+    },
+    {
+      "name": "تسوية جزئية تحصيل 90000 إشعار 45000",
+      "status": "PASS",
+      "facts": {
+        "pay": 90000,
+        "credit": 45000,
+        "remaining": 0,
+        "advance": 45000
+      }
+    },
+    {
+      "name": "منع نقل حجز مؤكد تحصيل 0",
+      "status": "PASS",
+      "facts": {
+        "paid": 0,
+        "program": "364a9740-9cd6-43ce-b8d2-f1d447fa5c07"
+      }
+    },
+    {
+      "name": "منع نقل حجز مؤكد تحصيل 30000",
+      "status": "PASS",
+      "facts": {
+        "paid": 30000,
+        "program": "ade3e710-1d89-488c-aca4-2215208692a4"
+      }
+    },
+    {
+      "name": "منع نقل حجز مؤكد تحصيل 90000",
+      "status": "PASS",
+      "facts": {
+        "paid": 90000,
+        "program": "d6065c38-9dad-47ce-99c2-84a9d869b9b0"
+      }
+    },
+    {
+      "name": "تقرير موردين عملات مختلفة:159000 فندق و180000 طيران",
+      "status": "PASS",
+      "facts": {
+        "totalEGP": 339000
+      }
+    },
+    {
+      "name": "رد مع رسوم: قبض 30000 رسوم 0",
+      "status": "PASS",
+      "facts": {
+        "paid": 30000,
+        "fee": 0,
+        "refund": 30000,
+        "bank": 500000
+      }
+    },
+    {
+      "name": "رد مع رسوم: قبض 30000 رسوم 5000",
+      "status": "PASS",
+      "facts": {
+        "paid": 30000,
+        "fee": 5000,
+        "refund": 25000,
+        "bank": 505000
+      }
+    },
+    {
+      "name": "رد مع رسوم: قبض 30000 رسوم 10000",
+      "status": "PASS",
+      "facts": {
+        "paid": 30000,
+        "fee": 10000,
+        "refund": 20000,
+        "bank": 510000
+      }
+    },
+    {
+      "name": "رد مع رسوم: قبض 30000 رسوم 15000",
+      "status": "PASS",
+      "facts": {
+        "paid": 30000,
+        "fee": 15000,
+        "refund": 15000,
+        "bank": 515000
+      }
+    },
+    {
+      "name": "رد مع رسوم: قبض 60000 رسوم 0",
+      "status": "PASS",
+      "facts": {
+        "paid": 60000,
+        "fee": 0,
+        "refund": 60000,
+        "bank": 500000
+      }
+    },
+    {
+      "name": "رد مع رسوم: قبض 60000 رسوم 5000",
+      "status": "PASS",
+      "facts": {
+        "paid": 60000,
+        "fee": 5000,
+        "refund": 55000,
+        "bank": 505000
+      }
+    },
+    {
+      "name": "رد مع رسوم: قبض 60000 رسوم 10000",
+      "status": "PASS",
+      "facts": {
+        "paid": 60000,
+        "fee": 10000,
+        "refund": 50000,
+        "bank": 510000
+      }
+    },
+    {
+      "name": "رد مع رسوم: قبض 60000 رسوم 15000",
+      "status": "PASS",
+      "facts": {
+        "paid": 60000,
+        "fee": 15000,
+        "refund": 45000,
+        "bank": 515000
+      }
+    },
+    {
+      "name": "رد مع رسوم: قبض 90000 رسوم 0",
+      "status": "PASS",
+      "facts": {
+        "paid": 90000,
+        "fee": 0,
+        "refund": 90000,
+        "bank": 500000
+      }
+    },
+    {
+      "name": "رد مع رسوم: قبض 90000 رسوم 5000",
+      "status": "PASS",
+      "facts": {
+        "paid": 90000,
+        "fee": 5000,
+        "refund": 85000,
+        "bank": 505000
+      }
+    },
+    {
+      "name": "رد مع رسوم: قبض 90000 رسوم 10000",
+      "status": "PASS",
+      "facts": {
+        "paid": 90000,
+        "fee": 10000,
+        "refund": 80000,
+        "bank": 510000
+      }
+    },
+    {
+      "name": "رد مع رسوم: قبض 90000 رسوم 15000",
+      "status": "PASS",
+      "facts": {
+        "paid": 90000,
+        "fee": 15000,
+        "refund": 75000,
+        "bank": 515000
+      }
+    },
+    {
+      "name": "إغلاق مخصص يحتفظ بالدين والقيود المالية",
+      "status": "PASS",
+      "facts": {
+        "remaining": 60000,
+        "financialJournalsUnchanged": true,
+        "setup": "حالات العودة محضرة مباشرة لعزل اختبار الإغلاق؛ ليست رحلة منفذة"
+      }
+    }
+  ]
+}

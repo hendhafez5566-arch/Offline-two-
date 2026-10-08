@@ -1,0 +1,65 @@
+{
+  "validation": {
+    "invalidQtyBlocked": true,
+    "invalidDiscountBlocked": true
+  },
+  "integrityDetections": {
+    "receivedNotInvoiced": true,
+    "staleConverted": true
+  },
+  "vendorAdvance": {
+    "allocated": 300,
+    "remaining": 200,
+    "unrelatedRemaining": 900,
+    "advanceAfter": 0
+  },
+  "contractAdvance": {
+    "advanceBeforeInvoice": 200,
+    "advanceAfterInvoice": 0,
+    "relatedAllocated": 200,
+    "relatedRemaining": 300,
+    "unrelatedRemaining": 1000,
+    "sourceId": "HC-SMOKE"
+  },
+  "prePostCustomer": {
+    "status": "partial",
+    "allocated": 5000,
+    "remaining": 10000
+  },
+  "prePostSupplier": {
+    "status": "partial",
+    "allocated": 4000,
+    "remaining": 6000
+  },
+  "prePostVoid": {
+    "status": "open",
+    "remaining": 7000
+  },
+  "sales": {
+    "total": 15000,
+    "received": 13000,
+    "remaining": 2000
+  },
+  "purchase": {
+    "total": 10000,
+    "paid": 4000,
+    "remaining": 6000
+  },
+  "sar": {
+    "rate": 13.25,
+    "total": 1000,
+    "received": 500,
+    "remaining": 500
+  },
+  "multiAllocation": {
+    "firstRemaining": 0,
+    "secondRemaining": 2000,
+    "allocations": 2
+  },
+  "reversal": {
+    "remainingAfterVoid": 1000
+  },
+  "journals": 31,
+  "imbalanced": 0,
+  "criticalAudit": 0
+}

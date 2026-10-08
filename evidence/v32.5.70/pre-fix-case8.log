@@ -1,0 +1,24 @@
+{
+ "injected": {
+  "aId": "72dbf6a5-7e07-4dac-a2e0-6bb7971f4c6f",
+  "bId": "d9cbb39d-494f-46ef-b98c-815e579d5621",
+  "saveResult": {
+   "indexedDb": false,
+   "server": false,
+   "serverAvailable": false,
+   "cache": true,
+   "durable": false
+  },
+  "lastSaveError": "تعذر حفظ البيانات",
+  "reportedSuccess": false,
+  "asyncRejected": true,
+  "asyncRolledBack": true
+ },
+ "afterReload": {
+  "idbHasA": true,
+  "idbHasB": false,
+  "liveHasA": true,
+  "liveHasB": false
+ }
+}
+PASS case 8 (real IndexedDB)

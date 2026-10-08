@@ -1,0 +1,18 @@
+{
+  "id": "F15-01",
+  "status": "PASS_STRESS_NOT_HISTORICAL_ROOT_CAUSE",
+  "cycles": 270,
+  "financialActions": 540,
+  "checkpoints": [
+    50,
+    100,
+    150,
+    200,
+    250,
+    270
+  ],
+  "actualContextClose": true,
+  "commitEvents": 270,
+  "independentBalancedJournals": 542,
+  "originalIncidentReproduced": false
+}

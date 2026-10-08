@@ -1,0 +1,7 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> erp-professional-suite-commercial@32.5.68 types:ratchet
+> node scripts/type-ratchet.mjs
+
+{"explicitAny":695,"tsSuppressions":0,"noImplicitAnyErrors":3403,"strictNullChecksErrors":1157,"improved":18}
+PASS types:ratchet (18 counters improved - run: node scripts/type-ratchet.mjs --update)

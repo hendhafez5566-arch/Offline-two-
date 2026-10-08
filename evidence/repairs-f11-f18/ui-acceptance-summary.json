@@ -1,0 +1,75 @@
+{
+  "note": "Summary derived from preserved real UI execution logs; assertions are in corresponding scripts.",
+  "results": [
+    {
+      "id": "F11-01",
+      "result": "PASS",
+      "evidenceLog": "ui-acceptance.log"
+    },
+    {
+      "id": "F11-02",
+      "result": "PASS",
+      "evidenceLog": "ui-acceptance.log"
+    },
+    {
+      "id": "F15-02",
+      "result": "PASS",
+      "evidenceLog": "ui-acceptance.log"
+    },
+    {
+      "id": "F11-03",
+      "result": "PASS",
+      "evidenceLog": "ui-acceptance.log"
+    },
+    {
+      "id": "F12-02",
+      "result": "PASS",
+      "evidenceLog": "tourism-ui-acceptance.log"
+    },
+    {
+      "id": "F12-03",
+      "result": "PASS",
+      "evidenceLog": "tourism-ui-acceptance.log"
+    },
+    {
+      "id": "F13-01",
+      "result": "PASS",
+      "evidenceLog": "tourism-ui-acceptance.log"
+    },
+    {
+      "id": "F13-02",
+      "result": "PASS",
+      "evidenceLog": "tourism-ui-acceptance.log"
+    },
+    {
+      "id": "F13-03",
+      "result": "PASS",
+      "evidenceLog": "tourism-ui-acceptance.log"
+    },
+    {
+      "id": "F14-01",
+      "result": "PASS",
+      "evidenceLog": "fx-ui-acceptance.log"
+    },
+    {
+      "id": "F12-01",
+      "result": "PASS",
+      "evidenceLog": "wizard-ui-acceptance.log"
+    },
+    {
+      "id": "F16-01",
+      "result": "PASS",
+      "evidenceLog": "procedures-ui-acceptance.log"
+    },
+    {
+      "id": "F18-01",
+      "result": "PASS",
+      "evidenceLog": "procedures-ui-acceptance.log"
+    },
+    {
+      "id": "F17",
+      "result": "PASS",
+      "evidenceLog": "procedures-ui-acceptance.log"
+    }
+  ]
+}

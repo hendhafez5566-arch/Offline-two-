@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "used customer cannot be deleted",
+      "pass": true
+    },
+    {
+      "name": "unused customer can be deleted",
+      "pass": true
+    },
+    {
+      "name": "posted account cannot be deleted",
+      "pass": true
+    },
+    {
+      "name": "linked draft invoice cannot be deleted",
+      "pass": true
+    },
+    {
+      "name": "void receipt is financially immutable",
+      "pass": true
+    },
+    {
+      "name": "cancelled Umrah booking is financially immutable",
+      "pass": true
+    },
+    {
+      "name": "Umrah PO cancellation tolerates equivalent legacy line metadata",
+      "pass": true
+    },
+    {
+      "name": "approved Umrah PO still blocks real financial line edits",
+      "pass": true
+    },
+    {
+      "name": "technical activity cleanup retains critical financial audit",
+      "pass": true
+    }
+  ]
+}

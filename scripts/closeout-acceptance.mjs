@@ -1,0 +1,51 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import { fileURLToPath } from 'node:url';
+import { resolve, dirname } from 'node:path';
+const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
+const store=new Map(),makeClass=()=>({add(){},remove(){},toggle(){return false},contains(){return false}}),els=new Map();
+function el(id=''){if(!els.has(id))els.set(id,{id,classList:makeClass(),style:{cssText:'',setProperty(){}},dataset:{},innerHTML:'',textContent:'',value:'',checked:false,disabled:false,files:[],appendChild(){},remove(){},focus(){},closest(){return null},querySelector(){return null},querySelectorAll(){return[]},addEventListener(){},setAttribute(){},getAttribute(){return null}});return els.get(id)}
+Object.assign(globalThis,{document:{documentElement:{classList:makeClass(),style:{setProperty(){}}},body:{classList:makeClass(),dataset:{},style:{}},activeElement:null,getElementById:el,querySelectorAll(){return[]},querySelector(){return null},addEventListener(){},createElement(){return el('created-'+Math.random())}},window:globalThis,matchMedia:()=>({matches:false}),location:{protocol:'file:',reload(){}},innerWidth:1440,localStorage:{getItem:k=>store.get('l:'+k)??null,setItem:(k,v)=>store.set('l:'+k,String(v)),removeItem:k=>store.delete('l:'+k)},sessionStorage:{getItem:k=>store.get('s:'+k)??null,setItem:(k,v)=>store.set('s:'+k,String(v)),removeItem:k=>store.delete('s:'+k)},MutationObserver:class{observe(){} disconnect(){}},confirm:()=>true,alert:()=>{}});
+Object.defineProperty(globalThis,'navigator',{value:{maxTouchPoints:0,userAgent:'ERP-Smoke-Test',onLine:false},configurable:true});
+Object.defineProperty(globalThis,'screen',{value:{width:1440,height:900},configurable:true});
+globalThis.window.addEventListener=()=>{};globalThis.window.open=()=>null;
+const {registerHooks}=await import('node:module');
+registerHooks({resolve(specifier,context,next){if(specifier.startsWith('.')&&context.parentURL?.endsWith('.ts')&&!/\.[a-z]+$/.test(specifier)){try{return next(specifier+'.ts',context)}catch(e){return next(specifier+'/index.ts',context)}}return next(specifier,context)}});
+await import('../src/main.ts');await new Promise(r=>setTimeout(r,400));
+globalThis.__erp={DB:globalThis.DB,Accounting:globalThis.Accounting,Invoices:globalThis.Invoices,Transactions:globalThis.Transactions,Auth:globalThis.Auth,Currency:globalThis.Currency,CRM:globalThis.CRM};
+const {DB,Accounting,Invoices,Transactions,Auth,Currency,CRM}=globalThis.__erp;
+DB.data.meta.setupComplete=true;const admin={id:'admin-smoke',name:'Smoke Admin',role:'admin',active:true,permissions:{all:true},approvalLimit:1e12};DB.data.users=[admin];Auth.user=admin;if(!DB.data.treasuries.length)Transactions.createTreasury({name:'خزنة الاختبار',type:'cash',currency:'EGP',opening:0,silent:true});
+
+const {Money,Periods}=globalThis;
+DB.save=async()=>{globalThis.Commercial.beforeSave();return {indexedDb:true,server:true,serverAvailable:false,cache:true}};
+const base=structuredClone(DB.data), date=new Date().toISOString().slice(0,10), results=[];
+function reset(){DB.data=structuredClone(base);DB._depth=0;DB.syncBlocked=false;Accounting.invalidateLineCache();Auth.user=DB.data.users[0];DB.refreshAuditBaseline()}
+function test(name,fn){reset();try{const evidence=fn();results.push({name,...evidence})}catch(e){results.push({name,harnessError:e.message,stack:e.stack.split('\n').slice(0,3)})}}
+function invoice(kind,amount,cur='EGP',dt=date){const party=kind==='supplier'?Transactions.addSupplier({name:'probe supplier',currency:cur}):Transactions.addCustomer({name:'probe customer',type:'company'});const inv=Invoices.create({kind,partyId:party.id,partyType:kind==='supplier'?'supplier':'customer',currency:cur,date:dt,lines:[{description:'test',qty:1,price:amount,taxId:'TAX0',accountId:kind==='supplier'?'5100':'4200'}],status:'draft'});Invoices.post(inv);return {party,inv}}
+function raw(lines,dt=date){try{const j=Accounting.post({date:dt,lines});return{accepted:true,debit:j.lines.reduce((z,l)=>z+l.baseDebit,0),credit:j.lines.reduce((z,l)=>z+l.baseCredit,0),lines:j.lines}}catch(e){return{accepted:false,error:e.message}}}
+
+const {AdvancedAccounting,Approvals,Backup,Attachments,AttachmentStore,ServerStore,BranchScope,Commercial,Pages,UI,Statements,Reports,MasterData,UmrahCore_DB:UDB,UmrahCore_Ops:UOps,UmrahCore_ContractCenter:UCC}=globalThis;
+const diary=[];const evidence={};
+function check(v,label,actual){if(!v)throw Object.assign(new Error(label),{actual})}
+function near(a,b,label){check(Math.abs(a-b)<.000001,label,{actual:a,expected:b})}
+function blocked(fn,label){let err;try{fn()}catch(e){err=e.message}check(!!err,label);return err}
+async function scene(name,fn){reset();UDB.load();try{const facts=await fn();diary.push({name,status:'PASS',facts})}catch(e){diary.push({name,status:'FAIL',error:e.message,actual:e.actual,stack:e.stack.split('\n').slice(0,4)})}}
+function funded(){return Transactions.createTreasury({name:'خزنة الشركة',type:'bank',currency:'EGP',opening:500000,date,silent:true})}
+function taxInv(kind,amount,recognitionDate=''){const party=kind==='supplier'?Transactions.addSupplier({name:'فندق الأمانة',currency:'EGP'}):Transactions.addCustomer({name:'شركة النور',type:'company'});const inv=Invoices.create({kind,partyId:party.id,partyType:kind==='supplier'?'supplier':'customer',currency:'EGP',date,recognitionDate,lines:[{description:'خدمة متفق عليها',qty:1,price:amount,taxId:'VAT14',accountId:kind==='supplier'?'5100':'4200'}],status:'draft'});Invoices.post(inv);return{party,inv}}
+const {UmrahCore_Bridge:UB,UmrahCore_Procurement:UP,UmrahCore_Cost:UC}=globalThis;
+const snapshots=[];function snap(label,obj){snapshots.push({label,...obj})}
+function prog({capacity=20,price=45000,currency='EGP',name='عمرة نوفمبر',depositMin=0}={}){if(currency!=='EGP'){Currency.setRate(currency,currency==='USD'?50:13.25,date);Currency.setRate(currency,currency==='USD'?50:13.25,'2026-11-10')};const t=Transactions.createTreasury({name:'خزنة '+currency,type:'bank',currency,opening:500000,date,silent:true}),sp=Transactions.addSupplier({name:'شركة خدمات العمرة',currency});if(currency!=='EGP'){Currency.setRate(currency,currency==='USD'?50:13.25,date);Currency.setRate(currency,currency==='USD'?50:13.25,'2026-11-10')};const p=UOps.createProgram({programType:'umrah',name,departureDate:'2026-11-10',returnDate:'2026-11-20',capacity,currency,defaultTreasuryId:t.id,holdHours:24,depositMin,priceDouble:price,priceQuad:price-(currency==='EGP'?5000:currency==='USD'?100:377.36),priceTriple:price-(currency==='EGP'?2500:currency==='USD'?50:188.68),priceSingle:price+(currency==='EGP'?15000:currency==='USD'?300:1132.08),childBed:currency==='EGP'?30000:currency==='USD'?600:2264.15,childNoBed:currency==='EGP'?18000:currency==='USD'?360:1358.49,infant:currency==='EGP'?5000:currency==='USD'?100:377.36,status:'open'});const hotel=UOps.addSegment({programId:p.id,type:'hotel',title:'فندق مكة',start:'2026-11-10',end:'2026-11-19',nights:10,supplierId:sp.id,singleQty:capacity,doubleQty:Math.ceil(capacity/2),tripleQty:Math.ceil(capacity/3),quadQty:Math.ceil(capacity/4)},true),out=UOps.addSegment({programId:p.id,type:'flight',title:'ذهاب القاهرة جدة',start:'2026-11-10',end:'2026-11-10',supplierId:sp.id,seats:capacity},true),ret=UOps.addSegment({programId:p.id,type:'flight',title:'عودة جدة القاهرة',start:'2026-11-20',end:'2026-11-20',supplierId:sp.id,seats:capacity},true);return{p,t,sp,hotel,out,ret}}
+function book(p,c,adults=2,extra={}){return UOps.createBooking({date,programId:p.id,customerId:c.id,adults,childBed:0,childNoBed:0,infants:0,primaryRoomType:'double',status:'confirmed',discount:0,...extra})}
+function invOf(b){return DB.data.invoices.find(x=>x.id===UOps.booking(b.id).hostInvoiceId)}
+function deposit(b,t,amount,key){return UB.emit('umrah.booking.deposit.requested',{bookingId:b.id,bookingNo:b.no,date,amount,currency:b.currency,treasuryId:t.id,paymentMethod:'cash'},key||'deposit:'+b.id+':'+amount)}
+
+
+function fx(cur,dt=date,rate){if(!Currency.get(cur))DB.data.currencies.push({code:cur,name:cur,decimals:cur==='BHD'?3:2,active:true});if(cur!=='EGP')Currency.setRate(cur,rate??(cur==='USD'?50:cur==='SAR'?13.25:130),dt)}
+function makeInv(kind,amount,cur='EGP',party,dateValue=date){fx(cur);party??=kind==='supplier'?Transactions.addSupplier({name:'مورد مراجعة',currency:cur}):Transactions.addCustomer({name:'عميل مراجعة'});const inv=Invoices.create({kind,partyId:party.id,partyType:kind==='supplier'?'supplier':'customer',currency:cur,date:dateValue,lines:[{description:'خدمة مراجعة',qty:1,price:amount,taxId:'TAX0',accountId:kind==='supplier'?'5100':'4200'}],status:'draft'});Invoices.post(inv);return{party,inv}}
+
+
+
+await scene('تراجع العمرة الافتراضي لا يعتمد على strict',()=>{const c=Transactions.addCustomer({name:'مرجع قبل الفشل'}),before=JSON.stringify(DB.data);blocked(()=>UDB.atomic('fault',()=>{c.name='تعديل مرفوض';DB.data.customers.push({id:'orphan'});throw new Error('fault')},{save:false,render:false}),'الفشل لم يرفض');check(JSON.stringify(DB.data)===before,'أثر جزئي بعد الفشل');check(c.name==='مرجع قبل الفشل','مرجع السجل لم يتراجع');return {rollback:true}});
+await scene('تراجع معاملة عمرة async افتراضيًا',async()=>{const c=Transactions.addCustomer({name:'قبل async'}),before=JSON.stringify(DB.data);let rejected=false;try{await UDB.atomicAsync('async-fault',async()=>{c.name='مرفوض';await Promise.resolve();throw new Error('fault')},{save:false,render:false,strict:false})}catch(e){rejected=true}check(rejected&&JSON.stringify(DB.data)===before&&c.name==='قبل async','فشل async ترك تعديلًا');return {rollback:true}});
+await scene('حاجز العقد المنتهي محفوظ',()=>{const sp=Transactions.addSupplier({name:'مورد عقد منتهي'}),c=UOps.addHotelContract({supplierId:sp.id,currency:'EGP',status:'confirmed',signedDate:'2026-08-28',hotelName:'قديم',from:'2026-09-10',to:'2026-09-15',doubleQty:10,doubleRate:100,releaseMode:'manual'});check(UCC.effectiveStatus('hotel',c)==='expired','العقد القديم لا ينتهي');blocked(()=>UCC.assertHotel(c.id,{double:1},'2026-09-10','2026-09-12'),'العقد المنتهي يسمح تخصيصًا');return {expiredBlocked:true}});
+console.log(JSON.stringify({scenarios:diary.length,passed:diary.filter(x=>x.status==='PASS').length,failed:diary.filter(x=>x.status==='FAIL').length,diary},null,2));process.exitCode=diary.some(x=>x.status==='FAIL')?1:0;
